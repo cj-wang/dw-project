@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="http://www.demandware.com/xml/impex/order/2006-10-31" version="20.8">
+    <order order-no="00001201">
+        <order-date>2022-09-02T07:18:26.398Z</order-date>
+        <created-by>storefront</created-by>
+        <original-order-no>00001201</original-order-no>
+        <currency>AUD</currency>
+        <customer-locale>default</customer-locale>
+        <taxation>gross</taxation>
+        <invoice-no>00004501</invoice-no>
+        <customer>
+            <guest>true</guest>
+            <customer-name>Jason Jum</customer-name>
+            <customer-email>test@test.com</customer-email>
+            <billing-address>
+                <salutation>Mr</salutation>
+                <first-name>Jason</first-name>
+                <last-name>Jum</last-name>
+                <address1>1 Ryonpark Road</address1>
+                <city>Macquarie Park</city>
+                <postal-code>2113</postal-code>
+                <state-code>NSW</state-code>
+                <phone>0234567891</phone>
+                <custom-attributes>
+                    <custom-attribute attribute-id="addressType">CUSTOMER</custom-attribute>
+                    <custom-attribute attribute-id="addressUUID">MSByeW9ucGFyayByb2FkLCBtYWNxdWFyaWUgcGFyayBuc3cgMjExMw==</custom-attribute>
+                    <custom-attribute attribute-id="manualAddressType">HOUSE</custom-attribute>
+                    <custom-attribute attribute-id="streetName">Ryonpark</custom-attribute>
+                    <custom-attribute attribute-id="streetNumber">1</custom-attribute>
+                    <custom-attribute attribute-id="streetType">RD</custom-attribute>
+                </custom-attributes>
+            </billing-address>
+        </customer>
+        <status>
+            <order-status>OPEN</order-status>
+            <shipping-status>NOT_SHIPPED</shipping-status>
+            <confirmation-status>CONFIRMED</confirmation-status>
+            <payment-status>NOT_PAID</payment-status>
+        </status>
+        <current-order-no>00001201</current-order-no>
+        <product-lineitems>
+            <product-lineitem>
+                <net-price>79.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>79.00</gross-price>
+                <base-price>79.00</base-price>
+                <lineitem-text>Optus Plus Everyday nbn (new Mar 22)</lineitem-text>
+                <tax-basis>79.00</tax-basis>
+                <position>1</position>
+                <product-id>33792133_33796613</product-id>
+                <product-name>Optus Plus Everyday nbn (new Mar 22)</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.0</tax-rate>
+                <shipment-id>00004001</shipment-id>
+                <bundled-product-lineitems>
+                    <bundled-product-lineitem>
+                        <product-id>33796613</product-id>
+                        <product-name>Optus Plus Everyday nbn (new Mar 22)</product-name>
+                        <quantity unit="">1.0</quantity>
+                        <custom-attributes>
+                            <custom-attribute attribute-id="billingOfferId">33796613</custom-attribute>
+                            <custom-attribute attribute-id="sfccProductType">BILLING_OFFER</custom-attribute>
+                        </custom-attributes>
+                    </bundled-product-lineitem>
+                </bundled-product-lineitems>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="adjustedMonthlyCostValue">44.0</custom-attribute>
+                    <custom-attribute attribute-id="adjustedMonthlyTotalCostValue">44.0</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferId">33796613</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferPOId">33814393</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferParentRelationId">8565034</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferRelationId">33814173</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="contractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="creditCheckRequired">true</custom-attribute>
+                    <custom-attribute attribute-id="includedInPlan">true</custom-attribute>
+                    <custom-attribute attribute-id="isBasePlan">true</custom-attribute>
+                    <custom-attribute attribute-id="isMainOffer">false</custom-attribute>
+                    <custom-attribute attribute-id="isSubsPlan">true</custom-attribute>
+                    <custom-attribute attribute-id="monthlyCostDiscount">-35.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyCostValue">79.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalCostValue">79.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalDiscountValue">-35.0</custom-attribute>
+                    <custom-attribute attribute-id="planFamily">Internet Nov 21</custom-attribute>
+                    <custom-attribute attribute-id="productOfferId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="productSpecRelationId">33790813</custom-attribute>
+                    <custom-attribute attribute-id="productType">Fixed Broadband</custom-attribute>
+                    <custom-attribute attribute-id="recurringPeriod">MONTHLY</custom-attribute>
+                    <custom-attribute attribute-id="sfccProductType">COMPONENT_BILLING_OFFER</custom-attribute>
+                </custom-attributes>
+                <price-adjustments>
+                    <price-adjustment>
+                        <net-price>-10.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>-10.00</gross-price>
+                        <base-price>-10.00</base-price>
+                        <lineitem-text>$10 Discount for 6 months_PriceDiscount</lineitem-text>
+                        <tax-basis>-10.00</tax-basis>
+                        <promotion-id>9009471</promotion-id>
+                        <campaign-id>PROMOTIONS</campaign-id>
+                        <discount>
+                            <amount>10.00</amount>
+                        </discount>
+                    </price-adjustment>
+                    <price-adjustment>
+                        <net-price>-20.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>-20.00</gross-price>
+                        <base-price>-20.00</base-price>
+                        <lineitem-text>$20 Discount for 6 months_PriceDiscount</lineitem-text>
+                        <tax-basis>-20.00</tax-basis>
+                        <promotion-id>9009491</promotion-id>
+                        <campaign-id>PROMOTIONS</campaign-id>
+                        <discount>
+                            <amount>20.00</amount>
+                        </discount>
+                    </price-adjustment>
+                    <price-adjustment>
+                        <net-price>-5.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>-5.00</gross-price>
+                        <base-price>-5.00</base-price>
+                        <lineitem-text>$5 Discount for 12 months_PriceDiscount</lineitem-text>
+                        <tax-basis>-5.00</tax-basis>
+                        <promotion-id>9009461</promotion-id>
+                        <campaign-id>PROMOTIONS</campaign-id>
+                        <discount>
+                            <amount>5.00</amount>
+                        </discount>
+                    </price-adjustment>
+                </price-adjustments>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Optus Plus Everyday nbn (new Mar 22)</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <position>2</position>
+                <product-id>33792133</product-id>
+                <product-name>Optus Plus Everyday nbn (new Mar 22)</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.0</tax-rate>
+                <shipment-id>00004001</shipment-id>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="adjustedMonthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="contractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="creditCheckRequired">false</custom-attribute>
+                    <custom-attribute attribute-id="includedInPlan">false</custom-attribute>
+                    <custom-attribute attribute-id="isBasePlan">false</custom-attribute>
+                    <custom-attribute attribute-id="isMainOffer">true</custom-attribute>
+                    <custom-attribute attribute-id="isSubsPlan">true</custom-attribute>
+                    <custom-attribute attribute-id="monthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="productOfferId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="recurringPeriod">MONTHLY</custom-attribute>
+                    <custom-attribute attribute-id="sfccProductType">OFFER</custom-attribute>
+                </custom-attributes>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Product Line Item</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <position>3</position>
+                <product-id>33792133_DEFAULT_STANDARD_SPEED</product-id>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.0</tax-rate>
+                <shipment-id>00004001</shipment-id>
+                <bundled-product-lineitems>
+                    <bundled-product-lineitem>
+                        <product-id>DEFAULT_STANDARD_SPEED</product-id>
+                        <product-name>Standard Plus Speed</product-name>
+                        <quantity unit="">1.0</quantity>
+                        <custom-attributes>
+                            <custom-attribute attribute-id="sfccProductType">BILLING_OFFER</custom-attribute>
+                        </custom-attributes>
+                    </bundled-product-lineitem>
+                </bundled-product-lineitems>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="adjustedMonthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="contractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="includedInPlan">false</custom-attribute>
+                    <custom-attribute attribute-id="monthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="productConfigInfo">{"isMobileSection":false,"isHideContinueBtn":false,"stepName":"INTERNET","stepIcon":"internetIcon","progressbarName":"Internet","title":"&lt;p&gt;Internet&lt;/p&gt;","position":1,"maxDownstreamSpeed":"50","maxUpstreamSpeed":"18","authorityFlag":"NotDetermined","authorityForSpeed":"Authorized"}</custom-attribute>
+                    <custom-attribute attribute-id="productOfferId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="recurringPeriod">MONTHLY</custom-attribute>
+                    <custom-attribute attribute-id="sfccProductType">COMPONENT_BILLING_OFFER</custom-attribute>
+                </custom-attributes>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Start Up Fee</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <position>4</position>
+                <product-id>33792133_10922001_ALL_1_N</product-id>
+                <product-name>Start Up Fee</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.0</tax-rate>
+                <shipment-id>00004001</shipment-id>
+                <bundled-product-lineitems>
+                    <bundled-product-lineitem>
+                        <product-id>10922001</product-id>
+                        <product-name>Start Up Fee</product-name>
+                        <quantity unit="">1.0</quantity>
+                        <custom-attributes>
+                            <custom-attribute attribute-id="billingOfferId">10922001</custom-attribute>
+                            <custom-attribute attribute-id="sfccProductType">BILLING_OFFER</custom-attribute>
+                        </custom-attributes>
+                    </bundled-product-lineitem>
+                </bundled-product-lineitems>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="adjustedUpfrontCost">0.0</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferId">10922001</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferPOId">33791033</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferParentRelationId">8565014</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferRelationId">11129541</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="creditCheckRequired">true</custom-attribute>
+                    <custom-attribute attribute-id="feeIndicator">STARTUP</custom-attribute>
+                    <custom-attribute attribute-id="includedInPlan">true</custom-attribute>
+                    <custom-attribute attribute-id="isBasePlan">false</custom-attribute>
+                    <custom-attribute attribute-id="isMainOffer">false</custom-attribute>
+                    <custom-attribute attribute-id="isSubsPlan">false</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="planContractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="priceGroup">STARTUP_FEE</custom-attribute>
+                    <custom-attribute attribute-id="productConfigInfo">{"isMobileSection":false,"isHideContinueBtn":false,"stepName":"INTERNET","stepIcon":"internetIcon","progressbarName":"Internet","title":"&lt;p&gt;Internet&lt;/p&gt;","position":1}</custom-attribute>
+                    <custom-attribute attribute-id="productOfferId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="productSpecRelationId">33790813</custom-attribute>
+                    <custom-attribute attribute-id="productType">Fixed Broadband</custom-attribute>
+                    <custom-attribute attribute-id="recontractIndicator">N</custom-attribute>
+                    <custom-attribute attribute-id="sfccProductType">COMPONENT_BILLING_OFFER</custom-attribute>
+                    <custom-attribute attribute-id="upfrontCost">0.0</custom-attribute>
+                </custom-attributes>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Subscription Plan Technical Offer FB</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <position>5</position>
+                <product-id>33792133_33814833</product-id>
+                <product-name>Subscription Plan Technical Offer FB</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.0</tax-rate>
+                <shipment-id>00004001</shipment-id>
+                <bundled-product-lineitems>
+                    <bundled-product-lineitem>
+                        <product-id>33814833</product-id>
+                        <product-name>Subscription Plan Technical Offer FB</product-name>
+                        <quantity unit="">1.0</quantity>
+                        <custom-attributes>
+                            <custom-attribute attribute-id="billingOfferId">33814833</custom-attribute>
+                            <custom-attribute attribute-id="sfccProductType">BILLING_OFFER</custom-attribute>
+                        </custom-attributes>
+                    </bundled-product-lineitem>
+                </bundled-product-lineitems>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="adjustedMonthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferId">33814833</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferPOId">33816333</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferParentRelationId">8559974</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferRelationId">33816143</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="contractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="creditCheckRequired">true</custom-attribute>
+                    <custom-attribute attribute-id="includedInPlan">true</custom-attribute>
+                    <custom-attribute attribute-id="isBasePlan">false</custom-attribute>
+                    <custom-attribute attribute-id="isMainOffer">false</custom-attribute>
+                    <custom-attribute attribute-id="isSubsPlan">false</custom-attribute>
+                    <custom-attribute attribute-id="monthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="productOfferId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="productSpecRelationId">33790813</custom-attribute>
+                    <custom-attribute attribute-id="productType">Fixed Broadband</custom-attribute>
+                    <custom-attribute attribute-id="recurringPeriod">MONTHLY</custom-attribute>
+                    <custom-attribute attribute-id="sfccProductType">COMPONENT_BILLING_OFFER</custom-attribute>
+                </custom-attributes>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Fixed Broadband Technical Price Plan</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <position>6</position>
+                <product-id>33792133_8568054</product-id>
+                <product-name>Fixed Broadband Technical Price Plan</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.0</tax-rate>
+                <shipment-id>00004001</shipment-id>
+                <bundled-product-lineitems>
+                    <bundled-product-lineitem>
+                        <product-id>8568054</product-id>
+                        <product-name>Fixed Broadband Technical Price Plan</product-name>
+                        <quantity unit="">1.0</quantity>
+                        <custom-attributes>
+                            <custom-attribute attribute-id="billingOfferId">8568054</custom-attribute>
+                            <custom-attribute attribute-id="sfccProductType">BILLING_OFFER</custom-attribute>
+                        </custom-attributes>
+                    </bundled-product-lineitem>
+                </bundled-product-lineitems>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="adjustedUpfrontCost">0.0</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferId">8568054</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferPOId">33790823</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferParentRelationId">8559974</custom-attribute>
+                    <custom-attribute attribute-id="billingOfferRelationId">8568074</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="creditCheckRequired">true</custom-attribute>
+                    <custom-attribute attribute-id="includedInPlan">true</custom-attribute>
+                    <custom-attribute attribute-id="isBasePlan">false</custom-attribute>
+                    <custom-attribute attribute-id="isMainOffer">false</custom-attribute>
+                    <custom-attribute attribute-id="isSubsPlan">false</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="productOfferId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="productSpecRelationId">33790813</custom-attribute>
+                    <custom-attribute attribute-id="productType">Fixed Broadband</custom-attribute>
+                    <custom-attribute attribute-id="sfccProductType">COMPONENT_BILLING_OFFER</custom-attribute>
+                    <custom-attribute attribute-id="upfrontCost">0.0</custom-attribute>
+                </custom-attributes>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Optus Ultra Wifi Modem (NBN FTTP/NBN FW)</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <position>7</position>
+                <product-id>34488434_36M_Contract_33796613_1M_Plan</product-id>
+                <product-name>Optus Ultra Wifi Modem (NBN FTTP/NBN FW)</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.0</tax-rate>
+                <shipment-id>00004002</shipment-id>
+                <bundled-product-lineitems>
+                    <bundled-product-lineitem>
+                        <product-id>34488434</product-id>
+                        <product-name>Optus Ultra Wifi Modem (NBN FTTP/NBN FW)</product-name>
+                        <quantity unit="">1.0</quantity>
+                        <custom-attributes>
+                            <custom-attribute attribute-id="creditCheckRequired">false</custom-attribute>
+                            <custom-attribute attribute-id="isBasePlan">false</custom-attribute>
+                            <custom-attribute attribute-id="isShippable">true</custom-attribute>
+                            <custom-attribute attribute-id="productOfferId">34488444</custom-attribute>
+                            <custom-attribute attribute-id="productSpecId">34488434</custom-attribute>
+                            <custom-attribute attribute-id="sfccProductType">SIMPLE_PRODUCT</custom-attribute>
+                            <custom-attribute attribute-id="simpleProductId">34488444</custom-attribute>
+                        </custom-attributes>
+                    </bundled-product-lineitem>
+                </bundled-product-lineitems>
+                <gift>false</gift>
+                <custom-attributes>
+                    <custom-attribute attribute-id="adjustedMonthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="contractDuration">36</custom-attribute>
+                    <custom-attribute attribute-id="creditCheckRequired">false</custom-attribute>
+                    <custom-attribute attribute-id="deviceCostValue">252.0</custom-attribute>
+                    <custom-attribute attribute-id="includedInPlan">true</custom-attribute>
+                    <custom-attribute attribute-id="isBasePlan">false</custom-attribute>
+                    <custom-attribute attribute-id="isMainOffer">false</custom-attribute>
+                    <custom-attribute attribute-id="isShippable">true</custom-attribute>
+                    <custom-attribute attribute-id="monthlyCostDiscount">0.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyCostValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalCostValue">245.0</custom-attribute>
+                    <custom-attribute attribute-id="monthlyTotalDiscountValue">0.0</custom-attribute>
+                    <custom-attribute attribute-id="planContractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="planId">33796613</custom-attribute>
+                    <custom-attribute attribute-id="priceGroup">DEVICE_COST</custom-attribute>
+                    <custom-attribute attribute-id="productConfigInfo">{"isMobileSection":false,"isHideContinueBtn":false,"stepName":"INTERNET","stepIcon":"internetIcon","progressbarName":"Internet","title":"&lt;p&gt;Internet&lt;/p&gt;","position":1}</custom-attribute>
+                    <custom-attribute attribute-id="productOfferId">33796613</custom-attribute>
+                    <custom-attribute attribute-id="productSpecId">34488434</custom-attribute>
+                    <custom-attribute attribute-id="recurringPeriod">MONTHLY</custom-attribute>
+                    <custom-attribute attribute-id="sfccProductType">COMPONENT_BILLING_OFFER</custom-attribute>
+                    <custom-attribute attribute-id="simpleProductId">34488444</custom-attribute>
+                </custom-attributes>
+            </product-lineitem>
+        </product-lineitems>
+        <shipping-lineitems>
+            <shipping-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Shipping</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <item-id>STANDARD_SHIPPING</item-id>
+                <shipment-id>00004001</shipment-id>
+                <tax-rate>0.0</tax-rate>
+            </shipping-lineitem>
+            <shipping-lineitem>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+                <base-price>0.00</base-price>
+                <lineitem-text>Shipping</lineitem-text>
+                <tax-basis>0.00</tax-basis>
+                <item-id>STANDARD_SHIPPING</item-id>
+                <shipment-id>00004002</shipment-id>
+                <tax-rate>0.0</tax-rate>
+            </shipping-lineitem>
+        </shipping-lineitems>
+        <shipments>
+            <shipment shipment-id="00004001">
+                <status>
+                    <shipping-status>NOT_SHIPPED</shipping-status>
+                </status>
+                <shipping-method>Not Applicable</shipping-method>
+                <shipping-address>
+                    <address1>121 TEMPLE AVE</address1>
+                    <city>KEW EAST</city>
+                    <postal-code>3102</postal-code>
+                    <state-code>VIC</state-code>
+                    <country-code>AU</country-code>
+                    <custom-attributes>
+                        <custom-attribute attribute-id="addressType">SERVICE</custom-attribute>
+                        <custom-attribute attribute-id="addressUUID">MTIxIHRlbXBsZSBhdmUsIGtldyBlYXN0IHZpYyAzMTAy</custom-attribute>
+                        <custom-attribute attribute-id="formattedAddress">121 TEMPLE AVE, KEW EAST, VIC 3102</custom-attribute>
+                        <custom-attribute attribute-id="locationId">LOC220777000281</custom-attribute>
+                        <custom-attribute attribute-id="similarStreetType">Avenue;Ave;</custom-attribute>
+                        <custom-attribute attribute-id="streetName">TEMPLE</custom-attribute>
+                        <custom-attribute attribute-id="streetNumber">121</custom-attribute>
+                        <custom-attribute attribute-id="streetType">AVE</custom-attribute>
+                    </custom-attributes>
+                </shipping-address>
+                <gift>false</gift>
+                <totals>
+                    <merchandize-total>
+                        <net-price>79.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>79.00</gross-price>
+                    </merchandize-total>
+                    <adjusted-merchandize-total>
+                        <net-price>44.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>44.00</gross-price>
+                    </adjusted-merchandize-total>
+                    <shipping-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </shipping-total>
+                    <adjusted-shipping-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </adjusted-shipping-total>
+                    <shipment-total>
+                        <net-price>44.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>44.00</gross-price>
+                    </shipment-total>
+                </totals>
+                <custom-attributes>
+                    <custom-attribute attribute-id="NBNAppointmentStatus">SCHEDULED</custom-attribute>
+                    <custom-attribute attribute-id="authorityFlag">NotDetermined</custom-attribute>
+                    <custom-attribute attribute-id="authorityForSpeed">Authorized</custom-attribute>
+                    <custom-attribute attribute-id="baseOrderType">newFixedSubs</custom-attribute>
+                    <custom-attribute attribute-id="chargeZone">WIN</custom-attribute>
+                    <custom-attribute attribute-id="configStatus">COMPLETED</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="customerType">CMR</custom-attribute>
+                    <custom-attribute attribute-id="cvcId">CVC000000010002</custom-attribute>
+                    <custom-attribute attribute-id="deliveryDate">2022-09-03</custom-attribute>
+                    <custom-attribute attribute-id="demandType">Standard Install</custom-attribute>
+                    <custom-attribute attribute-id="deviceId">34488434</custom-attribute>
+                    <custom-attribute attribute-id="esqDown">true</custom-attribute>
+                    <custom-attribute attribute-id="esqResponse">{"href":"https://apigw-stage.nbnco.net.au/v2/npis-service-qualification/singleSiteQualification/LOC000013935773","id":"LOC000013935773","siteRestriction":{"href":"https://apigw-stage.nbnco.net.au/v1/npis-address/geographicAddress/LOC000013935773","id":"LOC000013935773","serviceabilityStatus":"Serviceable","supportingTechnology":{"primaryAccessTechnology":"Fibre To The Node","serviceabilityClass":"13","businessFibre":false},"supportingRelatedSiteBoundaries":{"region":"Urban","CSAId":"CSA300000000862"},"supportingRelatedLocationFeatures":{"networkBoundaryPoint":"Telecommunications Outlet","newDevelopmentsChargeApplies":false,"safetyCriticalServiceAlert":false},"supportingProductFeatures":[{"type":"NCAS","version":"2.0.0","multicast":false,"capacityAvailability":[{"featureType":"TC1","capacity":2,"unitOfMeasure":"Mbps","highSpeedNotLessThan":true},{"featureType":"TC2","capacity":20,"unitOfMeasure":"Mbps","highSpeedNotLessThan":true}]}],"supportingResource":[{"id":"CPI300012143110","type":"CopperLineResource","version":"2.0.0","networkCoexistence":true,"serviceabilityClass":"13","remediationRequired":true,"subsequentInstallationChargeApplies":false,"copperPairStatus":"Active","bandwidthRatesSupported":[{"bandwidthRate":5,"featureType":"TC2","unitOfMeasure":"Mbps","supported":true},{"bandwidthRate":10,"featureType":"TC2","unitOfMeasure":"Mbps","supported":true}],"copperBandwidthRates":[{"bandwidthType":"DownstreamUpperRate","featureType":"TC4","unitOfMeasure":"Mbps","bandwidth":50},{"bandwidthType":"DownstreamLowerRate","featureType":"TC4","unitOfMeasure":"Mbps","bandwidth":50}],"NBNServiceStatus":"Line In Use","POTSInterconnectProvider":"0615","POTSInterconnectType":"FNN","POTSInterconnectMatch":false}],"supportingProduct":[{"id":"PRI999110616529","priorityAssist":"No","serviceProviderId":"1110","resourceRef":["#/siteRestriction/supportingResource/id['CPI300012143110']"]}]}}</custom-attribute>
+                    <custom-attribute attribute-id="estimatedSpeedAuthority">false</custom-attribute>
+                    <custom-attribute attribute-id="existingCustomerCreditCheckServiceId">mulesoft.authorize.credit.ec</custom-attribute>
+                    <custom-attribute attribute-id="flowType">OFFLINE</custom-attribute>
+                    <custom-attribute attribute-id="flowTypeChangeReason">ESQ API IS DOWN</custom-attribute>
+                    <custom-attribute attribute-id="formattedServiceRequestDate">05/09/2022 10:00:00</custom-attribute>
+                    <custom-attribute attribute-id="hasNCDAtPremises">false</custom-attribute>
+                    <custom-attribute attribute-id="hasShippable">false</custom-attribute>
+                    <custom-attribute attribute-id="installationWorkforce">NBN Co Install</custom-attribute>
+                    <custom-attribute attribute-id="isFetchNotIncludedInNewPlan">false</custom-attribute>
+                    <custom-attribute attribute-id="isOptusConsumer">false</custom-attribute>
+                    <custom-attribute attribute-id="itemCategory">Fixed_Fixed Broadband_R5</custom-attribute>
+                    <custom-attribute attribute-id="itemCategoryType">NBN</custom-attribute>
+                    <custom-attribute attribute-id="maxDownstreamSpeed">50</custom-attribute>
+                    <custom-attribute attribute-id="maxUpstreamSpeed">18</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentContactType">Jason Jum 0234567891</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentDate">2022-09-05</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentEndDate">2022-09-05T12:10:02+10:00</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentFirstName">Jason</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentLastName">Jum</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentMobileNumber">0234567891</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentRequired">true</custom-attribute>
+                    <custom-attribute attribute-id="nbnAppointmentStartDate">2022-09-05T08:10:02+10:00</custom-attribute>
+                    <custom-attribute attribute-id="nbnInstallationCharge">false</custom-attribute>
+                    <custom-attribute attribute-id="nbnInstallationQAndA">{"answers":[{"question":"Looks like there’s already an active nbn service at this address. Choose one of these options to let us know what you want to do:","answer":"I want an extra nbn service and keep the other active nbn service running","questionId":"transit-or-new-line-fttp","answerId":"outcome2"}]}</custom-attribute>
+                    <custom-attribute attribute-id="nbnQuestionnaireAnswers">{"3_activeNBNService":{"answers":{"transit-or-new-line-fttp":{"response":"outcome2","parameters":{"flow":"FTTP_activeNBNService_additionalService"}}},"lastAnsweredStepQuestion":"isTransitOrNewLineFTTP"}}</custom-attribute>
+                    <custom-attribute attribute-id="nbnSlotType">AM</custom-attribute>
+                    <custom-attribute attribute-id="nbnTimeSlotLabel">Between 8AM-12PM</custom-attribute>
+                    <custom-attribute attribute-id="ncdRequired">false</custom-attribute>
+                    <custom-attribute attribute-id="newCustomerCreditCheckServiceId">mulesoft.authorize.credit.nc</custom-attribute>
+                    <custom-attribute attribute-id="newLineScenario">additional</custom-attribute>
+                    <custom-attribute attribute-id="newPortScenario">additional</custom-attribute>
+                    <custom-attribute attribute-id="nsiCallStatus">NOT_PERFORMED</custom-attribute>
+                    <custom-attribute attribute-id="ntdRequired">false</custom-attribute>
+                    <custom-attribute attribute-id="offerId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="offlineReasons">
+                        <value>ESQ API IS DOWN</value>
+                    </custom-attribute>
+                    <custom-attribute attribute-id="optusAppointmentRequired">false</custom-attribute>
+                    <custom-attribute attribute-id="orderFeasibilityCheckResponse">{"shortfall":[{"type":"NTD","value":true},{"type":"LEADIN","value":true},{"type":"NBNCOINFRASTRUCTURE","value":false},{"type":"POWERSUPPLYWITHBATTERYBACKUP","value":true}],"status":"Feasible - Appointment Required","activitySpec":[{"type":"Standard Install"}],"reasonCode":[{"reason":"New Appointment Required - An Appointment is required but was not provided","code":"AACN1603"}],"serviceQualificationType":"ProductOrder"}</custom-attribute>
+                    <custom-attribute attribute-id="orderFeasibilityStatus">FEASIBLE_APPOINTMENT_REQUIRED</custom-attribute>
+                    <custom-attribute attribute-id="orderType">NewConnectOrder</custom-attribute>
+                    <custom-attribute attribute-id="originalAuthorityFlag">NotDetermined</custom-attribute>
+                    <custom-attribute attribute-id="originalFlowType">ONLINE</custom-attribute>
+                    <custom-attribute attribute-id="planBillingOfferId">33796613</custom-attribute>
+                    <custom-attribute attribute-id="planContractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="referralUrl">/s/OptusAU/broadbandplans</custom-attribute>
+                    <custom-attribute attribute-id="serviceClass">3</custom-attribute>
+                    <custom-attribute attribute-id="serviceRequestDate">2022-09-05T00:00:00.000+0000</custom-attribute>
+                    <custom-attribute attribute-id="technology">NBN FTTP</custom-attribute>
+                </custom-attributes>
+            </shipment>
+            <shipment shipment-id="00004002">
+                <status>
+                    <shipping-status>NOT_SHIPPED</shipping-status>
+                </status>
+                <shipping-method>Deliver to customer</shipping-method>
+                <shipping-address>
+                    <salutation>Mr</salutation>
+                    <first-name>Jason</first-name>
+                    <last-name>Jum</last-name>
+                    <address1>1 Ryonpark Road</address1>
+                    <city>Macquarie Park</city>
+                    <postal-code>2113</postal-code>
+                    <state-code>NSW</state-code>
+                    <country-code>AU</country-code>
+                    <phone>0234567891</phone>
+                    <custom-attributes>
+                        <custom-attribute attribute-id="addressType">CUSTOMER</custom-attribute>
+                        <custom-attribute attribute-id="addressUUID">MSByeW9ucGFyayByb2FkLCBtYWNxdWFyaWUgcGFyayBuc3cgMjExMw==</custom-attribute>
+                        <custom-attribute attribute-id="formattedAddress">121 TEMPLE AVE, KEW EAST, VIC 3102</custom-attribute>
+                        <custom-attribute attribute-id="locationId">LOC220777000281</custom-attribute>
+                        <custom-attribute attribute-id="manualAddressType">HOUSE</custom-attribute>
+                        <custom-attribute attribute-id="similarStreetType">Avenue;Ave;</custom-attribute>
+                        <custom-attribute attribute-id="streetName">Ryonpark</custom-attribute>
+                        <custom-attribute attribute-id="streetNumber">1</custom-attribute>
+                        <custom-attribute attribute-id="streetType">RD</custom-attribute>
+                    </custom-attributes>
+                </shipping-address>
+                <gift>false</gift>
+                <totals>
+                    <merchandize-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </merchandize-total>
+                    <adjusted-merchandize-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </adjusted-merchandize-total>
+                    <shipping-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </shipping-total>
+                    <adjusted-shipping-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </adjusted-shipping-total>
+                    <shipment-total>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                    </shipment-total>
+                </totals>
+                <custom-attributes>
+                    <custom-attribute attribute-id="baseOrderType">newFixedSubs</custom-attribute>
+                    <custom-attribute attribute-id="chargeZone">WIN</custom-attribute>
+                    <custom-attribute attribute-id="configStatus">COMPLETED</custom-attribute>
+                    <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+                    <custom-attribute attribute-id="customerType">CMR</custom-attribute>
+                    <custom-attribute attribute-id="deliveryDate">2022-09-03</custom-attribute>
+                    <custom-attribute attribute-id="deviceId">34488434</custom-attribute>
+                    <custom-attribute attribute-id="estimatedSpeedAuthority">false</custom-attribute>
+                    <custom-attribute attribute-id="existingCustomerCreditCheckServiceId">mulesoft.authorize.credit.ec</custom-attribute>
+                    <custom-attribute attribute-id="flowType">OFFLINE</custom-attribute>
+                    <custom-attribute attribute-id="flowTypeChangeReason">ESQ API IS DOWN</custom-attribute>
+                    <custom-attribute attribute-id="formattedServiceRequestDate">05/09/2022 10:00:00</custom-attribute>
+                    <custom-attribute attribute-id="hasShippable">true</custom-attribute>
+                    <custom-attribute attribute-id="isFetchNotIncludedInNewPlan">false</custom-attribute>
+                    <custom-attribute attribute-id="itemCategory">Fixed_Fixed Broadband_R5</custom-attribute>
+                    <custom-attribute attribute-id="itemCategoryType">NBN</custom-attribute>
+                    <custom-attribute attribute-id="newCustomerCreditCheckServiceId">mulesoft.authorize.credit.nc</custom-attribute>
+                    <custom-attribute attribute-id="offerId">33792133</custom-attribute>
+                    <custom-attribute attribute-id="offlineReasons">
+                        <value>ESQ API IS DOWN</value>
+                    </custom-attribute>
+                    <custom-attribute attribute-id="originalFlowType">ONLINE</custom-attribute>
+                    <custom-attribute attribute-id="planBillingOfferId">33796613</custom-attribute>
+                    <custom-attribute attribute-id="planContractDuration">1</custom-attribute>
+                    <custom-attribute attribute-id="referralUrl">/s/OptusAU/broadbandplans</custom-attribute>
+                    <custom-attribute attribute-id="serviceClass">3</custom-attribute>
+                    <custom-attribute attribute-id="serviceRequestDate">2022-09-05T00:00:00.000+0000</custom-attribute>
+                    <custom-attribute attribute-id="technology">NBN FTTP</custom-attribute>
+                </custom-attributes>
+            </shipment>
+        </shipments>
+        <totals>
+            <merchandize-total>
+                <net-price>79.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>79.00</gross-price>
+            </merchandize-total>
+            <adjusted-merchandize-total>
+                <net-price>44.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>44.00</gross-price>
+            </adjusted-merchandize-total>
+            <shipping-total>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+            </shipping-total>
+            <adjusted-shipping-total>
+                <net-price>0.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>0.00</gross-price>
+            </adjusted-shipping-total>
+            <order-total>
+                <net-price>44.00</net-price>
+                <tax>0.00</tax>
+                <gross-price>44.00</gross-price>
+            </order-total>
+        </totals>
+        <payments>
+            <payment>
+                <credit-card>
+                    <card-type>VISA</card-type>
+                    <card-number>XXXX-XXXX-XXXX-1234</card-number>
+                    <card-holder>Jason Jum</card-holder>
+                    <card-token>9660066265305097</card-token>
+                    <expiration-month>2</expiration-month>
+                    <expiration-year>2019</expiration-year>
+                    <custom-attributes>
+                        <custom-attribute attribute-id="receipt">90127302</custom-attribute>
+                        <custom-attribute attribute-id="secureTransactionToken">stt_2c8ca262-e64b-4fc8-a6f2-4e6fc82b55f0</custom-attribute>
+                        <custom-attribute attribute-id="settlementDate">23-Feb-2017</custom-attribute>
+                    </custom-attributes>
+                </credit-card>
+                <amount>44.00</amount>
+                <processor-id>BAMBORA_CREDIT</processor-id>
+                <transaction-id>undefined</transaction-id>
+            </payment>
+        </payments>
+        <remoteHost>49.181.234.48</remoteHost>
+        <custom-attributes>
+            <custom-attribute attribute-id="BYODSelected">true</custom-attribute>
+            <custom-attribute attribute-id="HasACapturedTokenInET">true</custom-attribute>
+            <custom-attribute attribute-id="IdCheckStatus">VERIFIED</custom-attribute>
+            <custom-attribute attribute-id="NBNAppointmentStatus">SCHEDULED</custom-attribute>
+            <custom-attribute attribute-id="UpfrontPaymentRequired">true</custom-attribute>
+            <custom-attribute attribute-id="aemHandoverPayload">{"33796613":"baseDetails-33796613","baseDetails-33796613":{"product":[{"itemId":"33796613","itemCategory":"Fixed_Fixed Broadband","technology":"NBN FTTP","itemContractLength":1,"BYODSelected":true}],"planDetails":{"customerType":"CMR","orderType":"newFixed","timestamp":"2022-09-02T07:08:34.393Z","referralUrl":"/s/OptusAU/broadbandplans","addressMatchType":"EXACT_MATCH","timezone":"Australia/Sydney"}}}</custom-attribute>
+            <custom-attribute attribute-id="authorityFlag">NotDetermined</custom-attribute>
+            <custom-attribute attribute-id="authorityForSpeed">Authorized</custom-attribute>
+            <custom-attribute attribute-id="baseOrderType">newFixedSubs</custom-attribute>
+            <custom-attribute attribute-id="calculatedTotals">{"priceGroup":{"33796613":{"PLAN_ID":"33796613","DEVICE_ID":"34488434","DEVICE_CONTRACT_DURATION":36,"PLAN_CONTRACT_DURATION":1,"UPFRONT_COST":"$0.00","MONTHLY_COST":"$44.00","ADJUSTED_MONTHLY_COST":"$44.00","ADJUSTED_MONTHLY_COST_VALUE":44,"UPFRONT_COST_VALUE":0,"MONTHLY_COST_VALUE":44,"TOTAL_MINIMUM_COST":"$289.00","TOTAL_MINIMUM_COST_VALUE":289,"STARTUP_FEE":"$0.00","STARTUP_FEE_VALUE":0,"INSTALLATION_COST":"$0.00","INSTALLATION_COST_VALUE":0,"DELIVERY_COST":"$0.00","DELIVERY_COST_VALUE":0,"MODEM":"$245.00","MODEM_VALUE":245,"DEVICE_COST":"$245.00","DEVICE_COST_VALUE":245,"formattedLegalText":"Min. total cost is $331 incl. $0 start-up fee, $252 modem cost. Stay connected for 36 months and pay $0 for the modem. This plan does not include paper bills and requires upfront automatic payments from a debit, credit or charge card only.","productUUID":"6b43b28f6886c1801de2d85f3c"}},"UPFRONT_COST":"$0.00","MONTHLY_COST":"$44.00","TOTAL_MINIMUM_COST":"$289.00","UPFRONT_COST_VALUE":0,"MONTHLY_COST_VALUE":44,"TOTAL_MINIMUM_COST_VALUE":289,"TOTAL_ADJUSTED_MONTHLY_COST":44,"STARTUP_FEE":"$0.00","STARTUP_FEE_VALUE":0,"MODEM":"$245.00","MODEM_VALUE":245,"DEVICE_COST":"$245.00","DEVICE_COST_VALUE":245,"formattedLegalText":"Min. total cost is $331 incl. $0 start-up fee, $252 modem cost. Stay connected for 36 months and pay $0 for the modem. This plan does not include paper bills and requires upfront automatic payments from a debit, credit or charge card only.","productUUID":"6b43b28f6886c1801de2d85f3c"}</custom-attribute>
+            <custom-attribute attribute-id="chargeZone">WIN</custom-attribute>
+            <custom-attribute attribute-id="checkoutFlow">NBNSubscriptionFlow</custom-attribute>
+            <custom-attribute attribute-id="checkoutFlowConfig">{"personalDetails":{"stepId":"personalDetails","checkoutSubSteps":[{"stepId":"personalDetailsProfile","completed":true},{"stepId":"idCheck","completed":true},{"stepId":"idCheckSecondary","completed":true}],"completed":true},"creditCheck":{"stepId":"creditCheck","checkoutSubSteps":[{"stepId":"residentialStatus","completed":true},{"stepId":"employmentDetails","completed":true}],"completed":true},"deliveryAddress":{"stepId":"deliveryAddress","checkoutSubSteps":[],"completed":true},"scheduling":{"stepId":"scheduling","checkoutSubSteps":[{"stepId":"nbnAppointment","completed":true}],"completed":true},"paymentCredit":{"stepId":"paymentCredit","checkoutSubSteps":[],"completed":true},"checkoutReview":{"stepId":"checkoutReview","checkoutSubSteps":[],"completed":false}}</custom-attribute>
+            <custom-attribute attribute-id="configStatus">COMPLETED</custom-attribute>
+            <custom-attribute attribute-id="configuratorContextKey">33796613</custom-attribute>
+            <custom-attribute attribute-id="createNewBillingAccount">true</custom-attribute>
+            <custom-attribute attribute-id="crmCheckStatus">CRM_CONTACT_NOTEXIST</custom-attribute>
+            <custom-attribute attribute-id="customerType">CMR</custom-attribute>
+            <custom-attribute attribute-id="decisionCategory">NOT_PERFORMED</custom-attribute>
+            <custom-attribute attribute-id="deliveryDate">2022-09-03</custom-attribute>
+            <custom-attribute attribute-id="demandType">Standard Install</custom-attribute>
+            <custom-attribute attribute-id="deviceId">34488434</custom-attribute>
+            <custom-attribute attribute-id="deviceIdInfo">de96913d652549e89723a087fd94c231</custom-attribute>
+            <custom-attribute attribute-id="employersName">Optus</custom-attribute>
+            <custom-attribute attribute-id="employmentStatus">Full Time</custom-attribute>
+            <custom-attribute attribute-id="errorInfo">mocked</custom-attribute>
+            <custom-attribute attribute-id="flowType">OFFLINE</custom-attribute>
+            <custom-attribute attribute-id="flowTypeChangeReason">ESQ API IS DOWN</custom-attribute>
+            <custom-attribute attribute-id="formattedServiceRequestDate">05/09/2022 10:00:00</custom-attribute>
+            <custom-attribute attribute-id="hasNCDAtPremises">false</custom-attribute>
+            <custom-attribute attribute-id="industryType">AccommodationCafesAndRestaurants</custom-attribute>
+            <custom-attribute attribute-id="installationWorkforce">NBN Co Install</custom-attribute>
+            <custom-attribute attribute-id="ipAddress">175.176.71.31</custom-attribute>
+            <custom-attribute attribute-id="ipGeo">PH</custom-attribute>
+            <custom-attribute attribute-id="ipRegion">cebu</custom-attribute>
+            <custom-attribute attribute-id="isOptusConsumer">false</custom-attribute>
+            <custom-attribute attribute-id="isRelocationOrder">false</custom-attribute>
+            <custom-attribute attribute-id="issuingState">NSW</custom-attribute>
+            <custom-attribute attribute-id="itemCategory">Fixed_Fixed Broadband_R5</custom-attribute>
+            <custom-attribute attribute-id="itemCategoryType">NBN</custom-attribute>
+            <custom-attribute attribute-id="licenceExpiryDate">2025-01-31</custom-attribute>
+            <custom-attribute attribute-id="licenceFirstName">Jason</custom-attribute>
+            <custom-attribute attribute-id="licenceLastName">Jum</custom-attribute>
+            <custom-attribute attribute-id="licenceNumber">11111111</custom-attribute>
+            <custom-attribute attribute-id="minimumTotalCostValue">289.0</custom-attribute>
+            <custom-attribute attribute-id="nbnAppointmentContactType">Jason Jum 0234567891</custom-attribute>
+            <custom-attribute attribute-id="nbnAppointmentDate">2022-09-05</custom-attribute>
+            <custom-attribute attribute-id="nbnAppointmentEndDate">2022-09-05T12:10:02+10:00</custom-attribute>
+            <custom-attribute attribute-id="nbnAppointmentRequired">true</custom-attribute>
+            <custom-attribute attribute-id="nbnAppointmentStartDate">2022-09-05T08:10:02+10:00</custom-attribute>
+            <custom-attribute attribute-id="nbnInstallationQAndA">{"answers":[{"question":"Looks like there’s already an active nbn service at this address. Choose one of these options to let us know what you want to do:","answer":"I want an extra nbn service and keep the other active nbn service running","questionId":"transit-or-new-line-fttp","answerId":"outcome2"}]}</custom-attribute>
+            <custom-attribute attribute-id="nbnQuestionnaireAnswers">{"3_activeNBNService":{"answers":{"transit-or-new-line-fttp":{"response":"outcome2","parameters":{"flow":"FTTP_activeNBNService_additionalService"}}},"lastAnsweredStepQuestion":"isTransitOrNewLineFTTP"}}</custom-attribute>
+            <custom-attribute attribute-id="nbnSlotType">AM</custom-attribute>
+            <custom-attribute attribute-id="nbnTimeSlotLabel">Between 8AM-12PM</custom-attribute>
+            <custom-attribute attribute-id="ncdRequired">false</custom-attribute>
+            <custom-attribute attribute-id="newLineScenario">additional</custom-attribute>
+            <custom-attribute attribute-id="newPaymentSetupStatus">SUCCESS</custom-attribute>
+            <custom-attribute attribute-id="newPortScenario">additional</custom-attribute>
+            <custom-attribute attribute-id="ntdRequired">false</custom-attribute>
+            <custom-attribute attribute-id="occupationName">Administration</custom-attribute>
+            <custom-attribute attribute-id="offerId">33792133</custom-attribute>
+            <custom-attribute attribute-id="offlineReasons">
+                <value>ESQ API IS DOWN</value>
+            </custom-attribute>
+            <custom-attribute attribute-id="optusAppointmentRequired">false</custom-attribute>
+            <custom-attribute attribute-id="orderCreationDate">02/09/2022 17:18:26</custom-attribute>
+            <custom-attribute attribute-id="orderType">NewConnectOrder</custom-attribute>
+            <custom-attribute attribute-id="originalFlowType">ONLINE</custom-attribute>
+            <custom-attribute attribute-id="pageCacheKeys">{"33796613":"e6785dc829f9f517e18caf83b979ee38ec05eba9"}</custom-attribute>
+            <custom-attribute attribute-id="planBillingOfferId">33796613</custom-attribute>
+            <custom-attribute attribute-id="planContractDuration">1</custom-attribute>
+            <custom-attribute attribute-id="policyScore">80</custom-attribute>
+            <custom-attribute attribute-id="primaryIDCheckResponse">{"transactionStatusCode":"SUCCESS","serviceVersion":"1.0"}</custom-attribute>
+            <custom-attribute attribute-id="primaryIDSource">MANUAL</custom-attribute>
+            <custom-attribute attribute-id="primaryIDType">DRIVER_LICENCE</custom-attribute>
+            <custom-attribute attribute-id="profileDateOfBirth">2000-01-01</custom-attribute>
+            <custom-attribute attribute-id="profileFirstName">Jason</custom-attribute>
+            <custom-attribute attribute-id="profileLastName">Jum</custom-attribute>
+            <custom-attribute attribute-id="profileMobileNumber">0234567891</custom-attribute>
+            <custom-attribute attribute-id="profilePrefContactMethod">sms</custom-attribute>
+            <custom-attribute attribute-id="profileTitle">Mr</custom-attribute>
+            <custom-attribute attribute-id="profiledDomain">bfzf-010.sandbox.us01.dx.commercecloud.salesforce.com</custom-attribute>
+            <custom-attribute attribute-id="reasonCode">EmailAddressGlobalBlacklist</custom-attribute>
+            <custom-attribute attribute-id="residentialAddressLine1">1 Ryonpark Road</custom-attribute>
+            <custom-attribute attribute-id="residentialAddressType">HOUSE</custom-attribute>
+            <custom-attribute attribute-id="residentialAddressUUID">MSByeW9ucGFyayByb2FkLCBtYWNxdWFyaWUgcGFyayBuc3cgMjExMw==</custom-attribute>
+            <custom-attribute attribute-id="residentialBuildingNumber">1</custom-attribute>
+            <custom-attribute attribute-id="residentialCity">Macquarie Park</custom-attribute>
+            <custom-attribute attribute-id="residentialCountry">AUS</custom-attribute>
+            <custom-attribute attribute-id="residentialMonthsStay">0</custom-attribute>
+            <custom-attribute attribute-id="residentialPostalCode">2113</custom-attribute>
+            <custom-attribute attribute-id="residentialStateCode">NSW</custom-attribute>
+            <custom-attribute attribute-id="residentialStatus">Owns</custom-attribute>
+            <custom-attribute attribute-id="residentialStreetName">Ryonpark</custom-attribute>
+            <custom-attribute attribute-id="residentialStreetNumber">1</custom-attribute>
+            <custom-attribute attribute-id="residentialStreetType">RD</custom-attribute>
+            <custom-attribute attribute-id="residentialYearsStay">19</custom-attribute>
+            <custom-attribute attribute-id="reviewStatus">reject</custom-attribute>
+            <custom-attribute attribute-id="riskRating">low</custom-attribute>
+            <custom-attribute attribute-id="secondaryIDCheckResponse">{"transactionStatusCode":"SUCCESS","serviceVersion":"1.0"}</custom-attribute>
+            <custom-attribute attribute-id="secondaryIDType">AU_PASSPORT</custom-attribute>
+            <custom-attribute attribute-id="secondaryIdCheckStatus">VERIFIED</custom-attribute>
+            <custom-attribute attribute-id="secondaryPassportCountryOfIssue">AUS</custom-attribute>
+            <custom-attribute attribute-id="secondaryPassportExpiryDate">2025-01-31</custom-attribute>
+            <custom-attribute attribute-id="secondaryPassportFirstname">Jason</custom-attribute>
+            <custom-attribute attribute-id="secondaryPassportLastName">Jum</custom-attribute>
+            <custom-attribute attribute-id="secondaryPassportNumber">A1111111</custom-attribute>
+            <custom-attribute attribute-id="serviceClass">3</custom-attribute>
+            <custom-attribute attribute-id="serviceQualification">{"33796613":"LOC220777000281","LOC220777000281":{"request":{"msisdn":null,"matchID":"ADD00130391","campaignID":"BBPlansPage","marketSgmt":"res","authorMode":false,"selectedAddress":{"implPhysicalAddress":{"postcode":"3102","state":"VIC","streetName":"TEMPLE","isUnstructAddressX9":0,"streetNumber":"121","streetType":"AVE","similarStreetType":"Avenue;Ave;","subUrb":"KEW EAST","isUnvalidatedAddress":0,"country":{"id":"AUS","name":"AUS"},"formattedAddressDisplay":"121 TEMPLE AVE, KEW EAST, VIC 3102"},"relationInfoList":[{"techologyName":"NBN","addressId":"LOC220777000281"}]},"agentId":null,"dealerCode":null,"salesChannel":"DG","sourceSystem":"DigiShop","formattedAddressDisplay":"121 TEMPLE AVE, KEW EAST, VIC 3102"},"response":{"transactionId":"ba7c9f7c-6d43-4949-b993-c73b2b0e9fbc","nbnDevChargeFlag":"N","catalogBrowsing":{"technology":"NBN FTTP","products":["WS","FB","FV","TV"]},"matrixRow":{"rowNum":577,"marketSegment":"RES","campaignId":"BBPlansPage","priority":1,"broadband":"NBN FTTP","telephony":"NBN FTTP","preorder":false,"from":-99999,"to":-10000,"prdctAvailability":"ADSL2+:fail,Cable:fail,NBN:pass(FBB),RDSL:fail,5G:fail,HWBB:fail,PreOrder:false"},"serviceCharacteristics":{"NBN_VDSL_MIN_UPSTREAM_SPEED":null,"NBN_UNI_D3":"Free","NBN_UNI_D2":"Free","NBN_UNI_D1":"Used","G-NAF_PID":"","HFC_ADDRESS_ID":"","NBN_VDSL_MAX_UPSTREAM_SPEED":null,"NBN_VDSL_MAX_UPSTREAM_SPEED_UNIT_OF_MEASURE":null,"NBN_UNI_D4":"Free","NBN_LOCATION_ID":"LOC220777000281","NBN_VDSL_MAX_DOWNSTREAM_SPEED":null,"TELSTRA_ADDRESS_ID":"","NBN_VDSL_MIN_DOWNSTREAM_SPEED_UNIT_OF_MEASURE":null,"NBN_VDSL_MIN_UPSTREAM_SPEED_UNIT_OF_MEASURE":null,"NBN_VDSL_MAX_DOWNSTREAM_SPEED_UNIT_OF_MEASURE":null,"NBN_VDSL_MIN_DOWNSTREAM_SPEED":null},"selectedAddress":{"relationInfoList":[{"techologyName":"NBN","addressId":"LOC220777000281"}]},"checkServiceCoverageResponse":{"services":{"service":[{"family":"Original SQ Result","name":"SQ Result","serviceSpecCharacteristics":{"serviceSpecCharacteristics":{"SQ HSD":[],"LOLIG ADDRESS TYPE":[""],"PORTABILITY CHECK REQUIRED":["Y"],"OIETS ULL TELEPHONY ACTIVE":[],"HSD SERVICEABLE":["N"],"OPOM STREET SUFFIX":[],"SQ POSTCODE RESULT":[],"LOLIG LAR SERVICEABLE":["F"],"destination_url":[],"NBN NCAS TC2 5MBPS":[],"LOLIG STREET NUMBER SUFFIX":[""],"OIETS INFORMATION DATE":[],"EIS PNSA CODE":["WIN"],"SQ ULL DSL":["N"],"OPOM ADDRESS INFO":[],"SQ RDSL OPEN1 AVG DL SPEED":[],"EIS TESA CODE":["BKPK"],"NBN ACCESS TYPE":["Fibre"],"PHONE PREFIX":[""],"NBN NTD TYPE":["Internal"],"RDSL PAIRTYPE TOTAL DISTANCE":[],"RDSL SERVICE CLASS":[],"STREET NUMBER":["121"],"NBN UNIT NUMBER":[""],"TESA ULL ENABLED":["N"],"LOLIG RDSL TIMESTAMP END":[],"EIS 3G IN BUILDING COVERAGE":["green"],"SQ DUI":[],"CHANNEL":["DG"],"EIS FEMTO":["Y"],"OIETS ULL DSL ACTIVE":[],"LOLIG BUILDING":[""],"NBN STREET TYPE":["AVE"],"OPOM SERVICE TYPE":[],"OPOM SERVICE EXTERNAL ID":[],"EIS 5G SITE SECTOR ID":[""],"SERVICE TIMEOUT":[],"OIETS BACKEND ERROR CODE":[],"NBN NEW NTD REQUIRED":[],"OPOM DSL EXIST":["N"],"TM DSL SERVICEABLE":[],"NBN CSA ID":["CSA000000010002"],"OIETS ULL COMPATIBLE":[],"OPOM RETAIL CARRIER":[],"OIETS TESA_1":[],"OIETS REGION":[],"NBN VDSL MAX UPSTREAM SPEED":[],"EIS TESA NAME":["BERKSHIRE PARK"],"NBN VDSL COPPER PAIR COUNT":["0"],"NBN EXCEPTION MSG":[],"OPOM VP CHURN":["N"],"SQ ULL OPEN2 AVG DL SPEED":[],"NBN NCAS TC2 40MBPS":[],"EIS NBN LOCATION ID":["LOC220777000281"],"EIS YCOORDINATE":["-33.654975"],"AGENT ID":[""],"LNP PORTABLE":[],"OIETS ULL SERVICEABLE":[],"NBN DEV CHARGE FLAG":["N"],"OIETS SUBURB":[],"SQ HOME WIRELESS BB":["N"],"NBN SERVICE TYPE":[],"EIS DISTANCE":[],"OIETS MODEM SPEED CODE":[],"EIS FIBRE NODE ID":[""],"SQ RDSL OPEN2 AVG DL SPEED":[],"OPOM SERVICE STATUS":[],"OPOM NW TIE SERVICE TYPE":[],"ULL OVERRIDE":["N"],"EIS UNLIMITED HOME WIRELESS BB":["WHITE"],"NBN VDSL COPPER PAIR ID":[],"EIS 3G ON STREET COVERAGE":["green"],"SQ LAT":["N"],"SQ LAR":["N"],"OPOM NW TIE COUNT":[],"NBN POST CODE":["3102"],"NBN ERROR CODE":[],"LOLIG STATE":[""],"LOLIG UNIT NUMBER":[""],"OIETS RESULT":[],"NBN VDSL MIN DOWNSTREAM SPEED":[],"NBN RFS MESSAGE TYPE":["4"],"HFC SERVICEABILITY SOURCE":[],"VOIP SECOND LINE SERVICEABLE":[],"SQ ULL TELS EST DL SPEED":[],"NBN COPPER SERVICE PROVIDER ID":[],"OPOM BILLABLE ACCOUNT ID":[],"SALES OUTLET":[""],"EIS HSD SERVICEABLE":[""],"NBN VDSL SERVICE CLASS":[],"NBN STREET NAME":["TEMPLE"],"OPOM TESA":[],"NBN NTD POWER UNIT":["No"],"NBN LOCATION ID":["LOC220777000281"],"OPOM ARBOR SERVICE TYPE":[],"EIS RFS DT":[""],"NBN VDSL MIN UPSTREAM SPEED UNIT OF MEASURE":[],"NBN PLANNED COMPLETION DATE":[],"OIETS TESA":[],"OIETS ULL CLASS RESULT":[],"TESA MISMATCH":[],"PHONE NUMBER":[""],"HFC SERVICEABLE":["N"],"NBN SERVICEABILITY SOURCE":["NBN"],"OPOM LOCALITY":[],"NBN SERVICE CLASS":["3"],"OPOM ULL PORTABLE":[],"NBN COPPER SERVICE TYPE":[],"LOLIG BUILDING NAME":[""],"NBN REMEDIATION REQUIRED":[],"NBN STREET NUMBER":["121"],"OIETS ULL CLASS":[],"OIETS BACKEND ERROR STRING":[],"OIETS ULL LOW SPEED":[],"OPOM SERVICE COUNT":[],"OPOM CSP":[],"NBN NTD INSTALL DATE":[""],"LOLIG STREET NUMBER":[""],"STATE":["VIC"],"NBN TRANSACTION ID":["4305789"],"ULL PAIRTYPE TOTAL DISTANCE":[],"OIETS CUTOVER DATE":[],"TM ULL SERVICEABLE":[],"DEALER CODE":[""],"NBN UNI D1":["Used"],"LOLIG STREET NAME":[""],"EIS FREQUENCY":["900"],"NBN SERVICE CLASS REASON":[],"EIS 3G SPEED UP":["0.384"],"NBN PRE SALE FLAG":["N"],"NBN VDSL MAX DOWNSTREAM SPEED UNIT OF MEASURE":[],"SQ ULL OPEN2 10P AVG DL SPEED":[],"NBN EXCEPTION TYPE":[],"NBN UNI D4":["Free"],"NBN UNI D3":["Free"],"NBN UNI D2":["Free"],"OIETS SUB ADDRESS TYPE":[],"LOLIG RDSL SERVICE CLASS":[],"OPOM STREET NUMBER":[],"NBN DISCONNECT DATE":[],"OPOM PLNR FLAG":[],"OIETS RDSL REASON":[],"OPOM TEL CHURN":[],"OPOM LAST NAME":[],"OPOM FNN NETWORK TIE":[],"SQ NBN ACCESS TYPE":["NBNFBB"],"NBN BUILDING NAME":[""],"SQ RDSL OPEN2 90P AVG DL SPEED":[],"NBN VDSL MIN DOWNSTREAM SPEED UNIT OF MEASURE":[],"OPOM STREET TYPE":[],"EIS 5G MPS":["0"],"NBN MULTICAST":["Y"],"EIS HOME WIRELESS BB":["N"],"EIS XCOORDINATE":["150.796966"],"EIS 5G MPT":["0"],"OIETS ULL DSL FILTERED ON SPEED":[],"NBN NTD BB INSTALL DATE":[""],"OIETS MODEM SPEED NOTE":[],"ULL OVERRIDE REASON":[""],"SQ ULL OPEN1 10P AVG DL SPEED":[],"NBN RFS DATE":[""],"EIS 2G IN COVERAGE":["true"],"NBN SERVICE LEVEL REGION":[],"OIETS ULL SERVICEABLE FOR DSL":[],"OPOM OUTLET ULL":["Y"],"SQ RDSL OPEN1 90P AVG DL SPEED":[],"OIETS STREET NAME":[],"TM HOME WIRELESS ROLLOUT DT":[],"OTV SERVICEABLE":["N"],"DSL SERVICE ID":[""],"SQ RDSL OPEN2 10P AVG DL SPEED":[],"NBN VDSL POTS INTERCONNECT":[],"OPOM FIRST NAME":[],"TM NBN_VOIP SERVICEABLE":["Y"],"SQ ULL OPEN1 90P AVG DL SPEED":[],"NBN NTD LOCATION ID":["Indoor"],"LOLIG POST CODE":[""],"NBN RESULT":["Serviceable"],"NBN UNI V1":["Free"],"LNP SERVICE PROVIDER":[],"NBN UNI V2":["Free"],"OIETS INCOMPATIBLE ERROR":[],"NBN CVC ID":["CVC000000010002"],"TM ULL SERVICEABLE FOR DSL":[],"SUB ADDRESS TYPE":[""],"OPOM UNIT NUMBER":[],"OPOM SERVICE ID":[],"OIETS POSTCODE":[],"EIS HOME WIRELESS ROLLOUT DT":[""],"LAT SERVICEABLE":["N"],"OIETS COMPATIBLE":[],"OIETS STREET NUMBER SUFFIX":[],"OPOM DSL NETWORK TIE":[],"TESA CHARGE ZONE":["WINDSOR"],"EIS 5G SERVICEABILITY FLAG":["N"],"EIS WITHIN NBN FOOTPRINT":["True"],"SQ RDSL OPEN1 10P AVG DL SPEED":[],"OIETS ADDRESS INFO":[],"SQ UNLIMITED HOME WIRELESS BB":["N"],"OIETS CUSTOMER CONTACT NAME":[],"NBN CVC AVAILABLE":["Y"],"LOLIG ULL SERVICEABILITY CHECK TYPE":[],"NBN NETWORK COEXISTENCE":[],"STREET NAME LINE 2":[""],"STREET NAME LINE 1":["TEMPLE"],"OIETS STATE":[],"PROMOTION CODE":[""],"NBN STATE":["VIC"],"LOLIG STREET SUFFIX":[""],"OPOM NUMBER STATUS":[],"OPOM DSL CHURN":[],"NBN VDSL MAX DOWNSTREAM SPEED":[],"SQ OWB":["Y"],"OIETS ULL CLASS COUNT":[],"ADDRESS MATCH ID":["ADD00130391"],"OPOM SERVICE START DATE":[],"SQ OWF":["N"],"NBN NTD UNCOMMIT UP SPEED":[""],"EIS OTV SERVICEABLE":[""],"SQ OWT":[],"OIETS MODEM SPEED COUNT":[],"EIS PNSA NAME":["WINDSOR"],"SQ RDSL TELS EST DL SPEED":[],"NBN SUBURB":["KEW EAST"],"SQ PORTABLE":[],"TM ULL DISTANCE":[],"OIETS RDSL RESULT":[],"HFC ADDRESS ID":[""],"NBN NTD UNCOMMIT DOWN SPEED":[""],"NBN GNAF ID":[],"OPOM STATE":[],"OIETS STREET NUMBER":[],"OPOM DONOR CARRIER":[],"STREET SUFFIX":[""],"TM HOME WIRELESS BB":[],"OPOM ADDRESS EXIST":["N"],"NBN VDSL SUBSEQUENT INSTALL CHARGE":[],"NBN OPTUS SERVICEABLE":["Y"],"LOLIG STREET TYPE":[""],"SQ OTV":[],"OIETS ULL DSL FILTERED ON DISTANCE":[],"MOBILE NUMBER":[""],"TESA":["BKPK"],"SQ ULL TEL":["N"],"OPOM POSTCODE":[],"SQ DATE":["2021-05-24 21:00:35"],"SQ VOIP SECOND LINE":[],"OIETS SUB EXCHANGE":[],"TESA CAPACITY REACHED":["N"],"OPOM NW TIE SERVICE ID":[],"ULL OVERRIDE FOR PRESALE":["N"],"POST CODE":["3102"],"LOLIG RDSL SERVICEABILITY CHECK TYPE":[],"NBN NCAS TC2 10MBPS":[],"OPOM TEL EXIST":["N"],"TELSTRA ADDRESS ID":[""],"EIS LAT SERVICEABLE":[""],"SQ ULL OPEN2 90P AVG DL SPEED":[],"NBN SUB ADDRESS TYPE":[""],"NBN HIGH SPEED TC2":["Yes"],"SQ LD":[],"STREET TYPE":["AVE"],"NBN AVAILABILITY STATUS":["Y"],"NBN HIGH SPEED TC1":[],"SQ VOIP FIRST LINE":[],"EIS HFC SERVICEABLE":[],"NBN VDSL SERVICE STATUS":[],"EIS SERVICE TYPE":[""],"SUBURB":["KEW EAST"],"NBN NTD COUNT":["1"],"NBN VDSL MAX UPSTREAM SPEED UNIT OF MEASURE":[],"LOLIG RDSL TIMESTAMP START":[],"TM POSTCODE SERVICEABLE PERCENTAGE":[],"G-NAF PID":[""],"NBN NTD NWAS TC1 150KBPS":[""],"OIETS MODEM SPEED RESULT":[],"NBN VDSL MIN UPSTREAM SPEED":[],"OPOM SUB ADDRESS TYPE":[],"OIETS MODEM SPEED":[],"NBN FLOOR NUMBER":[""],"MARKET SEGMENT":["res"],"LOLIG RDSL SERVICEABLE":["F"],"VOIP FIRST LINE SERVICEABLE":[],"OPOM SUBURB":[],"SQ FEMTO":["Y"],"LOLIG SUBURB":[""],"NBN NCAS TC2 20MBPS":[],"OPOM TESA MISMATCH":["N"],"SQ ID":["SQ50015182"],"NBN NTD POWER TYPE":["AC"],"EIS NBN SERVICE CLASS":["2"],"ULL SERVICEABILITY SOURCE":[],"UNIT NUMBER":[""],"OPERATING FROM BUSINESS OR HOME":[""],"TM FEMTO SERVICEABLE":[],"OPOM STREET NAME":[],"SQ RDSL":["N"],"NBN VDSL COPPER PAIR STATUS":[],"NBN PORT ID":[],"OPOM STREET NUMBER SUFFIX":[],"SQ ULL OPEN1 AVG DL SPEED":[],"OIETS ULL HIGH SPEED":[],"OPOM VP EXIST":["N"],"OIETS STREET TYPE":[],"OIETS UNIT NUMBER":[],"NBN NCAS TC2 30MBPS":[],"NBN NTD ID":["NTD220777000121"],"STREET NUMBER SUFFIX":[""],"OIETS STREET SUFFIX":[],"OPOM SERVICE END DATE":[]}}},{"family":"OWB","name":"FB","serviceSpecCharacteristics":{"serviceSpecCharacteristics":{"Serviceable":["Y"]}}},{"family":"NBN FTTP","name":"FV,FB,TV","serviceSpecCharacteristics":{"serviceSpecCharacteristics":{"NBN CVC AVAILABLE":["Y"],"NBN CSA ID":["CSA000000010002"],"NBN UNI D1":["Used"],"NBN SERVICE CLASS REASON":[""],"NBN PRE SALE FLAG":["N"],"NBN UNI D4":["Free"],"NBN UNI D3":["Free"],"NBN UNI D2":["Free"],"NBN NTD LOCATION ID":["Indoor"],"NBN DISCONNECT DATE":[""],"NBN RESULT":["Serviceable"],"NBN ACCESS TYPE":["Fibre"],"NBN NTD TYPE":["Internal"],"SQ NBN ACCESS TYPE":["NBNFBB"],"NBN LOCATION ID":["LOC220777000281"],"NBN DEV CHARGE FLAG":["N"],"NBN PORT ID":[],"NBN SERVICE TYPE":[""],"NBN SERVICEABILITY SOURCE":["NBN"],"NBN SERVICE CLASS":["3"],"TVProducts":["Fetch"],"NBN NTD ID":["NTD220777000121"],"NBN RFS DATE":[""],"NBN GNAF ID":[""],"NBN AVAILABILITY STATUS":["Y"],"NBN SERVICE LEVEL REGION":[""],"NBN NEW NTD REQUIRED":[],"NBN NTD INSTALL DATE":[""]}}}]},"sdpStatusResponse":{"transactionStatusCode":"SUCCESS","serviceVersion":"1.0","setSdpStatusLine":false,"setTransactionStatusCode":true,"setServiceVersion":true}}},"timestamp":"2022-09-02T07:08:34.393Z"}}</custom-attribute>
+            <custom-attribute attribute-id="serviceRequestDate">2022-09-05T00:00:00.000+0000</custom-attribute>
+            <custom-attribute attribute-id="sessionId">5buqv-3bgiofk0y6ywpqcmsiiekockaf7vcfubudl_y</custom-attribute>
+            <custom-attribute attribute-id="sfmcExportStatus">EXPORTED</custom-attribute>
+            <custom-attribute attribute-id="subscriptionOrderType">Simple</custom-attribute>
+            <custom-attribute attribute-id="technology">NBN FTTP</custom-attribute>
+            <custom-attribute attribute-id="tenureMonth">3</custom-attribute>
+            <custom-attribute attribute-id="tenureYear">19</custom-attribute>
+            <custom-attribute attribute-id="threatMetrixResponse">{"session_id":"5buqv-3bgiofk0y6ywpqcmsiiekockaf7vcfubudl_y","policy_score":"80","reason_code":"EmailAddressGlobalBlacklist","review_status":"reject","device_id":"de96913d652549e89723a087fd94c231","true_ip":"175.176.71.31","true_ip_region":"cebu","true_ip_geo":"PH","error_detail":"mocked","profiled_domain":"bfzf-010.sandbox.us01.dx.commercecloud.salesforce.com","risk_rating":"low"}</custom-attribute>
+            <custom-attribute attribute-id="totalAdjustedMonthlyCostValue">44.0</custom-attribute>
+            <custom-attribute attribute-id="totalMonthlyCostValue">44.0</custom-attribute>
+            <custom-attribute attribute-id="totalUpfrontCostValue">0.0</custom-attribute>
+            <custom-attribute attribute-id="twoFactorAuthenticated">false</custom-attribute>
+        </custom-attributes>
+    </order>
+
+</orders>
