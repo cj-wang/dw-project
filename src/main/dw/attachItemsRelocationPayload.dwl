@@ -125,7 +125,8 @@ var svcQualificationAddressOrigSq = sqPayload."$(gnafid)".response.serviceCharac
 	        else if (!isEmpty(dsqSpeedDetails.NBN_VDSL_MAX_DOWNSTREAM_SPEED) and isEmpty(svcQualificationAddressOrigSq.'NBN VDSL MAX DOWNSTREAM SPEED UNIT OF MEASURE'[0]))
 				(dsqSpeedDetails.NBN_VDSL_MAX_DOWNSTREAM_SPEED ++ " " ++ "MBPS")
 	        else null
-        else null) if (!isEmpty(dsqSpeedDetails))
+        else null) if (!isEmpty(dsqSpeedDetails)),
+    	"BYODSelected": getCustomAttDetail(rootElement, "BYODSelected")
 	})) filter (($.vlocityProductCode != null and $.serviceType ~="Fixed Broadband")),
 	
 	fixedVoice: ((rootElement."product-lineitems"."product-lineitem") map (item, index) -> ({

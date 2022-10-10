@@ -23,5 +23,13 @@ output application/json
     "Copper_Pair_ID_BCC": vars.originalPayload.fixedBroadband[0].Copper_Pair_ID_BCC,
     "AuthorityFlag": vars.originalPayload.fixedBroadband[0].Authority_Flag_BCC,
     "MaximumDownloadSpeed": vars.originalPayload.fixedBroadband[0].Maximum_Download_Speed,
-	"MaximumUploadSpeed": vars.originalPayload.fixedBroadband[0].Maximum_Upload_Speed
+	"MaximumUploadSpeed": vars.originalPayload.fixedBroadband[0].Maximum_Upload_Speed,
+	"BYOModem": {
+		"true": "Y",
+		"false": "N"
+	} [vars.originalPayload.fixedBroadband[0].BYODSelected] default null,
+	"BYODIndicator": {
+		"true": "Yes",
+		"false": "No"
+	} [vars.originalPayload.fixedBroadband[0].BYODSelected] default null
 }

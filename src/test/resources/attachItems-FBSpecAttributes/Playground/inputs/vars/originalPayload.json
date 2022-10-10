@@ -112,7 +112,8 @@
       "tesa": "BKPK",
       "New_line_consent_Flag_BCC": "",
       "Copper_Pair_ID_BCC": "",
-      "Authority_Flag_BCC": "NotDetermined"
+      "Authority_Flag_BCC": "NotDetermined",
+      "BYODSelected": "true"
     }
   ],
   "fixedVoice": [
