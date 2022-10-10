@@ -26,10 +26,10 @@ output application/json
 	"MaximumUploadSpeed": vars.originalPayload.fixedBroadband[0].Maximum_Upload_Speed,
 	"BYOModem": {
 		"true": "Y",
-		"false": "N"
+		"false": null
 	} [vars.originalPayload.fixedBroadband[0].BYODSelected] default null,
 	"BYODIndicator": {
 		"true": "Yes",
 		"false": "No"
-	} [vars.originalPayload.fixedBroadband[0].BYODSelected] default null
+	} [vars.originalPayload.fixedBroadband[0].BYODSelected] default "No"
 }
