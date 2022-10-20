@@ -1,0 +1,60 @@
+{
+  "requestInfo": {
+    "isEcommerceWf": true,
+    "locale": "en_US",
+    "salesChannel": "SS"
+  },
+  "calloutQueryParams": {
+    "productSpecCode": "Equipment_BCC"
+  },
+  "productOrder": {
+    "productOrderRequestSpecification": {
+      "activityForConfiguration": "NegotiateProductConfiguration",
+      "addDefaultChildItemsImplicitly": true,
+      "calculateMTC": true,
+      "callQuoteForOtherProducts": false,
+      "catalogDataInd": true,
+      "crossProductsDiscountsDataInd": false,
+      "generateEquipmentOA": false,
+      "previousQuotedRecurringPricesInd": true,
+      "productConfigurationInd": true,
+      "quotedPricesInd": true,
+      "quotedProrationInd": true,
+      "quotedTaxInd": true,
+      "returnConfiguration": "ALL",
+      "returnRemovedItems": true,
+      "runCompatibilityRules": true,
+      "saveIfCompatibilityRulesFailed": false,
+      "settingsView": "FULL",
+      "skipMandatoryChecks": false,
+      "summaryInd": true,
+      "topLevelProductData": true
+    },
+    "productOrderItem": [
+      {
+        "npsFirstLoad": false,
+        "context": "update",
+        "productRefOrValue": [
+          {
+            "productType": "composite",
+            "actionType": "change",
+            "characteristicValueUpdate": [
+              {
+                "characteristicID": "8361464",
+                "value": "0"
+              },
+              {
+                "characteristicID": "8361524",
+                "value": "BYOD"
+              }
+           ]
+          }
+        ]
+      }
+    ],
+    "party": {
+      "customerId": "s2134123123"
+    },
+    "orderReferenceNumber": "A"
+  }
+}
