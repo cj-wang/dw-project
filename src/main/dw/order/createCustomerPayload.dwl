@@ -525,7 +525,15 @@ customerContact: {
             "Jarvis_Address_ID__c": "",
 			"Address_Entry_Method__c": residentialAddressType,
 			"optus_bet_id__c": vars.optus_bet_id
-        }) if((!isEmpty(getCustomAttDetail(rootElement, "residentialCity")))and ((residentialAddressUUID != installationAddressUUID) or (isEmpty(residentialAddressUUID) and isEmpty(installationAddressUUID)))),
+        }) if(
+                (!isEmpty(getCustomAttDetail(rootElement, "residentialCity")))
+                and (
+                    (residentialAddressUUID != installationAddressUUID) 
+                    or (
+                        isEmpty(residentialAddressUUID) and isEmpty(installationAddressUUID)
+                    )
+                )
+            ),
 
         //Residential Address for Relocation
           ({    
@@ -575,7 +583,18 @@ customerContact: {
 )) default "",
             "Address_Entry_Method__c": shippingAddressType,
             "optus_bet_id__c": vars.optus_bet_id
-        }) if(((deliveryAddressUUID != installationAddressUUID) and (deliveryAddressUUID != residentialAddressUUID) and (relocationFlowType != "RelocationOffline" or relocationFlowType != "RelocationOnline")) or ((deliveryAddressUUID != installationAddressUUID) and (relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") and (relocationNCDRequired == "true"))),
+        }) if(
+                (
+                    (deliveryAddressUUID != installationAddressUUID) 
+                    and (deliveryAddressUUID != residentialAddressUUID) 
+                    and (relocationFlowType != "RelocationOffline" or relocationFlowType != "RelocationOnline")
+                ) 
+                or (
+                    (deliveryAddressUUID != installationAddressUUID) 
+                    and (relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") 
+                    and (relocationNCDRequired == "true")
+                )
+            ),
         
         ({
             //Billing Address
@@ -604,7 +623,18 @@ customerContact: {
             "Jarvis_Address_ID__c": getCustomAttDetail(billAddress, "jarvisAddressId") default "",
 			"Address_Entry_Method__c": billingAddressType,
 			"optus_bet_id__c": vars.optus_bet_id
-        }) if((!isEmpty(billAddress."city") and (installationAddressUUID != billAddressUUID ) and (residentialAddressUUID != billAddressUUID) and (deliveryAddressUUID != billAddressUUID)) or ((relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") and (installationAddressUUID != billAddressUUID))),
+        }) if(
+                (
+                    !isEmpty(billAddress."city") 
+                    and (installationAddressUUID != billAddressUUID ) 
+                    and (residentialAddressUUID != billAddressUUID) 
+                    and (deliveryAddressUUID != billAddressUUID)
+                ) 
+                or (
+                    (relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") 
+                    and (installationAddressUUID != billAddressUUID)
+                )
+            ),
         //Service Qualification(SQ) Address
         ({
         	 "Name": generateAddressName(
