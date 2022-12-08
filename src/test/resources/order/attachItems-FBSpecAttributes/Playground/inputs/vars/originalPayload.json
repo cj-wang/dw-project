@@ -1,0 +1,169 @@
+{
+  "flowtype": "non_Relocation",
+  "parentItems": [
+    {
+      "itemId": "33792133",
+      "sfccProductType": [
+        "OFFER"
+      ],
+      "parentName": "Optus Plus Everyday nbn (new Mar 22)",
+      "contractDuration": "1"
+    }
+  ],
+  "childItems": [
+    {
+      "itemId": "33796613",
+      "isBasePlan": "true",
+      "sfccProductType": [
+        "COMPONENT_BILLING_OFFER"
+      ],
+      "productName": "Optus Plus Everyday nbn (new Mar 22)",
+      "contractDuration": "1",
+      "isPromotionItem": null,
+      "quantity": 1.0,
+      "BillingOfferID": "33796613",
+      "BillingOfferPOID": "33814393",
+      "BillingOfferPRID": "8565034",
+      "BillingOfferPSRID": "33790813",
+      "BillingOfferRelationID": "33814173"
+    },
+    {
+      "itemId": "10590961",
+      "isBasePlan": "false",
+      "sfccProductType": [
+        "COMPONENT_BILLING_OFFER"
+      ],
+      "productName": "Professional Install",
+      "contractDuration": null,
+      "isPromotionItem": null,
+      "quantity": 1.0,
+      "BillingOfferID": "10590961",
+      "BillingOfferPOID": "33790983",
+      "BillingOfferPRID": "8559974",
+      "BillingOfferPSRID": "33790813",
+      "BillingOfferRelationID": "10591161"
+    },
+    {
+      "itemId": "10922001",
+      "isBasePlan": "false",
+      "sfccProductType": [
+        "COMPONENT_BILLING_OFFER"
+      ],
+      "productName": "Start Up Fee",
+      "contractDuration": null,
+      "isPromotionItem": null,
+      "quantity": 1.0,
+      "BillingOfferID": "10922001",
+      "BillingOfferPOID": "33791033",
+      "BillingOfferPRID": "8565014",
+      "BillingOfferPSRID": "33790813",
+      "BillingOfferRelationID": "11129541"
+    },
+    {
+      "itemId": "33814833",
+      "isBasePlan": "false",
+      "sfccProductType": [
+        "COMPONENT_BILLING_OFFER"
+      ],
+      "productName": "Subscription Plan Technical Offer FB",
+      "contractDuration": "1",
+      "isPromotionItem": null,
+      "quantity": 1.0,
+      "BillingOfferID": "33814833",
+      "BillingOfferPOID": "33816333",
+      "BillingOfferPRID": "8559974",
+      "BillingOfferPSRID": "33790813",
+      "BillingOfferRelationID": "33816143"
+    },
+    {
+      "itemId": "8568054",
+      "isBasePlan": "false",
+      "sfccProductType": [
+        "COMPONENT_BILLING_OFFER"
+      ],
+      "productName": "Fixed Broadband Technical Price Plan",
+      "contractDuration": null,
+      "isPromotionItem": null,
+      "quantity": 1.0,
+      "BillingOfferID": "8568054",
+      "BillingOfferPOID": "33790823",
+      "BillingOfferPRID": "8559974",
+      "BillingOfferPSRID": "33790813",
+      "BillingOfferRelationID": "8568074"
+    },
+    {
+      "itemId": "33797273",
+      "isBasePlan": "false",
+      "sfccProductType": [
+        "COMPONENT_BILLING_OFFER"
+      ],
+      "productName": "$10 Optus Plus Game Path",
+      "contractDuration": "1",
+      "isPromotionItem": null,
+      "quantity": 1.0,
+      "BillingOfferID": "33797273",
+      "BillingOfferPOID": "33815253",
+      "BillingOfferPRID": "33445633",
+      "BillingOfferPSRID": "33790813",
+      "BillingOfferRelationID": "33815243"
+    }
+  ],
+  "childItemsWithDiscount": [
+    {
+      "itemId": "33814593",
+      "isBasePlan": "false",
+      "sfccProductType": [
+        "COMPONENT_BILLING_OFFER"
+      ],
+      "productName": "Game Path Discount",
+      "contractDuration": null,
+      "isPromotionItem": "33814593",
+      "quantity": 1.0,
+      "BillingOfferID": "33814593",
+      "BillingOfferPOID": "33815023",
+      "BillingOfferPRID": "10469451",
+      "BillingOfferPSRID": "33790813",
+      "BillingOfferRelationID": "33814993"
+    }
+  ],
+  "simpleProducts": [
+    
+  ],
+  "fixedBroadband": [
+    {
+      "itemId": "33796613",
+      "isBasePlan": "true",
+      "productType": "Fixed Broadband",
+      "contractDuration": "1",
+      "networkTechnology": "NBN FTTP",
+      "installationMethod": "Professional Install",
+      "addressMatchType": "Exact",
+      "chargeZone": "WIN",
+      "cvcId": "CVC000000010002",
+      "gnafId": "EXACT_MATCH",
+      "nbnLocationId": "LOC220777000281",
+      "nbnDevChargeFlag": "N",
+      "nbnNtdId": "NTD220777000121",
+      "nbnNtdLocationId": "Indoor",
+      "nbnPortId": "",
+      "nbnNtdType": "Internal",
+      "tesa": "BKPK",
+      "New_line_consent_Flag_BCC": "",
+      "Copper_Pair_ID_BCC": "",
+      "Authority_Flag_BCC": null,
+      "BYODSelected": "true"
+    }
+  ],
+  "fixedVoice": [
+    
+  ],
+  "fixedVoicePortability": {
+    "existingCarrierAcctNo": null,
+    "donorCarrier": null,
+    "existingPhoneNo": null,
+    "currentCarrier": null,
+    "sfccOrderDate": "2022-10-07T04:04:36.000Z",
+    "phoneLineTransferNumber": null,
+    "flowType": "OFFLINE"
+  }
+}
