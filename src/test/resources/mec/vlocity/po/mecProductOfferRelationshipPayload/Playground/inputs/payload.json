@@ -1,0 +1,2756 @@
+{
+  "Name": "Optus Plus Internet Unlimited 4G (Jan 23)",
+  "ProductOffering": [
+    {
+      "ID": "33909443",
+      "Code": "OptusPlusInternetUnlimited4GJan23 ",
+      "Type": "WS",
+      "ValidFor": {
+        "EndDate": null,
+        "StartDate": "2018-10-15T00:00:00"
+      },
+      "ChannelRef": [
+        {
+          "ID": "AM",
+          "Name": "Account Management Teams"
+        },
+        {
+          "ID": "DL",
+          "Name": "Branded Retail Co"
+        },
+        {
+          "ID": "BRF",
+          "Name": "Branded Retail Franchise"
+        },
+        {
+          "ID": "BRM",
+          "Name": "Branded Retail M8"
+        },
+        {
+          "ID": "BRC",
+          "Name": "Branded Retail Network Comms"
+        },
+        {
+          "ID": "BRTOSS",
+          "Name": "BRT-Customer Ops"
+        },
+        {
+          "ID": "BRTDL",
+          "Name": "BRT-Retail"
+        },
+        {
+          "ID": "BRTBC",
+          "Name": "BRT-SMB"
+        },
+        {
+          "ID": "BRTCC",
+          "Name": "BRT-Telesales"
+        },
+        {
+          "ID": "BC",
+          "Name": "Business Channel Partners"
+        },
+        {
+          "ID": "CC",
+          "Name": "Call Centre Sales Personnel"
+        },
+        {
+          "ID": "DG",
+          "Name": "Digital Sales"
+        },
+        {
+          "ID": "DS",
+          "Name": "Direct Sales Force"
+        },
+        {
+          "ID": "MS",
+          "Name": "Mass"
+        },
+        {
+          "ID": "MSDL",
+          "Name": "Mass-Retail"
+        },
+        {
+          "ID": "SS",
+          "Name": "MCSS"
+        },
+        {
+          "ID": "OSS",
+          "Name": "Online Sales Support"
+        },
+        {
+          "ID": "OT",
+          "Name": "Other"
+        },
+        {
+          "ID": "RT",
+          "Name": "RIM"
+        }
+      ],
+      "IsSellable": "true",
+      "Description": "Optus Plus Internet Unlimited 4G (Jan 23)",
+      "AttributeRef": [
+        {
+          "Name": "Product Offering Properties Optus ITR1",
+          "Values": [
+            {
+              "Name": "ConfigurationType",
+              "Value": "P"
+            },
+            {
+              "Name": "MaxQuantity",
+              "Value": "999"
+            },
+            {
+              "Name": "Subscription Type",
+              "Value": "Postpaid"
+            },
+            {
+              "Name": "Allow Voluntary Suspension",
+              "Value": "Yes"
+            },
+            {
+              "Name": "Recontract Indicator",
+              "Value": "No"
+            },
+            {
+              "Name": "Offer Type",
+              "Value": "My Plan"
+            },
+            {
+              "Name": "Mandatory BB for Email",
+              "Value": null
+            },
+            {
+              "Name": "Eligible for Trade Up",
+              "Value": null
+            },
+            {
+              "Name": "Eligible for Fetch App",
+              "Value": "N"
+            },
+            {
+              "Name": "Default Roam 6",
+              "Value": "N"
+            },
+            {
+              "Name": "EPL Product Payment ID",
+              "Value": null
+            },
+            {
+              "Name": "Plan Type",
+              "Value": null
+            },
+            {
+              "Name": "Max Children Allowed",
+              "Value": null
+            },
+            {
+              "Name": "Dummy Parent",
+              "Value": null
+            },
+            {
+              "Name": "Additional Data Allowance",
+              "Value": null
+            },
+            {
+              "Name": "Subs Plan",
+              "Value": "N"
+            },
+            {
+              "Name": "5G SA Eligible Plan",
+              "Value": "No"
+            },
+            {
+              "Name": "Tenant ID",
+              "Value": null
+            }
+          ]
+        }
+      ],
+      "EligibleRule": [
+        {
+          "ID": "33909433",
+          "Name": "BCC Product Offering for Consumer and SMB customer",
+          "Indication": "true"
+        },
+        {
+          "ID": "33911373",
+          "Name": "BCC Product Offering to Hide for all sales channel",
+          "Indication": "false"
+        }
+      ],
+      "IsPrepaidOnly": "false",
+      "ProductOfferingPriceRef": [
+        {
+          "RelationID": "33908753",
+          "BillingOffers": [
+            {
+              "ID": "33908793",
+              "Offer": [
+                {
+                  "ID": [
+                    "8367184"
+                  ],
+                  "Code": [
+                    "Mobile_Postpaid_Technical_Price_Plan"
+                  ],
+                  "Name": "Mobile Postpaid Technical Price Plan"
+                }
+              ],
+              "Inclusion": "Mandatory",
+              "IsExcluded": "false",
+              "RelationID": "8388784",
+              "ParentRelationID": "8375254",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908803",
+              "Offer": [
+                {
+                  "ID": [
+                    "8477764"
+                  ],
+                  "Code": [
+                    "NONDIRECTDEBITWAIVERBILLINGOFFER"
+                  ],
+                  "Name": "Non-Direct debit waiver"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "8581214",
+              "ParentRelationID": "8375254",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908843",
+              "Offer": [
+                {
+                  "ID": [
+                    "8477824"
+                  ],
+                  "Code": [
+                    "PAPERINVOICEWAIVERBILLINGOFFER"
+                  ],
+                  "Name": "Paper Invoice waiver"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "8581204",
+              "ParentRelationID": "8375254",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908853",
+              "Offer": [
+                {
+                  "ID": [
+                    "8474754"
+                  ],
+                  "Code": [
+                    "Suspension_Fee - customer_request"
+                  ],
+                  "Name": "Suspension Fee - customer request"
+                }
+              ],
+              "Inclusion": "Optional selected by default",
+              "IsExcluded": "false",
+              "RelationID": "8476904",
+              "ParentRelationID": "8375254",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908863",
+              "Offer": [
+                {
+                  "ID": [
+                    "10167401"
+                  ],
+                  "Code": [
+                    "EarlyUpgradeWaiver"
+                  ],
+                  "Name": "Early Upgrade Waiver"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10486517",
+              "ParentRelationID": "8375254",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908873",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509587"
+                  ],
+                  "Code": [
+                    "Accessory Repayment in installments"
+                  ],
+                  "Name": "Accessory Repayment in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10561852",
+              "ParentRelationID": "8375164",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908883",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509597"
+                  ],
+                  "Code": [
+                    "Accessory Credit in installments"
+                  ],
+                  "Name": "Accessory Credit in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10561842",
+              "ParentRelationID": "8375164",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908893",
+              "Offer": [
+                {
+                  "ID": [
+                    "8402984"
+                  ],
+                  "Code": [
+                    "Accessory_Repayment_Charges"
+                  ],
+                  "Name": "Accessory Repayment Charges"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "8403134",
+              "ParentRelationID": "8375164",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908903",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509567"
+                  ],
+                  "Code": [
+                    "Device Repayment in installments"
+                  ],
+                  "Name": "Device Repayment in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10561832",
+              "ParentRelationID": "8375154",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908913",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509577"
+                  ],
+                  "Code": [
+                    "Device Credit in installments"
+                  ],
+                  "Name": "Device Credit in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10561822",
+              "ParentRelationID": "8375154",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908923",
+              "Offer": [
+                {
+                  "ID": [
+                    "8398644"
+                  ],
+                  "Code": [
+                    "Device_Credit_Charges"
+                  ],
+                  "Name": "Device Credit Charges"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "8398684",
+              "ParentRelationID": "8375154",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908933",
+              "Offer": [
+                {
+                  "ID": [
+                    "8398484"
+                  ],
+                  "Code": [
+                    "Device_Repayment_Charges"
+                  ],
+                  "Name": "Device Repayment Charges"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "8398694",
+              "ParentRelationID": "8375154",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908943",
+              "Offer": [
+                {
+                  "ID": [
+                    "10174207"
+                  ],
+                  "Code": [
+                    "Additional_Device_Repayment_Charges"
+                  ],
+                  "Name": "Additional Device Repayment Charges"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10175807",
+              "ParentRelationID": "8375154",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908953",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509597"
+                  ],
+                  "Code": [
+                    "Accessory Credit in installments"
+                  ],
+                  "Name": "Accessory Credit in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10509697",
+              "ParentRelationID": "10509717",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908963",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509587"
+                  ],
+                  "Code": [
+                    "Accessory Repayment in installments"
+                  ],
+                  "Name": "Accessory Repayment in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10509687",
+              "ParentRelationID": "10509717",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908983",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509577"
+                  ],
+                  "Code": [
+                    "Device Credit in installments"
+                  ],
+                  "Name": "Device Credit in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10509677",
+              "ParentRelationID": "10509717",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33908993",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509567"
+                  ],
+                  "Code": [
+                    "Device Repayment in installments"
+                  ],
+                  "Name": "Device Repayment in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10509667",
+              "ParentRelationID": "10509717",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33909033",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509537"
+                  ],
+                  "Code": [
+                    "Upfront Fee in installments"
+                  ],
+                  "Name": "Upfront Fee in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10509637",
+              "ParentRelationID": "10509717",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33909043",
+              "Offer": [
+                {
+                  "ID": [
+                    "10509447"
+                  ],
+                  "Code": [
+                    "UPGRADERECONTRACTFEEININSTALLMENTS"
+                  ],
+                  "Name": "Upgrade/Recontract Fee in installments"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "10509607",
+              "ParentRelationID": "10509717",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33909063",
+              "Offer": [
+                {
+                  "ID": [
+                    "8395944"
+                  ],
+                  "Code": [
+                    "EarlyTerminationFeeoffer"
+                  ],
+                  "Name": "Early Termination Fee"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "8396054",
+              "ParentRelationID": "8375204",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33909263",
+              "Offer": [
+                {
+                  "ID": [
+                    "8556824"
+                  ],
+                  "Code": [
+                    "SIM_Card_Technical_Offer"
+                  ],
+                  "Name": "SIM Card Technical Offer"
+                }
+              ],
+              "Inclusion": "Mandatory",
+              "IsExcluded": "false",
+              "RelationID": "8556834",
+              "ParentRelationID": "8375134",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33909363",
+              "Offer": [
+                {
+                  "ID": [
+                    "35791304"
+                  ],
+                  "Code": [
+                    "OptusCarbonOffset1Device"
+                  ],
+                  "Name": "Optus Carbon Offset (1 Device)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35797164",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33909373",
+              "Offer": [
+                {
+                  "ID": [
+                    "35791294"
+                  ],
+                  "Code": [
+                    "OptusCarbonOffset2Devices"
+                  ],
+                  "Name": "Optus Carbon Offset (2 Devices)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35797174",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33909383",
+              "Offer": [
+                {
+                  "ID": [
+                    "35791324"
+                  ],
+                  "Code": [
+                    "OptusCarbonOffset3Devices"
+                  ],
+                  "Name": "Optus Carbon Offset (3 Devices)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35797184",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33909393",
+              "Offer": [
+                {
+                  "ID": [
+                    "35791284"
+                  ],
+                  "Code": [
+                    "OptusCarbonOffset4Devices"
+                  ],
+                  "Name": "Optus Carbon Offset (4 Devices)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35797194",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33909403",
+              "Offer": [
+                {
+                  "ID": [
+                    "35791274"
+                  ],
+                  "Code": [
+                    "OptusCarbonOffset5Devices"
+                  ],
+                  "Name": "Optus Carbon Offset (5 Devices)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35797204",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910153",
+              "Offer": [
+                {
+                  "ID": [
+                    "33451365"
+                  ],
+                  "Code": [
+                    "Subscription Plan Technical Offer"
+                  ],
+                  "Name": "Subscription Plan Technical Offer"
+                }
+              ],
+              "Inclusion": "Mandatory",
+              "IsExcluded": "false",
+              "RelationID": "33451645",
+              "ParentRelationID": "8375254",
+              "EnabledForSelection": "false"
+            },
+            {
+              "ID": "33910233",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592104"
+                  ],
+                  "Code": [
+                    "10%_Offer_for_12_months_Subscription"
+                  ],
+                  "Name": "10% Offer for 12 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594404",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910243",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592114"
+                  ],
+                  "Code": [
+                    "$10_Discount_for_6_months_Subscription"
+                  ],
+                  "Name": "$10 Discount for 6 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594274",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910253",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592164"
+                  ],
+                  "Code": [
+                    "10%_Offer_for_24_months_Subscription"
+                  ],
+                  "Name": "10% Offer for 24 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594414",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910263",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592174"
+                  ],
+                  "Code": [
+                    "20%_Offer_for_24_months_Subscription"
+                  ],
+                  "Name": "20% Offer for 24 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594444",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910273",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592184"
+                  ],
+                  "Code": [
+                    "Free_Access_Fee_for_2_Months_Subscription"
+                  ],
+                  "Name": "Free Access Fee for 2 Months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594504",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910283",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592194"
+                  ],
+                  "Code": [
+                    "Free_Access_Fee_for_6_Months_Subscription"
+                  ],
+                  "Name": "Free Access Fee for 6 Months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594534",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910293",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592204"
+                  ],
+                  "Code": [
+                    "$20_Discount_for_6_months_Subscription"
+                  ],
+                  "Name": "$20 Discount for 6 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594324",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910303",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592214"
+                  ],
+                  "Code": [
+                    "$10_Discount_for_12_months_Subscription"
+                  ],
+                  "Name": "$10 Discount for 12 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594264",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910313",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592224"
+                  ],
+                  "Code": [
+                    "50%_Offer_for_24_months_Subscription"
+                  ],
+                  "Name": "50% Offer for 24 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594464",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910323",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592234"
+                  ],
+                  "Code": [
+                    "$5_Discount_for_12_months_Subscription"
+                  ],
+                  "Name": "$5 Discount for 12 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594374",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910333",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592324"
+                  ],
+                  "Code": [
+                    "Free_Access_Fee_for_24_Months_Subscription"
+                  ],
+                  "Name": "Free Access Fee for 24 Months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594514",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910343",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592334"
+                  ],
+                  "Code": [
+                    "15%_Offer_for_24_months_Subscription"
+                  ],
+                  "Name": "15% Offer for 24 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594434",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910353",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592344"
+                  ],
+                  "Code": [
+                    "Free_Access_Fee_for_1_Month_Subscription"
+                  ],
+                  "Name": "Free Access Fee for 1 Month (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594484",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910373",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592364"
+                  ],
+                  "Code": [
+                    "$20_Discount_for_3_months_Subscription"
+                  ],
+                  "Name": "$20 Discount for 3 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594314",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910383",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592374"
+                  ],
+                  "Code": [
+                    "$10_Discount_Offer_for_6_Months_Subscription"
+                  ],
+                  "Name": "$10 Discount Offer for 6 Months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594284",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910393",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592384"
+                  ],
+                  "Code": [
+                    "25%_Offer_for_24_monthsSubscription"
+                  ],
+                  "Name": "25% Offer for 24 months(Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594454",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910403",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592394"
+                  ],
+                  "Code": [
+                    "10%_Discount_Offer_Subscription"
+                  ],
+                  "Name": "10% Discount Offer (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594394",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910413",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592434"
+                  ],
+                  "Code": [
+                    "$30_Discount_for_2_months_Subscription"
+                  ],
+                  "Name": "$30 Discount for 2 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594354",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910423",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592484"
+                  ],
+                  "Code": [
+                    "Free_Access_Fee_for_12_Months_Subscription"
+                  ],
+                  "Name": "Free Access Fee for 12 Months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594494",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910433",
+              "Offer": [
+                {
+                  "ID": [
+                    "35925234"
+                  ],
+                  "Code": [
+                    "$5_Discount_for_24_months_(Subscription)"
+                  ],
+                  "Name": "$5 Discount for 24 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35925544",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910443",
+              "Offer": [
+                {
+                  "ID": [
+                    "35925264"
+                  ],
+                  "Code": [
+                    "25%_Discount_for_3_months(Subscription)"
+                  ],
+                  "Name": "25% Discount for 3 months(Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35925574",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910453",
+              "Offer": [
+                {
+                  "ID": [
+                    "35925364"
+                  ],
+                  "Code": [
+                    "50%_Discount_for_3_months(Subscription)"
+                  ],
+                  "Name": "50% Discount for 3 months(Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35925584",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910463",
+              "Offer": [
+                {
+                  "ID": [
+                    "35925374"
+                  ],
+                  "Code": [
+                    "75%_Discount_for_3_months(Subscription)"
+                  ],
+                  "Name": "75% Discount for 3 months(Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35925594",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910473",
+              "Offer": [
+                {
+                  "ID": [
+                    "35925444"
+                  ],
+                  "Code": [
+                    "10%_Corporate_Discount_for_12_mth(Subscription)"
+                  ],
+                  "Name": "10% Corporate Discount for 12 mth(Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35925554",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910483",
+              "Offer": [
+                {
+                  "ID": [
+                    "35925454"
+                  ],
+                  "Code": [
+                    "10%_Corporate_Discount_for_6_mth(Subscription)"
+                  ],
+                  "Name": "10% Corporate Discount for 6 mth(Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35925564",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910493",
+              "Offer": [
+                {
+                  "ID": [
+                    "35925494"
+                  ],
+                  "Code": [
+                    "Friendly_Trial(Subscription)"
+                  ],
+                  "Name": "Friendly Trial(Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35925604",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910503",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592424"
+                  ],
+                  "Code": [
+                    "10%_Offer_for_6_months_Subscription"
+                  ],
+                  "Name": "10% Offer for 6 months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594424",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33910743",
+              "Offer": [
+                {
+                  "ID": [
+                    "35592354"
+                  ],
+                  "Code": [
+                    "Free_Access_Fee_for_3_Months_Subscription"
+                  ],
+                  "Name": "Free Access Fee for 3 Months (Subscription)"
+                }
+              ],
+              "Inclusion": "Optional not selected by default",
+              "IsExcluded": "false",
+              "RelationID": "35594524",
+              "ParentRelationID": "10529492",
+              "EnabledForSelection": "true"
+            },
+            {
+              "ID": "33911393",
+              "Offer": [
+                {
+                  "ID": [
+                    "33907113"
+                  ],
+                  "Code": [
+                    "OptusPlusInternetUnlimited4GJan23"
+                  ],
+                  "Name": "Optus Plus Internet Unlimited 4G (Jan 23)"
+                }
+              ],
+              "Inclusion": "Mandatory",
+              "IsExcluded": "false",
+              "RelationID": "33911283",
+              "ParentRelationID": "8375224",
+              "EnabledForSelection": "false"
+            }
+          ]
+        }
+      ],
+      "ProductAttributeRelationRef": [
+        {
+          "ID": [
+            "8361504"
+          ],
+          "Code": [
+            "Device_Type_BCC"
+          ],
+          "Name": "Device Type",
+          "DomainID": [
+            "AbsDeviceTypeBCC"
+          ],
+          "DomainName": "AbsDeviceType",
+          "DefaultValue": "Mobile Broadband"
+        },
+        {
+          "ID": [
+            "8688444"
+          ],
+          "Code": [
+            "Contract_Term_BCC"
+          ],
+          "Name": "Contract Term",
+          "DomainID": [
+            "AbsContractDurationBCC"
+          ],
+          "DomainName": "AbsContractDuration",
+          "DefaultValue": "1"
+        },
+        {
+          "ID": [
+            "8688454"
+          ],
+          "Code": [
+            "Voice_Inclusion_BCC"
+          ],
+          "Name": "Voice Inclusion",
+          "DomainID": [
+            "AbsIncludedVoice_BCC"
+          ],
+          "DomainName": "AbsIncludedVoice",
+          "DefaultValue": "NA"
+        },
+        {
+          "ID": [
+            "8688484"
+          ],
+          "Code": [
+            "SMS_MMS_Inclusion_BCC"
+          ],
+          "Name": "SMS/MMS Inclusion",
+          "DomainID": [
+            "AbsIncludedMessages_BCC"
+          ],
+          "DomainName": "AbsIncludedMessages",
+          "DefaultValue": "NA"
+        },
+        {
+          "ID": [
+            "8688494"
+          ],
+          "Code": [
+            "Data_Inclusion_BCC"
+          ],
+          "Name": "Data Inclusion",
+          "DomainID": [
+            "AbsIncludedData_BCC"
+          ],
+          "DomainName": "AbsIncludedData",
+          "DefaultValue": "Unlimited"
+        },
+        {
+          "ID": [
+            "8688544"
+          ],
+          "Code": [
+            "International_Inclusion_BCC"
+          ],
+          "Name": "International Inclusion",
+          "DomainID": [
+            "AbsInternationalInclusion_BCC"
+          ],
+          "DomainName": "AbsInternationalInclusion",
+          "DefaultValue": "NA"
+        },
+        {
+          "ID": [
+            "8929881"
+          ],
+          "Code": [
+            "RC_BCC"
+          ],
+          "Name": "RC",
+          "DomainID": [
+            "AbsRCofPlan"
+          ],
+          "DomainName": "AbsRCofPlan",
+          "DefaultValue": "59"
+        }
+      ],
+      "ProductSpecificationCharacteristicValueUse": [
+        {
+          "Default": "1",
+          "RelationID": "33908753",
+          "IsMandatory": "true",
+          "Multiplicity": "true",
+          "MaxCardinality": "1",
+          "MinCardinality": "1",
+          "ProductSpecRef": {
+            "ID": [
+              "8375264"
+            ],
+            "Code": [
+              "Mobile"
+            ],
+            "Name": "Mobile"
+          },
+          "ProductSpecificationCharacteristicValue": [
+            {
+              "ID": "33908313",
+              "Default": "1",
+              "Component": [
+                {
+                  "ID": [
+                    "8372314"
+                  ],
+                  "Code": [
+                    "Device_Information"
+                  ],
+                  "Name": "Device Information",
+                  "ProductSpecID": [
+                    "8372304"
+                  ],
+                  "ProductOfferingID": [
+                    "8372294"
+                  ]
+                }
+              ],
+              "RelationID": "8375174",
+              "IsMandatory": "false",
+              "MaxCardinality": "10",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908323",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8371864"
+                  ],
+                  "Code": [
+                    "Device_BCC"
+                  ],
+                  "Name": "Device",
+                  "ProductSpecID": [
+                    "8371854"
+                  ],
+                  "ProductOfferingID": [
+                    "8371844"
+                  ]
+                }
+              ],
+              "RelationID": "8375154",
+              "IsMandatory": "false",
+              "MaxCardinality": "1",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908333",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8371924"
+                  ],
+                  "Code": [
+                    "Insurance_BCC"
+                  ],
+                  "Name": "Insurance",
+                  "ProductSpecID": [
+                    "8371914"
+                  ],
+                  "ProductOfferingID": [
+                    "8371904"
+                  ]
+                }
+              ],
+              "RelationID": "8375144",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908343",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "9205741"
+                  ],
+                  "Code": [
+                    "Entertainment"
+                  ],
+                  "Name": "Entertainment",
+                  "ProductSpecID": [
+                    "9205731"
+                  ],
+                  "ProductOfferingID": [
+                    "9205721"
+                  ]
+                }
+              ],
+              "RelationID": "9205791",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908353",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372254"
+                  ],
+                  "Code": [
+                    "International_BCC"
+                  ],
+                  "Name": "International & Premium Voice Services",
+                  "ProductSpecID": [
+                    "8372244"
+                  ],
+                  "ProductOfferingID": [
+                    "8372234"
+                  ]
+                }
+              ],
+              "RelationID": "8375094",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908363",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372194"
+                  ],
+                  "Code": [
+                    "Messaging_BCC"
+                  ],
+                  "Name": "Messaging",
+                  "ProductSpecID": [
+                    "8372184"
+                  ],
+                  "ProductOfferingID": [
+                    "8372174"
+                  ]
+                }
+              ],
+              "RelationID": "8375034",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908373",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "9057011"
+                  ],
+                  "Code": [
+                    "Music_Streaming_BCC"
+                  ],
+                  "Name": "Music Streaming",
+                  "ProductSpecID": [
+                    "9057001"
+                  ],
+                  "ProductOfferingID": [
+                    "9056991"
+                  ]
+                }
+              ],
+              "RelationID": "9067001",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908383",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10925721"
+                  ],
+                  "Code": [
+                    "Connected_Wearable_BCC"
+                  ],
+                  "Name": "Connected Wearable",
+                  "ProductSpecID": [
+                    "10925711"
+                  ],
+                  "ProductOfferingID": [
+                    "10925701"
+                  ]
+                }
+              ],
+              "RelationID": "10931431",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908393",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372164"
+                  ],
+                  "Code": [
+                    "Number_Portability"
+                  ],
+                  "Name": "Number Portability",
+                  "ProductSpecID": [
+                    "8372154"
+                  ],
+                  "ProductOfferingID": [
+                    "8372144"
+                  ]
+                }
+              ],
+              "RelationID": "8375194",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908403",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "9546570"
+                  ],
+                  "Code": [
+                    "EPL"
+                  ],
+                  "Name": "Optus Sport",
+                  "ProductSpecID": [
+                    "9546560"
+                  ],
+                  "ProductOfferingID": [
+                    "9546550"
+                  ]
+                }
+              ],
+              "RelationID": "9588201",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908413",
+              "Default": "1",
+              "Component": [
+                {
+                  "ID": [
+                    "10211141"
+                  ],
+                  "Code": [
+                    "Policy_Quota_BCC"
+                  ],
+                  "Name": "Policy Quota",
+                  "ProductSpecID": [
+                    "10211131"
+                  ],
+                  "ProductOfferingID": [
+                    "10211121"
+                  ]
+                }
+              ],
+              "RelationID": "10345397",
+              "IsMandatory": "true",
+              "MaxCardinality": "1",
+              "MinCardinality": "1",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908423",
+              "Default": "1",
+              "Component": [
+                {
+                  "ID": [
+                    "10211591"
+                  ],
+                  "Code": [
+                    "Policy_Offer_Id_BCC"
+                  ],
+                  "Name": "Policy Offer Id",
+                  "ProductSpecID": [
+                    "10211581"
+                  ],
+                  "ProductOfferingID": [
+                    "10211571"
+                  ]
+                }
+              ],
+              "RelationID": "10345387",
+              "IsMandatory": "true",
+              "MaxCardinality": "1",
+              "MinCardinality": "1",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908433",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372644"
+                  ],
+                  "Code": [
+                    "Discounts"
+                  ],
+                  "Name": "Discounts",
+                  "ProductSpecID": [
+                    "8372634"
+                  ],
+                  "ProductOfferingID": [
+                    "8372624"
+                  ]
+                }
+              ],
+              "RelationID": "8375214",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375224"
+            },
+            {
+              "ID": "33908443",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372224"
+                  ],
+                  "Code": [
+                    "Roaming_BCC"
+                  ],
+                  "Name": "Roaming",
+                  "ProductSpecID": [
+                    "8372214"
+                  ],
+                  "ProductOfferingID": [
+                    "8372204"
+                  ]
+                }
+              ],
+              "RelationID": "8375084",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908453",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8666424"
+                  ],
+                  "Code": [
+                    "Shared_Allowance_Control_BCC"
+                  ],
+                  "Name": "Shared Allowance Control",
+                  "ProductSpecID": [
+                    "8666414"
+                  ],
+                  "ProductOfferingID": [
+                    "8666404"
+                  ]
+                }
+              ],
+              "RelationID": "8691124",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908463",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8564334"
+                  ],
+                  "Code": [
+                    "Static_IP_BCC"
+                  ],
+                  "Name": "Static IP",
+                  "ProductSpecID": [
+                    "8564324"
+                  ],
+                  "ProductOfferingID": [
+                    "8564314"
+                  ]
+                }
+              ],
+              "RelationID": "8795444",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908473",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372044"
+                  ],
+                  "Code": [
+                    "Voice_BCC"
+                  ],
+                  "Name": "Voice",
+                  "ProductSpecID": [
+                    "8372034"
+                  ],
+                  "ProductOfferingID": [
+                    "8372024"
+                  ]
+                }
+              ],
+              "RelationID": "8374994",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908483",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "20826861"
+                  ],
+                  "Code": [
+                    "Subscription_Offers_BCC"
+                  ],
+                  "Name": "Subscription Offers",
+                  "ProductSpecID": [
+                    "20826851"
+                  ],
+                  "ProductOfferingID": [
+                    "20826841"
+                  ]
+                }
+              ],
+              "RelationID": "20830241",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908493",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10412308"
+                  ],
+                  "Code": [
+                    "Custom_Plan_EBCC"
+                  ],
+                  "Name": "Custom Plan",
+                  "ProductSpecID": [
+                    "10412298"
+                  ],
+                  "ProductOfferingID": [
+                    "10412288"
+                  ]
+                }
+              ],
+              "RelationID": "10428513",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375224"
+            },
+            {
+              "ID": "33908503",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10414868"
+                  ],
+                  "Code": [
+                    "Discount_on_plan_RC_EBCC"
+                  ],
+                  "Name": "Discount on Plan RC",
+                  "ProductSpecID": [
+                    "10414858"
+                  ],
+                  "ProductOfferingID": [
+                    "10414848"
+                  ]
+                }
+              ],
+              "RelationID": "10428633",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375224"
+            },
+            {
+              "ID": "33908513",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10433163"
+                  ],
+                  "Code": [
+                    "Data_Pooled_Allowance_EBCC"
+                  ],
+                  "Name": "Data Pooled Allowance",
+                  "ProductSpecID": [
+                    "10433153"
+                  ],
+                  "ProductOfferingID": [
+                    "10433143"
+                  ]
+                }
+              ],
+              "RelationID": "15016915",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375004"
+            },
+            {
+              "ID": "33908523",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "32425583"
+                  ],
+                  "Code": [
+                    "OB_Mobile_Extras_EBCC"
+                  ],
+                  "Name": "OB Mobile Extras",
+                  "ProductSpecID": [
+                    "32425573"
+                  ],
+                  "ProductOfferingID": [
+                    "32425563"
+                  ]
+                }
+              ],
+              "RelationID": "32425673",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375004"
+            },
+            {
+              "ID": "33908533",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "15729855"
+                  ],
+                  "Code": [
+                    "Accessory_Assurance_EBCC"
+                  ],
+                  "Name": "Accessory Assurance",
+                  "ProductSpecID": [
+                    "15729845"
+                  ],
+                  "ProductOfferingID": [
+                    "15729835"
+                  ]
+                }
+              ],
+              "RelationID": "15730795",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908543",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "15729745"
+                  ],
+                  "Code": [
+                    "Accessory_Insurance_EBCC"
+                  ],
+                  "Name": "Accessory Insurance",
+                  "ProductSpecID": [
+                    "15729735"
+                  ],
+                  "ProductOfferingID": [
+                    "15729725"
+                  ]
+                }
+              ],
+              "RelationID": "15730815",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908553",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10438323"
+                  ],
+                  "Code": [
+                    "Assurance_EBCC"
+                  ],
+                  "Name": "Assurance",
+                  "ProductSpecID": [
+                    "10438313"
+                  ],
+                  "ProductOfferingID": [
+                    "10438303"
+                  ]
+                }
+              ],
+              "RelationID": "15009265",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908563",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "15727395"
+                  ],
+                  "Code": [
+                    "OB_Accessory_EBCC"
+                  ],
+                  "Name": "OB Accessory",
+                  "ProductSpecID": [
+                    "15727385"
+                  ],
+                  "ProductOfferingID": [
+                    "15727375"
+                  ]
+                }
+              ],
+              "RelationID": "15729585",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908573",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10414628"
+                  ],
+                  "Code": [
+                    "OB_Device_EBCC"
+                  ],
+                  "Name": "OB Device",
+                  "ProductSpecID": [
+                    "10414618"
+                  ],
+                  "ProductOfferingID": [
+                    "10414608"
+                  ]
+                }
+              ],
+              "RelationID": "15009245",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908583",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10414728"
+                  ],
+                  "Code": [
+                    "OB_Insurance_EBCC"
+                  ],
+                  "Name": "OB Insurance",
+                  "ProductSpecID": [
+                    "10414718"
+                  ],
+                  "ProductOfferingID": [
+                    "10414708"
+                  ]
+                }
+              ],
+              "RelationID": "15009255",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908593",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "11008575"
+                  ],
+                  "Code": [
+                    "Customer_Agreement_EBCC"
+                  ],
+                  "Name": "Customer Agreement",
+                  "ProductSpecID": [
+                    "11008565"
+                  ],
+                  "ProductOfferingID": [
+                    "11008555"
+                  ]
+                }
+              ],
+              "RelationID": "15001605",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908603",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "11008685"
+                  ],
+                  "Code": [
+                    "Cust_Identifier_EBCC"
+                  ],
+                  "Name": "Customer Identifier",
+                  "ProductSpecID": [
+                    "11008675"
+                  ],
+                  "ProductOfferingID": [
+                    "11008665"
+                  ]
+                }
+              ],
+              "RelationID": "15001595",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908613",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "31265783"
+                  ],
+                  "Code": [
+                    "Jasper Rated"
+                  ],
+                  "Name": "Jasper Rated",
+                  "ProductSpecID": [
+                    "31265773"
+                  ],
+                  "ProductOfferingID": [
+                    "31265763"
+                  ]
+                }
+              ],
+              "RelationID": "31265933",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908623",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10426523"
+                  ],
+                  "Code": [
+                    "Mobile_Billing_Whitelisting_EBCC"
+                  ],
+                  "Name": "Mobile Billing Whitelisting",
+                  "ProductSpecID": [
+                    "10426513"
+                  ],
+                  "ProductOfferingID": [
+                    "10426503"
+                  ]
+                }
+              ],
+              "RelationID": "15001555",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908633",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10425763"
+                  ],
+                  "Code": [
+                    "OB_Static_IP_EBCC"
+                  ],
+                  "Name": "OB Static IP",
+                  "ProductSpecID": [
+                    "10425753"
+                  ],
+                  "ProductOfferingID": [
+                    "10425743"
+                  ]
+                }
+              ],
+              "RelationID": "15001545",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908643",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "20852341"
+                  ],
+                  "Code": [
+                    "Prepaid_EPL_BCC"
+                  ],
+                  "Name": "Prepaid Optus Sport",
+                  "ProductSpecID": [
+                    "20852331"
+                  ],
+                  "ProductOfferingID": [
+                    "20852321"
+                  ]
+                }
+              ],
+              "RelationID": "34282894",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908653",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372734"
+                  ],
+                  "Code": [
+                    "Post_Code_offers"
+                  ],
+                  "Name": "Post Code Offers",
+                  "ProductSpecID": [
+                    "8372724"
+                  ],
+                  "ProductOfferingID": [
+                    "8372714"
+                  ]
+                }
+              ],
+              "RelationID": "8375244",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908663",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "33323153"
+                  ],
+                  "Code": [
+                    "Special_Offers_BCC"
+                  ],
+                  "Name": "Special Offers",
+                  "ProductSpecID": [
+                    "33323143"
+                  ],
+                  "ProductOfferingID": [
+                    "33323133"
+                  ]
+                }
+              ],
+              "RelationID": "34426234",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908673",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "33434813"
+                  ],
+                  "Code": [
+                    "Unlimited_Data_Day_BCC"
+                  ],
+                  "Name": "Unlimited Data Day",
+                  "ProductSpecID": [
+                    "33434803"
+                  ],
+                  "ProductOfferingID": [
+                    "33434793"
+                  ]
+                }
+              ],
+              "RelationID": "33434973",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908683",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "33447455"
+                  ],
+                  "Code": [
+                    "Insurance_Excess_Charges_BCC"
+                  ],
+                  "Name": "Insurance Excess Charges",
+                  "ProductSpecID": [
+                    "33447445"
+                  ],
+                  "ProductOfferingID": [
+                    "33447435"
+                  ]
+                }
+              ],
+              "RelationID": "33451735",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908693",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "33680683"
+                  ],
+                  "Code": [
+                    "CallRecording_EBCC"
+                  ],
+                  "Name": "Mobile Voice Recording",
+                  "ProductSpecID": [
+                    "33680673"
+                  ],
+                  "ProductOfferingID": [
+                    "33680663"
+                  ]
+                }
+              ],
+              "RelationID": "33680733",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908703",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "33733963"
+                  ],
+                  "Code": [
+                    "Qantas_BCC"
+                  ],
+                  "Name": "Qantas promotion offer",
+                  "ProductSpecID": [
+                    "33733953"
+                  ],
+                  "ProductOfferingID": [
+                    "33733943"
+                  ]
+                }
+              ],
+              "RelationID": "33774383",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908713",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10529252"
+                  ],
+                  "Code": [
+                    "Special_User_Offers_BCC"
+                  ],
+                  "Name": "Special User Offers",
+                  "ProductSpecID": [
+                    "10529242"
+                  ],
+                  "ProductOfferingID": [
+                    "10529232"
+                  ]
+                }
+              ],
+              "RelationID": "10529492",
+              "IsMandatory": "false",
+              "MaxCardinality": "1",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908723",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "35814294"
+                  ],
+                  "Code": [
+                    "Optus_Upgrade_and_Protect_BCC"
+                  ],
+                  "Name": "Optus Upgrade and Protect",
+                  "ProductSpecID": [
+                    "35814284"
+                  ],
+                  "ProductOfferingID": [
+                    "35814274"
+                  ]
+                }
+              ],
+              "RelationID": "35820594",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375174"
+            },
+            {
+              "ID": "33908733",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "33855093"
+                  ],
+                  "Code": [
+                    "LivingNetworkProducts_BCC"
+                  ],
+                  "Name": "Living Network Products",
+                  "ProductSpecID": [
+                    "33855083"
+                  ],
+                  "ProductOfferingID": [
+                    "33855073"
+                  ]
+                }
+              ],
+              "RelationID": "33856173",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33908743",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "33874013"
+                  ],
+                  "Code": [
+                    "TechFund_Pack_BCC"
+                  ],
+                  "Name": "TechFund Pack",
+                  "ProductSpecID": [
+                    "33874003"
+                  ],
+                  "ProductOfferingID": [
+                    "33873993"
+                  ]
+                }
+              ],
+              "RelationID": "33876913",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33910143",
+              "Default": "1",
+              "Component": [
+                {
+                  "ID": [
+                    "8372134"
+                  ],
+                  "Code": [
+                    "Data_BCC"
+                  ],
+                  "Name": "Data",
+                  "ProductSpecID": [
+                    "8372124"
+                  ],
+                  "ProductOfferingID": [
+                    "8372114"
+                  ]
+                }
+              ],
+              "RelationID": "8375004",
+              "IsMandatory": "true",
+              "MaxCardinality": "1",
+              "MinCardinality": "1",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33910163",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10414678"
+                  ],
+                  "Code": [
+                    "WIP_VPN_EBCC"
+                  ],
+                  "Name": "WIP VPN",
+                  "ProductSpecID": [
+                    "10414668"
+                  ],
+                  "ProductOfferingID": [
+                    "10414658"
+                  ]
+                }
+              ],
+              "RelationID": "10427113",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375004"
+            },
+            {
+              "ID": "33910173",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10529032"
+                  ],
+                  "Code": [
+                    "Promotion_Benefits_BCC"
+                  ],
+                  "Name": "Promotion Benefits",
+                  "ProductSpecID": [
+                    "10529022"
+                  ],
+                  "ProductOfferingID": [
+                    "10529012"
+                  ]
+                }
+              ],
+              "RelationID": "10529072",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375224"
+            },
+            {
+              "ID": "33910183",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "10529302"
+                  ],
+                  "Code": [
+                    "Super_User_Offers_BCC"
+                  ],
+                  "Name": "Super User Offers",
+                  "ProductSpecID": [
+                    "10529292"
+                  ],
+                  "ProductOfferingID": [
+                    "10529282"
+                  ]
+                }
+              ],
+              "RelationID": "10529482",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33910193",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "31354743"
+                  ],
+                  "Code": [
+                    "CEP_EBCC"
+                  ],
+                  "Name": "CEP",
+                  "ProductSpecID": [
+                    "31354733"
+                  ],
+                  "ProductOfferingID": [
+                    "31354723"
+                  ]
+                }
+              ],
+              "RelationID": "31359243",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33919553",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8371984"
+                  ],
+                  "Code": [
+                    "Budget_Control"
+                  ],
+                  "Name": "Budget Control",
+                  "ProductSpecID": [
+                    "8371974"
+                  ],
+                  "ProductOfferingID": [
+                    "8371964"
+                  ]
+                }
+              ],
+              "RelationID": "8375074",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33919563",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8372284"
+                  ],
+                  "Code": [
+                    "Applications"
+                  ],
+                  "Name": "Applications",
+                  "ProductSpecID": [
+                    "8372274"
+                  ],
+                  "ProductOfferingID": [
+                    "8372264"
+                  ]
+                }
+              ],
+              "RelationID": "8375124",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33919573",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8371954"
+                  ],
+                  "Code": [
+                    "Trade_In"
+                  ],
+                  "Name": "Trade In",
+                  "ProductSpecID": [
+                    "8371944"
+                  ],
+                  "ProductOfferingID": [
+                    "8371934"
+                  ]
+                }
+              ],
+              "RelationID": "8375184",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375254"
+            },
+            {
+              "ID": "33919583",
+              "Default": "0",
+              "Component": [
+                {
+                  "ID": [
+                    "8860001"
+                  ],
+                  "Code": [
+                    "Hybrid_Pack_BCC"
+                  ],
+                  "Name": "Hybrid Pack",
+                  "ProductSpecID": [
+                    "8859991"
+                  ],
+                  "ProductOfferingID": [
+                    "8859981"
+                  ]
+                }
+              ],
+              "RelationID": "8860641",
+              "IsMandatory": "false",
+              "MaxCardinality": "0",
+              "MinCardinality": "0",
+              "ParentRelationID": "8375224"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
