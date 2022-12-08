@@ -1,0 +1,1499 @@
+{
+  "orders": {
+    "@version": "20.8",
+    "order": {
+      "@order-no": "UAT400000607",
+      "order-date": "2022-11-17T07:46:55.000Z",
+      "created-by": "storefront",
+      "original-order-no": "UAT400000607",
+      "currency": "AUD",
+      "customer-locale": "default",
+      "taxation": "gross",
+      "invoice-no": "00004004",
+      "customer": {
+        "guest": "true",
+        "customer-name": "Approve CBRT",
+        "customer-email": "saveluri1234@gmail.com",
+        "billing-address": {
+          "salutation": "Mr",
+          "first-name": "Approve",
+          "last-name": "CBRT",
+          "address1": "1 Lyon Street",
+          "city": "BELLINGEN",
+          "postal-code": "2454",
+          "state-code": "NSW",
+          "phone": "0414621729",
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "addressType",
+              "__text": "CUSTOMER"
+            },
+            {
+              "@attribute-id": "addressUUID",
+              "__text": "MSBseW9uIHN0cmVldCwgYmVsbGluZ2VuIG5zdyAyNDU0"
+            },
+            {
+              "@attribute-id": "gnafId",
+              "__text": "31337070"
+            },
+            {
+              "@attribute-id": "streetName",
+              "__text": "Lyon"
+            },
+            {
+              "@attribute-id": "streetNumber",
+              "__text": "1"
+            },
+            {
+              "@attribute-id": "streetType",
+              "__text": "Street"
+            }
+            ]
+          }
+        }
+      },
+      "status": {
+        "order-status": "NEW",
+        "shipping-status": "NOT_SHIPPED",
+        "confirmation-status": "CONFIRMED",
+        "payment-status": "NOT_PAID"
+      },
+      "current-order-no": "UAT400000607",
+      "product-lineitems": {
+        "product-lineitem": [
+        {
+          "net-price": "59.00",
+          "tax": "0.00",
+          "gross-price": "59.00",
+          "base-price": "59.00",
+          "lineitem-text": "Optus Plus Internet Unlimited 4G (Jan 23)",
+          "tax-basis": "59.00",
+          "position": "1",
+          "product-id": "33909443_33907113",
+          "product-name": "Optus Plus Internet Unlimited 4G (Jan 23)",
+          "quantity": {
+            "@unit": "",
+            "__text": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "00003507",
+          "bundled-product-lineitems": {
+            "bundled-product-lineitem": {
+              "product-id": "33907113",
+              "product-name": "Optus Plus Internet Unlimited 4G (Jan 23)",
+              "quantity": {
+                "@unit": "",
+                "__text": "1.0"
+              },
+              "custom-attributes": {
+                "custom-attribute": [
+                {
+                  "@attribute-id": "billingOfferId",
+                  "__text": "33907113"
+                },
+                {
+                  "@attribute-id": "sfccProductType",
+                  "__text": "BILLING_OFFER"
+                }
+                ]
+              }
+            }
+          },
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "adjustedMonthlyCostValue",
+              "__text": "59.0"
+            },
+            {
+              "@attribute-id": "billingOfferId",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "billingOfferPOId",
+              "__text": "33911393"
+            },
+            {
+              "@attribute-id": "billingOfferParentRelationId",
+              "__text": "8375224"
+            },
+            {
+              "@attribute-id": "billingOfferRelationId",
+              "__text": "33911283"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "contractDuration",
+              "__text": "1"
+            },
+            {
+              "@attribute-id": "creditCheckRequired",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "includedInPlan",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isBasePlan",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isMainOffer",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isSubsPlan",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "monthlyCostDiscount",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "monthlyCostValue",
+              "__text": "59.0"
+            },
+            {
+              "@attribute-id": "monthlyTotalCostValue",
+              "__text": "59.0"
+            },
+            {
+              "@attribute-id": "monthlyTotalDiscountValue",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "offerFamily",
+              "__text": "4G Internet Subscription"
+            },
+            {
+              "@attribute-id": "productOfferId",
+              "__text": "33909443"
+            },
+            {
+              "@attribute-id": "productSpecRelationId",
+              "__text": "33908753"
+            },
+            {
+              "@attribute-id": "productType",
+              "__text": "Mobile Broadband"
+            },
+            {
+              "@attribute-id": "recurringPeriod",
+              "__text": "MONTHLY"
+            },
+            {
+              "@attribute-id": "sfccProductType",
+              "__text": "COMPONENT_BILLING_OFFER"
+            }
+            ]
+          }
+        },
+        {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "Subscription Plan Technical Offer",
+          "tax-basis": "0.00",
+          "position": "2",
+          "product-id": "33909443_33451365",
+          "product-name": "Subscription Plan Technical Offer",
+          "quantity": {
+            "@unit": "",
+            "__text": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "00003507",
+          "bundled-product-lineitems": {
+            "bundled-product-lineitem": {
+              "product-id": "33451365",
+              "product-name": "Subscription Plan Technical Offer",
+              "quantity": {
+                "@unit": "",
+                "__text": "1.0"
+              },
+              "custom-attributes": {
+                "custom-attribute": [
+                {
+                  "@attribute-id": "billingOfferId",
+                  "__text": "33451365"
+                },
+                {
+                  "@attribute-id": "sfccProductType",
+                  "__text": "BILLING_OFFER"
+                }
+                ]
+              }
+            }
+          },
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "adjustedUpfrontCost",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "billingOfferId",
+              "__text": "33451365"
+            },
+            {
+              "@attribute-id": "billingOfferPOId",
+              "__text": "33910153"
+            },
+            {
+              "@attribute-id": "billingOfferParentRelationId",
+              "__text": "8375254"
+            },
+            {
+              "@attribute-id": "billingOfferRelationId",
+              "__text": "33451645"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "creditCheckRequired",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "includedInPlan",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isBasePlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isMainOffer",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isSubsPlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "monthlyTotalCostValue",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "productOfferId",
+              "__text": "33909443"
+            },
+            {
+              "@attribute-id": "productSpecRelationId",
+              "__text": "33908753"
+            },
+            {
+              "@attribute-id": "productType",
+              "__text": "Mobile"
+            },
+            {
+              "@attribute-id": "sfccProductType",
+              "__text": "COMPONENT_BILLING_OFFER"
+            },
+            {
+              "@attribute-id": "upfrontCost",
+              "__text": "0.0"
+            }
+            ]
+          }
+        },
+        {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "Optus Plus Internet Unlimited 4G (Jan 23)",
+          "tax-basis": "0.00",
+          "position": "3",
+          "product-id": "33909443",
+          "product-name": "Optus Plus Internet Unlimited 4G (Jan 23)",
+          "quantity": {
+            "@unit": "",
+            "__text": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "00003507",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "adjustedMonthlyCostValue",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "contractDuration",
+              "__text": "1"
+            },
+            {
+              "@attribute-id": "creditCheckRequired",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isBasePlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isMainOffer",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isSubsPlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "monthlyCostValue",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "monthlyTotalCostValue",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "productOfferId",
+              "__text": "33909443"
+            },
+            {
+              "@attribute-id": "recurringPeriod",
+              "__text": "MONTHLY"
+            },
+            {
+              "@attribute-id": "sfccProductType",
+              "__text": "OFFER"
+            }
+            ]
+          }
+        },
+        {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "SIM Card Technical Offer",
+          "tax-basis": "0.00",
+          "position": "4",
+          "product-id": "33909443_8556824",
+          "product-name": "SIM Card Technical Offer",
+          "quantity": {
+            "@unit": "",
+            "__text": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "00003507",
+          "bundled-product-lineitems": {
+            "bundled-product-lineitem": {
+              "product-id": "8556824",
+              "product-name": "SIM Card Technical Offer",
+              "quantity": {
+                "@unit": "",
+                "__text": "1.0"
+              },
+              "custom-attributes": {
+                "custom-attribute": [
+                {
+                  "@attribute-id": "billingOfferId",
+                  "__text": "8556824"
+                },
+                {
+                  "@attribute-id": "sfccProductType",
+                  "__text": "BILLING_OFFER"
+                }
+                ]
+              }
+            }
+          },
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "adjustedUpfrontCost",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "billingOfferId",
+              "__text": "8556824"
+            },
+            {
+              "@attribute-id": "billingOfferPOId",
+              "__text": "33909263"
+            },
+            {
+              "@attribute-id": "billingOfferParentRelationId",
+              "__text": "8375134"
+            },
+            {
+              "@attribute-id": "billingOfferRelationId",
+              "__text": "8556834"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "creditCheckRequired",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "includedInPlan",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isBasePlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isMainOffer",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isSubsPlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "monthlyTotalCostValue",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "productOfferId",
+              "__text": "33909443"
+            },
+            {
+              "@attribute-id": "productSpecRelationId",
+              "__text": "33908753"
+            },
+            {
+              "@attribute-id": "productType",
+              "__text": "Mobile"
+            },
+            {
+              "@attribute-id": "sfccProductType",
+              "__text": "COMPONENT_BILLING_OFFER"
+            },
+            {
+              "@attribute-id": "upfrontCost",
+              "__text": "0.0"
+            }
+            ]
+          }
+        },
+        {
+          "net-price": "216.00",
+          "tax": "0.00",
+          "gross-price": "216.00",
+          "base-price": "216.00",
+          "lineitem-text": "Huawei B628",
+          "tax-basis": "216.00",
+          "position": "5",
+          "product-id": "35305584_1M_Contract_8444084_1M_Plan",
+          "product-name": "Huawei B628",
+          "quantity": {
+            "@unit": "",
+            "__text": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "00003508",
+          "bundled-product-lineitems": {
+            "bundled-product-lineitem": {
+              "product-id": "35305584",
+              "product-name": "Huawei B628",
+              "quantity": {
+                "@unit": "",
+                "__text": "1.0"
+              },
+              "custom-attributes": {
+                "custom-attribute": [
+                {
+                  "@attribute-id": "creditCheckRequired",
+                  "__text": "false"
+                },
+                {
+                  "@attribute-id": "deviceType",
+                  "__text": "Mobile Broadband"
+                },
+                {
+                  "@attribute-id": "equipmentType",
+                  "__text": "Device"
+                },
+                {
+                  "@attribute-id": "isBasePlan",
+                  "__text": "false"
+                },
+                {
+                  "@attribute-id": "isEsimSupported",
+                  "__text": "true"
+                },
+                {
+                  "@attribute-id": "isPhysicalSimSupported",
+                  "__text": "true"
+                },
+                {
+                  "@attribute-id": "isShippable",
+                  "__text": "true"
+                },
+                {
+                  "@attribute-id": "productOfferId",
+                  "__text": "35305594"
+                },
+                {
+                  "@attribute-id": "productSpecId",
+                  "__text": "35305584"
+                },
+                {
+                  "@attribute-id": "sfccProductType",
+                  "__text": "SIMPLE_PRODUCT"
+                },
+                {
+                  "@attribute-id": "simpleProductId",
+                  "__text": "35305594"
+                }
+                ]
+              }
+            }
+          },
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "adjustedUpfrontCost",
+              "__text": "216.0"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "contractDuration",
+              "__text": "1"
+            },
+            {
+              "@attribute-id": "creditCheckRequired",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "deviceCostValue",
+              "__text": "216.0"
+            },
+            {
+              "@attribute-id": "deviceType",
+              "__text": "Mobile Broadband"
+            },
+            {
+              "@attribute-id": "equipmentType",
+              "__text": "Device"
+            },
+            {
+              "@attribute-id": "includedInPlan",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isBasePlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isEsimSupported",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isMainOffer",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isPhysicalSimSupported",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isShippable",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "monthlyTotalCostValue",
+              "__text": "216.0"
+            },
+            {
+              "@attribute-id": "planContractDuration",
+              "__text": "1"
+            },
+            {
+              "@attribute-id": "planId",
+              "__text": "8444084"
+            },
+            {
+              "@attribute-id": "priceGroup",
+              "__text": "DEVICE_COST"
+            },
+            {
+              "@attribute-id": "productConfigInfo",
+              "__text": "{\"isMobileSection\":false,\"isHideContinueBtn\":false,\"stepName\":\"INTERNET\",\"stepIcon\":\"internetIcon\",\"progressbarName\":\"4G Home Internet\",\"title\":\"<p><span style=\\\"color: rgb(23, 43, 77);\\\">Your Plan </span>includes</p>\",\"position\":1}"
+            },
+            {
+              "@attribute-id": "productOfferId",
+              "__text": "8444084"
+            },
+            {
+              "@attribute-id": "productSpecId",
+              "__text": "35305584"
+            },
+            {
+              "@attribute-id": "sfccProductType",
+              "__text": "COMPONENT_BILLING_OFFER"
+            },
+            {
+              "@attribute-id": "simpleProductId",
+              "__text": "35305594"
+            },
+            {
+              "@attribute-id": "upfrontCost",
+              "__text": "216.0"
+            }
+            ]
+          }
+        }
+        ]
+      },
+      "shipping-lineitems": {
+        "shipping-lineitem": [
+        {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "Shipping",
+          "tax-basis": "0.00",
+          "item-id": "STANDARD_SHIPPING",
+          "shipment-id": "00003507",
+          "tax-rate": "0.0"
+        },
+        {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "Shipping",
+          "tax-basis": "0.00",
+          "item-id": "STANDARD_SHIPPING",
+          "shipment-id": "00003508",
+          "tax-rate": "0.0"
+        }
+        ]
+      },
+      "shipments": {
+        "shipment": [
+        {
+          "@shipment-id": "00003507",
+          "status": {
+            "shipping-status": "NOT_SHIPPED"
+          },
+          "shipping-method": "Not Applicable",
+          "shipping-address": {
+            "address1": "19 BRAMHALL AVE",
+            "city": "PUNCHBOWL",
+            "postal-code": "2196",
+            "state-code": "NSW",
+            "country-code": "AU",
+            "custom-attributes": {
+              "custom-attribute": [
+              {
+                "@attribute-id": "addressType",
+                "__text": "SERVICE"
+              },
+              {
+                "@attribute-id": "addressUUID",
+                "__text": "MTkgYnJhbWhhbGwgYXZlLCBwdW5jaGJvd2wgbnN3IDIxOTY="
+              },
+              {
+                "@attribute-id": "formattedAddress",
+                "__text": "19 BRAMHALL AVE, PUNCHBOWL NSW 2196"
+              },
+              {
+                "@attribute-id": "gnafId",
+                "__text": "GANSW713212954"
+              },
+              {
+                "@attribute-id": "locationId",
+                "__text": "GANSW713212954"
+              },
+              {
+                "@attribute-id": "similarStreetType",
+                "__text": "Avenue;Ave;"
+              },
+              {
+                "@attribute-id": "streetName",
+                "__text": "BRAMHALL"
+              },
+              {
+                "@attribute-id": "streetNumber",
+                "__text": "19"
+              },
+              {
+                "@attribute-id": "streetType",
+                "__text": "AVE"
+              }
+              ]
+            }
+          },
+          "gift": "false",
+          "totals": {
+            "merchandize-total": {
+              "net-price": "59.00",
+              "tax": "0.00",
+              "gross-price": "59.00"
+            },
+            "adjusted-merchandize-total": {
+              "net-price": "59.00",
+              "tax": "0.00",
+              "gross-price": "59.00"
+            },
+            "shipping-total": {
+              "net-price": "0.00",
+              "tax": "0.00",
+              "gross-price": "0.00"
+            },
+            "adjusted-shipping-total": {
+              "net-price": "0.00",
+              "tax": "0.00",
+              "gross-price": "0.00"
+            },
+            "shipment-total": {
+              "net-price": "59.00",
+              "tax": "0.00",
+              "gross-price": "59.00"
+            }
+          },
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "baseOrderType",
+              "__text": "newFixed"
+            },
+            {
+              "@attribute-id": "configStatus",
+              "__text": "COMPLETED"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "customerType",
+              "__text": "CMR"
+            },
+            {
+              "@attribute-id": "deliveryDate",
+              "__text": "2022-11-18"
+            },
+            {
+              "@attribute-id": "deviceId",
+              "__text": "35305584"
+            },
+            {
+              "@attribute-id": "estimatedSpeedAuthority",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "existingCustomerCreditCheckServiceId",
+              "__text": "mulesoft.authorize.credit.ec"
+            },
+            {
+              "@attribute-id": "flowType",
+              "__text": "ONLINE"
+            },
+            {
+              "@attribute-id": "formattedServiceRequestDate",
+              "__text": "17/11/2022 18:46"
+            },
+            {
+              "@attribute-id": "hasShippable",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isFetchNotIncludedInNewPlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "itemCategory",
+              "__text": "Fixed_5G"
+            },
+            {
+              "@attribute-id": "itemCategoryType",
+              "__text": "5G"
+            },
+            {
+              "@attribute-id": "newCustomerCreditCheckServiceId",
+              "__text": "mulesoft.authorize.credit.nc"
+            },
+            {
+              "@attribute-id": "offerId",
+              "__text": "33909443"
+            },
+            {
+              "@attribute-id": "originalFlowType",
+              "__text": "ONLINE"
+            },
+            {
+              "@attribute-id": "planBillingOfferId",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "planContractDuration",
+              "__text": "1"
+            },
+            {
+              "@attribute-id": "referralUrl",
+              "__text": "/s/OptusAU/broadbandplans"
+            },
+            {
+              "@attribute-id": "serviceRequestDate",
+              "__text": "2022-11-17T07:46:55.000+0000"
+            },
+            {
+              "@attribute-id": "technology",
+              "__text": "HWBB"
+            }
+            ]
+          }
+        },
+        {
+          "@shipment-id": "00003508",
+          "status": {
+            "shipping-status": "NOT_SHIPPED"
+          },
+          "shipping-method": "Deliver to customer",
+          "shipping-address": {
+            "salutation": "Mr",
+            "first-name": "Approve",
+            "last-name": "CBRT",
+            "address1": "1 Lyon Street",
+            "city": "BELLINGEN",
+            "postal-code": "2454",
+            "state-code": "NSW",
+            "country-code": "AU",
+            "phone": "0414621729",
+            "custom-attributes": {
+              "custom-attribute": [
+              {
+                "@attribute-id": "addressType",
+                "__text": "CUSTOMER"
+              },
+              {
+                "@attribute-id": "addressUUID",
+                "__text": "MSBseW9uIHN0cmVldCwgYmVsbGluZ2VuIG5zdyAyNDU0"
+              },
+              {
+                "@attribute-id": "formattedAddress",
+                "__text": "19 BRAMHALL AVE, PUNCHBOWL NSW 2196"
+              },
+              {
+                "@attribute-id": "gnafId",
+                "__text": "31337070"
+              },
+              {
+                "@attribute-id": "locationId",
+                "__text": "GANSW713212954"
+              },
+              {
+                "@attribute-id": "similarStreetType",
+                "__text": "Avenue;Ave;"
+              },
+              {
+                "@attribute-id": "streetName",
+                "__text": "Lyon"
+              },
+              {
+                "@attribute-id": "streetNumber",
+                "__text": "1"
+              },
+              {
+                "@attribute-id": "streetType",
+                "__text": "Street"
+              }
+              ]
+            }
+          },
+          "gift": "false",
+          "totals": {
+            "merchandize-total": {
+              "net-price": "216.00",
+              "tax": "0.00",
+              "gross-price": "216.00"
+            },
+            "adjusted-merchandize-total": {
+              "net-price": "216.00",
+              "tax": "0.00",
+              "gross-price": "216.00"
+            },
+            "shipping-total": {
+              "net-price": "0.00",
+              "tax": "0.00",
+              "gross-price": "0.00"
+            },
+            "adjusted-shipping-total": {
+              "net-price": "0.00",
+              "tax": "0.00",
+              "gross-price": "0.00"
+            },
+            "shipment-total": {
+              "net-price": "216.00",
+              "tax": "0.00",
+              "gross-price": "216.00"
+            }
+          },
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "baseOrderType",
+              "__text": "newFixed"
+            },
+            {
+              "@attribute-id": "configStatus",
+              "__text": "COMPLETED"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "customerType",
+              "__text": "CMR"
+            },
+            {
+              "@attribute-id": "deliveryDate",
+              "__text": "2022-11-18"
+            },
+            {
+              "@attribute-id": "deviceId",
+              "__text": "35305584"
+            },
+            {
+              "@attribute-id": "estimatedSpeedAuthority",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "existingCustomerCreditCheckServiceId",
+              "__text": "mulesoft.authorize.credit.ec"
+            },
+            {
+              "@attribute-id": "flowType",
+              "__text": "ONLINE"
+            },
+            {
+              "@attribute-id": "formattedServiceRequestDate",
+              "__text": "17/11/2022 18:46"
+            },
+            {
+              "@attribute-id": "hasShippable",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "isFetchNotIncludedInNewPlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "itemCategory",
+              "__text": "Fixed_5G"
+            },
+            {
+              "@attribute-id": "itemCategoryType",
+              "__text": "5G"
+            },
+            {
+              "@attribute-id": "newCustomerCreditCheckServiceId",
+              "__text": "mulesoft.authorize.credit.nc"
+            },
+            {
+              "@attribute-id": "offerId",
+              "__text": "33909443"
+            },
+            {
+              "@attribute-id": "originalFlowType",
+              "__text": "ONLINE"
+            },
+            {
+              "@attribute-id": "planBillingOfferId",
+              "__text": "33907113"
+            },
+            {
+              "@attribute-id": "planContractDuration",
+              "__text": "1"
+            },
+            {
+              "@attribute-id": "referralUrl",
+              "__text": "/s/OptusAU/broadbandplans"
+            },
+            {
+              "@attribute-id": "serviceRequestDate",
+              "__text": "2022-11-17T07:46:55.000+0000"
+            },
+            {
+              "@attribute-id": "technology",
+              "__text": "HWBB"
+            }
+            ]
+          }
+        }
+        ]
+      },
+      "totals": {
+        "merchandize-total": {
+          "net-price": "275.00",
+          "tax": "0.00",
+          "gross-price": "275.00"
+        },
+        "adjusted-merchandize-total": {
+          "net-price": "275.00",
+          "tax": "0.00",
+          "gross-price": "275.00"
+        },
+        "shipping-total": {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00"
+        },
+        "adjusted-shipping-total": {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00"
+        },
+        "order-total": {
+          "net-price": "275.00",
+          "tax": "0.00",
+          "gross-price": "275.00"
+        }
+      },
+      "payments": {
+        "payment": {
+          "credit-card": {
+            "card-type": "VISA",
+            "card-number": "XXXX-XXXX-XXXX-0001",
+            "card-holder": "Approve CBRT",
+            "card-token": "40VTB2LM2Z060001",
+            "expiration-month": "9",
+            "expiration-year": "2023",
+            "custom-attributes": {
+              "custom-attribute": [
+              {
+                "@attribute-id": "receipt",
+                "__text": "26312767"
+              },
+              {
+                "@attribute-id": "secureTransactionToken",
+                "__text": "stt_61718517-457a-40e0-9944-29e5157467ec"
+              },
+              {
+                "@attribute-id": "settlementDate",
+                "__text": "18-Nov-2022"
+              }
+              ]
+            }
+          },
+          "amount": "275.00",
+          "processor-id": "BAMBORA_CREDIT",
+          "transaction-id": "undefined"
+        }
+      },
+      "remoteHost": "203.13.128.104",
+      "custom-attributes": {
+        "custom-attribute": [
+        {
+          "@attribute-id": "HasACapturedTokenInET",
+          "__text": "true"
+        },
+        {
+          "@attribute-id": "IdCheckStatus",
+          "__text": "VERIFIED"
+        },
+        {
+          "@attribute-id": "UpfrontPaymentRequired",
+          "__text": "true"
+        },
+        {
+          "@attribute-id": "acceptedTandC",
+          "value": [
+          "IagreeToTheTandCs",
+          "IagreeToShareMyPersonalInformation"
+          ]
+        },
+        {
+          "@attribute-id": "aemHandoverPayload",
+          "__text": "{\"33907113\":\"baseDetails-33907113\",\"baseDetails-33907113\":{\"product\":[{\"itemId\":\"33907113\",\"itemCategory\":\"Fixed_5G\",\"technology\":\"HWBB\",\"itemContractLength\":1}],\"planDetails\":{\"customerType\":\"CMR\",\"orderType\":\"newFixed\",\"timestamp\":\"2022-11-17T07:40:39.473Z\",\"referralUrl\":\"/s/OptusAU/broadbandplans\",\"addressMatchType\":\"EXACT_MATCH\",\"timezone\":\"Australia/Sydney\"}}}"
+        },
+        {
+          "@attribute-id": "baseOrderType",
+          "__text": "newFixed"
+        },
+        {
+          "@attribute-id": "calculatedTotals",
+          "__text": "{\"priceGroup\":{\"33907113\":{\"PLAN_ID\":\"33907113\",\"DEVICE_ID\":\"35305584\",\"DEVICE_CONTRACT_DURATION\":1,\"PLAN_CONTRACT_DURATION\":1,\"UPFRONT_COST\":\"$216.00\",\"MONTHLY_COST\":\"$59.00\",\"ADJUSTED_MONTHLY_COST\":\"$59.00\",\"ADJUSTED_MONTHLY_COST_VALUE\":59,\"UPFRONT_COST_VALUE\":216,\"MONTHLY_COST_VALUE\":59,\"TOTAL_MINIMUM_COST\":\"$275.00\",\"TOTAL_MINIMUM_COST_VALUE\":275,\"STARTUP_FEE\":\"$0.00\",\"STARTUP_FEE_VALUE\":0,\"INSTALLATION_COST\":\"$0.00\",\"INSTALLATION_COST_VALUE\":0,\"DELIVERY_COST\":\"$0.00\",\"DELIVERY_COST_VALUE\":0,\"MODEM\":\"$216.00\",\"MODEM_VALUE\":216,\"DEVICE_COST\":\"$216.00\",\"DEVICE_COST_VALUE\":216,\"formattedLegalText\":\"Min. total cost is $275     for your first bill \",\"formattedLegalTextBYOD\":\"\",\"productUUID\":\"ee1d9e130507ac8703f2c73f0a\"}},\"UPFRONT_COST\":\"$216.00\",\"MONTHLY_COST\":\"$59.00\",\"TOTAL_MINIMUM_COST\":\"$275.00\",\"UPFRONT_COST_VALUE\":216,\"MONTHLY_COST_VALUE\":59,\"TOTAL_MINIMUM_COST_VALUE\":275,\"TOTAL_ADJUSTED_MONTHLY_COST\":59,\"MODEM\":\"$216.00\",\"MODEM_VALUE\":216,\"DEVICE_COST\":\"$216.00\",\"DEVICE_COST_VALUE\":216,\"formattedLegalText\":\"Min. total cost is $275     for your first bill \",\"formattedLegalTextBYOD\":\"\",\"productUUID\":\"ee1d9e130507ac8703f2c73f0a\"}"
+        },
+        {
+          "@attribute-id": "checkoutFlow",
+          "__text": "5GFlow"
+        },
+        {
+          "@attribute-id": "checkoutFlowConfig",
+          "__text": "{\"personalDetails\":{\"stepId\":\"personalDetails\",\"checkoutSubSteps\":[{\"stepId\":\"personalDetailsProfile\",\"completed\":true},{\"stepId\":\"idCheck\",\"completed\":true},{\"stepId\":\"idCheckSecondary\",\"completed\":true}],\"completed\":true},\"creditCheck\":{\"stepId\":\"creditCheck\",\"checkoutSubSteps\":[{\"stepId\":\"residentialStatus\",\"completed\":true},{\"stepId\":\"employmentDetails\",\"completed\":true}],\"completed\":true},\"deliveryAddress\":{\"stepId\":\"deliveryAddress\",\"checkoutSubSteps\":[],\"completed\":true},\"payment\":{\"stepId\":\"payment\",\"checkoutSubSteps\":[{\"stepId\":\"paymentDetails\",\"completed\":true},{\"stepId\":\"billingAddress\",\"completed\":true}],\"completed\":true},\"checkoutReview\":{\"stepId\":\"checkoutReview\",\"checkoutSubSteps\":[],\"completed\":false}}"
+        },
+        {
+          "@attribute-id": "configStatus",
+          "__text": "COMPLETED"
+        },
+        {
+          "@attribute-id": "configuratorContextKey",
+          "__text": "33907113"
+        },
+        {
+          "@attribute-id": "creditCheckResponse",
+          "__text": "{\"status\":\"Success\",\"instanceId\":\"6034\",\"externalReferenceNumber\":\"UAT400000607\",\"transactionResponseDateTime\":\"2022-11-17T18:47\",\"idCheckIndicator\":\"CreditCheck\",\"creditResponse\":[{\"applicationNumber\":\"UAT400000607259A31\",\"externalReferenceNumber\":\"UAT400000607\",\"freeTextMessage\":\"Approved. Based on our credit criteria, the limit for your fixed bundle and BYO (if included) are 5 services, a maximum device cost of $300 and $150 monthly plan fees. \\n \\nYou can continue with your order when it?s below this limit.\",\"decisionCategory\":\"A\",\"secureCollect\":\"0\",\"conditionalOffer\":[{\"MaxNumOfSers\":\"5\",\"MaxRecurringCost\":\"150\",\"MaxEquipmentCost\":\"300\",\"MinUpfrontPayment\":\"2136\",\"ApprovalExpireDate\":\"2022-12-16T13:00:00.000Z\",\"IDVerificationIndicator\":false}]}],\"inteflowResponseXML\":\"<soap:Envelope xmlns:soap=\\\"http://schemas.xmlsoap.org/soap/envelope/\\\" xmlns:xsi=\\\"http://www.w3.org/2001/XMLSchema-instance\\\"><soapenv:Header xmlns:soapenv=\\\"http://schemas.xmlsoap.org/soap/envelope/\\\"><sdpHeaders:sdpServiceResponseHeaders xmlns:sdpHeaders=\\\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\\\"><sdpHeaders:transactionResponseDateTime>2022-11-17T18:47:00</sdpHeaders:transactionResponseDateTime><sdpHeaders:transactionId>769bb2de-a027-4b51-8132-9c1047a79c9e</sdpHeaders:transactionId></sdpHeaders:sdpServiceResponseHeaders></soapenv:Header><soap:Body><checkCreditResponse xmlns=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\"><sdpStatusResponse:SDPStatusResponse xmlns:sdpStatusResponse=\\\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\\\"><sdpStatusResponse:transactionStatusCode>SUCCESS</sdpStatusResponse:transactionStatusCode><sdpStatusResponse:serviceVersion>1.0</sdpStatusResponse:serviceVersion></sdpStatusResponse:SDPStatusResponse><v11:applicationNumber xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">UAT400000607259A31</v11:applicationNumber><v11:externalReferenceNumber xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">UAT400000607</v11:externalReferenceNumber><v11:decisionCategory xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">A</v11:decisionCategory><v11:textMessage xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">Approved. Based on our credit criteria, the limit for your fixed bundle and BYO (if included) are 5 services, a maximum device cost of $300 and $150 monthly plan fees. \\n \\nYou can continue with your order when it?s below this limit.</v11:textMessage><v11:conditionaloffer xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\"><v12:maxNumSubscriptions xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">5</v12:maxNumSubscriptions><v12:maxRecurringCostPerOrder xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">150</v12:maxRecurringCostPerOrder><v12:maxEquipmentCost xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">300</v12:maxEquipmentCost><v12:minUpfrontPayment xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">2136</v12:minUpfrontPayment><v12:approvalExpireDate xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">2022-12-17</v12:approvalExpireDate><v12:idVerificationIndicator xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">false</v12:idVerificationIndicator></v11:conditionaloffer><v11:secureCollect xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\"><v13:secureCollectIndicator xmlns:v13=\\\"http://group.singtel.com/customerprofile/types/v1\\\">0</v13:secureCollectIndicator></v11:secureCollect></checkCreditResponse></soap:Body></soap:Envelope>\"}"
+        },
+        {
+          "@attribute-id": "creditCheckTrsApplicationNumber",
+          "__text": "UAT400000607259A31"
+        },
+        {
+          "@attribute-id": "crmCheckStatus",
+          "__text": "CRM_CONTACT_NOTEXIST"
+        },
+        {
+          "@attribute-id": "customerType",
+          "__text": "CMR"
+        },
+        {
+          "@attribute-id": "decisionCategory",
+          "__text": "A"
+        },
+        {
+          "@attribute-id": "deliveryDate",
+          "__text": "2022-11-18"
+        },
+        {
+          "@attribute-id": "deviceId",
+          "__text": "35305584"
+        },
+        {
+          "@attribute-id": "deviceIdInfo",
+          "__text": "dca3cd983859434288ab30f7f345257c"
+        },
+        {
+          "@attribute-id": "employersName",
+          "__text": "25"
+        },
+        {
+          "@attribute-id": "employmentStatus",
+          "__text": "Full Time"
+        },
+        {
+          "@attribute-id": "flowType",
+          "__text": "ONLINE"
+        },
+        {
+          "@attribute-id": "formattedServiceRequestDate",
+          "__text": "17/11/2022 18:46"
+        },
+        {
+          "@attribute-id": "industryType",
+          "__text": "Construction"
+        },
+        {
+          "@attribute-id": "interflowResponseXML",
+          "__text": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soapenv:Header xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"><sdpHeaders:sdpServiceResponseHeaders xmlns:sdpHeaders=\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\"><sdpHeaders:transactionResponseDateTime>2022-11-17T18:47:00</sdpHeaders:transactionResponseDateTime><sdpHeaders:transactionId>769bb2de-a027-4b51-8132-9c1047a79c9e</sdpHeaders:transactionId></sdpHeaders:sdpServiceResponseHeaders></soapenv:Header><soap:Body><checkCreditResponse xmlns=\"http://group.singtel.com/authorizeCredit-types/v1\"><sdpStatusResponse:SDPStatusResponse xmlns:sdpStatusResponse=\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\"><sdpStatusResponse:transactionStatusCode>SUCCESS</sdpStatusResponse:transactionStatusCode><sdpStatusResponse:serviceVersion>1.0</sdpStatusResponse:serviceVersion></sdpStatusResponse:SDPStatusResponse><v11:applicationNumber xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\">UAT400000607259A31</v11:applicationNumber><v11:externalReferenceNumber xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\">UAT400000607</v11:externalReferenceNumber><v11:decisionCategory xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\">A</v11:decisionCategory><v11:textMessage xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\">Approved. Based on our credit criteria, the limit for your fixed bundle and BYO (if included) are 5 services, a maximum device cost of $300 and $150 monthly plan fees. \n \nYou can continue with your order when it?s below this limit.</v11:textMessage><v11:conditionaloffer xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"><v12:maxNumSubscriptions xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\">5</v12:maxNumSubscriptions><v12:maxRecurringCostPerOrder xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\">150</v12:maxRecurringCostPerOrder><v12:maxEquipmentCost xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\">300</v12:maxEquipmentCost><v12:minUpfrontPayment xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\">2136</v12:minUpfrontPayment><v12:approvalExpireDate xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\">2022-12-17</v12:approvalExpireDate><v12:idVerificationIndicator xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\">false</v12:idVerificationIndicator></v11:conditionaloffer><v11:secureCollect xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"><v13:secureCollectIndicator xmlns:v13=\"http://group.singtel.com/customerprofile/types/v1\">0</v13:secureCollectIndicator></v11:secureCollect></checkCreditResponse></soap:Body></soap:Envelope>"
+        },
+        {
+          "@attribute-id": "ipAddress",
+          "__text": "203.13.128.104"
+        },
+        {
+          "@attribute-id": "ipGeo",
+          "__text": "AU"
+        },
+        {
+          "@attribute-id": "ipRegion",
+          "__text": "new south wales"
+        },
+        {
+          "@attribute-id": "isRelocationOrder",
+          "__text": "false"
+        },
+        {
+          "@attribute-id": "issuingState",
+          "__text": "NSW"
+        },
+        {
+          "@attribute-id": "itemCategory",
+          "__text": "Fixed_5G"
+        },
+        {
+          "@attribute-id": "itemCategoryType",
+          "__text": "5G"
+        },
+        {
+          "@attribute-id": "licenceAnyName",
+          "__text": "CCSTUB"
+        },
+        {
+          "@attribute-id": "licenceCardNumber",
+          "__text": "0239876543"
+        },
+        {
+          "@attribute-id": "licenceExpiryDate",
+          "__text": "2025-03-31"
+        },
+        {
+          "@attribute-id": "licenceFirstName",
+          "__text": "Approve"
+        },
+        {
+          "@attribute-id": "licenceLastName",
+          "__text": "CBRT"
+        },
+        {
+          "@attribute-id": "licenceNumber",
+          "__text": "11111111"
+        },
+        {
+          "@attribute-id": "minimumTotalCostValue",
+          "__text": "275.0"
+        },
+        {
+          "@attribute-id": "newPaymentSetupStatus",
+          "__text": "SUCCESS"
+        },
+        {
+          "@attribute-id": "occupationName",
+          "__text": "Management"
+        },
+        {
+          "@attribute-id": "offerId",
+          "__text": "33909443"
+        },
+        {
+          "@attribute-id": "orderCreationDate",
+          "__text": "17/11/2022 18:46"
+        },
+        {
+          "@attribute-id": "originalFlowType",
+          "__text": "ONLINE"
+        },
+        {
+          "@attribute-id": "pageCacheKeys",
+          "__text": "{\"33907113\":\"ade2d770ebd88e722f677e72d1de0b3ac572559a\"}"
+        },
+        {
+          "@attribute-id": "planBillingOfferId",
+          "__text": "33907113"
+        },
+        {
+          "@attribute-id": "planContractDuration",
+          "__text": "1"
+        },
+        {
+          "@attribute-id": "primaryIDCheckResponse",
+          "__text": "{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\"}"
+        },
+        {
+          "@attribute-id": "primaryIDSource",
+          "__text": "MANUAL"
+        },
+        {
+          "@attribute-id": "primaryIDType",
+          "__text": "DRIVER_LICENCE"
+        },
+        {
+          "@attribute-id": "profileDateOfBirth",
+          "__text": "1995-03-01"
+        },
+        {
+          "@attribute-id": "profileFirstName",
+          "__text": "Approve"
+        },
+        {
+          "@attribute-id": "profileLastName",
+          "__text": "CBRT"
+        },
+        {
+          "@attribute-id": "profileMobileNumber",
+          "__text": "0414621729"
+        },
+        {
+          "@attribute-id": "profilePrefContactMethod",
+          "__text": "sms"
+        },
+        {
+          "@attribute-id": "profileTitle",
+          "__text": "Mr"
+        },
+        {
+          "@attribute-id": "profiledDomain",
+          "__text": "bfzf-021.sandbox.us01.dx.commercecloud.salesforce.com"
+        },
+        {
+          "@attribute-id": "reasonCode",
+          "__text": "SFCCTranPass"
+        },
+        {
+          "@attribute-id": "residentialAddressLine1",
+          "__text": "1 Lyon Street"
+        },
+        {
+          "@attribute-id": "residentialAddressUUID",
+          "__text": "MSBseW9uIHN0cmVldCwgYmVsbGluZ2VuIG5zdyAyNDU0"
+        },
+        {
+          "@attribute-id": "residentialBuildingNumber",
+          "__text": "1"
+        },
+        {
+          "@attribute-id": "residentialCity",
+          "__text": "BELLINGEN"
+        },
+        {
+          "@attribute-id": "residentialCountry",
+          "__text": "AUS"
+        },
+        {
+          "@attribute-id": "residentialGnafPid",
+          "__text": "31337070"
+        },
+        {
+          "@attribute-id": "residentialMonthsStay",
+          "__text": "1"
+        },
+        {
+          "@attribute-id": "residentialPostalCode",
+          "__text": "2454"
+        },
+        {
+          "@attribute-id": "residentialStateCode",
+          "__text": "NSW"
+        },
+        {
+          "@attribute-id": "residentialStatus",
+          "__text": "Owns"
+        },
+        {
+          "@attribute-id": "residentialStreetName",
+          "__text": "Lyon"
+        },
+        {
+          "@attribute-id": "residentialStreetNumber",
+          "__text": "1"
+        },
+        {
+          "@attribute-id": "residentialStreetType",
+          "__text": "Street"
+        },
+        {
+          "@attribute-id": "residentialYearsStay",
+          "__text": "7"
+        },
+        {
+          "@attribute-id": "reviewStatus",
+          "__text": "pass"
+        },
+        {
+          "@attribute-id": "riskRating",
+          "__text": "low"
+        },
+        {
+          "@attribute-id": "secondaryIDCheckResponse",
+          "__text": "{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\"}"
+        },
+        {
+          "@attribute-id": "secondaryIDType",
+          "__text": "NZ_PASSPORT"
+        },
+        {
+          "@attribute-id": "secondaryIdCheckStatus",
+          "__text": "VERIFIED"
+        },
+        {
+          "@attribute-id": "secondaryPassportAnyName",
+          "__text": "CCSTUB"
+        },
+        {
+          "@attribute-id": "secondaryPassportCountryOfIssue",
+          "__text": "NZL"
+        },
+        {
+          "@attribute-id": "secondaryPassportExpiryDate",
+          "__text": "2025-03-31"
+        },
+        {
+          "@attribute-id": "secondaryPassportFirstname",
+          "__text": "Approve"
+        },
+        {
+          "@attribute-id": "secondaryPassportLastName",
+          "__text": "CBRT"
+        },
+        {
+          "@attribute-id": "secondaryPassportNumber",
+          "__text": "A1111111"
+        },
+        {
+          "@attribute-id": "serviceQualification",
+          "__text": "{\"33907113\":\"GANSW713212954\",\"GANSW713212954\":{\"request\":{\"msisdn\":null,\"matchID\":\"ADD00352030\",\"campaignID\":\"5G\",\"marketSgmt\":\"RES\",\"authorMode\":false,\"selectedAddress\":{\"implPhysicalAddress\":{\"postcode\":\"2196\",\"state\":\"NSW\",\"streetName\":\"BRAMHALL\",\"isUnstructAddressX9\":0,\"streetNumber\":\"19\",\"streetType\":\"AVE\",\"similarStreetType\":\"Avenue;Ave;\",\"subUrb\":\"PUNCHBOWL\",\"isUnvalidatedAddress\":0,\"externalId\":\"GANSW713212954\",\"gnafId\":\"GANSW713212954\",\"country\":{\"id\":\"AUS\",\"name\":\"AUS\"},\"formattedAddressDisplay\":\"19 BRAMHALL AVE, PUNCHBOWL NSW 2196\"},\"relationInfoList\":[{\"techologyName\":\"NBN\",\"addressId\":\"LOC000022195796\"},{\"techologyName\":\"HFC\",\"addressId\":\"7365508\"}]},\"agentId\":null,\"dealerCode\":null,\"salesChannel\":\"DG\",\"sourceSystem\":\"DigiShop\",\"formattedAddressDisplay\":\"19 BRAMHALL AVE, PUNCHBOWL NSW 2196\"},\"response\":{\"transactionId\":\"f1d0ab9d-d79f-468e-ae81-52f8303583e2\",\"nbnDevChargeFlag\":\"N\",\"catalogBrowsing\":{\"technology\":\"5G\",\"products\":[\"WS\",\"FB\",\"FV\",\"TV\"]},\"matrixRow\":{\"rowNum\":4015,\"marketSegment\":\"RES\",\"campaignId\":\"5G\",\"priority\":1,\"broadband\":\"5G\",\"telephony\":\"5G\",\"preorder\":false,\"from\":-99999,\"to\":-10000,\"prdctAvailability\":\"ADSL2+:fail,Cable:fail,NBN:fail,RDSL:fail,5G:pass,HWBB:fail,PreOrder:false\"},\"serviceCharacteristics\":{\"NBN_VDSL_MIN_UPSTREAM_SPEED\":null,\"NBN_UNI_D3\":null,\"NBN_UNI_D2\":null,\"NBN_UNI_D1\":null,\"G-NAF_PID\":\"GANSW713212954\",\"HFC_ADDRESS_ID\":\"7365508\",\"NBN_VDSL_MAX_UPSTREAM_SPEED\":null,\"NBN_VDSL_MAX_UPSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"NBN_UNI_D4\":null,\"NBN_VDSL_MAX_DOWNSTREAM_SPEED\":null,\"NBN_LOCATION_ID\":\"LOC000022195796\",\"TELSTRA_ADDRESS_ID\":\"\",\"EIS_5G_MPT\":\"1000\",\"NBN_VDSL_MIN_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"NBN_VDSL_MIN_UPSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"EIS_5G_MPS\":\"50\",\"NBN_VDSL_MAX_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"EIS_5G_SITE_SECTOR_ID\":\"S0362_NR35_2\",\"NBN_VDSL_MIN_DOWNSTREAM_SPEED\":null},\"selectedAddress\":{},\"checkServiceCoverageResponse\":{\"services\":{\"service\":[{\"family\":\"Original+SQ+Result\",\"name\":\"SQ+Result\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"SQ+HSD\":[],\"PORTABILITY+CHECK+REQUIRED\":[\"Y\"],\"OIETS+ULL+TELEPHONY+ACTIVE\":[],\"HSD+SERVICEABLE\":[\"\"],\"OPOM+STREET+SUFFIX\":[],\"SQ+POSTCODE+RESULT\":[],\"destination_url\":[],\"LOLIG+LAR+SERVICEABLE\":[\"F\"],\"NBN+NCAS+TC2+5MBPS\":[],\"OIETS+INFORMATION+DATE\":[],\"SQ+ULL+DSL\":[\"N\"],\"EIS+PNSA+CODE\":[\"BNK\"],\"OPOM+ADDRESS+INFO\":[],\"SQ+RDSL+OPEN1+AVG+DL+SPEED\":[],\"EIS+TESA+CODE\":[\"BANK\"],\"NBN+ACCESS+TYPE\":[\"Cable\"],\"PHONE+PREFIX\":[\"\"],\"NBN+NTD+TYPE\":[],\"RDSL+PAIRTYPE+TOTAL+DISTANCE\":[],\"RDSL+SERVICE+CLASS\":[],\"STREET+NUMBER\":[\"19\"],\"NBN+UNIT+NUMBER\":[\"\"],\"LOLIG+RDSL+TIMESTAMP+END\":[],\"TESA+ULL+ENABLED\":[\"N\"],\"EIS+3G+IN+BUILDING+COVERAGE\":[\"green\"],\"SQ+DUI\":[],\"CHANNEL\":[\"DG\"],\"EIS+FEMTO\":[\"Y\"],\"OIETS+ULL+DSL+ACTIVE\":[],\"LOLIG+BUILDING\":[\"\"],\"NBN+STREET+TYPE\":[\"AVE\"],\"OPOM+SERVICE+TYPE\":[],\"OPOM+SERVICE+EXTERNAL+ID\":[],\"EIS+5G+SITE+SECTOR+ID\":[\"S0362_NR35_2\"],\"SERVICE+TIMEOUT\":[\"NBNSq\"],\"OIETS+BACKEND+ERROR+CODE\":[],\"NBN+NEW+NTD+REQUIRED\":[],\"OPOM+DSL+EXIST\":[\"N\"],\"TM+DSL+SERVICEABLE\":[],\"NBN+CSA+ID\":[],\"OIETS+ULL+COMPATIBLE\":[],\"OPOM+RETAIL+CARRIER\":[],\"OIETS+TESA_1\":[],\"OIETS+REGION\":[],\"NBN+VDSL+MAX+UPSTREAM+SPEED\":[],\"EIS+TESA+NAME\":[\"BANKSTOWN\"],\"NBN+VDSL+COPPER+PAIR+COUNT\":[],\"NBN+EXCEPTION+MSG\":[\"error:+Unexpected+element:+CDATA;error:+Unexpected+element:+CDATA;error:+Unexpected+element:+CDATA;error:+Unexpected+element:+CDATA;error:+Unexpected+element:+CDATA;error:+Unexpected+element:+CDATA;error:+Unexpected+element:+CDATA;NBN+QueryServiceQualifcationByIdResponse+:+queryServiceQualificationById+exceeded+poll+limit.;\"],\"SQ+ULL+OPEN2+AVG+DL+SPEED\":[],\"OPOM+VP+CHURN\":[\"N\"],\"NBN+NCAS+TC2+40MBPS\":[],\"EIS+NBN+LOCATION+ID\":[\"LOC000022195796\"],\"EIS+YCOORDINATE\":[\"-33.93453\"],\"AGENT+ID\":[\"\"],\"LNP+PORTABLE\":[],\"OIETS+ULL+SERVICEABLE\":[],\"NBN+DEV+CHARGE+FLAG\":[\"N\"],\"OIETS+SUBURB\":[],\"SQ+HOME+WIRELESS+BB\":[\"N\"],\"NBN+SERVICE+TYPE\":[],\"EIS+DISTANCE\":[],\"OIETS+MODEM+SPEED+CODE\":[],\"EIS+FIBRE+NODE+ID\":[\"22CJ049\"],\"SQ+RDSL+OPEN2+AVG+DL+SPEED\":[],\"OPOM+SERVICE+STATUS\":[],\"OPOM+NW+TIE+SERVICE+TYPE\":[],\"ULL+OVERRIDE\":[\"N\"],\"EIS+UNLIMITED+HOME+WIRELESS+BB\":[\"GREEN\"],\"NBN+VDSL+COPPER+PAIR+ID\":[],\"EIS+3G+ON+STREET+COVERAGE\":[\"green\"],\"SQ+LAT\":[\"N\"],\"SQ+LAR\":[\"N\"],\"OPOM+NW+TIE+COUNT\":[],\"NBN+POST+CODE\":[\"2196\"],\"NBN+ERROR+CODE\":[],\"OIETS+RESULT\":[],\"NBN+VDSL+MIN+DOWNSTREAM+SPEED\":[],\"NBN+RFS+MESSAGE+TYPE\":[\"4\"],\"HFC+SERVICEABILITY+SOURCE\":[],\"VOIP+SECOND+LINE+SERVICEABLE\":[],\"SQ+ULL+TELS+EST+DL+SPEED\":[],\"OPOM+BILLABLE+ACCOUNT+ID\":[],\"NBN+COPPER+SERVICE+PROVIDER+ID\":[],\"SALES+OUTLET\":[\"\"],\"EIS+HSD+SERVICEABLE\":[\"\"],\"NBN+VDSL+SERVICE+CLASS\":[],\"NBN+STREET+NAME\":[\"BRAMHALL\"],\"OPOM+TESA\":[],\"NBN+NTD+POWER+UNIT\":[],\"NBN+LOCATION+ID\":[\"LOC000022195796\"],\"OPOM+ARBOR+SERVICE+TYPE\":[],\"EIS+RFS+DT\":[\"\"],\"NBN+VDSL+MIN+UPSTREAM+SPEED+UNIT+OF+MEASURE\":[],\"OIETS+TESA\":[],\"NBN+PLANNED+COMPLETION+DATE\":[],\"OIETS+ULL+CLASS+RESULT\":[],\"TESA+MISMATCH\":[],\"PHONE+NUMBER\":[\"\"],\"HFC+SERVICEABLE\":[\"\"],\"NBN+SERVICEABILITY+SOURCE\":[\"TM\"],\"NBN+SERVICE+CLASS\":[\"22\"],\"OPOM+LOCALITY\":[],\"OPOM+ULL+PORTABLE\":[],\"NBN+COPPER+SERVICE+TYPE\":[],\"LOLIG+BUILDING+NAME\":[\"\"],\"NBN+REMEDIATION+REQUIRED\":[],\"NBN+STREET+NUMBER\":[\"19\"],\"OIETS+ULL+CLASS\":[],\"OIETS+BACKEND+ERROR+STRING\":[],\"OIETS+ULL+LOW+SPEED\":[],\"OPOM+SERVICE+COUNT\":[],\"OPOM+CSP\":[],\"NBN+NTD+INSTALL+DATE\":[],\"STATE\":[\"NSW\"],\"NBN+TRANSACTION+ID\":[\"1667636\"],\"ULL+PAIRTYPE+TOTAL+DISTANCE\":[],\"OIETS+CUTOVER+DATE\":[],\"TM+ULL+SERVICEABLE\":[],\"DEALER+CODE\":[\"\"],\"NBN+UNI+D1\":[],\"EIS+FREQUENCY\":[\"900\"],\"NBN+SERVICE+CLASS+REASON\":[],\"EIS+3G+SPEED+UP\":[\"0.384\"],\"NBN+PRE+SALE+FLAG\":[\"N\"],\"NBN+VDSL+MAX+DOWNSTREAM+SPEED+UNIT+OF+MEASURE\":[],\"SQ+ULL+OPEN2+10P+AVG+DL+SPEED\":[],\"NBN+EXCEPTION+TYPE\":[\"Technical\"],\"NBN+UNI+D4\":[],\"NBN+UNI+D3\":[],\"NBN+UNI+D2\":[],\"OIETS+SUB+ADDRESS+TYPE\":[],\"LOLIG+RDSL+SERVICE+CLASS\":[],\"OPOM+STREET+NUMBER\":[],\"NBN+DISCONNECT+DATE\":[],\"OPOM+PLNR+FLAG\":[],\"OIETS+RDSL+REASON\":[],\"OPOM+TEL+CHURN\":[],\"OPOM+LAST+NAME\":[],\"OPOM+FNN+NETWORK+TIE\":[],\"SQ+NBN+ACCESS+TYPE\":[\"NBNHFC\"],\"NBN+BUILDING+NAME\":[\"\"],\"SQ+RDSL+OPEN2+90P+AVG+DL+SPEED\":[],\"NBN+VDSL+MIN+DOWNSTREAM+SPEED+UNIT+OF+MEASURE\":[],\"OPOM+STREET+TYPE\":[],\"EIS+5G+MPS\":[\"50\"],\"NBN+MULTICAST\":[],\"EIS+HOME+WIRELESS+BB\":[\"Y\"],\"EIS+XCOORDINATE\":[\"151.044702\"],\"EIS+5G+MPT\":[\"1000\"],\"OIETS+ULL+DSL+FILTERED+ON+SPEED\":[],\"NBN+NTD+BB+INSTALL+DATE\":[],\"OIETS+MODEM+SPEED+NOTE\":[],\"ULL+OVERRIDE+REASON\":[\"\"],\"SQ+ULL+OPEN1+10P+AVG+DL+SPEED\":[],\"NBN+RFS+DATE\":[\"\"],\"EIS+2G+IN+COVERAGE\":[\"true\"],\"NBN+SERVICE+LEVEL+REGION\":[],\"OIETS+ULL+SERVICEABLE+FOR+DSL\":[],\"OPOM+OUTLET+ULL\":[\"Y\"],\"SQ+RDSL+OPEN1+90P+AVG+DL+SPEED\":[],\"OIETS+STREET+NAME\":[],\"TM+HOME+WIRELESS+ROLLOUT+DT\":[],\"OTV+SERVICEABLE\":[\"\"],\"DSL+SERVICE+ID\":[\"\"],\"SQ+RDSL+OPEN2+10P+AVG+DL+SPEED\":[],\"NBN+VDSL+POTS+INTERCONNECT\":[],\"OPOM+FIRST+NAME\":[],\"TM+NBN_VOIP+SERVICEABLE\":[\"N\"],\"SQ+ULL+OPEN1+90P+AVG+DL+SPEED\":[],\"NBN+NTD+LOCATION+ID\":[],\"NBN+RESULT\":[],\"NBN+UNI+V1\":[],\"LNP+SERVICE+PROVIDER\":[],\"NBN+UNI+V2\":[],\"OIETS+INCOMPATIBLE+ERROR\":[],\"NBN+CVC+ID\":[],\"TM+ULL+SERVICEABLE+FOR+DSL\":[],\"SUB+ADDRESS+TYPE\":[\"\"],\"OPOM+UNIT+NUMBER\":[],\"OPOM+SERVICE+ID\":[],\"OIETS+POSTCODE\":[],\"EIS+HOME+WIRELESS+ROLLOUT+DT\":[\"\"],\"LAT+SERVICEABLE\":[\"\"],\"OIETS+COMPATIBLE\":[],\"TESA+CHARGE+ZONE\":[\"BANKSTOWN\"],\"OIETS+STREET+NUMBER+SUFFIX\":[],\"OPOM+DSL+NETWORK+TIE\":[],\"EIS+5G+SERVICEABILITY+FLAG\":[\"Y\"],\"EIS+WITHIN+NBN+FOOTPRINT\":[\"True\"],\"SQ+RDSL+OPEN1+10P+AVG+DL+SPEED\":[],\"OIETS+ADDRESS+INFO\":[],\"SQ+UNLIMITED+HOME+WIRELESS+BB\":[\"N\"],\"OIETS+CUSTOMER+CONTACT+NAME\":[],\"NBN+CVC+AVAILABLE\":[],\"LOLIG+ULL+SERVICEABILITY+CHECK+TYPE\":[],\"NBN+NETWORK+COEXISTENCE\":[],\"STREET+NAME+LINE+2\":[\"\"],\"STREET+NAME+LINE+1\":[\"Bramhall\"],\"OIETS+STATE\":[],\"PROMOTION+CODE\":[\"\"],\"NBN+STATE\":[\"NSW\"],\"OPOM+NUMBER+STATUS\":[],\"OPOM+DSL+CHURN\":[],\"NBN+VDSL+MAX+DOWNSTREAM+SPEED\":[],\"SQ+OWB\":[\"Y\"],\"OIETS+ULL+CLASS+COUNT\":[],\"OPOM+SERVICE+START+DATE\":[],\"SQ+OWF\":[\"N\"],\"NBN+NTD+UNCOMMIT+UP+SPEED\":[],\"EIS+OTV+SERVICEABLE\":[\"\"],\"SQ+OWT\":[],\"OIETS+MODEM+SPEED+COUNT\":[],\"EIS+PNSA+NAME\":[\"BANKSTOWN\"],\"SQ+RDSL+TELS+EST+DL+SPEED\":[],\"NBN+SUBURB\":[\"PUNCHBOWL\"],\"SQ+PORTABLE\":[],\"TM+ULL+DISTANCE\":[],\"OIETS+RDSL+RESULT\":[],\"HFC+ADDRESS+ID\":[\"7365508\"],\"NBN+GNAF+ID\":[],\"NBN+NTD+UNCOMMIT+DOWN+SPEED\":[],\"OPOM+STATE\":[],\"OIETS+STREET+NUMBER\":[],\"OPOM+DONOR+CARRIER\":[],\"STREET+SUFFIX\":[\"\"],\"TM+HOME+WIRELESS+BB\":[],\"OPOM+ADDRESS+EXIST\":[\"N\"],\"NBN+OPTUS+SERVICEABLE\":[\"N\"],\"SQ+OTV\":[],\"OIETS+ULL+DSL+FILTERED+ON+DISTANCE\":[],\"MOBILE+NUMBER\":[\"\"],\"TESA\":[\"BANK\"],\"SQ+ULL+TEL\":[\"N\"],\"OPOM+POSTCODE\":[],\"SQ+DATE\":[\"2021-06-02+13:07:04\"],\"SQ+VOIP+SECOND+LINE\":[],\"OIETS+SUB+EXCHANGE\":[],\"TESA+CAPACITY+REACHED\":[\"N\"],\"OPOM+NW+TIE+SERVICE+ID\":[],\"ULL+OVERRIDE+FOR+PRESALE\":[\"N\"],\"POST+CODE\":[\"2196\"],\"LOLIG+RDSL+SERVICEABILITY+CHECK+TYPE\":[],\"NBN+NCAS+TC2+10MBPS\":[],\"OPOM+TEL+EXIST\":[\"N\"],\"TELSTRA+ADDRESS+ID\":[\"\"],\"EIS+LAT+SERVICEABLE\":[\"\"],\"SQ+ULL+OPEN2+90P+AVG+DL+SPEED\":[],\"NBN+SUB+ADDRESS+TYPE\":[\"\"],\"NBN+HIGH+SPEED+TC2\":[],\"SQ+LD\":[],\"STREET+TYPE\":[\"AVE\"],\"NBN+AVAILABILITY+STATUS\":[\"N\"],\"NBN+HIGH+SPEED+TC1\":[],\"SQ+VOIP+FIRST+LINE\":[],\"EIS+HFC+SERVICEABLE\":[],\"NBN+VDSL+SERVICE+STATUS\":[],\"EIS+SERVICE+TYPE\":[\"\"],\"SUBURB\":[\"PUNCHBOWL\"],\"NBN+NTD+COUNT\":[],\"NBN+VDSL+MAX+UPSTREAM+SPEED+UNIT+OF+MEASURE\":[],\"LOLIG+RDSL+TIMESTAMP+START\":[],\"TM+POSTCODE+SERVICEABLE+PERCENTAGE\":[],\"G-NAF+PID\":[\"GANSW713212954\"],\"NBN+NTD+NWAS+TC1+150KBPS\":[],\"OIETS+MODEM+SPEED+RESULT\":[],\"NBN+VDSL+MIN+UPSTREAM+SPEED\":[],\"OPOM+SUB+ADDRESS+TYPE\":[],\"OIETS+MODEM+SPEED\":[],\"NBN+FLOOR+NUMBER\":[\"\"],\"MARKET+SEGMENT\":[\"RES\"],\"MARKET+SEGMENT+TYPE\":[\"\"],\"LOLIG+RDSL+SERVICEABLE\":[\"F\"],\"VOIP+FIRST+LINE+SERVICEABLE\":[],\"OPOM+SUBURB\":[],\"SQ+FEMTO\":[\"Y\"],\"NBN+NCAS+TC2+20MBPS\":[],\"OPOM+TESA+MISMATCH\":[\"N\"],\"SQ+ID\":[\"SQ30763301\"],\"EIS+NBN+SERVICE+CLASS\":[\"22\"],\"NBN+NTD+POWER+TYPE\":[],\"ULL+SERVICEABILITY+SOURCE\":[],\"UNIT+NUMBER\":[\"\"],\"OPERATING+FROM+BUSINESS+OR+HOME\":[\"\"],\"TM+FEMTO+SERVICEABLE\":[],\"OPOM+STREET+NAME\":[],\"SQ+RDSL\":[\"N\"],\"NBN+VDSL+COPPER+PAIR+STATUS\":[],\"NBN+PORT+ID\":[],\"OPOM+STREET+NUMBER+SUFFIX\":[],\"SQ+ULL+OPEN1+AVG+DL+SPEED\":[],\"OIETS+ULL+HIGH+SPEED\":[],\"OPOM+VP+EXIST\":[\"N\"],\"OIETS+STREET+TYPE\":[],\"OIETS+UNIT+NUMBER\":[],\"NBN+NCAS+TC2+30MBPS\":[],\"NBN+NTD+ID\":[],\"STREET+NUMBER+SUFFIX\":[\"\"],\"OIETS+STREET+SUFFIX\":[],\"OPOM+SERVICE+END+DATE\":[]}}},{\"family\":\"OWB\",\"name\":\"FB\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"]}}},{\"family\":\"HWBB\",\"name\":\"FB\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"]}}},{\"family\":\"5G\",\"name\":\"FV,FB,TV\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"],\"Sector+ID\":[\"S0362_NR35_2\"],\"Maximum+Speed+in+Sector\":[\"50\"],\"Maximum+Speed+for+Token\":[\"1000\"]}}}]},\"sdpStatusResponse\":{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"setSdpStatusLine\":false,\"setTransactionStatusCode\":true,\"setServiceVersion\":true}}},\"timestamp\":\"2022-11-17T07:40:39.473Z\"}}"
+        },
+        {
+          "@attribute-id": "serviceRequestDate",
+          "__text": "2022-11-17T07:46:55.000+0000"
+        },
+        {
+          "@attribute-id": "sessionId",
+          "__text": "xbhkeag-jdzoa25triqqklrw14dpwcklpkc4fisf05i"
+        },
+        {
+          "@attribute-id": "sfmcExportStatus",
+          "__text": "EXPORTED"
+        },
+        {
+          "@attribute-id": "subscriptionOrderType",
+          "__text": "Simple"
+        },
+        {
+          "@attribute-id": "technology",
+          "__text": "HWBB"
+        },
+        {
+          "@attribute-id": "tenureMonth",
+          "__text": "1"
+        },
+        {
+          "@attribute-id": "tenureYear",
+          "__text": "9"
+        },
+        {
+          "@attribute-id": "threatMetrixResponse",
+          "__text": "{\"account_address_city\":\"bellingen\",\"account_address_state\":\"nsw\",\"account_address_street1\":\"1 lyon street\",\"account_address_zip\":\"2454\",\"account_date_of_birth\":\"19950301\",\"account_email\":\"saveluri1234@gmail.com\",\"account_email_attributes\":\"CONSUMER\",\"account_email_domain\":\"gmail.com\",\"account_email_result\":\"not found\",\"account_login\":\"saveluri1234@gmail.com\",\"account_login_activities\":\"NEW_PAYER_CC_OR_DEBIT\",\"account_login_result\":\"not found\",\"account_name\":\"approve cbrt\",\"account_name_activities\":\"_TRUSTED_PROB\",\"account_name_attributes\":\"_TRUSTED_PROB\",\"account_name_first_seen\":\"2021-10-22\",\"account_name_last_event\":\"2022-11-17\",\"account_name_last_update\":\"2022-11-17\",\"account_name_result\":\"success\",\"account_name_score\":\"0\",\"account_name_worst_score\":\"0\",\"account_passport_country\":\"nz\",\"account_passport_expiration_date\":\"2025-03-31\",\"account_telephone\":\"0414621729\",\"account_telephone_first_seen\":\"2022-11-15\",\"account_telephone_is_possible\":\"no\",\"account_telephone_is_valid\":\"no\",\"account_telephone_last_event\":\"2022-11-17\",\"account_telephone_last_update\":\"2022-11-17\",\"account_telephone_result\":\"success\",\"account_telephone_score\":\"0\",\"account_telephone_type\":\"UNKNOWN\",\"account_telephone_worst_score\":\"0\",\"agent_publickey_hash\":\"d50b23812294b52b588a96910a3daf0c05e9ba75\",\"agent_publickey_hash_first_seen\":\"2022-11-17\",\"agent_publickey_hash_last_event\":\"2022-11-17\",\"agent_publickey_hash_last_update\":\"2022-11-17\",\"agent_publickey_hash_result\":\"success\",\"agent_publickey_hash_score\":\"0\",\"agent_publickey_hash_type\":\"web:ecdsa\",\"agent_publickey_hash_worst_score\":\"0\",\"agent_type\":\"browser_computer\",\"api_call_datetime\":\"2022-11-17 07:46:56.069\",\"api_caller_ip\":\"3.220.190.116\",\"api_type\":\"session-query\",\"api_version\":\"13.6.1\",\"application_name\":\"windows\",\"audio_context\":\"cefbae478677f02fbbd973617692dbd9c6450bf5641669ebef1595ab745a2117\",\"battery_status\":\"{\\\"level\\\":0.55,\\\"status\\\":\\\"unplugged\\\"}\",\"bb_assessment\":\"249.98\",\"bb_assessment_rating\":\"low\",\"bb_bot_rating\":\"low\",\"bb_bot_score\":\"500.00\",\"bb_fraud_rating\":\"neutral\",\"bb_fraud_score\":\"500.00\",\"browser\":\"Edge\",\"browser_language\":\"en-US,en;q\",\"browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42\",\"browser_string_hash\":\"985300e24227239fe9f5b338b930473d\",\"browser_version\":\"107\",\"canvas_hash\":\"2655df9d92b3e6e7f7881f87e2486745a5ceba13\",\"cc_number_hash\":\"48fa51a82aeed4b69f2c47f4f6ea8dbdcda9f49d5e60ffdf338bdce5ee20116a\",\"cc_number_hash_activities\":\"NEW_PAYER_CC_OR_DEBIT\",\"cc_number_hash_first_seen\":\"2021-09-05\",\"cc_number_hash_last_event\":\"2022-11-17\",\"cc_number_hash_last_update\":\"2022-11-17\",\"cc_number_hash_result\":\"success\",\"cc_number_hash_score\":\"0\",\"cc_number_hash_worst_score\":\"0\",\"champion_request_duration\":\"175\",\"charset\":\"utf-8\",\"condition_attrib_10\":\"cf7f97a56fa4021f8efba9894f8784c65d822775777669b37302ba85435dad7b\",\"condition_attrib_12\":\"new_zealand_passport\",\"condition_attrib_18\":\"online\",\"condition_attrib_19\":\"na\",\"condition_attrib_20\":\"true\",\"condition_attrib_5\":\"browser_computer\",\"cpu_clock\":\"3\",\"cpu_cores\":\"8\",\"css_image_loaded\":\"yes\",\"custom_count_10\":\"0\",\"custom_count_2\":\"0\",\"custom_match_1\":\"7b21cdb047cd9a1e65b6826ae180d780\",\"custom_match_3\":\"94b8d42fc5685e00728ea65ccca34d91\",\"custom_match_5\":\"a8bc82d46342edc47db66af6fce650fb\",\"custom_match_6\":\"92f0dae2003d471663666038763ee478\",\"custom_match_7\":\"6a508af4481dc0687b2b456531e4fbfd\",\"custom_match_8\":\"6a2ff70732119465ebe808b4536253d7\",\"customer_event_type\":\"postpaid_act\",\"device_first_seen\":\"2022-11-17\",\"device_health_reasons\":\"webrtc_internal_mdns\",\"device_id\":\"dca3cd983859434288ab30f7f345257c\",\"device_id_confidence\":\"100\",\"device_last_event\":\"2022-11-17\",\"device_last_update\":\"2022-11-17\",\"device_match_result\":\"success\",\"device_memory\":\"8\",\"device_result\":\"success\",\"device_score\":\"0\",\"device_worst_score\":\"0\",\"digital_id\":\"5619334489f847cf84c5e0b94bfbbd35\",\"digital_id_activities\":\"_TRUSTED_PROB\",\"digital_id_attributes\":\"_TRUSTED_PROB\",\"digital_id_confidence\":\"2794\",\"digital_id_confidence_rating\":\"low\",\"digital_id_first_seen\":\"2021-11-08\",\"digital_id_last_event\":\"2022-11-17\",\"digital_id_last_update\":\"2022-11-17\",\"digital_id_result\":\"success\",\"digital_id_trust_score\":\"19.55\",\"digital_id_trust_score_rating\":\"very_low\",\"digital_id_trust_score_reason_code\":\"_ts_did_black\",\"digital_id_trust_score_summary_reason_code\":\"_ts_did_edge_detect_entity\",\"dns_ip\":\"119.225.142.246\",\"dns_ip_activities\":\"_TRUSTED_PROB\",\"dns_ip_assert_history\":\"NEGATIVE_HISTORY\",\"dns_ip_attributes\":\"_TRUSTED_PROB\",\"dns_ip_city\":\"macquarie centre\",\"dns_ip_connection_type\":\"tx\",\"dns_ip_geo\":\"AU\",\"dns_ip_home\":\"no\",\"dns_ip_isp\":\"singtel optus pty ltd\",\"dns_ip_latitude\":\"-33.77692\",\"dns_ip_line_speed\":\"high\",\"dns_ip_longitude\":\"151.12102\",\"dns_ip_organization\":\"optus macquarie park (ocs)\",\"dns_ip_postal_code\":\"2113\",\"dns_ip_region\":\"new south wales\",\"dns_ip_region_iso_code\":\"nsw\",\"dns_ip_routing_type\":\"fixed\",\"drivers_licence_hash_first_seen\":\"2016-08-22\",\"drivers_licence_hash_last_event\":\"2022-11-17\",\"drivers_licence_hash_last_update\":\"2022-11-17\",\"drivers_licence_hash_result\":\"success\",\"drivers_licence_hash_score\":\"0\",\"drivers_licence_hash_worst_score\":\"0\",\"drivers_licence_number_hash\":\"ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1\",\"emailage.emailriskscore.responsestatus.errorcode\":\"3002\",\"emailage.emailriskscore.responsestatus.status\":\"failed\",\"enabled_ck\":\"yes\",\"enabled_fl\":\"no\",\"enabled_im\":\"yes\",\"enabled_js\":\"yes\",\"enabled_services\":\"TMX100\",\"enhanced_headers_name_value_hash\":\"d614c5670b4ab3be8eeacecbc06aa68a\",\"etag_guid\":\"4028df28b81b4b969c70b5303912e728\",\"event_datetime\":\"2022-11-17 07:46:56.069\",\"event_type\":\"payment\",\"fuzzy_device_activities\":\"_TRUSTED_PROB\",\"fuzzy_device_assert_history\":\"NEGATIVE_HISTORY\",\"fuzzy_device_attributes\":\"_WATCH\",\"fuzzy_device_first_seen\":\"2022-01-31\",\"fuzzy_device_id\":\"cb61149c2a6643e3b3ed101c72c2a47c\",\"fuzzy_device_id_confidence\":\"100.00\",\"fuzzy_device_last_event\":\"2022-11-17\",\"fuzzy_device_last_update\":\"2022-11-17\",\"fuzzy_device_match_result\":\"success\",\"fuzzy_device_result\":\"success\",\"fuzzy_device_score\":\"3\",\"fuzzy_device_worst_score\":\"-6\",\"gpu_name\":\"ANGLE (Intel, Intel(R) Iris(R) Xe Graphics Direct3D11 vs_5_0 ps_5_0, D3D11)\",\"gpu_vendor\":\"Google Inc. (Intel)\",\"headers_name_value_hash\":\"1c3801f78bcc3c86bcf0acf98b7d849d\",\"headers_order_string_hash\":\"a9b715a825f01ba3869e203ac4e70a45\",\"http_os_sig_adv_mss\":\"1448\",\"http_os_sig_rcv_mss\":\"930\",\"http_os_sig_snd_mss\":\"1448\",\"http_os_signature\":\"Proxy\",\"http_referer\":\"mj51oHMHbKbINefDHIhHE5ifmnfEKEjB\",\"http_referer_domain\":\"bfzf-021.sandbox.us01.dx.commercecloud.salesforce.com\",\"http_referer_url\":\"https://bfzf-021.sandbox.us01.dx.commercecloud.salesforce.com/s/OptusAU/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"image_loaded\":\"yes\",\"input_ip_activities\":\"_TRUSTED_PROB\",\"input_ip_address\":\"203.13.128.104\",\"input_ip_assert_history\":\"NEGATIVE_HISTORY\",\"input_ip_attributes\":\"_TRUSTED_PROB\",\"input_ip_city\":\"macquarie centre\",\"input_ip_connection_type\":\"tx\",\"input_ip_first_seen\":\"2010-07-21\",\"input_ip_geo\":\"AU\",\"input_ip_home\":\"no\",\"input_ip_isp\":\"singtel optus pty ltd\",\"input_ip_last_event\":\"2022-11-17\",\"input_ip_last_update\":\"2022-11-17\",\"input_ip_latitude\":\"-33.77692\",\"input_ip_line_speed\":\"high\",\"input_ip_longitude\":\"151.12102\",\"input_ip_organization\":\"singtel optus pty ltd\",\"input_ip_postal_code\":\"2113\",\"input_ip_region\":\"new south wales\",\"input_ip_region_iso_code\":\"nsw\",\"input_ip_result\":\"success\",\"input_ip_routing_type\":\"fixed\",\"input_ip_score\":\"30\",\"input_ip_worst_score\":\"-100\",\"integration_hub_results\":\"{\\\"8zht501y:LN Emailage First Class Rule Template\\\":{\\\"Call Emailage\\\":{\\\"rule_id\\\":\\\"242859990\\\",\\\"tps_datetime\\\":\\\"2022-11-17 07:46:56.110\\\",\\\"tps_duration\\\":\\\"130\\\",\\\"tps_error\\\":\\\"3002\\\",\\\"tps_result\\\":\\\"failed\\\",\\\"tps_type\\\":\\\"LexisNexis_Emailage_FirstClass\\\",\\\"tps_vendor\\\":\\\"LexisNexis - Connectors\\\",\\\"tps_vendor_raw_response\\\":\\\"\ufeff{\\\\\\\"query\\\\\\\":{\\\\\\\"email\\\\\\\":\\\\\\\"saveluri1234@gmail.com+203.13.128.104\\\\\\\",\\\\\\\"queryType\\\\\\\":\\\\\\\"EmailIPRisk\\\\\\\",\\\\\\\"count\\\\\\\":1,\\\\\\\"created\\\\\\\":\\\\\\\"2022-11-17T07:46:56Z\\\\\\\",\\\\\\\"lang\\\\\\\":\\\\\\\"en-US\\\\\\\",\\\\\\\"responseCount\\\\\\\":0,\\\\\\\"billaddress\\\\\\\":\\\\\\\"1 lyon street\\\\\\\",\\\\\\\"billcity\\\\\\\":\\\\\\\"bellingen\\\\\\\",\\\\\\\"billregion\\\\\\\":\\\\\\\"nsw\\\\\\\",\\\\\\\"billpostal\\\\\\\":\\\\\\\"2454\\\\\\\",\\\\\\\"shipaddress\\\\\\\":\\\\\\\"1 lyon street\\\\\\\",\\\\\\\"shipcity\\\\\\\":\\\\\\\"bellingen\\\\\\\",\\\\\\\"shipregion\\\\\\\":\\\\\\\"nsw\\\\\\\",\\\\\\\"shippostal\\\\\\\":\\\\\\\"2454\\\\\\\",\\\\\\\"shipcountry\\\\\\\":\\\\\\\"au\\\\\\\",\\\\\\\"phone\\\\\\\":\\\\\\\"0414621729\\\\\\\",\\\\\\\"hashedCardNumber\\\\\\\":\\\\\\\"48fa51a82aeed4b69f2c47f4f6ea8dbdcda9f49d5e60ffdf338bdce5ee20116a\\\\\\\",\\\\\\\"transamount\\\\\\\":\\\\\\\"275\\\\\\\",\\\\\\\"transcurrency\\\\\\\":\\\\\\\"aud\\\\\\\",\\\\\\\"useragent\\\\\\\":\\\\\\\"Mozilla\\\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\\\/537.36 (KHTML, like Gecko) Chrome\\\\/107.0.0.0 Safari\\\\/537.36 Edg\\\\/107.0.1418.42\\\\\\\",\\\\\\\"trackingid\\\\\\\":\\\\\\\"4d7730a1-fdc9-4c44-be76-54b8c2124751\\\\\\\",\\\\\\\"transactionTypeId\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"transactionTypeDescription\\\\\\\":\\\\\\\"payment\\\\\\\",\\\\\\\"results\\\\\\\":[]},\\\\\\\"responseStatus\\\\\\\":{\\\\\\\"status\\\\\\\":\\\\\\\"failed\\\\\\\",\\\\\\\"errorCode\\\\\\\":\\\\\\\"3002\\\\\\\",\\\\\\\"description\\\\\\\":\\\\\\\"Authentication Error: Your account status is inactive or disabled. Please contact us at emailage.support@lexisnexisrisk.com to activate your account.\\\\\\\"}}\\\",\\\"tps_was_timeout\\\":\\\"no\\\"}}}\",\"js_browser\":\"Edge 107\",\"js_browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42\",\"js_browser_string_hash\":\"985300e24227239fe9f5b338b930473d\",\"js_fonts_hash\":\"73950fb87a59690221a689e00e8ec2b1\",\"js_fonts_number\":\"132\",\"js_os\":\"Windows 10\",\"local_attrib_1\":\"huawei b628\",\"local_attrib_10\":\"7b21cdb047cd9a1e65b6826ae180d780\",\"local_attrib_10_first_seen\":\"2022-08-16\",\"local_attrib_12\":\"34687e53cc5de63a11e7a22757df6ef80b5a6b0249196558bc2ae007e0db1913\",\"local_attrib_12_first_seen\":\"2021-10-05\",\"local_attrib_15\":\"uat400000607\",\"local_attrib_1_first_seen\":\"2022-06-24\",\"local_attrib_5\":\"approve\",\"local_attrib_5_activities\":\"_TRUSTED_PROB\",\"local_attrib_5_first_seen\":\"2017-05-25\",\"local_attrib_6\":\"cbrt\",\"local_attrib_6_activities\":\"_TRUSTED_PROB\",\"local_attrib_6_first_seen\":\"2021-10-22\",\"math_routine\":\"4003d1c2bec02e6cc560082ad155401fd4588141d6eaa24dc94afbd72313196a\",\"mime_type_hash\":\"27f51d3149e6bf209b66bd387b0af3c4\",\"mime_type_number\":\"2\",\"multiple_session_id\":\"yes\",\"nonce\":\"db0ba101e2aa78d5\",\"org_id\":\"8zht501y\",\"os\":\"Windows\",\"os_version\":\"10\",\"page_elements\":\"{\\\"ver\\\":3,\\\"undefined00hidden0\\\":[false,\\\"hidden\\\",4],\\\"IagreeToShareMyPersonalInformation\\\":[false,\\\"checkbox\\\",4]}\",\"page_time_on\":\"9481\",\"plugin_hash\":\"e802dfa555193f4ebe8993eb4a99290d\",\"plugin_number\":\"5\",\"policy\":\"onboarding\",\"policy_engine_version\":\"13.6\",\"policy_score\":\"0\",\"primary_industry\":\"ecommerce\",\"private_browsing\":\"no\",\"profile_api_timedelta\":\"9481\",\"profile_connection_type\":\"TLS1.2\",\"profiled_domain\":\"bfzf-021.sandbox.us01.dx.commercecloud.salesforce.com\",\"profiled_url\":\"https://bfzf-021.sandbox.us01.dx.commercecloud.salesforce.com/s/OptusAU/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"profiling_datetime\":\"1668671207\",\"profiling_delta\":\"6268\",\"proxy_score\":\"820.93\",\"reason_code\":\"SFCCTranPass\",\"remote_access\":\"port_used\",\"remote_desktop\":\"RDP:3389\",\"request_duration\":\"232\",\"request_id\":\"4d7730a1-fdc9-4c44-be76-54b8c2124751\",\"request_result\":\"success\",\"review_status\":\"pass\",\"risk_rating\":\"low\",\"screen_color_depth\":\"24\",\"screen_res\":\"1728x970\",\"screen_res_anomaly\":\"yes\",\"screen_res_zoom\":\"0.9\",\"se_rating\":\"neutral\",\"se_score\":\"150\",\"secondary_industry\":\"telecom\",\"service_type\":\"all\",\"session_id\":\"xbhkeag-jdzoa25triqqklrw14dpwcklpkc4fisf05i\",\"session_id_query_count\":\"1\",\"shipping_address_activities\":\"_TRUSTED_PROB\",\"shipping_address_attributes\":\"_TRUSTED_PROB\",\"shipping_address_city\":\"bellingen\",\"shipping_address_country\":\"au\",\"shipping_address_first_seen\":\"2022-03-16\",\"shipping_address_last_event\":\"2022-11-17\",\"shipping_address_last_update\":\"2022-11-17\",\"shipping_address_result\":\"success\",\"shipping_address_score\":\"0\",\"shipping_address_state\":\"nsw\",\"shipping_address_street1\":\"1 lyon street\",\"shipping_address_worst_score\":\"0\",\"shipping_address_zip\":\"2454\",\"shipping_address_zip_latitude\":\"-30.4526\",\"shipping_address_zip_longitude\":\"152.8722\",\"shipping_address_zip_normalized\":\"2454\",\"ssl_fp_signature\":\"295b8fa5db7cfec6cf325aae9e1c60b6\",\"ssl_session_hash\":\"9d0ae2c22d7d04043800100961027564\",\"summary_risk_score\":\"0\",\"system_state\":\"1665981931\",\"third_party_cookie\":\"ba1526ea97ce08fa712a3c3c6bd205ca\",\"time_zone\":\"600\",\"time_zone_dst_offset\":\"60\",\"timezone_name\":\"Australia/Sydney\",\"tmx_reason_code\":\"_TMX_LCL_PDB_LIMIT_REACHED_ACC_NAME\",\"tmx_risk_rating\":\"neutral\",\"tmx_summary_reason_code\":\"Level_1_Link_Accept\",\"tps_datetime\":\"2022-11-17 07:46:56.110\",\"tps_duration\":\"130\",\"tps_error\":\"3002\",\"tps_result\":\"failed\",\"tps_type\":\"LexisNexis_Emailage_FirstClass\",\"tps_vendor\":\"LexisNexis - Connectors\",\"tps_vendor_raw_response\":\"\ufeff{\\\"query\\\":{\\\"email\\\":\\\"saveluri1234@gmail.com+203.13.128.104\\\",\\\"queryType\\\":\\\"EmailIPRisk\\\",\\\"count\\\":1,\\\"created\\\":\\\"2022-11-17T07:46:56Z\\\",\\\"lang\\\":\\\"en-US\\\",\\\"responseCount\\\":0,\\\"billaddress\\\":\\\"1 lyon street\\\",\\\"billcity\\\":\\\"bellingen\\\",\\\"billregion\\\":\\\"nsw\\\",\\\"billpostal\\\":\\\"2454\\\",\\\"shipaddress\\\":\\\"1 lyon street\\\",\\\"shipcity\\\":\\\"bellingen\\\",\\\"shipregion\\\":\\\"nsw\\\",\\\"shippostal\\\":\\\"2454\\\",\\\"shipcountry\\\":\\\"au\\\",\\\"phone\\\":\\\"0414621729\\\",\\\"hashedCardNumber\\\":\\\"48fa51a82aeed4b69f2c47f4f6ea8dbdcda9f49d5e60ffdf338bdce5ee20116a\\\",\\\"transamount\\\":\\\"275\\\",\\\"transcurrency\\\":\\\"aud\\\",\\\"useragent\\\":\\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42\\\",\\\"trackingid\\\":\\\"4d7730a1-fdc9-4c44-be76-54b8c2124751\\\",\\\"transactionTypeId\\\":\\\"1\\\",\\\"transactionTypeDescription\\\":\\\"payment\\\",\\\"results\\\":[]},\\\"responseStatus\\\":{\\\"status\\\":\\\"failed\\\",\\\"errorCode\\\":\\\"3002\\\",\\\"description\\\":\\\"Authentication Error: Your account status is inactive or disabled. Please contact us at emailage.support@lexisnexisrisk.com to activate your account.\\\"}}\",\"tps_was_timeout\":\"no\",\"transaction_amount\":\"275\",\"transaction_amount_usd\":\"185.26\",\"transaction_currency\":\"aud\",\"transaction_id\":\"uat400000607\",\"true_ip\":\"203.13.128.104\",\"true_ip_activities\":\"_TRUSTED_PROB\",\"true_ip_assert_history\":\"NEGATIVE_HISTORY\",\"true_ip_attributes\":\"_TRUSTED_PROB\",\"true_ip_city\":\"macquarie centre\",\"true_ip_connection_type\":\"tx\",\"true_ip_first_seen\":\"2010-07-21\",\"true_ip_geo\":\"AU\",\"true_ip_home\":\"no\",\"true_ip_isp\":\"singtel optus pty ltd\",\"true_ip_last_event\":\"2022-11-17\",\"true_ip_last_update\":\"2022-11-17\",\"true_ip_latitude\":\"-33.77692\",\"true_ip_line_speed\":\"high\",\"true_ip_longitude\":\"151.12102\",\"true_ip_organization\":\"singtel optus pty ltd\",\"true_ip_organization_type\":\"Telecommunications\",\"true_ip_postal_code\":\"2113\",\"true_ip_region\":\"new south wales\",\"true_ip_region_iso_code\":\"nsw\",\"true_ip_result\":\"success\",\"true_ip_routing_type\":\"fixed\",\"true_ip_score\":\"30\",\"true_ip_source_port\":\"25767\",\"true_ip_worst_score\":\"-100\",\"ua_browser\":\"edge 107.0\",\"ua_browser_alt\":\"Edge\",\"ua_browser_version_alt\":\"107.0.1418.42\",\"ua_os\":\"win10\",\"ua_os_alt\":\"Windows\",\"ua_os_version_alt\":\"10\",\"ua_platform\":\"edge 107.0\",\"vm_index\":\"200\",\"vm_rating\":\"low\",\"vm_reason\":\"screen_res_anomaly\",\"webgl_hash\":\"a40a8f7932f8a635c8aad28e4e905b626c8d29da\",\"webrtc_media\":\"(1,1,1,e12ead95566221e7c4e320e56363dcb477a3c93a4a8510beb25f01bca07d4e8d)\",\"webrtc_media_mini\":\"111e12ead9556622\"}"
+        },
+        {
+          "@attribute-id": "totalAdjustedMonthlyCostValue",
+          "__text": "59.0"
+        },
+        {
+          "@attribute-id": "totalMonthlyCostValue",
+          "__text": "59.0"
+        },
+        {
+          "@attribute-id": "totalUpfrontCostValue",
+          "__text": "216.0"
+        },
+        {
+          "@attribute-id": "twoFactorAuthenticated",
+          "__text": "false"
+        }
+        ]
+      }
+    }
+  }
+}
