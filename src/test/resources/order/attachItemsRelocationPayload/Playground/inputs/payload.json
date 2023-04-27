@@ -2,28 +2,28 @@
   "orders": {
     "@version": "20.8",
     "order": {
-      "@order-no": "UAT500004304",
-      "order-date": "2022-10-07T04:04:36.000Z",
+      "@order-no": "UAT200046453",
+      "order-date": "2023-02-10T08:08:22.000Z",
       "created-by": "storefront",
-      "original-order-no": "UAT500004304",
+      "original-order-no": "UAT200046453",
       "currency": "AUD",
       "customer-locale": "default",
       "taxation": "gross",
-      "invoice-no": "00022503",
+      "invoice-no": "00218670",
       "customer": {
         "guest": "false",
-        "customer-no": "00008001",
-        "customer-name": "undefined undefined",
-        "customer-email": "orcacmr099@gmail.com",
+        "customer-no": "00137010",
+        "customer-name": "APPROVE CBRT",
+        "customer-email": "avr1002@yopmail.com",
         "billing-address": {
-          "salutation": "undefined",
-          "first-name": "undefined",
-          "last-name": "undefined",
-          "address1": "121 Temple Avenue",
-          "city": "KEW EAST",
-          "postal-code": "3102",
+          "salutation": "Mr",
+          "first-name": "APPROVE",
+          "last-name": "CBRT",
+          "address1": "900 STATION GREEN DR",
+          "city": "BOX HILL NORTH",
+          "postal-code": "3129",
           "state-code": "VIC",
-          "phone": "0468813786",
+          "phone": "0455514476",
           "custom-attributes": {
             "custom-attribute": [
             {
@@ -32,23 +32,23 @@
             },
             {
               "@attribute-id": "addressUUID",
-              "__text": "MTIxIHRlbXBsZSBhdmVudWUsIGtldyBlYXN0IHZpYyAzMTAy"
+              "__text": "OTAwIHN0YXRpb24gZ3JlZW4gZHIsIGJveCBoaWxsIG5vcnRoIHZpYyAzMTI5"
             },
             {
-              "@attribute-id": "manualAddressType",
-              "__text": "HOUSE"
+              "@attribute-id": "formattedAddress",
+              "__text": "900 STATION GREEN DR, undefined VIC 3129"
             },
             {
               "@attribute-id": "streetName",
-              "__text": "Temple"
+              "__text": "STATION GREEN"
             },
             {
               "@attribute-id": "streetNumber",
-              "__text": "121"
+              "__text": "900"
             },
             {
               "@attribute-id": "streetType",
-              "__text": "AVE"
+              "__text": "DR"
             }
             ]
           }
@@ -60,29 +60,95 @@
         "confirmation-status": "CONFIRMED",
         "payment-status": "NOT_PAID"
       },
-      "current-order-no": "UAT500004304",
+      "current-order-no": "UAT200046453",
       "product-lineitems": {
         "product-lineitem": [
         {
-          "net-price": "79.00",
+          "net-price": "0.00",
           "tax": "0.00",
-          "gross-price": "79.00",
-          "base-price": "79.00",
-          "lineitem-text": "Optus Plus Everyday nbn (new Mar 22)",
-          "tax-basis": "79.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "Relocation Broadband",
+          "tax-basis": "0.00",
           "position": "1",
-          "product-id": "33792133_33796613",
-          "product-name": "Optus Plus Everyday nbn (new Mar 22)",
+          "product-id": "nbnRelo",
+          "product-name": "Relocation Broadband",
           "quantity": {
             "@unit": "",
             "__text": "1.0"
           },
           "tax-rate": "0.0",
-          "shipment-id": "00021505",
+          "shipment-id": "00203034",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+            {
+              "@attribute-id": "adjustedUpfrontCost",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "moving-home"
+            },
+            {
+              "@attribute-id": "creditCheckRequired",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isBasePlan",
+              "__text": "false"
+            },
+            {
+              "@attribute-id": "isMainOffer",
+              "__text": "true"
+            },
+            {
+              "@attribute-id": "monthlyTotalCostValue",
+              "__text": "0.0"
+            },
+            {
+              "@attribute-id": "productOfferId",
+              "__text": "nbnRelo"
+            },
+            {
+              "@attribute-id": "relocationOfferingId",
+              "__text": "33792133"
+            },
+            {
+              "@attribute-id": "relocationOfferingInstanceId",
+              "__text": "102247115"
+            },
+            {
+              "@attribute-id": "sfccProductType",
+              "__text": "OFFER"
+            },
+            {
+              "@attribute-id": "upfrontCost",
+              "__text": "0.0"
+            }
+            ]
+          }
+        },
+        {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "Relocation Broadband",
+          "tax-basis": "0.00",
+          "position": "2",
+          "product-id": "nbnRelo_moving-home",
+          "product-name": "Relocation Broadband",
+          "quantity": {
+            "@unit": "",
+            "__text": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "00203034",
           "bundled-product-lineitems": {
             "bundled-product-lineitem": {
-              "product-id": "33796613",
-              "product-name": "Optus Plus Everyday nbn (new Mar 22)",
+              "product-id": "moving-home",
+              "product-name": "Relocation Broadband",
               "quantity": {
                 "@unit": "",
                 "__text": "1.0"
@@ -91,7 +157,7 @@
                 "custom-attribute": [
                 {
                   "@attribute-id": "billingOfferId",
-                  "__text": "33796613"
+                  "__text": "moving-home"
                 },
                 {
                   "@attribute-id": "sfccProductType",
@@ -106,27 +172,15 @@
             "custom-attribute": [
             {
               "@attribute-id": "adjustedMonthlyCostValue",
-              "__text": "79.0"
+              "__text": "0.0"
             },
             {
               "@attribute-id": "billingOfferId",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "billingOfferPOId",
-              "__text": "33814393"
-            },
-            {
-              "@attribute-id": "billingOfferParentRelationId",
-              "__text": "8565034"
-            },
-            {
-              "@attribute-id": "billingOfferRelationId",
-              "__text": "33814173"
+              "__text": "moving-home"
             },
             {
               "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
+              "__text": "moving-home"
             },
             {
               "@attribute-id": "contractDuration",
@@ -147,10 +201,6 @@
             {
               "@attribute-id": "isMainOffer",
               "__text": "false"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "true"
             },
             {
               "@attribute-id": "monthlyCostDiscount",
@@ -158,27 +208,19 @@
             },
             {
               "@attribute-id": "monthlyCostValue",
-              "__text": "79.0"
+              "__text": "0.0"
             },
             {
               "@attribute-id": "monthlyTotalCostValue",
-              "__text": "79.0"
+              "__text": "0.0"
             },
             {
               "@attribute-id": "monthlyTotalDiscountValue",
               "__text": "0.0"
             },
             {
-              "@attribute-id": "planFamily",
-              "__text": "Internet Nov 21"
-            },
-            {
               "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "productSpecRelationId",
-              "__text": "33790813"
+              "__text": "nbnRelo"
             },
             {
               "@attribute-id": "productType",
@@ -189,8 +231,20 @@
               "__text": "MONTHLY"
             },
             {
+              "@attribute-id": "relocationItemType",
+              "__text": "Existing"
+            },
+            {
+              "@attribute-id": "relocationProductData",
+              "__text": "{\"apVersionNumber\":\"0\",\"bundle\":true,\"changeOwnerShip\":false,\"hasPending\":false,\"id\":\"102247116\",\"leasingPlan\":false,\"lob\":\"FB\",\"negotiationOrder\":false,\"networkTechnology\":\"NBN FTTC\",\"offeringDescription\":\"Optus Plus Everyday nbn (new Mar 22)\\nPlan: Subscription\",\"offeringId\":\"33792133\",\"offeringInstanceId\":\"102247115\",\"offeringName\":\"Optus Plus Everyday nbn (new Mar 22)\",\"offeringToProductId\":\"33790813\",\"paymentCategory\":\"POSTPAID\",\"productSpecifications\":{\"displayName\":\"Optus Plus Everyday nbn (new Mar 22) - Optus Plus Everyday nbn (new Mar 22)\",\"displayDescription\":\"Optus Plus Everyday nbn (new Mar 22)\\nPlan: Subscription - Optus Plus Everyday nbn (new Mar 22)\",\"catalogItemName\":\"Optus Plus Everyday nbn (new Mar 22)\",\"catalogItemDescription\":\"Optus Plus Everyday nbn (new Mar 22)\",\"catalogItemId\":\"33796613\",\"id\":\"102247120\"},\"productStatus\":\"ACTIVE\",\"relatedPlaceRefOrValue\":{\"apartmentAndStreet\":\"CAMBERWELL\",\"country\":\"AUS\",\"formattedAddress\":\"624 LAMB WILLOWS Lane, CAMBERWELL, VIC 3124, Australia\",\"id\":\"537096677\",\"postCode\":\"3124\",\"state\":\"VIC\"},\"remainingContractMonths\":0,\"serviceId\":\"approve.cbrt795\",\"serviceType\":\"Fixed Broadband\",\"shared\":false,\"spoDescription\":\"Optus Plus Everyday nbn (new Mar 22)\\nPlan: Subscription\",\"spoName\":\"Optus Plus Everyday nbn (new Mar 22)\",\"submittedOrder\":false,\"subscriptionId\":166184}"
+            },
+            {
               "@attribute-id": "sfccProductType",
               "__text": "COMPONENT_BILLING_OFFER"
+            },
+            {
+              "@attribute-id": "vlocityProductCode",
+              "__text": "C-Fixed_Broadband_Spec"
             }
             ]
           }
@@ -200,591 +254,17 @@
           "tax": "0.00",
           "gross-price": "0.00",
           "base-price": "0.00",
-          "lineitem-text": "Optus Plus Everyday nbn (new Mar 22)",
+          "lineitem-text": "Equipment for NBN Relocation",
           "tax-basis": "0.00",
-          "position": "2",
-          "product-id": "33792133",
-          "product-name": "Optus Plus Everyday nbn (new Mar 22)",
-          "quantity": {
-            "@unit": "",
-            "__text": "1.0"
-          },
-          "tax-rate": "0.0",
-          "shipment-id": "00021505",
-          "gift": "false",
-          "custom-attributes": {
-            "custom-attribute": [
-            {
-              "@attribute-id": "adjustedMonthlyCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "BYODSelected",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "contractDuration",
-              "__text": "1"
-            },
-            {
-              "@attribute-id": "creditCheckRequired",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "includedInPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isBasePlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isMainOffer",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "monthlyCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "monthlyTotalCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "recurringPeriod",
-              "__text": "MONTHLY"
-            },
-            {
-              "@attribute-id": "sfccProductType",
-              "__text": "OFFER"
-            }
-            ]
-          }
-        },
-        {
-          "net-price": "240.00",
-          "tax": "0.00",
-          "gross-price": "240.00",
-          "base-price": "240.00",
-          "lineitem-text": "Professional Install",
-          "tax-basis": "240.00",
           "position": "3",
-          "product-id": "33792133_10590961_NBN FTTP_1_N",
-          "product-name": "Professional Install",
+          "product-id": "nbnRelo_equipment",
+          "product-name": "Equipment for NBN Relocation",
           "quantity": {
             "@unit": "",
             "__text": "1.0"
           },
           "tax-rate": "0.0",
-          "shipment-id": "00021505",
-          "bundled-product-lineitems": {
-            "bundled-product-lineitem": {
-              "product-id": "10590961",
-              "product-name": "Professional Install",
-              "quantity": {
-                "@unit": "",
-                "__text": "1.0"
-              },
-              "custom-attributes": {
-                "custom-attribute": [
-                {
-                  "@attribute-id": "billingOfferId",
-                  "__text": "10590961"
-                },
-                {
-                  "@attribute-id": "sfccProductType",
-                  "__text": "BILLING_OFFER"
-                }
-                ]
-              }
-            }
-          },
-          "gift": "false",
-          "custom-attributes": {
-            "custom-attribute": [
-            {
-              "@attribute-id": "adjustedUpfrontCost",
-              "__text": "240.0"
-            },
-            {
-              "@attribute-id": "billingOfferId",
-              "__text": "10590961"
-            },
-            {
-              "@attribute-id": "billingOfferPOId",
-              "__text": "33790983"
-            },
-            {
-              "@attribute-id": "billingOfferParentRelationId",
-              "__text": "8559974"
-            },
-            {
-              "@attribute-id": "billingOfferRelationId",
-              "__text": "10591161"
-            },
-            {
-              "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "creditCheckRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "feeIndicator",
-              "__text": "CMR"
-            },
-            {
-              "@attribute-id": "includedInPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isBasePlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "monthlyTotalCostValue",
-              "__text": "240.0"
-            },
-            {
-              "@attribute-id": "networkTechnology",
-              "__text": "NBN FTTP"
-            },
-            {
-              "@attribute-id": "planContractDuration",
-              "__text": "1"
-            },
-            {
-              "@attribute-id": "priceGroup",
-              "__text": "INSTALLATION_COST"
-            },
-            {
-              "@attribute-id": "productConfigInfo",
-              "__text": "{\"continueText\":\"Continue to cart\",\"isMobileSection\":false,\"isHideContinueBtn\":false,\"stepName\":\"INSTALLATION\",\"stepIcon\":\"installationAssistanceIcon\",\"isExpandStep\":false,\"progressbarName\":\"Installation & Assistance\",\"title\":\"<p>Installation &amp; Assistance</p>\",\"position\":4}"
-            },
-            {
-              "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "productSpecRelationId",
-              "__text": "33790813"
-            },
-            {
-              "@attribute-id": "productType",
-              "__text": "Fixed Broadband"
-            },
-            {
-              "@attribute-id": "recontractIndicator",
-              "__text": "N"
-            },
-            {
-              "@attribute-id": "sfccProductType",
-              "__text": "COMPONENT_BILLING_OFFER"
-            },
-            {
-              "@attribute-id": "upfrontCost",
-              "__text": "240.0"
-            }
-            ]
-          }
-        },
-        {
-          "net-price": "0.00",
-          "tax": "0.00",
-          "gross-price": "0.00",
-          "base-price": "0.00",
-          "lineitem-text": "Start Up Fee",
-          "tax-basis": "0.00",
-          "position": "4",
-          "product-id": "33792133_10922001_ALL_1_N",
-          "product-name": "Start Up Fee",
-          "quantity": {
-            "@unit": "",
-            "__text": "1.0"
-          },
-          "tax-rate": "0.0",
-          "shipment-id": "00021505",
-          "bundled-product-lineitems": {
-            "bundled-product-lineitem": {
-              "product-id": "10922001",
-              "product-name": "Start Up Fee",
-              "quantity": {
-                "@unit": "",
-                "__text": "1.0"
-              },
-              "custom-attributes": {
-                "custom-attribute": [
-                {
-                  "@attribute-id": "billingOfferId",
-                  "__text": "10922001"
-                },
-                {
-                  "@attribute-id": "sfccProductType",
-                  "__text": "BILLING_OFFER"
-                }
-                ]
-              }
-            }
-          },
-          "gift": "false",
-          "custom-attributes": {
-            "custom-attribute": [
-            {
-              "@attribute-id": "adjustedUpfrontCost",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "billingOfferId",
-              "__text": "10922001"
-            },
-            {
-              "@attribute-id": "billingOfferPOId",
-              "__text": "33791033"
-            },
-            {
-              "@attribute-id": "billingOfferParentRelationId",
-              "__text": "8565014"
-            },
-            {
-              "@attribute-id": "billingOfferRelationId",
-              "__text": "11129541"
-            },
-            {
-              "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "creditCheckRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "feeIndicator",
-              "__text": "STARTUP"
-            },
-            {
-              "@attribute-id": "includedInPlan",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "isBasePlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isMainOffer",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "monthlyTotalCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "planContractDuration",
-              "__text": "1"
-            },
-            {
-              "@attribute-id": "priceGroup",
-              "__text": "STARTUP_FEE"
-            },
-            {
-              "@attribute-id": "productConfigInfo",
-              "__text": "{\"isMobileSection\":false,\"isHideContinueBtn\":false,\"stepName\":\"INTERNET\",\"stepIcon\":\"internetIcon\",\"progressbarName\":\"Internet\",\"title\":\"<p>Internet</p>\",\"position\":1}"
-            },
-            {
-              "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "productSpecRelationId",
-              "__text": "33790813"
-            },
-            {
-              "@attribute-id": "productType",
-              "__text": "Fixed Broadband"
-            },
-            {
-              "@attribute-id": "recontractIndicator",
-              "__text": "N"
-            },
-            {
-              "@attribute-id": "sfccProductType",
-              "__text": "COMPONENT_BILLING_OFFER"
-            },
-            {
-              "@attribute-id": "upfrontCost",
-              "__text": "0.0"
-            }
-            ]
-          }
-        },
-        {
-          "net-price": "0.00",
-          "tax": "0.00",
-          "gross-price": "0.00",
-          "base-price": "0.00",
-          "lineitem-text": "Subscription Plan Technical Offer FB",
-          "tax-basis": "0.00",
-          "position": "5",
-          "product-id": "33792133_33814833",
-          "product-name": "Subscription Plan Technical Offer FB",
-          "quantity": {
-            "@unit": "",
-            "__text": "1.0"
-          },
-          "tax-rate": "0.0",
-          "shipment-id": "00021505",
-          "bundled-product-lineitems": {
-            "bundled-product-lineitem": {
-              "product-id": "33814833",
-              "product-name": "Subscription Plan Technical Offer FB",
-              "quantity": {
-                "@unit": "",
-                "__text": "1.0"
-              },
-              "custom-attributes": {
-                "custom-attribute": [
-                {
-                  "@attribute-id": "billingOfferId",
-                  "__text": "33814833"
-                },
-                {
-                  "@attribute-id": "sfccProductType",
-                  "__text": "BILLING_OFFER"
-                }
-                ]
-              }
-            }
-          },
-          "gift": "false",
-          "custom-attributes": {
-            "custom-attribute": [
-            {
-              "@attribute-id": "adjustedMonthlyCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "billingOfferId",
-              "__text": "33814833"
-            },
-            {
-              "@attribute-id": "billingOfferPOId",
-              "__text": "33816333"
-            },
-            {
-              "@attribute-id": "billingOfferParentRelationId",
-              "__text": "8559974"
-            },
-            {
-              "@attribute-id": "billingOfferRelationId",
-              "__text": "33816143"
-            },
-            {
-              "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "contractDuration",
-              "__text": "1"
-            },
-            {
-              "@attribute-id": "creditCheckRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "includedInPlan",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "isBasePlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isMainOffer",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "monthlyCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "monthlyTotalCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "productSpecRelationId",
-              "__text": "33790813"
-            },
-            {
-              "@attribute-id": "productType",
-              "__text": "Fixed Broadband"
-            },
-            {
-              "@attribute-id": "recurringPeriod",
-              "__text": "MONTHLY"
-            },
-            {
-              "@attribute-id": "sfccProductType",
-              "__text": "COMPONENT_BILLING_OFFER"
-            }
-            ]
-          }
-        },
-        {
-          "net-price": "0.00",
-          "tax": "0.00",
-          "gross-price": "0.00",
-          "base-price": "0.00",
-          "lineitem-text": "Fixed Broadband Technical Price Plan",
-          "tax-basis": "0.00",
-          "position": "6",
-          "product-id": "33792133_8568054",
-          "product-name": "Fixed Broadband Technical Price Plan",
-          "quantity": {
-            "@unit": "",
-            "__text": "1.0"
-          },
-          "tax-rate": "0.0",
-          "shipment-id": "00021505",
-          "bundled-product-lineitems": {
-            "bundled-product-lineitem": {
-              "product-id": "8568054",
-              "product-name": "Fixed Broadband Technical Price Plan",
-              "quantity": {
-                "@unit": "",
-                "__text": "1.0"
-              },
-              "custom-attributes": {
-                "custom-attribute": [
-                {
-                  "@attribute-id": "billingOfferId",
-                  "__text": "8568054"
-                },
-                {
-                  "@attribute-id": "sfccProductType",
-                  "__text": "BILLING_OFFER"
-                }
-                ]
-              }
-            }
-          },
-          "gift": "false",
-          "custom-attributes": {
-            "custom-attribute": [
-            {
-              "@attribute-id": "adjustedUpfrontCost",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "billingOfferId",
-              "__text": "8568054"
-            },
-            {
-              "@attribute-id": "billingOfferPOId",
-              "__text": "33790823"
-            },
-            {
-              "@attribute-id": "billingOfferParentRelationId",
-              "__text": "8559974"
-            },
-            {
-              "@attribute-id": "billingOfferRelationId",
-              "__text": "8568074"
-            },
-            {
-              "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "creditCheckRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "includedInPlan",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "isBasePlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isMainOffer",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "monthlyTotalCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "productSpecRelationId",
-              "__text": "33790813"
-            },
-            {
-              "@attribute-id": "productType",
-              "__text": "Fixed Broadband"
-            },
-            {
-              "@attribute-id": "sfccProductType",
-              "__text": "COMPONENT_BILLING_OFFER"
-            },
-            {
-              "@attribute-id": "upfrontCost",
-              "__text": "0.0"
-            }
-            ]
-          }
-        },
-        {
-          "net-price": "0.00",
-          "tax": "0.00",
-          "gross-price": "0.00",
-          "base-price": "0.00",
-          "lineitem-text": "BYO Modem",
-          "tax-basis": "0.00",
-          "position": "7",
-          "product-id": "BYOM",
-          "product-name": "BYO Modem",
-          "quantity": {
-            "@unit": "",
-            "__text": "1.0"
-          },
-          "tax-rate": "0.0",
-          "shipment-id": "00021505",
+          "shipment-id": "00203034",
           "gift": "false",
           "custom-attributes": {
             "custom-attribute": [
@@ -794,7 +274,7 @@
             },
             {
               "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
+              "__text": "moving-home"
             },
             {
               "@attribute-id": "contractDuration",
@@ -809,273 +289,32 @@
               "__text": "0.0"
             },
             {
-              "@attribute-id": "productConfigInfo",
-              "__text": "{\"isMobileSection\":false,\"isHideContinueBtn\":false,\"stepName\":\"INTERNET\",\"stepIcon\":\"internetIcon\",\"progressbarName\":\"Internet\",\"title\":\"<p>Internet</p>\",\"position\":1}"
+              "@attribute-id": "productInstanceId",
+              "__text": "102247153"
             },
             {
               "@attribute-id": "productOfferId",
-              "__text": "1234567"
+              "__text": "nbnRelo"
             },
             {
               "@attribute-id": "recurringPeriod",
               "__text": "MONTHLY"
             },
             {
-              "@attribute-id": "sfccProductType",
-              "__text": "COMPONENT_BILLING_OFFER"
-            }
-            ]
-          }
-        },
-        {
-          "net-price": "10.00",
-          "tax": "0.00",
-          "gross-price": "10.00",
-          "base-price": "10.00",
-          "lineitem-text": "$10 Optus Plus Game Path",
-          "tax-basis": "10.00",
-          "position": "8",
-          "product-id": "33792133_33797273",
-          "product-name": "$10 Optus Plus Game Path",
-          "quantity": {
-            "@unit": "",
-            "__text": "1.0"
-          },
-          "tax-rate": "0.0",
-          "shipment-id": "00021505",
-          "bundled-product-lineitems": {
-            "bundled-product-lineitem": {
-              "product-id": "33797273",
-              "product-name": "$10 Optus Plus Game Path",
-              "quantity": {
-                "@unit": "",
-                "__text": "1.0"
-              },
-              "custom-attributes": {
-                "custom-attribute": [
-                {
-                  "@attribute-id": "billingOfferId",
-                  "__text": "33797273"
-                },
-                {
-                  "@attribute-id": "sfccProductType",
-                  "__text": "BILLING_OFFER"
-                }
-                ]
-              }
-            }
-          },
-          "gift": "false",
-          "custom-attributes": {
-            "custom-attribute": [
-            {
-              "@attribute-id": "adjustedMonthlyCostValue",
-              "__text": "0.0"
+              "@attribute-id": "relocationItemType",
+              "__text": "Existing"
             },
             {
-              "@attribute-id": "billingOfferId",
-              "__text": "33797273"
-            },
-            {
-              "@attribute-id": "billingOfferPOId",
-              "__text": "33815253"
-            },
-            {
-              "@attribute-id": "billingOfferParentRelationId",
-              "__text": "33445633"
-            },
-            {
-              "@attribute-id": "billingOfferRelationId",
-              "__text": "33815243"
-            },
-            {
-              "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "contractDuration",
-              "__text": "1"
-            },
-            {
-              "@attribute-id": "creditCheckRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "isBasePlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "monthlyCostValue",
-              "__text": "10.0"
-            },
-            {
-              "@attribute-id": "monthlyTotalCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "planFamily",
-              "__text": "202011 Fixed Plan Refresh"
-            },
-            {
-              "@attribute-id": "productConfigInfo",
-              "__text": "{\"isMobileSection\":false,\"isHideContinueBtn\":false,\"stepName\":\"ENTERTAINMENT\",\"stepIcon\":\"entertainmentIcon\",\"isExpandStep\":false,\"progressbarName\":\"Entertainment\",\"title\":\"<p>Entertainment</p>\",\"position\":2}"
-            },
-            {
-              "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "productSpecRelationId",
-              "__text": "33790813"
-            },
-            {
-              "@attribute-id": "productType",
-              "__text": "Fixed Broadband"
-            },
-            {
-              "@attribute-id": "recurringPeriod",
-              "__text": "MONTHLY"
-            },
-            {
-              "@attribute-id": "sfccProductType",
-              "__text": "COMPONENT_BILLING_OFFER"
-            }
-            ]
-          },
-          "price-adjustments": {
-            "price-adjustment": {
-              "net-price": "-10.00",
-              "tax": "0.00",
-              "gross-price": "-10.00",
-              "base-price": "-10.00",
-              "lineitem-text": "Game Path Discount",
-              "tax-basis": "-10.00",
-              "promotion-id": "33814593",
-              "campaign-id": "Game Path (Subscription)",
-              "discount": {
-                "percentage": "100"
-              },
-              "custom-attributes": {
-                "custom-attribute": {
-                  "@attribute-id": "discountBOProductId",
-                  "__text": "33792133_33814593"
-                }
-              }
-            }
-          }
-        },
-        {
-          "net-price": "0.00",
-          "tax": "0.00",
-          "gross-price": "0.00",
-          "base-price": "0.00",
-          "lineitem-text": "Game Path Discount",
-          "tax-basis": "0.00",
-          "position": "9",
-          "product-id": "33792133_33814593",
-          "product-name": "Game Path Discount",
-          "quantity": {
-            "@unit": "",
-            "__text": "1.0"
-          },
-          "tax-rate": "0.0",
-          "shipment-id": "00021505",
-          "bundled-product-lineitems": {
-            "bundled-product-lineitem": {
-              "product-id": "33814593",
-              "product-name": "Game Path Discount",
-              "quantity": {
-                "@unit": "",
-                "__text": "1.0"
-              },
-              "custom-attributes": {
-                "custom-attribute": [
-                {
-                  "@attribute-id": "billingOfferId",
-                  "__text": "33814593"
-                },
-                {
-                  "@attribute-id": "sfccProductType",
-                  "__text": "BILLING_OFFER"
-                }
-                ]
-              }
-            }
-          },
-          "gift": "false",
-          "custom-attributes": {
-            "custom-attribute": [
-            {
-              "@attribute-id": "adjustedUpfrontCost",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "billingOfferId",
-              "__text": "33814593"
-            },
-            {
-              "@attribute-id": "billingOfferPOId",
-              "__text": "33815023"
-            },
-            {
-              "@attribute-id": "billingOfferParentRelationId",
-              "__text": "10469451"
-            },
-            {
-              "@attribute-id": "billingOfferRelationId",
-              "__text": "33814993"
-            },
-            {
-              "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
-            },
-            {
-              "@attribute-id": "creditCheckRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "isBasePlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "isSubsPlan",
-              "__text": "false"
-            },
-            {
-              "@attribute-id": "mecDiscountId",
-              "__text": "33814593"
-            },
-            {
-              "@attribute-id": "monthlyTotalCostValue",
-              "__text": "0.0"
-            },
-            {
-              "@attribute-id": "negativeRC",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "productOfferId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "productSpecRelationId",
-              "__text": "33790813"
-            },
-            {
-              "@attribute-id": "productType",
-              "__text": "Fixed Broadband"
+              "@attribute-id": "relocationProductData",
+              "__text": "{\"apVersionNumber\":\"0\",\"bundle\":false,\"changeOwnerShip\":false,\"equipmentName\":\"NBN Gateway\",\"hasPending\":false,\"id\":\"102247153\",\"includedProductID\":[\"102247116\"],\"leasingPlan\":false,\"negotiationOrder\":false,\"networkTechnology\":\"NBN FTTC\",\"offeringDescription\":\"Shared Equipment\",\"offeringId\":\"8652944\",\"offeringInstanceId\":\"102247152\",\"offeringName\":\"Shared Equipment\",\"offeringToProductId\":\"8652954\",\"paymentCategory\":\"POSTPAID\",\"productStatus\":\"ACTIVE\",\"relatedPlaceRefOrValue\":{\"apartmentAndStreet\":\"CAMBERWELL\",\"country\":\"AUS\",\"formattedAddress\":\"624 LAMB WILLOWS Lane, CAMBERWELL, VIC 3124, Australia\",\"id\":\"537096677\",\"postCode\":\"3124\",\"state\":\"VIC\"},\"remainingContractMonths\":0,\"serviceId\":\"148939\",\"serviceType\":\"EQ\",\"shared\":false,\"spoDescription\":\"Shared Equipment\",\"spoName\":\"Shared Equipment\",\"submittedOrder\":false,\"subscriptionId\":166183}"
             },
             {
               "@attribute-id": "sfccProductType",
               "__text": "COMPONENT_BILLING_OFFER"
             },
             {
-              "@attribute-id": "upfrontCost",
-              "__text": "0.0"
+              "@attribute-id": "vlocityProductCode",
+              "__text": "Equipment_Spec"
             }
             ]
           }
@@ -1091,21 +330,21 @@
           "lineitem-text": "Shipping",
           "tax-basis": "0.00",
           "item-id": "STANDARD_SHIPPING",
-          "shipment-id": "00021505",
+          "shipment-id": "00203034",
           "tax-rate": "0.0"
         }
       },
       "shipments": {
         "shipment": {
-          "@shipment-id": "00021505",
+          "@shipment-id": "00203034",
           "status": {
             "shipping-status": "NOT_SHIPPED"
           },
           "shipping-method": "Not Applicable",
           "shipping-address": {
-            "address1": "121 TEMPLE AVE",
-            "city": "KEW EAST",
-            "postal-code": "3102",
+            "address1": "900 STATION GREEN DR",
+            "city": "BOX HILL NORTH",
+            "postal-code": "3129",
             "state-code": "VIC",
             "country-code": "AU",
             "custom-attributes": {
@@ -1116,31 +355,31 @@
               },
               {
                 "@attribute-id": "addressUUID",
-                "__text": "MTIxIHRlbXBsZSBhdmUsIGtldyBlYXN0IHZpYyAzMTAy"
+                "__text": "OTAwIHN0YXRpb24gZ3JlZW4gZHIsIGJveCBoaWxsIG5vcnRoIHZpYyAzMTI5"
               },
               {
                 "@attribute-id": "formattedAddress",
-                "__text": "121 TEMPLE AVE, KEW EAST, VIC 3102"
+                "__text": "900 STATION GREEN DRIVE, BOX HILL NORTH, VIC 3129"
               },
               {
                 "@attribute-id": "locationId",
-                "__text": "LOC220777000281"
+                "__text": "LOC770400008900"
               },
               {
                 "@attribute-id": "similarStreetType",
-                "__text": "Avenue;Ave;"
+                "__text": "DRIVE"
               },
               {
                 "@attribute-id": "streetName",
-                "__text": "TEMPLE"
+                "__text": "STATION GREEN"
               },
               {
                 "@attribute-id": "streetNumber",
-                "__text": "121"
+                "__text": "900"
               },
               {
                 "@attribute-id": "streetType",
-                "__text": "AVE"
+                "__text": "DR"
               }
               ]
             }
@@ -1148,14 +387,14 @@
           "gift": "false",
           "totals": {
             "merchandize-total": {
-              "net-price": "329.00",
+              "net-price": "0.00",
               "tax": "0.00",
-              "gross-price": "329.00"
+              "gross-price": "0.00"
             },
             "adjusted-merchandize-total": {
-              "net-price": "319.00",
+              "net-price": "0.00",
               "tax": "0.00",
-              "gross-price": "319.00"
+              "gross-price": "0.00"
             },
             "shipping-total": {
               "net-price": "0.00",
@@ -1168,28 +407,28 @@
               "gross-price": "0.00"
             },
             "shipment-total": {
-              "net-price": "319.00",
+              "net-price": "0.00",
               "tax": "0.00",
-              "gross-price": "319.00"
+              "gross-price": "0.00"
             }
           },
           "custom-attributes": {
             "custom-attribute": [
             {
-              "@attribute-id": "NBNAppointmentStatus",
-              "__text": "SCHEDULED"
+              "@attribute-id": "EPID",
+              "__text": "0615"
             },
             {
-              "@attribute-id": "OptusAppointmentStatus",
-              "__text": "APPOINTMENT_ERROR"
+              "@attribute-id": "authorityFlag",
+              "__text": "NotDetermined"
             },
             {
               "@attribute-id": "baseOrderType",
-              "__text": "newFixedSubs"
+              "__text": "relocation"
             },
             {
               "@attribute-id": "chargeZone",
-              "__text": "WIN"
+              "__text": "MEL"
             },
             {
               "@attribute-id": "configStatus",
@@ -1197,7 +436,7 @@
             },
             {
               "@attribute-id": "configuratorContextKey",
-              "__text": "33796613"
+              "__text": "moving-home"
             },
             {
               "@attribute-id": "customerType",
@@ -1205,39 +444,35 @@
             },
             {
               "@attribute-id": "cvcId",
-              "__text": "CVC000000010002"
-            },
-            {
-              "@attribute-id": "deliveryDate",
-              "__text": "2022-10-07"
+              "__text": "CVC000000000030"
             },
             {
               "@attribute-id": "demandType",
               "__text": "Standard Install"
             },
             {
+              "@attribute-id": "epidName",
+              "__text": "NBN Co. Limited"
+            },
+            {
+              "@attribute-id": "esqResponse",
+              "__text": "{\"id\":\"LOC770400008900\",\"href\":\"https://apigw-stage.nbnco.net.au/v2/npis-service-qualification/singleSiteQualification/LOC770400008900\",\"siteRestriction\":{\"id\":\"LOC770400008900\",\"href\":\"https://apigw-stage.nbnco.net.au/v1/npis-address/geographicAddress/LOC770400008900\",\"serviceabilityStatus\":\"Serviceable\",\"supportingTechnology\":{\"primaryAccessTechnology\":\"Fibre To The Curb\",\"serviceabilityClass\":\"34\",\"alternativeTechnology\":\"Fibre\"},\"supportingRelatedSiteBoundaries\":{\"CSAId\":\"CSA000000000030\",\"region\":\"Urban\"},\"supportingRelatedLocationFeatures\":{\"networkBoundaryPoint\":\"Telecommunications Outlet\",\"newDevelopmentsChargeApplies\":false,\"safetyCriticalServiceAlert\":false,\"MDU\":false},\"supportingProductFeatures\":[{\"type\":\"NCAS\",\"version\":\"2.0.0\",\"multicast\":false,\"TC2\":true,\"capacityAvailability\":[{\"capacity\":20,\"featureType\":\"TC2\",\"highSpeedNotLessThan\":true,\"unitOfMeasure\":\"Mbps\"},{\"capacity\":2,\"featureType\":\"TC1\",\"highSpeedNotLessThan\":true,\"unitOfMeasure\":\"Mbps\"},{\"available\":true,\"capacity\":5,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\"},{\"available\":true,\"capacity\":10,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\"},{\"available\":true,\"capacity\":20,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\"},{\"available\":true,\"capacity\":30,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\"},{\"available\":true,\"capacity\":40,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\"}],\"speedTierAvailability\":[\"Home Fast\"]}],\"supportingResource\":[{\"type\":\"CopperLineResource\",\"id\":\"CPI770400018900\",\"version\":\"2.0.0\",\"networkCoexistence\":true,\"serviceabilityClass\":\"34\",\"remediationRequired\":false,\"subsequentInstallationChargeApplies\":false,\"NBNServiceStatus\":\"Line In Use\",\"bandwidthRatesSupported\":[{\"bandwidthRate\":5,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":10,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":20,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":30,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":40,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true}],\"copperBandwidthRates\":[{\"bandwidthType\":\"DownstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":99},{\"bandwidthType\":\"DownstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":60},{\"bandwidthType\":\"UpstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":19},{\"bandwidthType\":\"UpstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":5},{\"bandwidthType\":\"DownstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12},{\"bandwidthType\":\"DownstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12}]},{\"type\":\"CopperLineResource\",\"id\":\"CPI770400028900\",\"version\":\"2.0.0\",\"networkCoexistence\":true,\"serviceabilityClass\":\"34\",\"remediationRequired\":false,\"subsequentInstallationChargeApplies\":false,\"NBNServiceStatus\":\"Line Not In Use\",\"bandwidthRatesSupported\":[{\"bandwidthRate\":5,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":10,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":20,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":30,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":40,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true}],\"copperBandwidthRates\":[{\"bandwidthType\":\"DownstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":99},{\"bandwidthType\":\"DownstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":60},{\"bandwidthType\":\"UpstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":19},{\"bandwidthType\":\"UpstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":5},{\"bandwidthType\":\"DownstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12},{\"bandwidthType\":\"DownstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12}]},{\"type\":\"CopperLineResource\",\"id\":\"CPI770400038900\",\"version\":\"2.0.0\",\"networkCoexistence\":true,\"serviceabilityClass\":\"34\",\"remediationRequired\":false,\"subsequentInstallationChargeApplies\":false,\"NBNServiceStatus\":\"Line In Use\",\"bandwidthRatesSupported\":[{\"bandwidthRate\":5,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":10,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":20,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":30,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":40,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true}],\"copperBandwidthRates\":[{\"bandwidthType\":\"DownstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":99},{\"bandwidthType\":\"DownstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":60},{\"bandwidthType\":\"UpstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":19},{\"bandwidthType\":\"UpstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":5},{\"bandwidthType\":\"DownstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12},{\"bandwidthType\":\"DownstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12}]},{\"type\":\"CopperLineResource\",\"id\":\"CPI770400048900\",\"version\":\"2.0.0\",\"networkCoexistence\":true,\"serviceabilityClass\":\"34\",\"remediationRequired\":false,\"subsequentInstallationChargeApplies\":false,\"NBNServiceStatus\":\"Line Not In Use\",\"bandwidthRatesSupported\":[{\"bandwidthRate\":5,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":10,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":20,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":30,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true},{\"bandwidthRate\":40,\"featureType\":\"TC2\",\"unitOfMeasure\":\"Mbps\",\"supported\":true}],\"copperBandwidthRates\":[{\"bandwidthType\":\"DownstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":99},{\"bandwidthType\":\"DownstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":60},{\"bandwidthType\":\"UpstreamUpperRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":19},{\"bandwidthType\":\"UpstreamLowerRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":5},{\"bandwidthType\":\"DownstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamMeanRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12},{\"bandwidthType\":\"DownstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":80},{\"bandwidthType\":\"UpstreamCurrentAssuredRate\",\"featureType\":\"TC4\",\"unitOfMeasure\":\"Mbps\",\"bandwidth\":12}]}],\"supportingProduct\":[{\"id\":\"PRI770400018900\",\"serviceProviderId\":\"0615\",\"priorityAssist\":\"No\",\"resourceRef\":[\"#/siteRestriction/CopperLineResource/id['CPI770400018900']\"]},{\"id\":\"PRI770400048900\",\"serviceProviderId\":\"0615\",\"priorityAssist\":\"No\",\"resourceRef\":[\"#/siteRestriction/CopperLineResource/id['CPI770400048900']\"]}]}}"
+            },
+            {
               "@attribute-id": "estimatedSpeedAuthority",
               "__text": "false"
             },
             {
-              "@attribute-id": "existingCustomerCreditCheckServiceId",
-              "__text": "mulesoft.authorize.credit.ec"
-            },
-            {
               "@attribute-id": "flowType",
-              "__text": "OFFLINE"
-            },
-            {
-              "@attribute-id": "flowTypeChangeReason",
-              "__text": "EMPTY CUSTOMER ACCOUNT LIST"
+              "__text": "ONLINE"
             },
             {
               "@attribute-id": "formattedServiceRequestDate",
-              "__text": "12/10/2022 11:00"
+              "__text": "13/02/2023 11:00:00"
             },
             {
               "@attribute-id": "hasNCDAtPremises",
-              "__text": "false"
+              "__text": "true"
             },
             {
               "@attribute-id": "hasShippable",
@@ -1245,7 +480,7 @@
             },
             {
               "@attribute-id": "installationWorkforce",
-              "__text": "NBN Co Install"
+              "__text": "Standard Install"
             },
             {
               "@attribute-id": "isFetchNotIncludedInNewPlan",
@@ -1257,55 +492,23 @@
             },
             {
               "@attribute-id": "itemCategory",
-              "__text": "Fixed_Fixed Broadband_R5"
+              "__text": "R5A_Fixed_Relocation_NBN"
             },
             {
               "@attribute-id": "itemCategoryType",
               "__text": "NBN"
             },
             {
-              "@attribute-id": "nbnAppointmentContactType",
-              "__text": "undefined undefined 0468813786"
-            },
-            {
-              "@attribute-id": "nbnAppointmentDate",
-              "__text": "2022-10-12"
-            },
-            {
-              "@attribute-id": "nbnAppointmentEndDate",
-              "__text": "2022-10-12T12:00:00+11:00"
-            },
-            {
-              "@attribute-id": "nbnAppointmentFirstName",
-              "__text": "undefined"
-            },
-            {
-              "@attribute-id": "nbnAppointmentLastName",
-              "__text": "undefined"
-            },
-            {
-              "@attribute-id": "nbnAppointmentMobileNumber",
-              "__text": "0468813786"
-            },
-            {
-              "@attribute-id": "nbnAppointmentRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "nbnAppointmentStartDate",
-              "__text": "2022-10-12T08:00:00+11:00"
-            },
-            {
               "@attribute-id": "nbnInstallationCharge",
               "__text": "false"
             },
             {
-              "@attribute-id": "nbnSlotType",
-              "__text": "AM"
+              "@attribute-id": "nbnInstallationQAndA",
+              "__text": "{\"answers\":[{\"question\":\"Let’s make sure you’re ready for the nbn™, by checking for a connection box\",\"answer\":\"All good, I found the nbn™ connection box\",\"questionId\":\"ncd-at-premises-visible\",\"answerId\":\"outcome1\"}]}"
             },
             {
-              "@attribute-id": "nbnTimeSlotLabel",
-              "__text": "Between 8AM-12PM"
+              "@attribute-id": "nbnQuestionnaireAnswers",
+              "__text": "{\"SC34_activeNBNService\":{\"answers\":{\"transit-or-new-line-fttc\":{\"response\":\"outcome3\",\"parameters\":{}},\"service-ownership-fttc\":{\"response\":\"outcome2\",\"parameters\":{\"skipNextStep\":true}}},\"lastAnsweredStepQuestion\":\"serviceOwnershipFTTC\"},\"34_activeNBNService\":{\"answers\":{\"ncd-at-premises-visible\":{\"response\":\"outcome1\",\"parameters\":{\"ncdAtPremises\":true}}},\"lastAnsweredStepQuestion\":\"isNCDAtPremisesVisible\"}}"
             },
             {
               "@attribute-id": "ncdRequired",
@@ -1317,7 +520,7 @@
             },
             {
               "@attribute-id": "newLineScenario",
-              "__text": "additional"
+              "__text": "replacement"
             },
             {
               "@attribute-id": "newPortScenario",
@@ -1333,27 +536,19 @@
             },
             {
               "@attribute-id": "offerId",
-              "__text": "33792133"
-            },
-            {
-              "@attribute-id": "offlineReasons",
-              "value": "EMPTY CUSTOMER ACCOUNT LIST"
-            },
-            {
-              "@attribute-id": "optusAppointmentRequired",
-              "__text": "true"
-            },
-            {
-              "@attribute-id": "orderFeasibilityCheckResponse",
-              "__text": "{\"shortfall\":[{\"type\":\"NTD\",\"value\":false},{\"type\":\"LEADIN\",\"value\":false},{\"type\":\"NBNCOINFRASTRUCTURE\",\"value\":false},{\"type\":\"POWERSUPPLYWITHBATTERYBACKUP\",\"value\":false}],\"status\":\"Feasible\",\"serviceQualificationType\":\"ProductOrder\"}"
+              "__text": "nbnRelo"
             },
             {
               "@attribute-id": "orderFeasibilityStatus",
-              "__text": "FEASIBLE"
+              "__text": "NOT_PERFORMED"
             },
             {
               "@attribute-id": "orderType",
-              "__text": "NewConnectOrder"
+              "__text": "ConnectOutstanding"
+            },
+            {
+              "@attribute-id": "originalAuthorityFlag",
+              "__text": "NotDetermined"
             },
             {
               "@attribute-id": "originalFlowType",
@@ -1361,7 +556,7 @@
             },
             {
               "@attribute-id": "planBillingOfferId",
-              "__text": "33796613"
+              "__text": "moving-home"
             },
             {
               "@attribute-id": "planContractDuration",
@@ -1369,19 +564,27 @@
             },
             {
               "@attribute-id": "referralUrl",
-              "__text": "/s/OptusAU/broadbandplans?lang=default"
+              "__text": "https://www-uat.optus.com.au/broadband-nbn/home-broadband/moving-home/new-address"
+            },
+            {
+              "@attribute-id": "selectedLine",
+              "__text": "NBN Co. Limited - CPI770400018900"
+            },
+            {
+              "@attribute-id": "selectedLineCopperPairId",
+              "__text": "CPI770400018900"
             },
             {
               "@attribute-id": "serviceClass",
-              "__text": "2"
+              "__text": "34"
             },
             {
               "@attribute-id": "serviceRequestDate",
-              "__text": "2022-10-12T00:00:00.000+0000"
+              "__text": "2023-02-13T00:00:00.000+0000"
             },
             {
               "@attribute-id": "technology",
-              "__text": "NBN FTTP"
+              "__text": "NBN FTTC"
             }
             ]
           }
@@ -1389,14 +592,14 @@
       },
       "totals": {
         "merchandize-total": {
-          "net-price": "329.00",
+          "net-price": "0.00",
           "tax": "0.00",
-          "gross-price": "329.00"
+          "gross-price": "0.00"
         },
         "adjusted-merchandize-total": {
-          "net-price": "319.00",
+          "net-price": "0.00",
           "tax": "0.00",
-          "gross-price": "319.00"
+          "gross-price": "0.00"
         },
         "shipping-total": {
           "net-price": "0.00",
@@ -1409,103 +612,60 @@
           "gross-price": "0.00"
         },
         "order-total": {
-          "net-price": "319.00",
+          "net-price": "0.00",
           "tax": "0.00",
-          "gross-price": "319.00"
+          "gross-price": "0.00"
         }
       },
       "payments": {
         "payment": {
-          "credit-card": {
-            "card-type": "VISA",
-            "card-number": "XXXX-XXXX-XXXX-0001",
-            "card-holder": "undefined undefined",
-            "card-token": "40VTB2LM2Z060001",
-            "expiration-month": "11",
-            "expiration-year": "2025",
-            "custom-attributes": {
-              "custom-attribute": [
-              {
-                "@attribute-id": "receipt",
-                "__text": "25879965"
-              },
-              {
-                "@attribute-id": "secureTransactionToken",
-                "__text": "stt_3f016391-a184-4067-b918-1ef64889bbe0"
-              },
-              {
-                "@attribute-id": "settlementDate",
-                "__text": "07-Oct-2022"
-              }
-              ]
-            }
-          },
-          "amount": "319.00",
-          "processor-id": "BAMBORA_CREDIT",
-          "transaction-id": "undefined"
+          "amount": "0.00",
+          "processor-id": "MANUAL_PAYMENT",
+          "transaction-id": "UAT200046453"
         }
       },
-      "remoteHost": "203.13.128.104",
+      "remoteHost": "61.88.183.109",
       "custom-attributes": {
         "custom-attribute": [
         {
           "@attribute-id": "BYODSelected",
-          "__text": "true"
-        },
-        {
-          "@attribute-id": "HasACapturedTokenInET",
-          "__text": "true"
+          "__text": "false"
         },
         {
           "@attribute-id": "IdCheckStatus",
-          "__text": "VERIFIED"
-        },
-        {
-          "@attribute-id": "NBNAppointmentStatus",
-          "__text": "SCHEDULED"
-        },
-        {
-          "@attribute-id": "OptusAppointmentStatus",
-          "__text": "APPOINTMENT_ERROR"
-        },
-        {
-          "@attribute-id": "UpfrontPaymentRequired",
-          "__text": "true"
-        },
-        {
-          "@attribute-id": "acceptedTandC",
-          "value": [
-          "nbnBYOConsentSelected",
-          "acmaModemConsentProvided"
-          ]
+          "__text": "NOT_PERFORMED"
         },
         {
           "@attribute-id": "accountType",
-          "__text": "ShellAccount"
+          "__text": "MatureAccount"
         },
         {
           "@attribute-id": "aemHandoverPayload",
-          "__text": "{\"33796613\":\"baseDetails-33796613\",\"baseDetails-33796613\":{\"product\":[{\"itemId\":\"33796613\",\"itemCategory\":\"Fixed_Fixed Broadband\",\"technology\":\"NBN FTTP\",\"itemContractLength\":1,\"BYODSelected\":true}],\"planDetails\":{\"customerType\":\"CMR\",\"orderType\":\"newFixedSubs\",\"timestamp\":\"2022-10-07T03:38:18.947Z\",\"referralUrl\":\"/s/OptusAU/broadbandplans?lang=default\",\"addressMatchType\":\"EXACT_MATCH\",\"timezone\":\"Australia/Sydney\"}}}"
+          "__text": "{\"baseDetails-moving-home\":{\"product\":[{\"itemCategory\":\"R5A_Fixed_Relocation_NBN\",\"technology\":\"NBN FTTC\",\"itemId\":\"moving-home\",\"itemContractLength\":1}],\"planDetails\":{\"customerType\":\"CMR\",\"orderType\":\"relocation\",\"referralUrl\":\"https://www-uat.optus.com.au/broadband-nbn/home-broadband/moving-home/new-address\",\"timestamp\":\"2023-02-10T07:53:13.041Z\"}},\"moving-home\":\"baseDetails-moving-home\"}"
+        },
+        {
+          "@attribute-id": "authorityFlag",
+          "__text": "NotDetermined"
         },
         {
           "@attribute-id": "baseOrderType",
-          "__text": "newFixedSubs"
+          "__text": "relocation"
         },
         {
           "@attribute-id": "calculatedTotals",
-          "__text": "{\"priceGroup\":{\"33796613\":{\"PLAN_ID\":\"33796613\",\"DEVICE_ID\":null,\"DEVICE_CONTRACT_DURATION\":null,\"PLAN_CONTRACT_DURATION\":1,\"UPFRONT_COST\":\"$240.00\",\"MONTHLY_COST\":\"$79.00\",\"ADJUSTED_MONTHLY_COST\":\"$79.00\",\"ADJUSTED_MONTHLY_COST_VALUE\":79,\"UPFRONT_COST_VALUE\":240,\"MONTHLY_COST_VALUE\":79,\"TOTAL_MINIMUM_COST\":\"$319.00\",\"TOTAL_MINIMUM_COST_VALUE\":319,\"STARTUP_FEE\":\"$0.00\",\"STARTUP_FEE_VALUE\":0,\"INSTALLATION_COST\":\"$240.00\",\"INSTALLATION_COST_VALUE\":240,\"DELIVERY_COST\":\"$0.00\",\"DELIVERY_COST_VALUE\":0,\"formattedLegalText\":\"The minimum total cost of this plan is $331 if you cancel after your first month (including $252 modem cost). Stay connected for 36 months and pay $0 for the modem (we’ll cover $7 for each month you stay connected). If you leave within 36 months, you’ll pay the remaining modem cost in full (any credits or discounts will be forfeited). You won’t receive a pro-rata refund for the remainder of your payment cycle when you cancel. There are no other plan cancellation fees.\",\"formattedLegalTextBYOD\":\"The minimum total cost of this plan is $79 if you cancel after your first month. You won’t receive a pro-rata refund for the remainder of your payment cycle when you cancel. There are no other plan cancellation fees.\",\"productUUID\":\"fc30a6706c7eaba179bf98b093\"}},\"UPFRONT_COST\":\"$240.00\",\"MONTHLY_COST\":\"$79.00\",\"TOTAL_MINIMUM_COST\":\"$319.00\",\"UPFRONT_COST_VALUE\":240,\"MONTHLY_COST_VALUE\":79,\"TOTAL_MINIMUM_COST_VALUE\":319,\"TOTAL_ADJUSTED_MONTHLY_COST\":79,\"INSTALLATION_COST\":\"$240.00\",\"INSTALLATION_COST_VALUE\":240,\"STARTUP_FEE\":\"$0.00\",\"STARTUP_FEE_VALUE\":0,\"formattedLegalText\":\"The minimum total cost of this plan is $331 if you cancel after your first month (including $252 modem cost). Stay connected for 36 months and pay $0 for the modem (we’ll cover $7 for each month you stay connected). If you leave within 36 months, you’ll pay the remaining modem cost in full (any credits or discounts will be forfeited). You won’t receive a pro-rata refund for the remainder of your payment cycle when you cancel. There are no other plan cancellation fees.\",\"formattedLegalTextBYOD\":\"The minimum total cost of this plan is $79 if you cancel after your first month. You won’t receive a pro-rata refund for the remainder of your payment cycle when you cancel. There are no other plan cancellation fees.\",\"productUUID\":\"fc30a6706c7eaba179bf98b093\"}"
+          "__text": "{\"priceGroup\":{\"moving-home\":{\"PLAN_ID\":\"moving-home\",\"DEVICE_ID\":null,\"DEVICE_CONTRACT_DURATION\":null,\"PLAN_CONTRACT_DURATION\":1,\"UPFRONT_COST\":\"$0\",\"MONTHLY_COST\":\"$0\",\"ADJUSTED_MONTHLY_COST\":\"$0.00\",\"ADJUSTED_MONTHLY_COST_VALUE\":0,\"UPFRONT_COST_VALUE\":0,\"MONTHLY_COST_VALUE\":0,\"TOTAL_MINIMUM_COST\":\"$0.00\",\"TOTAL_MINIMUM_COST_VALUE\":0,\"STARTUP_FEE\":\"$0.00\",\"STARTUP_FEE_VALUE\":0,\"INSTALLATION_COST\":\"$0.00\",\"INSTALLATION_COST_VALUE\":0,\"DELIVERY_COST\":\"$0.00\",\"DELIVERY_COST_VALUE\":0,\"formattedLegalText\":\"\",\"formattedLegalTextBYOD\":\"\",\"productUUID\":\"2f1abf294d80cb5c6730d9dd06\"}},\"UPFRONT_COST\":\"$0\",\"MONTHLY_COST\":\"$0\",\"TOTAL_MINIMUM_COST\":\"$0.00\",\"UPFRONT_COST_VALUE\":0,\"MONTHLY_COST_VALUE\":0,\"TOTAL_MINIMUM_COST_VALUE\":0,\"TOTAL_ADJUSTED_MONTHLY_COST\":0,\"formattedLegalText\":\"\",\"formattedLegalTextBYOD\":\"\",\"productUUID\":\"2f1abf294d80cb5c6730d9dd06\"}"
         },
         {
           "@attribute-id": "chargeZone",
-          "__text": "WIN"
+          "__text": "MEL"
         },
         {
           "@attribute-id": "checkoutFlow",
-          "__text": "NBNSubscriptionFlow"
+          "__text": "NBNRelocationFlow"
         },
         {
           "@attribute-id": "checkoutFlowConfig",
-          "__text": "{\"personalDetails\":{\"stepId\":\"personalDetails\",\"checkoutSubSteps\":[{\"stepId\":\"personalDetailsProfile\",\"completed\":true},{\"stepId\":\"idCheck\",\"completed\":true},{\"stepId\":\"idCheckSecondary\",\"completed\":true}],\"completed\":true},\"scheduling\":{\"stepId\":\"scheduling\",\"checkoutSubSteps\":[{\"stepId\":\"nbnAppointment\",\"completed\":true},{\"stepId\":\"optusAppointment\",\"completed\":true}],\"completed\":true},\"paymentCredit\":{\"stepId\":\"paymentCredit\",\"checkoutSubSteps\":[],\"completed\":true},\"checkoutReview\":{\"stepId\":\"checkoutReview\",\"checkoutSubSteps\":[],\"completed\":false}}"
+          "__text": "{\"checkoutReview\":{\"stepId\":\"checkoutReview\",\"checkoutSubSteps\":[],\"completed\":false}}"
         },
         {
           "@attribute-id": "configStatus",
@@ -1513,15 +673,11 @@
         },
         {
           "@attribute-id": "configuratorContextKey",
-          "__text": "33796613"
+          "__text": "moving-home"
         },
         {
-          "@attribute-id": "createNewBillingAccount",
-          "__text": "true"
-        },
-        {
-          "@attribute-id": "crmCheckStatus",
-          "__text": "CRM_CHECK_NOT_PERFORMED"
+          "@attribute-id": "connectionDate",
+          "__text": "2023-02-13"
         },
         {
           "@attribute-id": "customerType",
@@ -1532,52 +688,40 @@
           "__text": "NOT_PERFORMED"
         },
         {
-          "@attribute-id": "deliveryDate",
-          "__text": "2022-10-07"
-        },
-        {
           "@attribute-id": "demandType",
           "__text": "Standard Install"
         },
         {
           "@attribute-id": "deviceIdInfo",
-          "__text": "7882008d317a4ae8b8dda210884e5c9c"
+          "__text": "0cfdd343593f4601af87deca55f3fac8"
         },
         {
-          "@attribute-id": "employersName",
-          "__text": "xyz"
-        },
-        {
-          "@attribute-id": "employmentStatus",
-          "__text": "Full Time"
+          "@attribute-id": "disconnectionDate",
+          "__text": "2023-02-13"
         },
         {
           "@attribute-id": "flowType",
-          "__text": "OFFLINE"
-        },
-        {
-          "@attribute-id": "flowTypeChangeReason",
-          "__text": "EMPTY CUSTOMER ACCOUNT LIST"
+          "__text": "ONLINE"
         },
         {
           "@attribute-id": "formattedServiceRequestDate",
-          "__text": "12/10/2022 11:00"
+          "__text": "13/02/2023 11:00:00"
         },
         {
           "@attribute-id": "hasNCDAtPremises",
-          "__text": "false"
+          "__text": "true"
         },
         {
-          "@attribute-id": "industryType",
-          "__text": "AccommodationCafesAndRestaurants"
+          "@attribute-id": "implPhysicalAddressDetails",
+          "__text": "{\"country\":{\"name\":\"AUS\"},\"postcode\":\"2148\",\"state\":\"NSW\",\"streetName\":\"Main\",\"countryCode\":\"61\",\"isUnstructAddressX9\":0,\"addressType\":\"Geographic\",\"streetNumber\":\"1\",\"streetType\":\"ST\",\"addressId\":\"537096678\",\"subUrb\":\"BLACKTOWN\",\"formattedAddressX9\":\"1 Main Street, BLACKTOWN, NSW 2148, Australia\",\"newFormattedAddressX9\":\"1 Main Street, BLACKTOWN, NSW 2148, Australia\",\"isInternationalAddressX9\":0,\"timeZoneOffset\":\"Australia/NSW\",\"isUnvalidatedAddress\":0}"
         },
         {
           "@attribute-id": "installationWorkforce",
-          "__text": "NBN Co Install"
+          "__text": "Standard Install"
         },
         {
           "@attribute-id": "ipAddress",
-          "__text": "203.13.128.104"
+          "__text": "61.88.183.109"
         },
         {
           "@attribute-id": "ipGeo",
@@ -1593,67 +737,27 @@
         },
         {
           "@attribute-id": "isRelocationOrder",
-          "__text": "false"
-        },
-        {
-          "@attribute-id": "issuingState",
-          "__text": "QLD"
+          "__text": "true"
         },
         {
           "@attribute-id": "itemCategory",
-          "__text": "Fixed_Fixed Broadband_R5"
+          "__text": "R5A_Fixed_Relocation_NBN"
         },
         {
           "@attribute-id": "itemCategoryType",
           "__text": "NBN"
         },
         {
-          "@attribute-id": "licenceExpiryDate",
-          "__text": "2024-01-31"
-        },
-        {
-          "@attribute-id": "licenceFirstName",
-          "__text": "undefined"
-        },
-        {
-          "@attribute-id": "licenceLastName",
-          "__text": "undefined"
-        },
-        {
-          "@attribute-id": "licenceNumber",
-          "__text": "11111111"
-        },
-        {
           "@attribute-id": "minimumTotalCostValue",
-          "__text": "319.0"
+          "__text": "0.0"
         },
         {
-          "@attribute-id": "nbnAppointmentContactType",
-          "__text": "undefined undefined 0468813786"
+          "@attribute-id": "nbnInstallationQAndA",
+          "__text": "{\"answers\":[{\"question\":\"Let’s make sure you’re ready for the nbn™, by checking for a connection box\",\"answer\":\"All good, I found the nbn™ connection box\",\"questionId\":\"ncd-at-premises-visible\",\"answerId\":\"outcome1\"}]}"
         },
         {
-          "@attribute-id": "nbnAppointmentDate",
-          "__text": "2022-10-12"
-        },
-        {
-          "@attribute-id": "nbnAppointmentEndDate",
-          "__text": "2022-10-12T12:00:00+11:00"
-        },
-        {
-          "@attribute-id": "nbnAppointmentRequired",
-          "__text": "true"
-        },
-        {
-          "@attribute-id": "nbnAppointmentStartDate",
-          "__text": "2022-10-12T08:00:00+11:00"
-        },
-        {
-          "@attribute-id": "nbnSlotType",
-          "__text": "AM"
-        },
-        {
-          "@attribute-id": "nbnTimeSlotLabel",
-          "__text": "Between 8AM-12PM"
+          "@attribute-id": "nbnQuestionnaireAnswers",
+          "__text": "{\"SC34_activeNBNService\":{\"answers\":{\"transit-or-new-line-fttc\":{\"response\":\"outcome3\",\"parameters\":{}},\"service-ownership-fttc\":{\"response\":\"outcome2\",\"parameters\":{\"skipNextStep\":true}}},\"lastAnsweredStepQuestion\":\"serviceOwnershipFTTC\"},\"34_activeNBNService\":{\"answers\":{\"ncd-at-premises-visible\":{\"response\":\"outcome1\",\"parameters\":{\"ncdAtPremises\":true}}},\"lastAnsweredStepQuestion\":\"isNCDAtPremisesVisible\"}}"
         },
         {
           "@attribute-id": "ncdRequired",
@@ -1661,11 +765,7 @@
         },
         {
           "@attribute-id": "newLineScenario",
-          "__text": "additional"
-        },
-        {
-          "@attribute-id": "newPaymentSetupStatus",
-          "__text": "SUCCESS"
+          "__text": "replacement"
         },
         {
           "@attribute-id": "newPortScenario",
@@ -1676,152 +776,80 @@
           "__text": "false"
         },
         {
-          "@attribute-id": "occupationName",
-          "__text": "Factory Worker"
-        },
-        {
           "@attribute-id": "offerId",
-          "__text": "33792133"
-        },
-        {
-          "@attribute-id": "offlineReasons",
-          "value": "EMPTY CUSTOMER ACCOUNT LIST"
-        },
-        {
-          "@attribute-id": "optusAppointmentRequired",
-          "__text": "true"
+          "__text": "nbnRelo"
         },
         {
           "@attribute-id": "orderCreationDate",
-          "__text": "07/10/2022 15:04"
+          "__text": "10/02/2023 19:08:22"
         },
         {
           "@attribute-id": "orderType",
-          "__text": "NewConnectOrder"
+          "__text": "ConnectOutstanding"
         },
         {
           "@attribute-id": "originalFlowType",
           "__text": "ONLINE"
         },
         {
-          "@attribute-id": "pageCacheKeys",
-          "__text": "{\"33796613\":\"04f9be329fcff76652f500067a1f04dc07ec59ec\"}"
-        },
-        {
           "@attribute-id": "planBillingOfferId",
-          "__text": "33796613"
+          "__text": "moving-home"
         },
         {
           "@attribute-id": "planContractDuration",
           "__text": "1"
         },
         {
-          "@attribute-id": "primaryIDCheckResponse",
-          "__text": "{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"verificationXMLPayload\":\"<ns2:registerVerificationResponse xmlns:ns2=\\\"http://dynamicform.services.registrations.edentiti.com/\\\"><return><checkResult><stillWorking>false</stillWorking></checkResult><sourceList><sources><available>true</available><name>actregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>1</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>nswregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>2</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>ntregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>3</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>qldregodvs</name><notRequired>false</notRequired><oneSourceLeft>false</oneSourceLeft><order>4</order><passed>true</passed><state>VERIFIED</state><version>1</version></sources><sources><available>true</available><name>saregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>5</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>tasregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>6</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>vicregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>7</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>waregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>8</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>passportdvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>9</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>visadvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>10</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>medicaredvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>11</order><passed>false</passed><state>EMPTY</state><version>1</version></sources></sourceList><userToken>2f3f3911ad507946dd0a5532870a472ea906635e</userToken><verificationResult><dateVerified>2022-10-07T04:19:34.432+11:00</dateVerified><individualResults><dateVerified>2022-10-07T04:19:33.942+11:00</dateVerified><method>DB</method><name>DFAT Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2022-10-07T04:19:33.942+11:00</dateVerified><method>DB</method><name>PEP Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2022-10-07T04:19:33.942+11:00</dateVerified><method>DB</method><name>OFAC Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2022-10-07T04:19:33.945+11:00</dateVerified><fieldsResults><data>undefined</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>givenName</label><name>givenName</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>undefined</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>surname</label><name>surname</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>1970-01-01</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>dob</label><name>dob</name><status>CONFIRMED</status></fieldsResults><method>DB</method><name>QLDRegoDVS</name><state>VERIFIED</state></individualResults><outcome>VERIFIED</outcome><ruleId>default</ruleId><userId>c727ba37947e274</userId></verificationResult></return></ns2:registerVerificationResponse>\"}"
-        },
-        {
-          "@attribute-id": "primaryIDSource",
-          "__text": "MANUAL"
-        },
-        {
-          "@attribute-id": "primaryIDType",
-          "__text": "DRIVER_LICENCE"
-        },
-        {
           "@attribute-id": "profileContactId",
-          "__text": "973206152"
+          "__text": "440091423"
         },
         {
           "@attribute-id": "profileDateOfBirth",
-          "__text": "1970-01-01"
+          "__text": "1988-03-18"
         },
         {
           "@attribute-id": "profileFirstName",
-          "__text": "undefined"
+          "__text": "APPROVE"
         },
         {
           "@attribute-id": "profileLastName",
-          "__text": "undefined"
+          "__text": "CBRT"
         },
         {
           "@attribute-id": "profileMobileNumber",
-          "__text": "0468813786"
+          "__text": "0455514476"
         },
         {
           "@attribute-id": "profilePID",
-          "__text": "10397946"
-        },
-        {
-          "@attribute-id": "profilePrefContactMethod",
-          "__text": "sms"
+          "__text": "10430190"
         },
         {
           "@attribute-id": "profileTitle",
-          "__text": "undefined"
+          "__text": "Mr"
         },
         {
           "@attribute-id": "profiledDomain",
-          "__text": "bfzf-022.sandbox.us01.dx.commercecloud.salesforce.com"
+          "__text": "uat-shop.optus.com.au"
         },
         {
           "@attribute-id": "reasonCode",
-          "__text": "SFCCTranPass"
+          "__text": "INVALID_input_ip_address"
         },
         {
-          "@attribute-id": "residentialAddressLine1",
-          "__text": "121 Temple Avenue"
+          "@attribute-id": "relocationPayload",
+          "__text": "{\"timestamp\":\"2023-02-10T07:53:13.041Z\",\"referralUrl\":\"https://www-uat.optus.com.au/broadband-nbn/home-broadband/moving-home/new-address\",\"addressMatchType\":\"EXACT_MATCH\",\"dsqSpeedInfo\":{},\"dsqSpeedMatrixInfo\":{},\"ServiceQualification\":{\"request\":{\"msisdn\":null,\"matchID\":\"ADD00162875\",\"campaignID\":\"homemovers\",\"marketSgmt\":\"RES\",\"authorMode\":false,\"selectedAddress\":{\"implPhysicalAddress\":{\"postcode\":\"3129\",\"state\":\"VIC\",\"streetName\":\"STATION GREEN\",\"isUnstructAddressX9\":0,\"streetNumber\":\"900\",\"streetType\":\"DR\",\"similarStreetType\":\"DRIVE\",\"subUrb\":\"BOX HILL NORTH\",\"isUnvalidatedAddress\":0,\"country\":{\"id\":\"AUS\",\"name\":\"AUS\"},\"formattedAddressDisplay\":\"900 STATION GREEN DRIVE, BOX HILL NORTH, VIC 3129\"},\"relationInfoList\":[{\"techologyName\":\"NBN\",\"addressId\":\"LOC770400008900\"}]},\"agentId\":null,\"dealerCode\":null,\"salesChannel\":\"DG\",\"sourceSystem\":\"DigiShop\",\"formattedAddressDisplay\":\"900 STATION GREEN DRIVE, BOX HILL NORTH, VIC 3129\"},\"response\":{\"transactionId\":\"234644c4-f262-459a-8bba-b9c087a76204\",\"nbnDevChargeFlag\":\"N\",\"catalogBrowsing\":{\"technology\":\"NBN FTTC\",\"products\":[\"WS\",\"FB\",\"FV\",\"TV\"]},\"matrixRow\":{\"rowNum\":9217,\"marketSegment\":\"RES\",\"campaignId\":\"homemovers\",\"priority\":91,\"broadband\":\"NBN FTTC\",\"telephony\":\"NBN FTTC\",\"preorder\":false,\"from\":-99999,\"to\":-10000,\"html\":\"<div class=\\\"sq-output\\\"><p style=\\\"font-size: 1.5rem;font-weight: 800;line-height: 1.75rem;margin-bottom: 1.5rem;margin-top: 1.5rem;font-family: 'MarkProHeavy';\\\">Good news, Optus home internet is available at this address.</p><p><span class=\\\"pii-mask\\\">900 STATION GREEN DRIVE, BOX HILL NORTH, VIC 3129</span></p></div><div><a id=\\\"prdChkBtnTwo\\\" role=\\\"link\\\" href=\\\"#\\\"> Change address</a></div><div id=\\\"relocation-fee\\\" class=\\\"info-container\\\" aria-live=\\\"assertive\\\" aria-atomic=\\\"false\\\" role=\\\"alert\\\">\\n<div class=\\\"info-icon\\\"><svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 64 64\\\"><path d=\\\"M32 .5C14.6.5.5 14.6.5 32S14.6 63.5 32 63.5 63.5 49.4 63.5 32 49.4.5 32 .5zM14.1 43.6l18.5-32 18.5 32h-37zM42.5 39l-9.6-17.5L23.3 39h19.2z\\\"></path></svg></div><div class=\\\"error-text-container\\\"><div>Since this is the first nbn connection at your new home, nbn charges a <b>&#36;300</b> New Development fee. They also require you to schedule an nbn appointment.<br /><br /><b>Turn on your 4G</b><br />If you have an Optus Ultra WiFi Modem, you can use the 4G network while you wait.<br /><br /><a id=\\\"learn-more\\\" href=\\\"https://www.optus.com.au/broadband-nbn/nbn/nbn-articles/what-is-the-nbn-new-development-charge\\\" target=\\\"_blank\\\">Learn more &#62;</a></div></div></div><div id=\\\"relocation-cta\\\"><a class=\\\"button\\\" id=\\\"sfccRelocation\\\">Continue</a></div><div id='sqrow'  style='display:none'>9217-2207131520</div><div id='SQ_Data' data-auto-id='sq-id' style='display:none' data-sq-pc=\\\"3129\\\" data-sq-id=\\\"SQ50100710\\\"></div><script>$(window).trigger('sqCheckIsDone');</script><div id='analytics-sq-res'  style='display:none'>ADSL2+:fail,Cable:fail,NBN:pass(FTTC),RDSL:fail,5G:fail,HWBB:fail,PreOrder:false</div><div id='247-data' data-auto-id='sqTech' style='display:none' tech-intent='' sq-tech='NBN FTTC' nbn-rfs='' nbn-preorder='N' nbn-pre-tech=''></div>\",\"prdctAvailability\":\"ADSL2+:fail,Cable:fail,NBN:pass(FTTC),RDSL:fail,5G:fail,HWBB:fail,PreOrder:false\"},\"serviceCharacteristics\":{\"NBN_VDSL_MIN_UPSTREAM_SPEED\":\"5\",\"NBN_TC4_UPSTREAM_CURRENT_ASSURED_RATE_UNIT_OF_MEASURE\":\"Mbps\",\"G-NAF_PID\":\"\",\"NBN_NHAS_TC4_HIGH_SPEED_TIERS_100MBPS\":null,\"HFC_ADDRESS_ID\":\"\",\"Line_In_Use_Count\":\"2\",\"NBN_NFAS_TC4_HIGH_SPEED_TIERS_100MBPS\":null,\"NBN_NFAS_TC4_HIGH_SPEED_TIERS_250MBPS\":null,\"NBN_VDSL_MIN_UPSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"NBN_TC4_DOWNSTREAM_CURRENT_ASSURED_RATE\":\"80\",\"NBN_UNI_D3\":null,\"NBN_UNI_D2\":null,\"NBN_NHAS_TC4_HIGH_SPEED_TIERS_1000MBPS\":null,\"Line_Not_In_Use_Count\":\"2\",\"NBN_UNI_D1\":null,\"NBN_TC4_DOWNSTREAM_CURRENT_ASSURED_RATE_UNIT_OF_MEASURE\":\"Mbps\",\"NBN_VDSL_MAX_UPSTREAM_SPEED\":\"19\",\"NBN_VDSL_MAX_UPSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"NBN_UNI_D4\":null,\"NBN_TC4_UPSTREAM_CURRENT_ASSURED_RATE\":\"12\",\"NBN_NFAS_TC4_HIGH_SPEED_TIERS_1000MBPS\":null,\"NBN_LOCATION_ID\":\"LOC770400008900\",\"NBN_VDSL_MAX_DOWNSTREAM_SPEED\":\"99\",\"NBN_NHAS_TC4_HIGH_SPEED_TIERS_250MBPS\":null,\"NBN_VDSL_MIN_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"EIS_5G_MPT\":\"0\",\"TELSTRA_ADDRESS_ID\":\"\",\"NBN_VDSL_MAX_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"EIS_5G_MPS\":\"0\",\"EIS_5G_SITE_SECTOR_ID\":\"\",\"NBN_VDSL_MIN_DOWNSTREAM_SPEED\":\"60\"},\"selectedAddress\":{\"relationInfoList\":[{\"techologyName\":\"NBN\",\"addressId\":\"LOC770400008900\"}]},\"checkServiceCoverageResponse\":{\"services\":{\"service\":[{\"family\":\"Original SQ Result\",\"name\":\"SQ Result\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"SQ HSD\":[\"N\"],\"LOLIG ADDRESS TYPE\":[\"\"],\"PORTABILITY CHECK REQUIRED\":[\"Y\"],\"OIETS ULL TELEPHONY ACTIVE\":[],\"HSD SERVICEABLE\":[\"F\"],\"OPOM STREET SUFFIX\":[],\"SQ POSTCODE RESULT\":[],\"NBNALT NEW NTD REQUIRED\":[],\"LOLIG LAR SERVICEABLE\":[\"F\"],\"destination_url\":[],\"NBN NCAS TC2 5MBPS\":[\"Y\"],\"LOLIG STREET NUMBER SUFFIX\":[\"\"],\"OIETS INFORMATION DATE\":[],\"EIS PNSA CODE\":[\"MEL\"],\"SQ ULL DSL\":[\"N\"],\"OPOM ADDRESS INFO\":[],\"NBNALT AVAILABILITY STATUS\":[],\"NBN HOME SUPERFAST\":[],\"SQ RDSL OPEN1 AVG DL SPEED\":[],\"NBN NHAS TC4 HIGH SPEED TIERS 100MBPS\":[],\"EIS TESA CODE\":[\"BOXL\"],\"NBN ACCESS TYPE\":[\"Fibre To The Curb\"],\"PHONE PREFIX\":[\"\"],\"RDSL PAIRTYPE TOTAL DISTANCE\":[],\"NBN NTD TYPE\":[],\"RDSL SERVICE CLASS\":[],\"STREET NUMBER\":[\"900\"],\"NBN UNIT NUMBER\":[\"\"],\"TESA ULL ENABLED\":[\"N\"],\"LOLIG RDSL TIMESTAMP END\":[],\"EIS 3G IN BUILDING COVERAGE\":[\"green\"],\"SQ DUI\":[],\"CHANNEL\":[\"DG\"],\"NBNALT NTD LOCATION ID\":[],\"OIETS ULL DSL ACTIVE\":[],\"EIS FEMTO\":[\"Y\"],\"LOLIG BUILDING\":[\"\"],\"NBN REASON DESCRIPTION\":[],\"NBN STREET TYPE\":[\"DRIVE\"],\"OPOM SERVICE TYPE\":[],\"OPOM SERVICE EXTERNAL ID\":[],\"EIS 5G SITE SECTOR ID\":[\"\"],\"SERVICE TIMEOUT\":[],\"OIETS BACKEND ERROR CODE\":[],\"NBN NEW NTD REQUIRED\":[],\"NBNALT LOCATION ID\":[],\"OPOM DSL EXIST\":[\"N\"],\"TM DSL SERVICEABLE\":[],\"NBNALT CSA ID\":[],\"NBN CSA ID\":[\"CSA000000000030\"],\"OIETS ULL COMPATIBLE\":[],\"OPOM RETAIL CARRIER\":[],\"OIETS TESA_1\":[],\"OIETS REGION\":[],\"NBN VDSL MAX UPSTREAM SPEED\":[\"19\",\"19\",\"19\",\"19\"],\"EIS TESA NAME\":[\"BOX HILL\"],\"NBN VDSL COPPER PAIR COUNT\":[\"4\"],\"NBN EXCEPTION MSG\":[],\"OPOM VP CHURN\":[\"N\"],\"SQ ULL OPEN2 AVG DL SPEED\":[],\"NBN NCAS TC2 40MBPS\":[\"Y\"],\"EIS 5G FAILURE CODE\":[\"1000\"],\"EIS NBN LOCATION ID\":[\"LOC770400008900\"],\"EIS YCOORDINATE\":[\"-37.805599\"],\"AGENT ID\":[\"\"],\"NBN NFAS TC4 HIGH SPEED TIERS 100MBPS\":[],\"LNP PORTABLE\":[],\"NBN DEV CHARGE FLAG\":[\"N\"],\"OIETS ULL SERVICEABLE\":[],\"OIETS SUBURB\":[],\"SQ HOME WIRELESS BB\":[\"N\"],\"NBN SERVICE TYPE\":[],\"EIS DISTANCE\":[],\"EIS FIBRE NODE ID\":[\"\"],\"OIETS MODEM SPEED CODE\":[],\"SQ RDSL OPEN2 AVG DL SPEED\":[],\"OPOM SERVICE STATUS\":[],\"OPOM NW TIE SERVICE TYPE\":[],\"ULL OVERRIDE\":[\"N\"],\"EIS UNLIMITED HOME WIRELESS BB\":[\"GREEN\"],\"NBNALT SERVICEABILITY SOURCE\":[],\"NBN VDSL COPPER PAIR ID\":[\"CPI770400018900\",\"CPI770400028900\",\"CPI770400038900\",\"CPI770400048900\"],\"EIS 3G ON STREET COVERAGE\":[\"green\"],\"SQ LAT\":[\"N\"],\"SQ LAR\":[\"N\"],\"OPOM NW TIE COUNT\":[],\"NBN POST CODE\":[\"3129\"],\"NBN ERROR CODE\":[],\"LOLIG STATE\":[\"\"],\"LOLIG UNIT NUMBER\":[\"\"],\"EIS 5G FAILURE DESCRIPTION\":[\"Coverage check failed\"],\"NBN VDSL MIN DOWNSTREAM SPEED\":[\"60\",\"60\",\"60\",\"60\"],\"OIETS RESULT\":[],\"NBN RFS MESSAGE TYPE\":[\"4\"],\"HFC SERVICEABILITY SOURCE\":[],\"VOIP SECOND LINE SERVICEABLE\":[],\"NBNALT RFS DATE\":[],\"SQ ULL TELS EST DL SPEED\":[],\"NBN NFAS TC4 HIGH SPEED TIERS 250MBPS\":[],\"OPOM BILLABLE ACCOUNT ID\":[],\"NBN COPPER SERVICE PROVIDER ID\":[],\"SALES OUTLET\":[\"\"],\"EIS HSD SERVICEABLE\":[\"\"],\"OPOM TESA\":[],\"NBN STREET NAME\":[\"STATION GREEN\"],\"NBN VDSL SERVICE CLASS\":[\"34\",\"34\",\"34\",\"34\"],\"NBN NTD POWER UNIT\":[],\"NBN LOCATION ID\":[\"LOC770400008900\"],\"OPOM ARBOR SERVICE TYPE\":[],\"EIS RFS DT\":[\"\"],\"NBN VDSL MIN UPSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"NBNALT RESULT\":[],\"OIETS TESA\":[],\"NBN PLANNED COMPLETION DATE\":[],\"OIETS ULL CLASS RESULT\":[],\"TESA MISMATCH\":[],\"PHONE NUMBER\":[\"\"],\"HFC SERVICEABLE\":[\"F\"],\"NBN REASON CODE\":[],\"NBN SERVICEABILITY SOURCE\":[\"NBN\"],\"OPOM LOCALITY\":[],\"NBN SERVICE CLASS\":[\"34\"],\"OPOM ULL PORTABLE\":[],\"NBN COPPER SERVICE TYPE\":[],\"NBN ALTERNATIVE TECHNOLOGY\":[\"Fibre\"],\"LOLIG BUILDING NAME\":[\"\"],\"NBN REMEDIATION REQUIRED\":[\"N\",\"N\",\"N\",\"N\"],\"NBN STREET NUMBER\":[\"900\"],\"OIETS ULL CLASS\":[],\"OIETS ULL LOW SPEED\":[],\"OIETS BACKEND ERROR STRING\":[],\"OPOM SERVICE COUNT\":[],\"OPOM CSP\":[],\"NBN NHAS TC4 HIGH SPEED TIERS 250MBPS\":[],\"NBNALT SERVICE CLASS REASON\":[],\"NBN NTD INSTALL DATE\":[],\"LOLIG STREET NUMBER\":[\"\"],\"STATE\":[\"VIC\"],\"NBN TRANSACTION ID\":[\"98c0a6ba-fcf8-44a2-958f-ec0e850848d0\"],\"ULL PAIRTYPE TOTAL DISTANCE\":[],\"OIETS CUTOVER DATE\":[],\"TM ULL SERVICEABLE\":[],\"DEALER CODE\":[\"\"],\"NBN NFAS TC4 HIGH SPEED TIERS 1000MBPS\":[],\"NBN UNI D1\":[],\"LOLIG STREET NAME\":[\"\"],\"EIS FREQUENCY\":[\"900\"],\"NBN SERVICE CLASS REASON\":[],\"EIS 3G SPEED UP\":[\"0.384\"],\"NBN PRE SALE FLAG\":[\"N\"],\"NBN VDSL MAX DOWNSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"SQ ULL OPEN2 10P AVG DL SPEED\":[],\"NBN EXCEPTION TYPE\":[],\"NBN UNI D4\":[],\"NBN UNI D3\":[],\"NBNALT SERVICE LEVEL REGION\":[],\"NBN UNI D2\":[],\"OIETS SUB ADDRESS TYPE\":[],\"LOLIG RDSL SERVICE CLASS\":[],\"OPOM STREET NUMBER\":[],\"NBN DISCONNECT DATE\":[],\"NBN NHAS TC4 HIGH SPEED TIERS 1000MBPS\":[],\"OPOM PLNR FLAG\":[],\"OIETS RDSL REASON\":[],\"OPOM TEL CHURN\":[],\"OPOM LAST NAME\":[],\"OPOM FNN NETWORK TIE\":[],\"SQ NBN ACCESS TYPE\":[\"NBNFTTC\"],\"NBN BUILDING NAME\":[\"\"],\"SQ RDSL OPEN2 90P AVG DL SPEED\":[],\"NBN VDSL MIN DOWNSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"OPOM STREET TYPE\":[],\"EIS 5G MPS\":[\"0\"],\"EIS HOME WIRELESS BB\":[\"Y\"],\"EIS XCOORDINATE\":[\"145.12957\"],\"NBN MULTICAST\":[\"N\"],\"EIS 5G MPT\":[\"0\"],\"OIETS ULL DSL FILTERED ON SPEED\":[],\"NBN NTD BB INSTALL DATE\":[],\"OIETS MODEM SPEED NOTE\":[],\"ULL OVERRIDE REASON\":[\"\"],\"SQ ULL OPEN1 10P AVG DL SPEED\":[],\"NBN RFS DATE\":[\"\"],\"EIS 2G IN COVERAGE\":[\"true\"],\"NBN SERVICE LEVEL REGION\":[\"Urban\"],\"OIETS ULL SERVICEABLE FOR DSL\":[],\"NBN CHANGE DATE\":[],\"OPOM OUTLET ULL\":[\"Y\"],\"SQ NBNALT ACCESS TYPE\":[],\"SQ RDSL OPEN1 90P AVG DL SPEED\":[],\"OIETS STREET NAME\":[],\"DSL SERVICE ID\":[\"\"],\"OTV SERVICEABLE\":[\"F\"],\"TM HOME WIRELESS ROLLOUT DT\":[],\"NBN VDSL POTS INTERCONNECT\":[],\"SQ RDSL OPEN2 10P AVG DL SPEED\":[],\"OPOM FIRST NAME\":[],\"TM NBN_VOIP SERVICEABLE\":[\"Y\"],\"SQ ULL OPEN1 90P AVG DL SPEED\":[],\"NBN TC4 DOWNSTREAM CURRENT ASSURED RATE UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"NBN NTD LOCATION ID\":[],\"LOLIG POST CODE\":[\"\"],\"NBN RESULT\":[\"Serviceable - Shortfall\"],\"NBN HOME ULTRAFAST\":[],\"NBN UNI V1\":[],\"LNP SERVICE PROVIDER\":[],\"NBN FORECAST ACCESS TECHNOLOGY\":[],\"NBN UNI V2\":[],\"OIETS INCOMPATIBLE ERROR\":[],\"NBN CVC ID\":[\"CVC000000000030\"],\"NBNALT SERVICE CLASS\":[],\"TM ULL SERVICEABLE FOR DSL\":[],\"EIS SPEED DISCLAIMER\":[\"<b>1.</b> Actual speeds are less than 7.2Mbps and vary due to factors such as distance from cell, local conditions, user numbers, hardware, software, download source and other factors. Typical customer upload speeds are from 300kbps to 1Mbps.\"],\"OPOM UNIT NUMBER\":[],\"SUB ADDRESS TYPE\":[\"\"],\"OPOM SERVICE ID\":[],\"OIETS POSTCODE\":[],\"EIS HOME WIRELESS ROLLOUT DT\":[\"\"],\"LAT SERVICEABLE\":[\"F\"],\"NBN TC4 UPSTREAM CURRENT ASSURED RATE\":[\"12\",\"12\",\"12\",\"12\"],\"OIETS COMPATIBLE\":[],\"OIETS STREET NUMBER SUFFIX\":[],\"OPOM DSL NETWORK TIE\":[],\"TESA CHARGE ZONE\":[\"MELBOURNE\"],\"EIS 5G SERVICEABILITY FLAG\":[\"N\"],\"EIS WITHIN NBN FOOTPRINT\":[\"True\"],\"SQ RDSL OPEN1 10P AVG DL SPEED\":[],\"OIETS ADDRESS INFO\":[],\"SQ UNLIMITED HOME WIRELESS BB\":[\"N\"],\"NBN CVC AVAILABLE\":[\"Y\"],\"OIETS CUSTOMER CONTACT NAME\":[],\"LOLIG ULL SERVICEABILITY CHECK TYPE\":[],\"NBN NETWORK COEXISTENCE\":[\"Y\",\"Y\",\"Y\",\"Y\"],\"STREET NAME LINE 2\":[\"\"],\"STREET NAME LINE 1\":[\"STATION GREEN\"],\"OIETS STATE\":[],\"NBNALT UNI D4\":[],\"NBNALT UNI D3\":[],\"PROMOTION CODE\":[\"\"],\"NBN STATE\":[\"VIC\"],\"LOLIG STREET SUFFIX\":[\"\"],\"OPOM NUMBER STATUS\":[],\"OPOM DSL CHURN\":[],\"NBNALT UNI D1\":[],\"NBNALT UNI D2\":[],\"NBN VDSL MAX DOWNSTREAM SPEED\":[\"99\",\"99\",\"99\",\"99\"],\"SQ OWB\":[\"Y\"],\"OIETS ULL CLASS COUNT\":[],\"ADDRESS MATCH ID\":[\"ADD00162875\"],\"OPOM SERVICE START DATE\":[],\"SQ OWF\":[\"N\"],\"NBN NTD UNCOMMIT UP SPEED\":[],\"NBN CHANGE OVER ENDDATE\":[],\"EIS OTV SERVICEABLE\":[\"\"],\"SQ OWT\":[],\"OIETS MODEM SPEED COUNT\":[],\"EIS PNSA NAME\":[\"MELBOURNE\"],\"SQ RDSL TELS EST DL SPEED\":[],\"NBN SUBURB\":[\"BOX HILL NORTH\"],\"NBN HOME FAST\":[],\"SQ PORTABLE\":[],\"NBNALT ACCESS TYPE\":[],\"TM ULL DISTANCE\":[],\"OIETS RDSL RESULT\":[],\"HFC ADDRESS ID\":[\"\"],\"NBN NTD UNCOMMIT DOWN SPEED\":[],\"NBN GNAF ID\":[],\"OPOM STATE\":[],\"NBNALT NTD TYPE\":[],\"OIETS STREET NUMBER\":[],\"OPOM DONOR CARRIER\":[],\"STREET SUFFIX\":[\"\"],\"TM HOME WIRELESS BB\":[],\"NBN VDSL SUBSEQUENT INSTALL CHARGE\":[\"No\",\"No\",\"No\",\"No\"],\"OPOM ADDRESS EXIST\":[\"N\"],\"NBN OPTUS SERVICEABLE\":[\"Y\"],\"LOLIG STREET TYPE\":[\"\"],\"SQ OTV\":[\"N\"],\"EIS 3G SPEED DOWN\":[\"from 550kbps to 3Mbps<sup>1</sup> with a 7.2MB Device\"],\"OIETS ULL DSL FILTERED ON DISTANCE\":[],\"NBNALT SERVICE TYPE\":[],\"MOBILE NUMBER\":[\"\"],\"TESA\":[\"BOXL\"],\"SQ ULL TEL\":[\"N\"],\"OPOM POSTCODE\":[],\"SQ DATE\":[\"2023-02-10 18:51:11\"],\"SQ VOIP SECOND LINE\":[],\"OIETS SUB EXCHANGE\":[],\"TESA CAPACITY REACHED\":[\"N\"],\"OPOM NW TIE SERVICE ID\":[],\"ULL OVERRIDE FOR PRESALE\":[\"N\"],\"POST CODE\":[\"3129\"],\"LOLIG RDSL SERVICEABILITY CHECK TYPE\":[],\"NBN NCAS TC2 10MBPS\":[\"Y\"],\"OPOM TEL EXIST\":[\"N\"],\"TELSTRA ADDRESS ID\":[\"\"],\"EIS LAT SERVICEABLE\":[\"\"],\"NBNALT NTD INSTALL DATE\":[],\"SQ ULL OPEN2 90P AVG DL SPEED\":[],\"NBN SUB ADDRESS TYPE\":[\"\"],\"NBN HIGH SPEED TC2\":[],\"SQ LD\":[],\"STREET TYPE\":[\"DR\"],\"NBN AVAILABILITY STATUS\":[\"Y\"],\"NBN HIGH SPEED TC1\":[],\"SQ VOIP FIRST LINE\":[],\"EIS HFC SERVICEABLE\":[],\"NBNALT PORT ID\":[],\"NBN VDSL SERVICE STATUS\":[\"Line In Use\",\"Line Not In Use\",\"Line In Use\",\"Line Not In Use\"],\"EIS SERVICE TYPE\":[\"\"],\"SUBURB\":[\"BOX HILL NORTH\"],\"NBNALT DEV CHARGE FLAG\":[],\"NBN NTD COUNT\":[\"0\"],\"NBN TC4 UPSTREAM CURRENT ASSURED RATE UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"NBN VDSL MAX UPSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"LOLIG RDSL TIMESTAMP START\":[],\"TM POSTCODE SERVICEABLE PERCENTAGE\":[],\"G-NAF PID\":[\"\"],\"NBN NTD NWAS TC1 150KBPS\":[],\"OIETS MODEM SPEED RESULT\":[],\"NBN VDSL MIN UPSTREAM SPEED\":[\"5\",\"5\",\"5\",\"5\"],\"OPOM SUB ADDRESS TYPE\":[],\"NBN FLOOR NUMBER\":[\"\"],\"OIETS MODEM SPEED\":[],\"MARKET SEGMENT\":[\"RES\"],\"LOLIG RDSL SERVICEABLE\":[\"F\"],\"VOIP FIRST LINE SERVICEABLE\":[],\"OPOM SUBURB\":[],\"SQ FEMTO\":[\"Y\"],\"NBN NCAS TC2 20MBPS\":[\"Y\"],\"LOLIG SUBURB\":[\"\"],\"OPOM TESA MISMATCH\":[\"N\"],\"SQ ID\":[\"SQ50100710\"],\"NBN NTD POWER TYPE\":[],\"EIS NBN SERVICE CLASS\":[\"34\"],\"ULL SERVICEABILITY SOURCE\":[],\"UNIT NUMBER\":[\"\"],\"NBN TC4 DOWNSTREAM CURRENT ASSURED RATE\":[\"80\",\"80\",\"80\",\"80\"],\"OPERATING FROM BUSINESS OR HOME\":[\"\"],\"TM FEMTO SERVICEABLE\":[],\"OPOM STREET NAME\":[],\"SQ RDSL\":[\"N\"],\"NBNALT NTD ID\":[],\"NBN VDSL COPPER PAIR STATUS\":[\"\",\"\",\"\",\"\"],\"NBN CURRENT ACCESS TECHNOLOGY\":[],\"NBN STATUS\":[],\"NBN PORT ID\":[],\"NBN FORECAST RTC DATE\":[],\"OPOM STREET NUMBER SUFFIX\":[],\"SQ ULL OPEN1 AVG DL SPEED\":[],\"OIETS ULL HIGH SPEED\":[],\"OPOM VP EXIST\":[\"N\"],\"OIETS STREET TYPE\":[],\"OIETS UNIT NUMBER\":[],\"NBN NTD ID\":[],\"NBN NCAS TC2 30MBPS\":[\"Y\"],\"STREET NUMBER SUFFIX\":[\"\"],\"OIETS STREET SUFFIX\":[],\"OPOM SERVICE END DATE\":[]}}},{\"family\":\"OWB\",\"name\":\"FB\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"]}}},{\"family\":\"HWBB\",\"name\":\"FB\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"]}}},{\"family\":\"NBN FTTC\",\"name\":\"FV,FB,TV\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"NBN VDSL SERVICE STATUS\":[\"Line In Use\",\"Line Not In Use\",\"Line In Use\",\"Line Not In Use\"],\"NBN CVC AVAILABLE\":[\"Y\"],\"NBN VDSL SUBSEQUENT INSTALL CHARGE\":[\"No\",\"No\",\"No\",\"No\"],\"NBN NETWORK COEXISTENCE\":[\"Y\",\"Y\",\"Y\",\"Y\"],\"NBN VDSL POTS INTERCONNECT\":[],\"NBN CSA ID\":[\"CSA000000000030\"],\"NBN VDSL COPPER STATUS\":[],\"NBN SERVICE CLASS REASON\":[\"\"],\"NBN VDSL MIN UPSTREAM SPEED\":[\"5\",\"5\",\"5\",\"5\"],\"NBN PRE SALE FLAG\":[\"N\"],\"NBN VDSL MIN DOWNSTREAM SPEED\":[\"60\",\"60\",\"60\",\"60\"],\"NBN VDSL MAX UPSTREAM SPEED\":[\"19\",\"19\",\"19\",\"19\"],\"NBN VDSL MAX DOWNSTREAM SPEED\":[\"99\",\"99\",\"99\",\"99\"],\"NBN DISCONNECT DATE\":[\"\"],\"NBN COPPER SERVICE PROVIDER ID\":[],\"NBN RESULT\":[\"Serviceable - Shortfall\"],\"NBN CHANGE OVER ENDDATE\":[\"\"],\"TC4 Downstream Current Assured Rate\":[],\"NBN ACCESS TYPE\":[\"Fibre To The Curb\"],\"SQ NBN ACCESS TYPE\":[\"NBNFTTC\"],\"NBN LOCATION ID\":[\"LOC770400008900\"],\"NBN FORECAST ACCESS TECHNOLOGY\":[\"\"],\"NBN CURRENT ACCESS TECHNOLOGY\":[\"\"],\"NBN STATUS\":[\"\"],\"NBN DEV CHARGE FLAG\":[\"N\"],\"NBN PLANNED COMPLETION DATE\":[],\"NBN FORECAST RTC DATE\":[\"\"],\"NBN SERVICE TYPE\":[\"\"],\"NBN REASON CODE\":[\"\"],\"NBN SERVICEABILITY SOURCE\":[\"NBN\"],\"NBN SERVICE CLASS\":[\"34\"],\"NBN REASON DESCRIPTION\":[\"\"],\"NBN ALTERNATIVE TECHNOLOGY\":[\"Fibre\"],\"NBN COPPER SERVICE TYPE\":[],\"TVProducts\":[\"Fetch\"],\"TC4 Upstream Current Assured Rate\":[],\"NBN RFS DATE\":[\"\"],\"NBN NTD UNCOMMIT DOWN SPEED\":[\"\"],\"NBN GNAF ID\":[\"\"],\"NBN REMEDIATION REQUIRED\":[\"N\",\"N\",\"N\",\"N\"],\"NBN AVAILABILITY STATUS\":[\"Y\"],\"NBN SERVICE LEVEL REGION\":[\"Urban\"],\"NBN VDSL COPPER PAIR ID\":[\"CPI770400018900\",\"CPI770400028900\",\"CPI770400038900\",\"CPI770400048900\"],\"NBN CHANGE DATE\":[\"\"]}}}]},\"sdpStatusResponse\":{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"setSdpStatusLine\":false,\"setTransactionStatusCode\":true,\"setServiceVersion\":true}}}}}"
         },
         {
-          "@attribute-id": "residentialAddressType",
-          "__text": "HOUSE"
+          "@attribute-id": "relocationServiceClass",
+          "__text": "34"
         },
         {
-          "@attribute-id": "residentialAddressUUID",
-          "__text": "MTIxIHRlbXBsZSBhdmVudWUsIGtldyBlYXN0IHZpYyAzMTAy"
+          "@attribute-id": "relocationServiceData",
+          "__text": "{\"remainingContractMonths\":null,\"serviceId\":\"approve.cbrt795\",\"serviceName\":\"Optus Plus Everyday nbn Mar\",\"serviceType\":\"Fixed Broadband\",\"hasPendingOrders\":null,\"networkTechnology\":\"NBN FTTC\",\"categoryType\":\"NBN\",\"lob\":\"FB\",\"offeringInstanceId\":\"102247115\",\"offeringId\":\"33792133\",\"formattedAddress\":\"624 LAMB WILLOWS Lane, CAMBERWELL, VIC 3124, Australia\",\"addressId\":\"537096677\",\"country\":\"AUS\",\"postCode\":\"3124\",\"state\":\"VIC\",\"city\":\"CAMBERWELL\",\"id\":\"102247116\",\"serviceStatus\":\"ACTIVE\",\"addToList\":true,\"isServiceEligible\":true,\"isServiceSelectable\":true,\"associatedServices\":[{\"serviceId\":\"148939\",\"serviceName\":\"Shared Equipment\",\"serviceType\":\"EQ\",\"hasPendingOrders\":null,\"networkTechnology\":\"NBN FTTC\",\"lob\":null,\"offeringInstanceId\":\"102247152\",\"formattedAddress\":\"624 LAMB WILLOWS Lane, CAMBERWELL, VIC 3124, Australia\",\"addressId\":\"537096677\",\"id\":\"102247153\",\"serviceStatus\":\"ACTIVE\",\"notApartOfBundle\":true}],\"associatedVoiceService\":[],\"associatedFetchService\":[],\"linkageId\":\"900676784\",\"addOns\":[\"Game Path\"],\"associatedEqipmentData\":[],\"customerId\":\"420076215\",\"accountStatus\":\"O\",\"faId\":\"62420583197\",\"barId\":\"420036418\",\"isSubscriptionAccount\":true,\"paymentType\":\"Card\",\"customerType\":\"Consumer\",\"accountRole\":\"Account Holder\",\"cardNumber\":\"2346\",\"isRelocationBYODCustomer\":false,\"currentSpeedPlan\":\"50Mbps / 20Mbps\",\"serviceWarningMessageId\":\"relocation-nbn-dsq-speed-not-available\",\"learnMoreLink\":false,\"messageType\":\"info-v2\",\"enableComplexHandling\":false,\"dsqResults\":{\"authorityFlag\":\"NotDetermined\",\"estimatedSpeedAuthority\":false,\"originalAuthorityFlag\":\"NotDetermined\"},\"isOfflineFlow\":false}"
         },
         {
-          "@attribute-id": "residentialBuildingNumber",
-          "__text": "121"
-        },
-        {
-          "@attribute-id": "residentialCity",
-          "__text": "KEW EAST"
-        },
-        {
-          "@attribute-id": "residentialCountry",
-          "__text": "AUS"
-        },
-        {
-          "@attribute-id": "residentialMonthsStay",
-          "__text": "1"
-        },
-        {
-          "@attribute-id": "residentialPostalCode",
-          "__text": "3102"
-        },
-        {
-          "@attribute-id": "residentialStateCode",
-          "__text": "VIC"
-        },
-        {
-          "@attribute-id": "residentialStatus",
-          "__text": "Owns"
-        },
-        {
-          "@attribute-id": "residentialStreetName",
-          "__text": "Temple"
-        },
-        {
-          "@attribute-id": "residentialStreetNumber",
-          "__text": "121"
-        },
-        {
-          "@attribute-id": "residentialStreetType",
-          "__text": "AVE"
-        },
-        {
-          "@attribute-id": "residentialYearsStay",
-          "__text": "20"
+          "@attribute-id": "relocationTargetTech",
+          "__text": "NBN FTTC"
         },
         {
           "@attribute-id": "reviewStatus",
@@ -1832,52 +860,48 @@
           "__text": "low"
         },
         {
-          "@attribute-id": "secondaryIDCheckResponse",
-          "__text": "{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"verificationXMLPayload\":\"<ns2:registerVerificationResponse xmlns:ns2=\\\"http://dynamicform.services.registrations.edentiti.com/\\\"><return><checkResult><stillWorking>false</stillWorking></checkResult><sourceList><sources><available>true</available><name>actregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>1</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>nswregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>2</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>ntregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>3</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>qldregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>4</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>saregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>5</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>tasregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>6</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>vicregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>7</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>waregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>8</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>passportdvs</name><notRequired>false</notRequired><oneSourceLeft>false</oneSourceLeft><order>9</order><passed>true</passed><state>VERIFIED</state><version>1</version></sources><sources><available>true</available><name>visadvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>10</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>medicaredvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>11</order><passed>false</passed><state>EMPTY</state><version>1</version></sources></sourceList><userToken>58a6c43def8560f305141feba6de9ef818e9f89a</userToken><verificationResult><dateVerified>2022-10-07T04:20:19.971+11:00</dateVerified><individualResults><dateVerified>2022-10-07T04:20:17.988+11:00</dateVerified><method>DB</method><name>DFAT Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2022-10-07T04:20:17.988+11:00</dateVerified><method>DB</method><name>PEP Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2022-10-07T04:20:17.988+11:00</dateVerified><method>DB</method><name>OFAC Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2022-10-07T04:20:17.991+11:00</dateVerified><fieldsResults><data>undefined</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>givenName</label><name>givenName</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data/><dataInfo>currentAddress</dataInfo><format>plain</format><label>middleNames</label><name>middleNames</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>undefined</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>surname</label><name>surname</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>1970-01-01</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>dob</label><name>dob</name><status>CONFIRMED</status></fieldsResults><method>DB</method><name>PassportDVS</name><state>VERIFIED</state></individualResults><outcome>VERIFIED</outcome><ruleId>default</ruleId><userId>7c9a7840ae9cbb2</userId></verificationResult></return></ns2:registerVerificationResponse>\"}"
+          "@attribute-id": "s3ExportStatus",
+          "__text": "EXPORTED"
         },
         {
-          "@attribute-id": "secondaryIDType",
-          "__text": "AU_PASSPORT"
+          "@attribute-id": "selectedBARId",
+          "__text": "420036418"
         },
         {
-          "@attribute-id": "secondaryIdCheckStatus",
-          "__text": "VERIFIED"
+          "@attribute-id": "selectedBillingAccount",
+          "__text": "62420583197"
         },
         {
-          "@attribute-id": "secondaryPassportCountryOfIssue",
-          "__text": "AUS"
+          "@attribute-id": "selectedCustomerID",
+          "__text": "420076215"
         },
         {
-          "@attribute-id": "secondaryPassportExpiryDate",
-          "__text": "2026-03-31"
+          "@attribute-id": "selectedLine",
+          "__text": "NBN Co. Limited - CPI770400018900"
         },
         {
-          "@attribute-id": "secondaryPassportFirstname",
-          "__text": "undefined"
+          "@attribute-id": "selectedLineCopperPairId",
+          "__text": "CPI770400018900"
         },
         {
-          "@attribute-id": "secondaryPassportLastName",
-          "__text": "undefined"
-        },
-        {
-          "@attribute-id": "secondaryPassportNumber",
-          "__text": "A1111111"
+          "@attribute-id": "serviceChangeCost",
+          "__text": "0.0"
         },
         {
           "@attribute-id": "serviceClass",
-          "__text": "2"
+          "__text": "34"
         },
         {
           "@attribute-id": "serviceQualification",
-          "__text": "{\"33796613\":\"LOC220777000281\",\"LOC220777000281\":{\"request\":{\"msisdn\":null,\"matchID\":\"ADD00130391\",\"campaignID\":\"BBPlansPage\",\"marketSgmt\":\"res\",\"authorMode\":false,\"selectedAddress\":{\"implPhysicalAddress\":{\"postcode\":\"3102\",\"state\":\"VIC\",\"streetName\":\"TEMPLE\",\"isUnstructAddressX9\":0,\"streetNumber\":\"121\",\"streetType\":\"AVE\",\"similarStreetType\":\"Avenue;Ave;\",\"subUrb\":\"KEW EAST\",\"isUnvalidatedAddress\":0,\"country\":{\"id\":\"AUS\",\"name\":\"AUS\"},\"formattedAddressDisplay\":\"121 TEMPLE AVE, KEW EAST, VIC 3102\"},\"relationInfoList\":[{\"techologyName\":\"NBN\",\"addressId\":\"LOC220777000281\"}]},\"agentId\":null,\"dealerCode\":null,\"salesChannel\":\"DG\",\"sourceSystem\":\"DigiShop\",\"formattedAddressDisplay\":\"121 TEMPLE AVE, KEW EAST, VIC 3102\"},\"response\":{\"transactionId\":\"ba7c9f7c-6d43-4949-b993-c73b2b0e9fbc\",\"nbnDevChargeFlag\":\"N\",\"catalogBrowsing\":{\"technology\":\"NBN FTTP\",\"products\":[\"WS\",\"FB\",\"FV\",\"TV\"]},\"matrixRow\":{\"rowNum\":577,\"marketSegment\":\"RES\",\"campaignId\":\"BBPlansPage\",\"priority\":1,\"broadband\":\"NBN FTTP\",\"telephony\":\"NBN FTTP\",\"preorder\":false,\"from\":-99999,\"to\":-10000,\"prdctAvailability\":\"ADSL2+:fail,Cable:fail,NBN:pass(FBB),RDSL:fail,5G:fail,HWBB:fail,PreOrder:false\"},\"serviceCharacteristics\":{\"NBN_VDSL_MIN_UPSTREAM_SPEED\":null,\"NBN_UNI_D3\":\"Free\",\"NBN_UNI_D2\":\"Free\",\"NBN_UNI_D1\":\"Used\",\"G-NAF_PID\":\"\",\"HFC_ADDRESS_ID\":\"\",\"NBN_VDSL_MAX_UPSTREAM_SPEED\":null,\"NBN_VDSL_MAX_UPSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"NBN_UNI_D4\":\"Free\",\"NBN_LOCATION_ID\":\"LOC220777000281\",\"NBN_VDSL_MAX_DOWNSTREAM_SPEED\":null,\"TELSTRA_ADDRESS_ID\":\"\",\"NBN_VDSL_MIN_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"NBN_VDSL_MIN_UPSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"NBN_VDSL_MAX_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":null,\"NBN_VDSL_MIN_DOWNSTREAM_SPEED\":null},\"selectedAddress\":{\"relationInfoList\":[{\"techologyName\":\"NBN\",\"addressId\":\"LOC220777000281\"}]},\"checkServiceCoverageResponse\":{\"services\":{\"service\":[{\"family\":\"Original SQ Result\",\"name\":\"SQ Result\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"SQ HSD\":[],\"LOLIG ADDRESS TYPE\":[\"\"],\"PORTABILITY CHECK REQUIRED\":[\"Y\"],\"OIETS ULL TELEPHONY ACTIVE\":[],\"HSD SERVICEABLE\":[\"N\"],\"OPOM STREET SUFFIX\":[],\"SQ POSTCODE RESULT\":[],\"LOLIG LAR SERVICEABLE\":[\"F\"],\"destination_url\":[],\"NBN NCAS TC2 5MBPS\":[],\"LOLIG STREET NUMBER SUFFIX\":[\"\"],\"OIETS INFORMATION DATE\":[],\"EIS PNSA CODE\":[\"WIN\"],\"SQ ULL DSL\":[\"N\"],\"OPOM ADDRESS INFO\":[],\"SQ RDSL OPEN1 AVG DL SPEED\":[],\"EIS TESA CODE\":[\"BKPK\"],\"NBN ACCESS TYPE\":[\"Fibre\"],\"PHONE PREFIX\":[\"\"],\"NBN NTD TYPE\":[\"Internal\"],\"RDSL PAIRTYPE TOTAL DISTANCE\":[],\"RDSL SERVICE CLASS\":[],\"STREET NUMBER\":[\"121\"],\"NBN UNIT NUMBER\":[\"\"],\"TESA ULL ENABLED\":[\"N\"],\"LOLIG RDSL TIMESTAMP END\":[],\"EIS 3G IN BUILDING COVERAGE\":[\"green\"],\"SQ DUI\":[],\"CHANNEL\":[\"DG\"],\"EIS FEMTO\":[\"Y\"],\"OIETS ULL DSL ACTIVE\":[],\"LOLIG BUILDING\":[\"\"],\"NBN STREET TYPE\":[\"AVE\"],\"OPOM SERVICE TYPE\":[],\"OPOM SERVICE EXTERNAL ID\":[],\"EIS 5G SITE SECTOR ID\":[\"\"],\"SERVICE TIMEOUT\":[],\"OIETS BACKEND ERROR CODE\":[],\"NBN NEW NTD REQUIRED\":[],\"OPOM DSL EXIST\":[\"N\"],\"TM DSL SERVICEABLE\":[],\"NBN CSA ID\":[\"CSA000000010002\"],\"OIETS ULL COMPATIBLE\":[],\"OPOM RETAIL CARRIER\":[],\"OIETS TESA_1\":[],\"OIETS REGION\":[],\"NBN VDSL MAX UPSTREAM SPEED\":[],\"EIS TESA NAME\":[\"BERKSHIRE PARK\"],\"NBN VDSL COPPER PAIR COUNT\":[\"0\"],\"NBN EXCEPTION MSG\":[],\"OPOM VP CHURN\":[\"N\"],\"SQ ULL OPEN2 AVG DL SPEED\":[],\"NBN NCAS TC2 40MBPS\":[],\"EIS NBN LOCATION ID\":[\"LOC220777000281\"],\"EIS YCOORDINATE\":[\"-33.654975\"],\"AGENT ID\":[\"\"],\"LNP PORTABLE\":[],\"OIETS ULL SERVICEABLE\":[],\"NBN DEV CHARGE FLAG\":[\"N\"],\"OIETS SUBURB\":[],\"SQ HOME WIRELESS BB\":[\"N\"],\"NBN SERVICE TYPE\":[],\"EIS DISTANCE\":[],\"OIETS MODEM SPEED CODE\":[],\"EIS FIBRE NODE ID\":[\"\"],\"SQ RDSL OPEN2 AVG DL SPEED\":[],\"OPOM SERVICE STATUS\":[],\"OPOM NW TIE SERVICE TYPE\":[],\"ULL OVERRIDE\":[\"N\"],\"EIS UNLIMITED HOME WIRELESS BB\":[\"WHITE\"],\"NBN VDSL COPPER PAIR ID\":[],\"EIS 3G ON STREET COVERAGE\":[\"green\"],\"SQ LAT\":[\"N\"],\"SQ LAR\":[\"N\"],\"OPOM NW TIE COUNT\":[],\"NBN POST CODE\":[\"3102\"],\"NBN ERROR CODE\":[],\"LOLIG STATE\":[\"\"],\"LOLIG UNIT NUMBER\":[\"\"],\"OIETS RESULT\":[],\"NBN VDSL MIN DOWNSTREAM SPEED\":[],\"NBN RFS MESSAGE TYPE\":[\"4\"],\"HFC SERVICEABILITY SOURCE\":[],\"VOIP SECOND LINE SERVICEABLE\":[],\"SQ ULL TELS EST DL SPEED\":[],\"NBN COPPER SERVICE PROVIDER ID\":[],\"OPOM BILLABLE ACCOUNT ID\":[],\"SALES OUTLET\":[\"\"],\"EIS HSD SERVICEABLE\":[\"\"],\"NBN VDSL SERVICE CLASS\":[],\"NBN STREET NAME\":[\"TEMPLE\"],\"OPOM TESA\":[],\"NBN NTD POWER UNIT\":[\"No\"],\"NBN LOCATION ID\":[\"LOC220777000281\"],\"OPOM ARBOR SERVICE TYPE\":[],\"EIS RFS DT\":[\"\"],\"NBN VDSL MIN UPSTREAM SPEED UNIT OF MEASURE\":[],\"NBN PLANNED COMPLETION DATE\":[],\"OIETS TESA\":[],\"OIETS ULL CLASS RESULT\":[],\"TESA MISMATCH\":[],\"PHONE NUMBER\":[\"\"],\"HFC SERVICEABLE\":[\"N\"],\"NBN SERVICEABILITY SOURCE\":[\"NBN\"],\"OPOM LOCALITY\":[],\"NBN SERVICE CLASS\":[\"2\"],\"OPOM ULL PORTABLE\":[],\"NBN COPPER SERVICE TYPE\":[],\"LOLIG BUILDING NAME\":[\"\"],\"NBN REMEDIATION REQUIRED\":[],\"NBN STREET NUMBER\":[\"121\"],\"OIETS ULL CLASS\":[],\"OIETS BACKEND ERROR STRING\":[],\"OIETS ULL LOW SPEED\":[],\"OPOM SERVICE COUNT\":[],\"OPOM CSP\":[],\"NBN NTD INSTALL DATE\":[\"\"],\"LOLIG STREET NUMBER\":[\"\"],\"STATE\":[\"VIC\"],\"NBN TRANSACTION ID\":[\"4305789\"],\"ULL PAIRTYPE TOTAL DISTANCE\":[],\"OIETS CUTOVER DATE\":[],\"TM ULL SERVICEABLE\":[],\"DEALER CODE\":[\"\"],\"NBN UNI D1\":[\"Used\"],\"LOLIG STREET NAME\":[\"\"],\"EIS FREQUENCY\":[\"900\"],\"NBN SERVICE CLASS REASON\":[],\"EIS 3G SPEED UP\":[\"0.384\"],\"NBN PRE SALE FLAG\":[\"N\"],\"NBN VDSL MAX DOWNSTREAM SPEED UNIT OF MEASURE\":[],\"SQ ULL OPEN2 10P AVG DL SPEED\":[],\"NBN EXCEPTION TYPE\":[],\"NBN UNI D4\":[\"Free\"],\"NBN UNI D3\":[\"Free\"],\"NBN UNI D2\":[\"Free\"],\"OIETS SUB ADDRESS TYPE\":[],\"LOLIG RDSL SERVICE CLASS\":[],\"OPOM STREET NUMBER\":[],\"NBN DISCONNECT DATE\":[],\"OPOM PLNR FLAG\":[],\"OIETS RDSL REASON\":[],\"OPOM TEL CHURN\":[],\"OPOM LAST NAME\":[],\"OPOM FNN NETWORK TIE\":[],\"SQ NBN ACCESS TYPE\":[\"NBNFBB\"],\"NBN BUILDING NAME\":[\"\"],\"SQ RDSL OPEN2 90P AVG DL SPEED\":[],\"NBN VDSL MIN DOWNSTREAM SPEED UNIT OF MEASURE\":[],\"OPOM STREET TYPE\":[],\"EIS 5G MPS\":[\"0\"],\"NBN MULTICAST\":[\"Y\"],\"EIS HOME WIRELESS BB\":[\"N\"],\"EIS XCOORDINATE\":[\"150.796966\"],\"EIS 5G MPT\":[\"0\"],\"OIETS ULL DSL FILTERED ON SPEED\":[],\"NBN NTD BB INSTALL DATE\":[\"\"],\"OIETS MODEM SPEED NOTE\":[],\"ULL OVERRIDE REASON\":[\"\"],\"SQ ULL OPEN1 10P AVG DL SPEED\":[],\"NBN RFS DATE\":[\"\"],\"EIS 2G IN COVERAGE\":[\"true\"],\"NBN SERVICE LEVEL REGION\":[],\"OIETS ULL SERVICEABLE FOR DSL\":[],\"OPOM OUTLET ULL\":[\"Y\"],\"SQ RDSL OPEN1 90P AVG DL SPEED\":[],\"OIETS STREET NAME\":[],\"TM HOME WIRELESS ROLLOUT DT\":[],\"OTV SERVICEABLE\":[\"N\"],\"DSL SERVICE ID\":[\"\"],\"SQ RDSL OPEN2 10P AVG DL SPEED\":[],\"NBN VDSL POTS INTERCONNECT\":[],\"OPOM FIRST NAME\":[],\"TM NBN_VOIP SERVICEABLE\":[\"Y\"],\"SQ ULL OPEN1 90P AVG DL SPEED\":[],\"NBN NTD LOCATION ID\":[\"Indoor\"],\"LOLIG POST CODE\":[\"\"],\"NBN RESULT\":[\"Serviceable\"],\"NBN UNI V1\":[\"Free\"],\"LNP SERVICE PROVIDER\":[],\"NBN UNI V2\":[\"Free\"],\"OIETS INCOMPATIBLE ERROR\":[],\"NBN CVC ID\":[\"CVC000000010002\"],\"TM ULL SERVICEABLE FOR DSL\":[],\"SUB ADDRESS TYPE\":[\"\"],\"OPOM UNIT NUMBER\":[],\"OPOM SERVICE ID\":[],\"OIETS POSTCODE\":[],\"EIS HOME WIRELESS ROLLOUT DT\":[\"\"],\"LAT SERVICEABLE\":[\"N\"],\"OIETS COMPATIBLE\":[],\"OIETS STREET NUMBER SUFFIX\":[],\"OPOM DSL NETWORK TIE\":[],\"TESA CHARGE ZONE\":[\"WINDSOR\"],\"EIS 5G SERVICEABILITY FLAG\":[\"N\"],\"EIS WITHIN NBN FOOTPRINT\":[\"True\"],\"SQ RDSL OPEN1 10P AVG DL SPEED\":[],\"OIETS ADDRESS INFO\":[],\"SQ UNLIMITED HOME WIRELESS BB\":[\"N\"],\"OIETS CUSTOMER CONTACT NAME\":[],\"NBN CVC AVAILABLE\":[\"Y\"],\"LOLIG ULL SERVICEABILITY CHECK TYPE\":[],\"NBN NETWORK COEXISTENCE\":[],\"STREET NAME LINE 2\":[\"\"],\"STREET NAME LINE 1\":[\"TEMPLE\"],\"OIETS STATE\":[],\"PROMOTION CODE\":[\"\"],\"NBN STATE\":[\"VIC\"],\"LOLIG STREET SUFFIX\":[\"\"],\"OPOM NUMBER STATUS\":[],\"OPOM DSL CHURN\":[],\"NBN VDSL MAX DOWNSTREAM SPEED\":[],\"SQ OWB\":[\"Y\"],\"OIETS ULL CLASS COUNT\":[],\"ADDRESS MATCH ID\":[\"ADD00130391\"],\"OPOM SERVICE START DATE\":[],\"SQ OWF\":[\"N\"],\"NBN NTD UNCOMMIT UP SPEED\":[\"\"],\"EIS OTV SERVICEABLE\":[\"\"],\"SQ OWT\":[],\"OIETS MODEM SPEED COUNT\":[],\"EIS PNSA NAME\":[\"WINDSOR\"],\"SQ RDSL TELS EST DL SPEED\":[],\"NBN SUBURB\":[\"KEW EAST\"],\"SQ PORTABLE\":[],\"TM ULL DISTANCE\":[],\"OIETS RDSL RESULT\":[],\"HFC ADDRESS ID\":[\"\"],\"NBN NTD UNCOMMIT DOWN SPEED\":[\"\"],\"NBN GNAF ID\":[],\"OPOM STATE\":[],\"OIETS STREET NUMBER\":[],\"OPOM DONOR CARRIER\":[],\"STREET SUFFIX\":[\"\"],\"TM HOME WIRELESS BB\":[],\"OPOM ADDRESS EXIST\":[\"N\"],\"NBN VDSL SUBSEQUENT INSTALL CHARGE\":[],\"NBN OPTUS SERVICEABLE\":[\"Y\"],\"LOLIG STREET TYPE\":[\"\"],\"SQ OTV\":[],\"OIETS ULL DSL FILTERED ON DISTANCE\":[],\"MOBILE NUMBER\":[\"\"],\"TESA\":[\"BKPK\"],\"SQ ULL TEL\":[\"N\"],\"OPOM POSTCODE\":[],\"SQ DATE\":[\"2021-05-24 21:00:35\"],\"SQ VOIP SECOND LINE\":[],\"OIETS SUB EXCHANGE\":[],\"TESA CAPACITY REACHED\":[\"N\"],\"OPOM NW TIE SERVICE ID\":[],\"ULL OVERRIDE FOR PRESALE\":[\"N\"],\"POST CODE\":[\"3102\"],\"LOLIG RDSL SERVICEABILITY CHECK TYPE\":[],\"NBN NCAS TC2 10MBPS\":[],\"OPOM TEL EXIST\":[\"N\"],\"TELSTRA ADDRESS ID\":[\"\"],\"EIS LAT SERVICEABLE\":[\"\"],\"SQ ULL OPEN2 90P AVG DL SPEED\":[],\"NBN SUB ADDRESS TYPE\":[\"\"],\"NBN HIGH SPEED TC2\":[\"Yes\"],\"SQ LD\":[],\"STREET TYPE\":[\"AVE\"],\"NBN AVAILABILITY STATUS\":[\"Y\"],\"NBN HIGH SPEED TC1\":[],\"SQ VOIP FIRST LINE\":[],\"EIS HFC SERVICEABLE\":[],\"NBN VDSL SERVICE STATUS\":[],\"EIS SERVICE TYPE\":[\"\"],\"SUBURB\":[\"KEW EAST\"],\"NBN NTD COUNT\":[\"1\"],\"NBN VDSL MAX UPSTREAM SPEED UNIT OF MEASURE\":[],\"LOLIG RDSL TIMESTAMP START\":[],\"TM POSTCODE SERVICEABLE PERCENTAGE\":[],\"G-NAF PID\":[\"\"],\"NBN NTD NWAS TC1 150KBPS\":[\"\"],\"OIETS MODEM SPEED RESULT\":[],\"NBN VDSL MIN UPSTREAM SPEED\":[],\"OPOM SUB ADDRESS TYPE\":[],\"OIETS MODEM SPEED\":[],\"NBN FLOOR NUMBER\":[\"\"],\"MARKET SEGMENT\":[\"res\"],\"LOLIG RDSL SERVICEABLE\":[\"F\"],\"VOIP FIRST LINE SERVICEABLE\":[],\"OPOM SUBURB\":[],\"SQ FEMTO\":[\"Y\"],\"LOLIG SUBURB\":[\"\"],\"NBN NCAS TC2 20MBPS\":[],\"OPOM TESA MISMATCH\":[\"N\"],\"SQ ID\":[\"SQ50015182\"],\"NBN NTD POWER TYPE\":[\"AC\"],\"EIS NBN SERVICE CLASS\":[\"2\"],\"ULL SERVICEABILITY SOURCE\":[],\"UNIT NUMBER\":[\"\"],\"OPERATING FROM BUSINESS OR HOME\":[\"\"],\"TM FEMTO SERVICEABLE\":[],\"OPOM STREET NAME\":[],\"SQ RDSL\":[\"N\"],\"NBN VDSL COPPER PAIR STATUS\":[],\"NBN PORT ID\":[],\"OPOM STREET NUMBER SUFFIX\":[],\"SQ ULL OPEN1 AVG DL SPEED\":[],\"OIETS ULL HIGH SPEED\":[],\"OPOM VP EXIST\":[\"N\"],\"OIETS STREET TYPE\":[],\"OIETS UNIT NUMBER\":[],\"NBN NCAS TC2 30MBPS\":[],\"NBN NTD ID\":[\"NTD220777000121\"],\"STREET NUMBER SUFFIX\":[\"\"],\"OIETS STREET SUFFIX\":[],\"OPOM SERVICE END DATE\":[]}}},{\"family\":\"OWB\",\"name\":\"FB\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"]}}},{\"family\":\"NBN FTTP\",\"name\":\"FV,FB,TV\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"NBN CVC AVAILABLE\":[\"Y\"],\"NBN CSA ID\":[\"CSA000000010002\"],\"NBN UNI D1\":[\"Used\"],\"NBN SERVICE CLASS REASON\":[\"\"],\"NBN PRE SALE FLAG\":[\"N\"],\"NBN UNI D4\":[\"Free\"],\"NBN UNI D3\":[\"Free\"],\"NBN UNI D2\":[\"Free\"],\"NBN NTD LOCATION ID\":[\"Indoor\"],\"NBN DISCONNECT DATE\":[\"\"],\"NBN RESULT\":[\"Serviceable\"],\"NBN ACCESS TYPE\":[\"Fibre\"],\"NBN NTD TYPE\":[\"Internal\"],\"SQ NBN ACCESS TYPE\":[\"NBNFBB\"],\"NBN LOCATION ID\":[\"LOC220777000281\"],\"NBN DEV CHARGE FLAG\":[\"N\"],\"NBN PORT ID\":[],\"NBN SERVICE TYPE\":[\"\"],\"NBN SERVICEABILITY SOURCE\":[\"NBN\"],\"NBN SERVICE CLASS\":[\"2\"],\"TVProducts\":[\"Fetch\"],\"NBN NTD ID\":[\"NTD220777000121\"],\"NBN RFS DATE\":[\"\"],\"NBN GNAF ID\":[\"\"],\"NBN AVAILABILITY STATUS\":[\"Y\"],\"NBN SERVICE LEVEL REGION\":[\"\"],\"NBN NEW NTD REQUIRED\":[],\"NBN NTD INSTALL DATE\":[\"\"]}}}]},\"sdpStatusResponse\":{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"setSdpStatusLine\":false,\"setTransactionStatusCode\":true,\"setServiceVersion\":true}}},\"timestamp\":\"2022-10-07T03:38:18.947Z\"}}"
+          "__text": "{\"LOC770400008900\":{\"request\":{\"msisdn\":null,\"matchID\":\"ADD00162875\",\"campaignID\":\"homemovers\",\"marketSgmt\":\"RES\",\"authorMode\":false,\"selectedAddress\":{\"implPhysicalAddress\":{\"postcode\":\"3129\",\"state\":\"VIC\",\"streetName\":\"STATION GREEN\",\"isUnstructAddressX9\":0,\"streetNumber\":\"900\",\"streetType\":\"DR\",\"similarStreetType\":\"DRIVE\",\"subUrb\":\"BOX HILL NORTH\",\"isUnvalidatedAddress\":0,\"country\":{\"id\":\"AUS\",\"name\":\"AUS\"},\"formattedAddressDisplay\":\"900 STATION GREEN DRIVE, BOX HILL NORTH, VIC 3129\"},\"relationInfoList\":[{\"techologyName\":\"NBN\",\"addressId\":\"LOC770400008900\"}]},\"agentId\":null,\"dealerCode\":null,\"salesChannel\":\"DG\",\"sourceSystem\":\"DigiShop\",\"formattedAddressDisplay\":\"900 STATION GREEN DRIVE, BOX HILL NORTH, VIC 3129\"},\"response\":{\"transactionId\":\"234644c4-f262-459a-8bba-b9c087a76204\",\"nbnDevChargeFlag\":\"N\",\"catalogBrowsing\":{\"technology\":\"NBN FTTC\",\"products\":[\"WS\",\"FB\",\"FV\",\"TV\"]},\"matrixRow\":{\"rowNum\":9217,\"marketSegment\":\"RES\",\"campaignId\":\"homemovers\",\"priority\":91,\"broadband\":\"NBN FTTC\",\"telephony\":\"NBN FTTC\",\"preorder\":false,\"from\":-99999,\"to\":-10000,\"html\":\"<div class=\\\"sq-output\\\"><p style=\\\"font-size: 1.5rem;font-weight: 800;line-height: 1.75rem;margin-bottom: 1.5rem;margin-top: 1.5rem;font-family: 'MarkProHeavy';\\\">Good news, Optus home internet is available at this address.</p><p><span class=\\\"pii-mask\\\">900 STATION GREEN DRIVE, BOX HILL NORTH, VIC 3129</span></p></div><div><a id=\\\"prdChkBtnTwo\\\" role=\\\"link\\\" href=\\\"#\\\"> Change address</a></div><div id=\\\"relocation-fee\\\" class=\\\"info-container\\\" aria-live=\\\"assertive\\\" aria-atomic=\\\"false\\\" role=\\\"alert\\\">\\n<div class=\\\"info-icon\\\"><svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 64 64\\\"><path d=\\\"M32 .5C14.6.5.5 14.6.5 32S14.6 63.5 32 63.5 63.5 49.4 63.5 32 49.4.5 32 .5zM14.1 43.6l18.5-32 18.5 32h-37zM42.5 39l-9.6-17.5L23.3 39h19.2z\\\"></path></svg></div><div class=\\\"error-text-container\\\"><div>Since this is the first nbn connection at your new home, nbn charges a <b>&#36;300</b> New Development fee. They also require you to schedule an nbn appointment.<br /><br /><b>Turn on your 4G</b><br />If you have an Optus Ultra WiFi Modem, you can use the 4G network while you wait.<br /><br /><a id=\\\"learn-more\\\" href=\\\"https://www.optus.com.au/broadband-nbn/nbn/nbn-articles/what-is-the-nbn-new-development-charge\\\" target=\\\"_blank\\\">Learn more &#62;</a></div></div></div><div id=\\\"relocation-cta\\\"><a class=\\\"button\\\" id=\\\"sfccRelocation\\\">Continue</a></div><div id='sqrow'  style='display:none'>9217-2207131520</div><div id='SQ_Data' data-auto-id='sq-id' style='display:none' data-sq-pc=\\\"3129\\\" data-sq-id=\\\"SQ50100710\\\"></div><script>$(window).trigger('sqCheckIsDone');</script><div id='analytics-sq-res'  style='display:none'>ADSL2+:fail,Cable:fail,NBN:pass(FTTC),RDSL:fail,5G:fail,HWBB:fail,PreOrder:false</div><div id='247-data' data-auto-id='sqTech' style='display:none' tech-intent='' sq-tech='NBN FTTC' nbn-rfs='' nbn-preorder='N' nbn-pre-tech=''></div>\",\"prdctAvailability\":\"ADSL2+:fail,Cable:fail,NBN:pass(FTTC),RDSL:fail,5G:fail,HWBB:fail,PreOrder:false\"},\"serviceCharacteristics\":{\"NBN_VDSL_MIN_UPSTREAM_SPEED\":\"5\",\"NBN_TC4_UPSTREAM_CURRENT_ASSURED_RATE_UNIT_OF_MEASURE\":\"Mbps\",\"G-NAF_PID\":\"\",\"NBN_NHAS_TC4_HIGH_SPEED_TIERS_100MBPS\":null,\"HFC_ADDRESS_ID\":\"\",\"Line_In_Use_Count\":\"2\",\"NBN_NFAS_TC4_HIGH_SPEED_TIERS_100MBPS\":null,\"NBN_NFAS_TC4_HIGH_SPEED_TIERS_250MBPS\":null,\"NBN_VDSL_MIN_UPSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"NBN_TC4_DOWNSTREAM_CURRENT_ASSURED_RATE\":\"80\",\"NBN_UNI_D3\":null,\"NBN_UNI_D2\":null,\"NBN_NHAS_TC4_HIGH_SPEED_TIERS_1000MBPS\":null,\"Line_Not_In_Use_Count\":\"2\",\"NBN_UNI_D1\":null,\"NBN_TC4_DOWNSTREAM_CURRENT_ASSURED_RATE_UNIT_OF_MEASURE\":\"Mbps\",\"NBN_VDSL_MAX_UPSTREAM_SPEED\":\"19\",\"NBN_VDSL_MAX_UPSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"NBN_UNI_D4\":null,\"NBN_TC4_UPSTREAM_CURRENT_ASSURED_RATE\":\"12\",\"NBN_NFAS_TC4_HIGH_SPEED_TIERS_1000MBPS\":null,\"NBN_LOCATION_ID\":\"LOC770400008900\",\"NBN_VDSL_MAX_DOWNSTREAM_SPEED\":\"99\",\"NBN_NHAS_TC4_HIGH_SPEED_TIERS_250MBPS\":null,\"NBN_VDSL_MIN_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"EIS_5G_MPT\":\"0\",\"TELSTRA_ADDRESS_ID\":\"\",\"NBN_VDSL_MAX_DOWNSTREAM_SPEED_UNIT_OF_MEASURE\":\"Mbps\",\"EIS_5G_MPS\":\"0\",\"EIS_5G_SITE_SECTOR_ID\":\"\",\"NBN_VDSL_MIN_DOWNSTREAM_SPEED\":\"60\"},\"selectedAddress\":{\"relationInfoList\":[{\"techologyName\":\"NBN\",\"addressId\":\"LOC770400008900\"}]},\"checkServiceCoverageResponse\":{\"services\":{\"service\":[{\"family\":\"Original SQ Result\",\"name\":\"SQ Result\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"SQ HSD\":[\"N\"],\"LOLIG ADDRESS TYPE\":[\"\"],\"PORTABILITY CHECK REQUIRED\":[\"Y\"],\"OIETS ULL TELEPHONY ACTIVE\":[],\"HSD SERVICEABLE\":[\"F\"],\"OPOM STREET SUFFIX\":[],\"SQ POSTCODE RESULT\":[],\"NBNALT NEW NTD REQUIRED\":[],\"LOLIG LAR SERVICEABLE\":[\"F\"],\"destination_url\":[],\"NBN NCAS TC2 5MBPS\":[\"Y\"],\"LOLIG STREET NUMBER SUFFIX\":[\"\"],\"OIETS INFORMATION DATE\":[],\"EIS PNSA CODE\":[\"MEL\"],\"SQ ULL DSL\":[\"N\"],\"OPOM ADDRESS INFO\":[],\"NBNALT AVAILABILITY STATUS\":[],\"NBN HOME SUPERFAST\":[],\"SQ RDSL OPEN1 AVG DL SPEED\":[],\"NBN NHAS TC4 HIGH SPEED TIERS 100MBPS\":[],\"EIS TESA CODE\":[\"BOXL\"],\"NBN ACCESS TYPE\":[\"Fibre To The Curb\"],\"PHONE PREFIX\":[\"\"],\"RDSL PAIRTYPE TOTAL DISTANCE\":[],\"NBN NTD TYPE\":[],\"RDSL SERVICE CLASS\":[],\"STREET NUMBER\":[\"900\"],\"NBN UNIT NUMBER\":[\"\"],\"TESA ULL ENABLED\":[\"N\"],\"LOLIG RDSL TIMESTAMP END\":[],\"EIS 3G IN BUILDING COVERAGE\":[\"green\"],\"SQ DUI\":[],\"CHANNEL\":[\"DG\"],\"NBNALT NTD LOCATION ID\":[],\"OIETS ULL DSL ACTIVE\":[],\"EIS FEMTO\":[\"Y\"],\"LOLIG BUILDING\":[\"\"],\"NBN REASON DESCRIPTION\":[],\"NBN STREET TYPE\":[\"DRIVE\"],\"OPOM SERVICE TYPE\":[],\"OPOM SERVICE EXTERNAL ID\":[],\"EIS 5G SITE SECTOR ID\":[\"\"],\"SERVICE TIMEOUT\":[],\"OIETS BACKEND ERROR CODE\":[],\"NBN NEW NTD REQUIRED\":[],\"NBNALT LOCATION ID\":[],\"OPOM DSL EXIST\":[\"N\"],\"TM DSL SERVICEABLE\":[],\"NBNALT CSA ID\":[],\"NBN CSA ID\":[\"CSA000000000030\"],\"OIETS ULL COMPATIBLE\":[],\"OPOM RETAIL CARRIER\":[],\"OIETS TESA_1\":[],\"OIETS REGION\":[],\"NBN VDSL MAX UPSTREAM SPEED\":[\"19\",\"19\",\"19\",\"19\"],\"EIS TESA NAME\":[\"BOX HILL\"],\"NBN VDSL COPPER PAIR COUNT\":[\"4\"],\"NBN EXCEPTION MSG\":[],\"OPOM VP CHURN\":[\"N\"],\"SQ ULL OPEN2 AVG DL SPEED\":[],\"NBN NCAS TC2 40MBPS\":[\"Y\"],\"EIS 5G FAILURE CODE\":[\"1000\"],\"EIS NBN LOCATION ID\":[\"LOC770400008900\"],\"EIS YCOORDINATE\":[\"-37.805599\"],\"AGENT ID\":[\"\"],\"NBN NFAS TC4 HIGH SPEED TIERS 100MBPS\":[],\"LNP PORTABLE\":[],\"NBN DEV CHARGE FLAG\":[\"N\"],\"OIETS ULL SERVICEABLE\":[],\"OIETS SUBURB\":[],\"SQ HOME WIRELESS BB\":[\"N\"],\"NBN SERVICE TYPE\":[],\"EIS DISTANCE\":[],\"EIS FIBRE NODE ID\":[\"\"],\"OIETS MODEM SPEED CODE\":[],\"SQ RDSL OPEN2 AVG DL SPEED\":[],\"OPOM SERVICE STATUS\":[],\"OPOM NW TIE SERVICE TYPE\":[],\"ULL OVERRIDE\":[\"N\"],\"EIS UNLIMITED HOME WIRELESS BB\":[\"GREEN\"],\"NBNALT SERVICEABILITY SOURCE\":[],\"NBN VDSL COPPER PAIR ID\":[\"CPI770400018900\",\"CPI770400028900\",\"CPI770400038900\",\"CPI770400048900\"],\"EIS 3G ON STREET COVERAGE\":[\"green\"],\"SQ LAT\":[\"N\"],\"SQ LAR\":[\"N\"],\"OPOM NW TIE COUNT\":[],\"NBN POST CODE\":[\"3129\"],\"NBN ERROR CODE\":[],\"LOLIG STATE\":[\"\"],\"LOLIG UNIT NUMBER\":[\"\"],\"EIS 5G FAILURE DESCRIPTION\":[\"Coverage check failed\"],\"NBN VDSL MIN DOWNSTREAM SPEED\":[\"60\",\"60\",\"60\",\"60\"],\"OIETS RESULT\":[],\"NBN RFS MESSAGE TYPE\":[\"4\"],\"HFC SERVICEABILITY SOURCE\":[],\"VOIP SECOND LINE SERVICEABLE\":[],\"NBNALT RFS DATE\":[],\"SQ ULL TELS EST DL SPEED\":[],\"NBN NFAS TC4 HIGH SPEED TIERS 250MBPS\":[],\"OPOM BILLABLE ACCOUNT ID\":[],\"NBN COPPER SERVICE PROVIDER ID\":[],\"SALES OUTLET\":[\"\"],\"EIS HSD SERVICEABLE\":[\"\"],\"OPOM TESA\":[],\"NBN STREET NAME\":[\"STATION GREEN\"],\"NBN VDSL SERVICE CLASS\":[\"34\",\"34\",\"34\",\"34\"],\"NBN NTD POWER UNIT\":[],\"NBN LOCATION ID\":[\"LOC770400008900\"],\"OPOM ARBOR SERVICE TYPE\":[],\"EIS RFS DT\":[\"\"],\"NBN VDSL MIN UPSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"NBNALT RESULT\":[],\"OIETS TESA\":[],\"NBN PLANNED COMPLETION DATE\":[],\"OIETS ULL CLASS RESULT\":[],\"TESA MISMATCH\":[],\"PHONE NUMBER\":[\"\"],\"HFC SERVICEABLE\":[\"F\"],\"NBN REASON CODE\":[],\"NBN SERVICEABILITY SOURCE\":[\"NBN\"],\"OPOM LOCALITY\":[],\"NBN SERVICE CLASS\":[\"34\"],\"OPOM ULL PORTABLE\":[],\"NBN COPPER SERVICE TYPE\":[],\"NBN ALTERNATIVE TECHNOLOGY\":[\"Fibre\"],\"LOLIG BUILDING NAME\":[\"\"],\"NBN REMEDIATION REQUIRED\":[\"N\",\"N\",\"N\",\"N\"],\"NBN STREET NUMBER\":[\"900\"],\"OIETS ULL CLASS\":[],\"OIETS ULL LOW SPEED\":[],\"OIETS BACKEND ERROR STRING\":[],\"OPOM SERVICE COUNT\":[],\"OPOM CSP\":[],\"NBN NHAS TC4 HIGH SPEED TIERS 250MBPS\":[],\"NBNALT SERVICE CLASS REASON\":[],\"NBN NTD INSTALL DATE\":[],\"LOLIG STREET NUMBER\":[\"\"],\"STATE\":[\"VIC\"],\"NBN TRANSACTION ID\":[\"98c0a6ba-fcf8-44a2-958f-ec0e850848d0\"],\"ULL PAIRTYPE TOTAL DISTANCE\":[],\"OIETS CUTOVER DATE\":[],\"TM ULL SERVICEABLE\":[],\"DEALER CODE\":[\"\"],\"NBN NFAS TC4 HIGH SPEED TIERS 1000MBPS\":[],\"NBN UNI D1\":[],\"LOLIG STREET NAME\":[\"\"],\"EIS FREQUENCY\":[\"900\"],\"NBN SERVICE CLASS REASON\":[],\"EIS 3G SPEED UP\":[\"0.384\"],\"NBN PRE SALE FLAG\":[\"N\"],\"NBN VDSL MAX DOWNSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"SQ ULL OPEN2 10P AVG DL SPEED\":[],\"NBN EXCEPTION TYPE\":[],\"NBN UNI D4\":[],\"NBN UNI D3\":[],\"NBNALT SERVICE LEVEL REGION\":[],\"NBN UNI D2\":[],\"OIETS SUB ADDRESS TYPE\":[],\"LOLIG RDSL SERVICE CLASS\":[],\"OPOM STREET NUMBER\":[],\"NBN DISCONNECT DATE\":[],\"NBN NHAS TC4 HIGH SPEED TIERS 1000MBPS\":[],\"OPOM PLNR FLAG\":[],\"OIETS RDSL REASON\":[],\"OPOM TEL CHURN\":[],\"OPOM LAST NAME\":[],\"OPOM FNN NETWORK TIE\":[],\"SQ NBN ACCESS TYPE\":[\"NBNFTTC\"],\"NBN BUILDING NAME\":[\"\"],\"SQ RDSL OPEN2 90P AVG DL SPEED\":[],\"NBN VDSL MIN DOWNSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"OPOM STREET TYPE\":[],\"EIS 5G MPS\":[\"0\"],\"EIS HOME WIRELESS BB\":[\"Y\"],\"EIS XCOORDINATE\":[\"145.12957\"],\"NBN MULTICAST\":[\"N\"],\"EIS 5G MPT\":[\"0\"],\"OIETS ULL DSL FILTERED ON SPEED\":[],\"NBN NTD BB INSTALL DATE\":[],\"OIETS MODEM SPEED NOTE\":[],\"ULL OVERRIDE REASON\":[\"\"],\"SQ ULL OPEN1 10P AVG DL SPEED\":[],\"NBN RFS DATE\":[\"\"],\"EIS 2G IN COVERAGE\":[\"true\"],\"NBN SERVICE LEVEL REGION\":[\"Urban\"],\"OIETS ULL SERVICEABLE FOR DSL\":[],\"NBN CHANGE DATE\":[],\"OPOM OUTLET ULL\":[\"Y\"],\"SQ NBNALT ACCESS TYPE\":[],\"SQ RDSL OPEN1 90P AVG DL SPEED\":[],\"OIETS STREET NAME\":[],\"DSL SERVICE ID\":[\"\"],\"OTV SERVICEABLE\":[\"F\"],\"TM HOME WIRELESS ROLLOUT DT\":[],\"NBN VDSL POTS INTERCONNECT\":[],\"SQ RDSL OPEN2 10P AVG DL SPEED\":[],\"OPOM FIRST NAME\":[],\"TM NBN_VOIP SERVICEABLE\":[\"Y\"],\"SQ ULL OPEN1 90P AVG DL SPEED\":[],\"NBN TC4 DOWNSTREAM CURRENT ASSURED RATE UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"NBN NTD LOCATION ID\":[],\"LOLIG POST CODE\":[\"\"],\"NBN RESULT\":[\"Serviceable - Shortfall\"],\"NBN HOME ULTRAFAST\":[],\"NBN UNI V1\":[],\"LNP SERVICE PROVIDER\":[],\"NBN FORECAST ACCESS TECHNOLOGY\":[],\"NBN UNI V2\":[],\"OIETS INCOMPATIBLE ERROR\":[],\"NBN CVC ID\":[\"CVC000000000030\"],\"NBNALT SERVICE CLASS\":[],\"TM ULL SERVICEABLE FOR DSL\":[],\"EIS SPEED DISCLAIMER\":[\"<b>1.</b> Actual speeds are less than 7.2Mbps and vary due to factors such as distance from cell, local conditions, user numbers, hardware, software, download source and other factors. Typical customer upload speeds are from 300kbps to 1Mbps.\"],\"OPOM UNIT NUMBER\":[],\"SUB ADDRESS TYPE\":[\"\"],\"OPOM SERVICE ID\":[],\"OIETS POSTCODE\":[],\"EIS HOME WIRELESS ROLLOUT DT\":[\"\"],\"LAT SERVICEABLE\":[\"F\"],\"NBN TC4 UPSTREAM CURRENT ASSURED RATE\":[\"12\",\"12\",\"12\",\"12\"],\"OIETS COMPATIBLE\":[],\"OIETS STREET NUMBER SUFFIX\":[],\"OPOM DSL NETWORK TIE\":[],\"TESA CHARGE ZONE\":[\"MELBOURNE\"],\"EIS 5G SERVICEABILITY FLAG\":[\"N\"],\"EIS WITHIN NBN FOOTPRINT\":[\"True\"],\"SQ RDSL OPEN1 10P AVG DL SPEED\":[],\"OIETS ADDRESS INFO\":[],\"SQ UNLIMITED HOME WIRELESS BB\":[\"N\"],\"NBN CVC AVAILABLE\":[\"Y\"],\"OIETS CUSTOMER CONTACT NAME\":[],\"LOLIG ULL SERVICEABILITY CHECK TYPE\":[],\"NBN NETWORK COEXISTENCE\":[\"Y\",\"Y\",\"Y\",\"Y\"],\"STREET NAME LINE 2\":[\"\"],\"STREET NAME LINE 1\":[\"STATION GREEN\"],\"OIETS STATE\":[],\"NBNALT UNI D4\":[],\"NBNALT UNI D3\":[],\"PROMOTION CODE\":[\"\"],\"NBN STATE\":[\"VIC\"],\"LOLIG STREET SUFFIX\":[\"\"],\"OPOM NUMBER STATUS\":[],\"OPOM DSL CHURN\":[],\"NBNALT UNI D1\":[],\"NBNALT UNI D2\":[],\"NBN VDSL MAX DOWNSTREAM SPEED\":[\"99\",\"99\",\"99\",\"99\"],\"SQ OWB\":[\"Y\"],\"OIETS ULL CLASS COUNT\":[],\"ADDRESS MATCH ID\":[\"ADD00162875\"],\"OPOM SERVICE START DATE\":[],\"SQ OWF\":[\"N\"],\"NBN NTD UNCOMMIT UP SPEED\":[],\"NBN CHANGE OVER ENDDATE\":[],\"EIS OTV SERVICEABLE\":[\"\"],\"SQ OWT\":[],\"OIETS MODEM SPEED COUNT\":[],\"EIS PNSA NAME\":[\"MELBOURNE\"],\"SQ RDSL TELS EST DL SPEED\":[],\"NBN SUBURB\":[\"BOX HILL NORTH\"],\"NBN HOME FAST\":[],\"SQ PORTABLE\":[],\"NBNALT ACCESS TYPE\":[],\"TM ULL DISTANCE\":[],\"OIETS RDSL RESULT\":[],\"HFC ADDRESS ID\":[\"\"],\"NBN NTD UNCOMMIT DOWN SPEED\":[],\"NBN GNAF ID\":[],\"OPOM STATE\":[],\"NBNALT NTD TYPE\":[],\"OIETS STREET NUMBER\":[],\"OPOM DONOR CARRIER\":[],\"STREET SUFFIX\":[\"\"],\"TM HOME WIRELESS BB\":[],\"NBN VDSL SUBSEQUENT INSTALL CHARGE\":[\"No\",\"No\",\"No\",\"No\"],\"OPOM ADDRESS EXIST\":[\"N\"],\"NBN OPTUS SERVICEABLE\":[\"Y\"],\"LOLIG STREET TYPE\":[\"\"],\"SQ OTV\":[\"N\"],\"EIS 3G SPEED DOWN\":[\"from 550kbps to 3Mbps<sup>1</sup> with a 7.2MB Device\"],\"OIETS ULL DSL FILTERED ON DISTANCE\":[],\"NBNALT SERVICE TYPE\":[],\"MOBILE NUMBER\":[\"\"],\"TESA\":[\"BOXL\"],\"SQ ULL TEL\":[\"N\"],\"OPOM POSTCODE\":[],\"SQ DATE\":[\"2023-02-10 18:51:11\"],\"SQ VOIP SECOND LINE\":[],\"OIETS SUB EXCHANGE\":[],\"TESA CAPACITY REACHED\":[\"N\"],\"OPOM NW TIE SERVICE ID\":[],\"ULL OVERRIDE FOR PRESALE\":[\"N\"],\"POST CODE\":[\"3129\"],\"LOLIG RDSL SERVICEABILITY CHECK TYPE\":[],\"NBN NCAS TC2 10MBPS\":[\"Y\"],\"OPOM TEL EXIST\":[\"N\"],\"TELSTRA ADDRESS ID\":[\"\"],\"EIS LAT SERVICEABLE\":[\"\"],\"NBNALT NTD INSTALL DATE\":[],\"SQ ULL OPEN2 90P AVG DL SPEED\":[],\"NBN SUB ADDRESS TYPE\":[\"\"],\"NBN HIGH SPEED TC2\":[],\"SQ LD\":[],\"STREET TYPE\":[\"DR\"],\"NBN AVAILABILITY STATUS\":[\"Y\"],\"NBN HIGH SPEED TC1\":[],\"SQ VOIP FIRST LINE\":[],\"EIS HFC SERVICEABLE\":[],\"NBNALT PORT ID\":[],\"NBN VDSL SERVICE STATUS\":[\"Line In Use\",\"Line Not In Use\",\"Line In Use\",\"Line Not In Use\"],\"EIS SERVICE TYPE\":[\"\"],\"SUBURB\":[\"BOX HILL NORTH\"],\"NBNALT DEV CHARGE FLAG\":[],\"NBN NTD COUNT\":[\"0\"],\"NBN TC4 UPSTREAM CURRENT ASSURED RATE UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"NBN VDSL MAX UPSTREAM SPEED UNIT OF MEASURE\":[\"Mbps\",\"Mbps\",\"Mbps\",\"Mbps\"],\"LOLIG RDSL TIMESTAMP START\":[],\"TM POSTCODE SERVICEABLE PERCENTAGE\":[],\"G-NAF PID\":[\"\"],\"NBN NTD NWAS TC1 150KBPS\":[],\"OIETS MODEM SPEED RESULT\":[],\"NBN VDSL MIN UPSTREAM SPEED\":[\"5\",\"5\",\"5\",\"5\"],\"OPOM SUB ADDRESS TYPE\":[],\"NBN FLOOR NUMBER\":[\"\"],\"OIETS MODEM SPEED\":[],\"MARKET SEGMENT\":[\"RES\"],\"LOLIG RDSL SERVICEABLE\":[\"F\"],\"VOIP FIRST LINE SERVICEABLE\":[],\"OPOM SUBURB\":[],\"SQ FEMTO\":[\"Y\"],\"NBN NCAS TC2 20MBPS\":[\"Y\"],\"LOLIG SUBURB\":[\"\"],\"OPOM TESA MISMATCH\":[\"N\"],\"SQ ID\":[\"SQ50100710\"],\"NBN NTD POWER TYPE\":[],\"EIS NBN SERVICE CLASS\":[\"34\"],\"ULL SERVICEABILITY SOURCE\":[],\"UNIT NUMBER\":[\"\"],\"NBN TC4 DOWNSTREAM CURRENT ASSURED RATE\":[\"80\",\"80\",\"80\",\"80\"],\"OPERATING FROM BUSINESS OR HOME\":[\"\"],\"TM FEMTO SERVICEABLE\":[],\"OPOM STREET NAME\":[],\"SQ RDSL\":[\"N\"],\"NBNALT NTD ID\":[],\"NBN VDSL COPPER PAIR STATUS\":[\"\",\"\",\"\",\"\"],\"NBN CURRENT ACCESS TECHNOLOGY\":[],\"NBN STATUS\":[],\"NBN PORT ID\":[],\"NBN FORECAST RTC DATE\":[],\"OPOM STREET NUMBER SUFFIX\":[],\"SQ ULL OPEN1 AVG DL SPEED\":[],\"OIETS ULL HIGH SPEED\":[],\"OPOM VP EXIST\":[\"N\"],\"OIETS STREET TYPE\":[],\"OIETS UNIT NUMBER\":[],\"NBN NTD ID\":[],\"NBN NCAS TC2 30MBPS\":[\"Y\"],\"STREET NUMBER SUFFIX\":[\"\"],\"OIETS STREET SUFFIX\":[],\"OPOM SERVICE END DATE\":[]}}},{\"family\":\"OWB\",\"name\":\"FB\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"]}}},{\"family\":\"HWBB\",\"name\":\"FB\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"Serviceable\":[\"Y\"]}}},{\"family\":\"NBN FTTC\",\"name\":\"FV,FB,TV\",\"serviceSpecCharacteristics\":{\"serviceSpecCharacteristics\":{\"NBN VDSL SERVICE STATUS\":[\"Line In Use\",\"Line Not In Use\",\"Line In Use\",\"Line Not In Use\"],\"NBN CVC AVAILABLE\":[\"Y\"],\"NBN VDSL SUBSEQUENT INSTALL CHARGE\":[\"No\",\"No\",\"No\",\"No\"],\"NBN NETWORK COEXISTENCE\":[\"Y\",\"Y\",\"Y\",\"Y\"],\"NBN VDSL POTS INTERCONNECT\":[],\"NBN CSA ID\":[\"CSA000000000030\"],\"NBN VDSL COPPER STATUS\":[],\"NBN SERVICE CLASS REASON\":[\"\"],\"NBN VDSL MIN UPSTREAM SPEED\":[\"5\",\"5\",\"5\",\"5\"],\"NBN PRE SALE FLAG\":[\"N\"],\"NBN VDSL MIN DOWNSTREAM SPEED\":[\"60\",\"60\",\"60\",\"60\"],\"NBN VDSL MAX UPSTREAM SPEED\":[\"19\",\"19\",\"19\",\"19\"],\"NBN VDSL MAX DOWNSTREAM SPEED\":[\"99\",\"99\",\"99\",\"99\"],\"NBN DISCONNECT DATE\":[\"\"],\"NBN COPPER SERVICE PROVIDER ID\":[],\"NBN RESULT\":[\"Serviceable - Shortfall\"],\"NBN CHANGE OVER ENDDATE\":[\"\"],\"TC4 Downstream Current Assured Rate\":[],\"NBN ACCESS TYPE\":[\"Fibre To The Curb\"],\"SQ NBN ACCESS TYPE\":[\"NBNFTTC\"],\"NBN LOCATION ID\":[\"LOC770400008900\"],\"NBN FORECAST ACCESS TECHNOLOGY\":[\"\"],\"NBN CURRENT ACCESS TECHNOLOGY\":[\"\"],\"NBN STATUS\":[\"\"],\"NBN DEV CHARGE FLAG\":[\"N\"],\"NBN PLANNED COMPLETION DATE\":[],\"NBN FORECAST RTC DATE\":[\"\"],\"NBN SERVICE TYPE\":[\"\"],\"NBN REASON CODE\":[\"\"],\"NBN SERVICEABILITY SOURCE\":[\"NBN\"],\"NBN SERVICE CLASS\":[\"34\"],\"NBN REASON DESCRIPTION\":[\"\"],\"NBN ALTERNATIVE TECHNOLOGY\":[\"Fibre\"],\"NBN COPPER SERVICE TYPE\":[],\"TVProducts\":[\"Fetch\"],\"TC4 Upstream Current Assured Rate\":[],\"NBN RFS DATE\":[\"\"],\"NBN NTD UNCOMMIT DOWN SPEED\":[\"\"],\"NBN GNAF ID\":[\"\"],\"NBN REMEDIATION REQUIRED\":[\"N\",\"N\",\"N\",\"N\"],\"NBN AVAILABILITY STATUS\":[\"Y\"],\"NBN SERVICE LEVEL REGION\":[\"Urban\"],\"NBN VDSL COPPER PAIR ID\":[\"CPI770400018900\",\"CPI770400028900\",\"CPI770400038900\",\"CPI770400048900\"],\"NBN CHANGE DATE\":[\"\"]}}}]},\"sdpStatusResponse\":{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"setSdpStatusLine\":false,\"setTransactionStatusCode\":true,\"setServiceVersion\":true}}},\"timestamp\":\"2023-02-10T07:53:13.041Z\"},\"moving-home\":\"LOC770400008900\"}"
         },
         {
           "@attribute-id": "serviceRequestDate",
-          "__text": "2022-10-12T00:00:00.000+0000"
+          "__text": "2023-02-13T00:00:00.000+0000"
         },
         {
           "@attribute-id": "sessionId",
-          "__text": "gvfnruxdrm35wxu1szfew0zhsj0ce4unpgem5h83qx0"
+          "__text": "ksqr_xtfsxjlwvky-ppdhszvym1ohf6ebebsxxi1hsy"
         },
         {
           "@attribute-id": "sfmcExportStatus",
@@ -1885,39 +909,31 @@
         },
         {
           "@attribute-id": "smSessionId",
-          "__text": "DDi6FWrazIjCngg877y4EUUz90M="
-        },
-        {
-          "@attribute-id": "subscriptionOrderType",
-          "__text": "Simple"
+          "__text": "SrY9W9eb9a4V/fDaZ56S5cJkAmE="
         },
         {
           "@attribute-id": "technology",
-          "__text": "NBN FTTP"
-        },
-        {
-          "@attribute-id": "tenureMonth",
-          "__text": "3"
-        },
-        {
-          "@attribute-id": "tenureYear",
-          "__text": "19"
+          "__text": "NBN FTTC"
         },
         {
           "@attribute-id": "threatMetrixResponse",
-          "__text": "{\"account_address_city\":\"kew east\",\"account_address_state\":\"vic\",\"account_address_street1\":\"121 temple avenue\",\"account_address_zip\":\"3102\",\"account_date_of_birth\":\"19700101\",\"account_email\":\"orcacmr099@gmail.com\",\"account_email_attributes\":\"CONSUMER\",\"account_email_domain\":\"gmail.com\",\"account_email_first_seen\":\"2022-10-06\",\"account_email_last_event\":\"2022-10-07\",\"account_email_last_update\":\"2022-10-07\",\"account_email_result\":\"success\",\"account_email_score\":\"0\",\"account_email_worst_score\":\"0\",\"account_login\":\"orcacmr099@gmail.com\",\"account_login_activities\":\"NEW_PAYER_CC_OR_DEBIT\",\"account_login_first_seen\":\"2022-10-06\",\"account_login_last_event\":\"2022-10-07\",\"account_login_last_update\":\"2022-10-07\",\"account_login_result\":\"success\",\"account_login_score\":\"0\",\"account_login_worst_score\":\"0\",\"account_name\":\"undefined undefined\",\"account_name_activities\":\"_TRUSTED_PROB\",\"account_name_assert_history\":\"NEGATIVE_HISTORY\",\"account_name_attributes\":\"_TRUSTED_PROB\",\"account_name_first_seen\":\"2012-10-09\",\"account_name_last_event\":\"2022-10-07\",\"account_name_last_update\":\"2022-10-07\",\"account_name_result\":\"success\",\"account_name_score\":\"0\",\"account_name_worst_score\":\"-23\",\"account_passport_country\":\"au\",\"account_passport_expiration_date\":\"2026-03-31\",\"account_telephone\":\"0468813786\",\"account_telephone_first_seen\":\"2021-09-16\",\"account_telephone_is_possible\":\"no\",\"account_telephone_is_valid\":\"no\",\"account_telephone_last_event\":\"2022-10-07\",\"account_telephone_last_update\":\"2022-10-07\",\"account_telephone_result\":\"success\",\"account_telephone_score\":\"0\",\"account_telephone_type\":\"UNKNOWN\",\"account_telephone_worst_score\":\"0\",\"agent_publickey_hash\":\"f36dae4945efdf89d022be7c1a32dfba4f64576e\",\"agent_publickey_hash_result\":\"not found\",\"agent_publickey_hash_type\":\"web:ecdsa\",\"agent_type\":\"browser_computer\",\"api_call_datetime\":\"2022-10-07 04:04:37.414\",\"api_caller_ip\":\"34.195.33.38\",\"api_type\":\"session-query\",\"api_version\":\"13.5.1\",\"application_name\":\"windows\",\"audio_context\":\"d78bf7d41a4be937714ed8831969bc85150aee777a9d796dc5681c85430d5eaf\",\"bb_assessment\":\"199.32\",\"bb_assessment_rating\":\"low\",\"bb_bot_rating\":\"low\",\"bb_bot_score\":\"500.00\",\"bb_fraud_rating\":\"neutral\",\"bb_fraud_score\":\"500.00\",\"browser\":\"Firefox\",\"browser_language\":\"en-US,en;q\",\"browser_spoof_rating\":\"low\",\"browser_spoof_reason\":\"math_routine\",\"browser_spoof_score\":\"200\",\"browser_string\":\"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0\",\"browser_string_hash\":\"6ecdc6d2eb2a34d06a1241731ec7dae6\",\"browser_version\":\"105\",\"canvas_hash\":\"5d9506fb237e07e204ff1baca620d4d82c2d4878\",\"cc_number_hash\":\"48fa51a82aeed4b69f2c47f4f6ea8dbdcda9f49d5e60ffdf338bdce5ee20116a\",\"cc_number_hash_activities\":\"NEW_PAYER_CC_OR_DEBIT\",\"cc_number_hash_first_seen\":\"2021-09-05\",\"cc_number_hash_last_event\":\"2022-10-07\",\"cc_number_hash_last_update\":\"2022-10-07\",\"cc_number_hash_result\":\"success\",\"cc_number_hash_score\":\"0\",\"cc_number_hash_worst_score\":\"0\",\"champion_request_duration\":\"115\",\"charset\":\"utf-8\",\"condition_attrib_12\":\"australian_passport\",\"condition_attrib_18\":\"offline\",\"condition_attrib_19\":\"na\",\"condition_attrib_20\":\"true\",\"condition_attrib_5\":\"browser_computer\",\"cpu_clock\":\"219235\",\"cpu_cores\":\"2\",\"css_image_loaded\":\"yes\",\"custom_count_10\":\"0\",\"custom_count_2\":\"0\",\"custom_match_1\":\"a910369938d303beae88f9d2b0e0d8eb\",\"custom_match_3\":\"0fdc41b52604bdd13d32a609ed086292\",\"custom_match_5\":\"692bd96c63d5738e924f893322b13109\",\"custom_match_6\":\"86989face6e3235d5bf9753b1732c6b9\",\"custom_match_7\":\"80d74930a067f74219ebb0b73279bd26\",\"custom_match_8\":\"6a2ff70732119465ebe808b4536253d7\",\"customer_event_type\":\"postpaid_act\",\"device_health_reasons\":\"webrtc_internal_mdns\",\"device_id\":\"7882008d317a4ae8b8dda210884e5c9c\",\"device_id_confidence\":\"100\",\"device_match_result\":\"new_device\",\"device_result\":\"not found\",\"digital_id\":\"80c94e9b8bb945f398932bbd2f0f7384\",\"digital_id_confidence\":\"3120\",\"digital_id_confidence_rating\":\"low\",\"digital_id_first_seen\":\"2022-10-06\",\"digital_id_last_event\":\"2022-10-07\",\"digital_id_last_update\":\"2022-10-07\",\"digital_id_result\":\"success\",\"digital_id_trust_score\":\"12.30\",\"digital_id_trust_score_rating\":\"very_low\",\"digital_id_trust_score_reason_code\":\"_ts_did_black\",\"digital_id_trust_score_summary_reason_code\":\"_ts_did_edge_detect_entity\",\"dns_ip\":\"119.225.142.246\",\"dns_ip_activities\":\"_TRUSTED_PROB\",\"dns_ip_assert_history\":\"NEGATIVE_HISTORY\",\"dns_ip_attributes\":\"_TRUSTED_PROB\",\"dns_ip_city\":\"macquarie centre\",\"dns_ip_connection_type\":\"tx\",\"dns_ip_geo\":\"AU\",\"dns_ip_home\":\"no\",\"dns_ip_isp\":\"singtel optus pty ltd\",\"dns_ip_latitude\":\"-33.77692\",\"dns_ip_line_speed\":\"high\",\"dns_ip_longitude\":\"151.12102\",\"dns_ip_organization\":\"optus macquarie park (ocs)\",\"dns_ip_postal_code\":\"2113\",\"dns_ip_region\":\"new south wales\",\"dns_ip_region_iso_code\":\"nsw\",\"dns_ip_routing_type\":\"fixed\",\"drivers_licence_hash_first_seen\":\"2016-08-22\",\"drivers_licence_hash_last_event\":\"2022-10-07\",\"drivers_licence_hash_last_update\":\"2022-10-07\",\"drivers_licence_hash_result\":\"success\",\"drivers_licence_hash_score\":\"0\",\"drivers_licence_hash_worst_score\":\"0\",\"drivers_licence_number_hash\":\"ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1\",\"emailage.emailriskscore.correlationid\":\"a668e32f-79fc-4bc3-9fe2-eb9edf9f31e3\",\"emailage.emailriskscore.domain_creation_days\":\"9917\",\"emailage.emailriskscore.domainage\":\"1995-08-13 00:00:00\",\"emailage.emailriskscore.domaincategory\":\"Webmail\",\"emailage.emailriskscore.domaincompany\":\"Google\",\"emailage.emailriskscore.domaincorporate\":\"No\",\"emailage.emailriskscore.domaincountry\":\"US\",\"emailage.emailriskscore.domainexists\":\"Yes\",\"emailage.emailriskscore.domainname\":\"gmail.com\",\"emailage.emailriskscore.domainrelevantinfo\":\"Valid Webmail Domain from United States\",\"emailage.emailriskscore.domainrelevantinfoid\":\"508\",\"emailage.emailriskscore.domainriskcountry\":\"No\",\"emailage.emailriskscore.domainrisklevel\":\"Moderate\",\"emailage.emailriskscore.domainrisklevelid\":\"3\",\"emailage.emailriskscore.eaadvice\":\"Moderate Fraud Risk\",\"emailage.emailriskscore.eaadviceid\":\"4\",\"emailage.emailriskscore.eareason\":\"Limited History for Email\",\"emailage.emailriskscore.eareasonid\":\"8\",\"emailage.emailriskscore.eariskband\":\"Fraud Score 301 to 600\",\"emailage.emailriskscore.eariskbandid\":\"3\",\"emailage.emailriskscore.eascore\":\"500\",\"emailage.emailriskscore.eastatusid\":\"2\",\"emailage.emailriskscore.emailexists\":\"Yes\",\"emailage.emailriskscore.emailtoipconfidence\":\"50\",\"emailage.emailriskscore.emailtoshipaddressconfidence\":\"50\",\"emailage.emailriskscore.first_seen_days\":\"0\",\"emailage.emailriskscore.firstverificationdate\":\"2022-10-06 16:22:42\",\"emailage.emailriskscore.fraudrisk\":\"500 Moderate\",\"emailage.emailriskscore.ip_risklevel\":\"Moderate\",\"emailage.emailriskscore.ip_riskreason\":\"Moderate By Proxy Reputation And Country Code\",\"emailage.emailriskscore.ipshipcountrymatch\":\"Yes\",\"emailage.emailriskscore.ipshipdistancekm\":\"707\",\"emailage.emailriskscore.ipshipdistancemil\":\"439\",\"emailage.emailriskscore.iptoshipaddressconfidence\":\"50\",\"emailage.emailriskscore.overalldigitalidentityscore\":\"50\",\"emailage.emailriskscore.phone_status\":\"Invalid\",\"emailage.emailriskscore.responsestatus.errorcode\":\"0\",\"emailage.emailriskscore.responsestatus.status\":\"success\",\"emailage.emailriskscore.shipforward\":\"No\",\"emailage.emailriskscore.status\":\"Verified\",\"emailage.emailriskscore.totalhits\":\"2\",\"emailage.emailriskscore.uniquehits\":\"1\",\"enabled_ck\":\"yes\",\"enabled_fl\":\"no\",\"enabled_im\":\"yes\",\"enabled_js\":\"yes\",\"enabled_services\":\"TMX100\",\"enhanced_headers_name_value_hash\":\"11854546c1caa9a5944b5ca7017fb8b4\",\"etag_guid\":\"bb636c70d46b4d2f80345ac8ff5df8b0\",\"event_datetime\":\"2022-10-07 04:04:37.414\",\"event_type\":\"payment\",\"fuzzy_device_first_seen\":\"2022-10-06\",\"fuzzy_device_id\":\"e735293bbfa249d6a40d22796ccc22be\",\"fuzzy_device_id_confidence\":\"93.44\",\"fuzzy_device_last_event\":\"2022-10-07\",\"fuzzy_device_last_update\":\"2022-10-07\",\"fuzzy_device_match_result\":\"success\",\"fuzzy_device_result\":\"success\",\"fuzzy_device_score\":\"0\",\"fuzzy_device_worst_score\":\"0\",\"gpu_name\":\"ANGLE (NULL, Generic Renderer Direct3D11 vs_5_0 ps_5_0)\",\"gpu_vendor\":\"Google Inc. (NULL)\",\"headers_name_value_hash\":\"f9d8bb71f857914ca1c704ce5f2fe550\",\"headers_order_string_hash\":\"227794ff150b1554b9b9609661fdeecb\",\"http_os_sig_adv_mss\":\"1448\",\"http_os_sig_rcv_mss\":\"787\",\"http_os_sig_snd_mss\":\"1448\",\"http_os_signature\":\"Proxy\",\"http_referer\":\"mj51oHMHbKbINefDHIhHE5ifmnfEKEjB\",\"http_referer_domain\":\"bfzf-022.sandbox.us01.dx.commercecloud.salesforce.com\",\"http_referer_url\":\"https://bfzf-022.sandbox.us01.dx.commercecloud.salesforce.com/s/OptusAU/secure-checkout?f9bdce912e965b47ae8ac6087e5554c0\",\"image_loaded\":\"yes\",\"input_ip_activities\":\"_TRUSTED_PROB\",\"input_ip_address\":\"203.13.128.104\",\"input_ip_assert_history\":\"NEGATIVE_HISTORY\",\"input_ip_attributes\":\"_TRUSTED_PROB\",\"input_ip_city\":\"macquarie centre\",\"input_ip_connection_type\":\"tx\",\"input_ip_first_seen\":\"2010-07-21\",\"input_ip_geo\":\"AU\",\"input_ip_home\":\"no\",\"input_ip_isp\":\"singtel optus pty ltd\",\"input_ip_last_event\":\"2022-10-07\",\"input_ip_last_update\":\"2022-10-07\",\"input_ip_latitude\":\"-33.77692\",\"input_ip_line_speed\":\"high\",\"input_ip_longitude\":\"151.12102\",\"input_ip_organization\":\"singtel optus pty ltd\",\"input_ip_postal_code\":\"2113\",\"input_ip_region\":\"new south wales\",\"input_ip_region_iso_code\":\"nsw\",\"input_ip_result\":\"success\",\"input_ip_routing_type\":\"fixed\",\"input_ip_score\":\"13\",\"input_ip_worst_score\":\"-100\",\"integration_hub_results\":\"{\\\"8zht501y:LN Emailage First Class Rule Template\\\":{\\\"Call Emailage\\\":{\\\"rule_id\\\":\\\"242859990\\\",\\\"tps_datetime\\\":\\\"2022-10-07 04:04:37.454\\\",\\\"tps_duration\\\":\\\"81\\\",\\\"tps_error\\\":\\\"0\\\",\\\"tps_result\\\":\\\"ok\\\",\\\"tps_type\\\":\\\"LexisNexis_Emailage_FirstClass\\\",\\\"tps_vendor\\\":\\\"LexisNexis - Connectors\\\",\\\"tps_vendor_raw_response\\\":\\\"\ufeff{\\\\\\\"query\\\\\\\":{\\\\\\\"email\\\\\\\":\\\\\\\"orcacmr099@gmail.com+203.13.128.104\\\\\\\",\\\\\\\"queryType\\\\\\\":\\\\\\\"EmailIPRisk\\\\\\\",\\\\\\\"count\\\\\\\":1,\\\\\\\"created\\\\\\\":\\\\\\\"2022-10-07T04:04:37Z\\\\\\\",\\\\\\\"lang\\\\\\\":\\\\\\\"en-US\\\\\\\",\\\\\\\"responseCount\\\\\\\":1,\\\\\\\"billaddress\\\\\\\":\\\\\\\"121 temple avenue\\\\\\\",\\\\\\\"billcity\\\\\\\":\\\\\\\"kew east\\\\\\\",\\\\\\\"billregion\\\\\\\":\\\\\\\"vic\\\\\\\",\\\\\\\"billpostal\\\\\\\":\\\\\\\"3102\\\\\\\",\\\\\\\"shipaddress\\\\\\\":\\\\\\\"121 temple ave\\\\\\\",\\\\\\\"shipcity\\\\\\\":\\\\\\\"kew east\\\\\\\",\\\\\\\"shipregion\\\\\\\":\\\\\\\"vic\\\\\\\",\\\\\\\"shippostal\\\\\\\":\\\\\\\"3102\\\\\\\",\\\\\\\"shipcountry\\\\\\\":\\\\\\\"au\\\\\\\",\\\\\\\"phone\\\\\\\":\\\\\\\"0468813786\\\\\\\",\\\\\\\"hashedCardNumber\\\\\\\":\\\\\\\"48fa51a82aeed4b69f2c47f4f6ea8dbdcda9f49d5e60ffdf338bdce5ee20116a\\\\\\\",\\\\\\\"transamount\\\\\\\":\\\\\\\"319\\\\\\\",\\\\\\\"transcurrency\\\\\\\":\\\\\\\"aud\\\\\\\",\\\\\\\"useragent\\\\\\\":\\\\\\\"Mozilla\\\\/5.0 (Windows NT 6.1; Win64; x64; rv:105.0) Gecko\\\\/20100101 Firefox\\\\/105.0\\\\\\\",\\\\\\\"trackingid\\\\\\\":\\\\\\\"da815b55-2b91-4763-9862-36d7890526be\\\\\\\",\\\\\\\"transactionTypeId\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"transactionTypeDescription\\\\\\\":\\\\\\\"payment\\\\\\\",\\\\\\\"results\\\\\\\":[{\\\\\\\"userdefinedrecordid\\\\\\\":\\\\\\\"uat500004304\\\\\\\",\\\\\\\"email\\\\\\\":\\\\\\\"orcacmr099@gmail.com\\\\\\\",\\\\\\\"ipaddress\\\\\\\":\\\\\\\"203.13.128.104\\\\\\\",\\\\\\\"eName\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"emailAge\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"email_creation_days\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"domainAge\\\\\\\":\\\\\\\"1995-08-13T00:00:00Z\\\\\\\",\\\\\\\"domain_creation_days\\\\\\\":\\\\\\\"9917\\\\\\\",\\\\\\\"firstVerificationDate\\\\\\\":\\\\\\\"2022-10-06T16:22:42Z\\\\\\\",\\\\\\\"first_seen_days\\\\\\\":\\\\\\\"0\\\\\\\",\\\\\\\"lastVerificationDate\\\\\\\":\\\\\\\"2022-10-06T16:22:42Z\\\\\\\",\\\\\\\"status\\\\\\\":\\\\\\\"Verified\\\\\\\",\\\\\\\"country\\\\\\\":\\\\\\\"US\\\\\\\",\\\\\\\"fraudRisk\\\\\\\":\\\\\\\"500 Moderate\\\\\\\",\\\\\\\"EAScore\\\\\\\":\\\\\\\"500\\\\\\\",\\\\\\\"EAReason\\\\\\\":\\\\\\\"Limited History for Email\\\\\\\",\\\\\\\"EAStatusID\\\\\\\":\\\\\\\"2\\\\\\\",\\\\\\\"EAReasonID\\\\\\\":\\\\\\\"8\\\\\\\",\\\\\\\"EAAdviceID\\\\\\\":\\\\\\\"4\\\\\\\",\\\\\\\"EAAdvice\\\\\\\":\\\\\\\"Moderate Fraud Risk\\\\\\\",\\\\\\\"EARiskBandID\\\\\\\":\\\\\\\"3\\\\\\\",\\\\\\\"EARiskBand\\\\\\\":\\\\\\\"Fraud Score 301 to 600\\\\\\\",\\\\\\\"source_industry\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"fraud_type\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"lastflaggedon\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"location\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"smfriends\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"totalhits\\\\\\\":\\\\\\\"2\\\\\\\",\\\\\\\"uniquehits\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"imageurl\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"emailExists\\\\\\\":\\\\\\\"Yes\\\\\\\",\\\\\\\"domainExists\\\\\\\":\\\\\\\"Yes\\\\\\\",\\\\\\\"company\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"title\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"domainname\\\\\\\":\\\\\\\"gmail.com\\\\\\\",\\\\\\\"domaincompany\\\\\\\":\\\\\\\"Google\\\\\\\",\\\\\\\"domaincountryname\\\\\\\":\\\\\\\"United States\\\\\\\",\\\\\\\"domaincategory\\\\\\\":\\\\\\\"Webmail\\\\\\\",\\\\\\\"domaincorporate\\\\\\\":\\\\\\\"No\\\\\\\",\\\\\\\"domainrisklevel\\\\\\\":\\\\\\\"Moderate\\\\\\\",\\\\\\\"domainrelevantinfo\\\\\\\":\\\\\\\"Valid Webmail Domain from United States\\\\\\\",\\\\\\\"domainrisklevelID\\\\\\\":\\\\\\\"3\\\\\\\",\\\\\\\"domainrelevantinfoID\\\\\\\":\\\\\\\"508\\\\\\\",\\\\\\\"domainriskcountry\\\\\\\":\\\\\\\"No\\\\\\\",\\\\\\\"smlinks\\\\\\\":[],\\\\\\\"ip_risklevel\\\\\\\":\\\\\\\"Moderate\\\\\\\",\\\\\\\"ip_riskreasonid\\\\\\\":\\\\\\\"311\\\\\\\",\\\\\\\"ip_riskreason\\\\\\\":\\\\\\\"Moderate By Proxy Reputation And Country Code\\\\\\\",\\\\\\\"ip_reputation\\\\\\\":\\\\\\\"Good\\\\\\\",\\\\\\\"ip_risklevelid\\\\\\\":\\\\\\\"3\\\\\\\",\\\\\\\"ip_anonymousdetected\\\\\\\":\\\\\\\"No\\\\\\\",\\\\\\\"ip_proxytype\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"ip_proxydescription\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"ip_isp\\\\\\\":\\\\\\\"optus internet\\\\\\\",\\\\\\\"ip_org\\\\\\\":\\\\\\\"optus internet\\\\\\\",\\\\\\\"ip_userType\\\\\\\":\\\\\\\"wifi\\\\\\\",\\\\\\\"ip_netSpeedCell\\\\\\\":\\\\\\\"broadband\\\\\\\",\\\\\\\"ip_corporateProxy\\\\\\\":\\\\\\\"No\\\\\\\",\\\\\\\"ip_continentCode\\\\\\\":\\\\\\\"oc\\\\\\\",\\\\\\\"ip_country\\\\\\\":\\\\\\\"Australia\\\\\\\",\\\\\\\"ip_countryCode\\\\\\\":\\\\\\\"AU\\\\\\\",\\\\\\\"ip_region\\\\\\\":\\\\\\\"new south wales\\\\\\\",\\\\\\\"ip_city\\\\\\\":\\\\\\\"macquarie park\\\\\\\",\\\\\\\"ip_callingcode\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"ip_metroCode\\\\\\\":\\\\\\\"3612\\\\\\\",\\\\\\\"ip_latitude\\\\\\\":\\\\\\\"-33.779999\\\\\\\",\\\\\\\"ip_longitude\\\\\\\":\\\\\\\"151.130005\\\\\\\",\\\\\\\"ip_map\\\\\\\":\\\\\\\"https:\\\\/\\\\/app.emailage.com\\\\/query\\\\/GoogleMaps?latLng\",\"radius\":\"\",\"title\":\"macquarie+park%2cnew+south+wales%2cAustralia\\\",\\\"ipcountrymatch\\\":\\\"\\\",\\\"ipshipcountrymatch\\\":\\\"Yes\\\",\\\"ipriskcountry\\\":\\\"\\\",\\\"ipdistancekm\\\":\\\"\\\",\\\"ipdistancemil\\\":\\\"\\\",\\\"ipshipdistancekm\\\":\\\"707\\\",\\\"ipshipdistancemil\\\":\\\"439\\\",\\\"iptimezone\\\":\\\"+1100\\\",\\\"ipasnum\\\":\\\"7474 singtel optus pty ltd\\\",\\\"ipdomain\\\":\\\"optus.com.au\\\",\\\"ip_countryconf\\\":\\\"99\\\",\\\"ip_regionconf\\\":\\\"99\\\",\\\"ip_cityconf\\\":\\\"95\\\",\\\"ip_postalcode\\\":\\\"2113\\\",\\\"ip_postalconf\\\":\\\"90\\\",\\\"custphoneInbillingloc\\\":\\\"\\\",\\\"citypostalmatch\\\":\\\"\\\",\\\"shipcitypostalmatch\\\":\\\"\\\",\\\"phone_status\\\":\\\"Invalid\\\",\\\"shipforward\\\":\\\"No\\\",\\\"phoneowner\\\":\\\"\\\",\\\"phoneownertype\\\":\\\"\\\",\\\"phonecarriertype\\\":\\\"\\\",\\\"phonecarriernetworkcode\\\":\\\"\\\",\\\"phonecarriername\\\":\\\"\\\",\\\"phoneownermatch\\\":\\\"\\\",\\\"overallDigitalIdentityScore\\\":\\\"50\\\",\\\"emailToIpConfidence\\\":\\\"50\\\",\\\"emailToPhoneConfidence\\\":\\\"\\\",\\\"emailToBillAddressConfidence\\\":\\\"\\\",\\\"emailToShipAddressConfidence\\\":\\\"50\\\",\\\"emailToFullNameConfidence\\\":\\\"\\\",\\\"emailToLastNameConfidence\\\":\\\"\\\",\\\"ipToPhoneConfidence\\\":\\\"\\\",\\\"ipToBillAddressConfidence\\\":\\\"\\\",\\\"ipToShipAddressConfidence\\\":\\\"50\\\",\\\"ipToFullNameConfidence\\\":\\\"\\\",\\\"ipToLastNameConfidence\\\":\\\"\\\",\\\"phoneToBillAddressConfidence\\\":\\\"\\\",\\\"phoneToShipAddressConfidence\\\":\\\"\\\",\\\"phoneToFullNameConfidence\\\":\\\"\\\",\\\"phoneToLastNameConfidence\\\":\\\"\\\",\\\"billAddressToFullNameConfidence\\\":\\\"\\\",\\\"billAddressToLastNameConfidence\\\":\\\"\\\",\\\"shipAddressToBillAddressConfidence\\\":\\\"\\\",\\\"shipAddressToFullNameConfidence\\\":\\\"\\\",\\\"shipAddressToLastNameConfidence\\\":\\\"\\\",\\\"correlationId\\\":\\\"a668e32f-79fc-4bc3-9fe2-eb9edf9f31e3\\\",\\\"transAmount\\\":\\\"319\\\",\\\"transCurrency\\\":\\\"aud\\\"}]},\\\"responseStatus\\\":{\\\"status\\\":\\\"success\\\",\\\"errorCode\\\":\\\"0\\\",\\\"description\\\":\\\"\\\"}}\",\"js_browser\":\"Firefox 105\",\"js_browser_string\":\"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0\",\"js_browser_string_hash\":\"6ecdc6d2eb2a34d06a1241731ec7dae6\",\"js_fonts_hash\":\"b723e87012d17b76a1e1d07e525d1cee\",\"js_fonts_number\":\"112\",\"js_os\":\"Windows 7\",\"local_attrib_10\":\"a910369938d303beae88f9d2b0e0d8eb\",\"local_attrib_10_first_seen\":\"2021-06-11\",\"local_attrib_12\":\"34687e53cc5de63a11e7a22757df6ef80b5a6b0249196558bc2ae007e0db1913\",\"local_attrib_12_first_seen\":\"2021-10-05\",\"local_attrib_15\":\"uat500004304\",\"local_attrib_5\":\"undefined\",\"local_attrib_5_activities\":\"_TRUSTED_PROB\",\"local_attrib_5_first_seen\":\"2021-07-20\",\"local_attrib_6\":\"undefined\",\"local_attrib_6_activities\":\"_TRUSTED_PROB\",\"local_attrib_6_first_seen\":\"2021-07-20\",\"math_routine\":\"71f548e4b3608bfdfb89c996ffd4f70f12ae3d66adf429356b9f3bc677b2fe2f\",\"mime_type_hash\":\"27f51d3149e6bf209b66bd387b0af3c4\",\"mime_type_number\":\"2\",\"multiple_session_id\":\"yes\",\"nonce\":\"c9d7f42e9f6e4684\",\"org_id\":\"8zht501y\",\"os\":\"Windows\",\"os_anomaly\":\"yes\",\"os_version\":\"7\",\"page_time_on\":\"159095\",\"plugin_hash\":\"e802dfa555193f4ebe8993eb4a99290d\",\"plugin_number\":\"5\",\"policy\":\"onboarding\",\"policy_engine_version\":\"13.5\",\"policy_score\":\"0\",\"primary_industry\":\"ecommerce\",\"private_browsing\":\"no\",\"profile_api_timedelta\":\"159095\",\"profile_connection_type\":\"TLS1.2\",\"profiled_domain\":\"bfzf-022.sandbox.us01.dx.commercecloud.salesforce.com\",\"profiled_url\":\"https://bfzf-022.sandbox.us01.dx.commercecloud.salesforce.com/s/OptusAU/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"profiling_datetime\":\"1665115318\",\"profiling_delta\":\"35845\",\"proxy_score\":\"519.47\",\"reason_code\":\"SFCCTranPass\",\"remote_access\":\"port_used\",\"remote_desktop\":\"RDP:3389\",\"request_duration\":\"177\",\"request_id\":\"da815b55-2b91-4763-9862-36d7890526be\",\"request_result\":\"success\",\"review_status\":\"pass\",\"risk_rating\":\"low\",\"screen_color_depth\":\"16\",\"screen_res\":\"1280x720\",\"screen_res_zoom\":\"0.67\",\"se_rating\":\"neutral\",\"se_score\":\"150\",\"secondary_industry\":\"telecom\",\"service_type\":\"all\",\"session_id\":\"gvfnruxdrm35wxu1szfew0zhsj0ce4unpgem5h83qx0\",\"session_id_query_count\":\"1\",\"shipping_address_city\":\"kew east\",\"shipping_address_country\":\"au\",\"shipping_address_first_seen\":\"2021-06-11\",\"shipping_address_last_event\":\"2022-10-07\",\"shipping_address_last_update\":\"2022-10-07\",\"shipping_address_result\":\"success\",\"shipping_address_score\":\"0\",\"shipping_address_state\":\"vic\",\"shipping_address_street1\":\"121 temple ave\",\"shipping_address_worst_score\":\"0\",\"shipping_address_zip\":\"3102\",\"shipping_address_zip_latitude\":\"-37.7947\",\"shipping_address_zip_longitude\":\"145.0532\",\"shipping_address_zip_normalized\":\"3102\",\"ssl_fp_signature\":\"e669667efb41c36f714c309243f41ca7\",\"ssl_session_hash\":\"1957a3e967bdc09680c8a2e0b7cbd06a\",\"summary_risk_score\":\"0\",\"system_state\":\"1661686976\",\"third_party_cookie\":\"d43819bdaa8d1d8727355e2b8ad77714\",\"time_zone\":\"600\",\"time_zone_dst_offset\":\"60\",\"timezone_name\":\"Australia/Sydney\",\"tmx_reason_code\":\"_TMX_LCL_PDB_LIMIT_REACHED_SHIP_TO_ADDR\",\"tmx_risk_rating\":\"neutral\",\"tmx_summary_reason_code\":\"Identity_Spoofing\",\"tps_datetime\":\"2022-10-07 04:04:37.454\",\"tps_duration\":\"81\",\"tps_error\":\"0\",\"tps_result\":\"ok\",\"tps_type\":\"LexisNexis_Emailage_FirstClass\",\"tps_vendor\":\"LexisNexis - Connectors\",\"tps_vendor_raw_response\":\"\ufeff{\\\"query\\\":{\\\"email\\\":\\\"orcacmr099@gmail.com+203.13.128.104\\\",\\\"queryType\\\":\\\"EmailIPRisk\\\",\\\"count\\\":1,\\\"created\\\":\\\"2022-10-07T04:04:37Z\\\",\\\"lang\\\":\\\"en-US\\\",\\\"responseCount\\\":1,\\\"billaddress\\\":\\\"121 temple avenue\\\",\\\"billcity\\\":\\\"kew east\\\",\\\"billregion\\\":\\\"vic\\\",\\\"billpostal\\\":\\\"3102\\\",\\\"shipaddress\\\":\\\"121 temple ave\\\",\\\"shipcity\\\":\\\"kew east\\\",\\\"shipregion\\\":\\\"vic\\\",\\\"shippostal\\\":\\\"3102\\\",\\\"shipcountry\\\":\\\"au\\\",\\\"phone\\\":\\\"0468813786\\\",\\\"hashedCardNumber\\\":\\\"48fa51a82aeed4b69f2c47f4f6ea8dbdcda9f49d5e60ffdf338bdce5ee20116a\\\",\\\"transamount\\\":\\\"319\\\",\\\"transcurrency\\\":\\\"aud\\\",\\\"useragent\\\":\\\"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0\\\",\\\"trackingid\\\":\\\"da815b55-2b91-4763-9862-36d7890526be\\\",\\\"transactionTypeId\\\":\\\"1\\\",\\\"transactionTypeDescription\\\":\\\"payment\\\",\\\"results\\\":[{\\\"userdefinedrecordid\\\":\\\"uat500004304\\\",\\\"email\\\":\\\"orcacmr099@gmail.com\\\",\\\"ipaddress\\\":\\\"203.13.128.104\\\",\\\"eName\\\":\\\"\\\",\\\"emailAge\\\":\\\"\\\",\\\"email_creation_days\\\":\\\"\\\",\\\"domainAge\\\":\\\"1995-08-13T00:00:00Z\\\",\\\"domain_creation_days\\\":\\\"9917\\\",\\\"firstVerificationDate\\\":\\\"2022-10-06T16:22:42Z\\\",\\\"first_seen_days\\\":\\\"0\\\",\\\"lastVerificationDate\\\":\\\"2022-10-06T16:22:42Z\\\",\\\"status\\\":\\\"Verified\\\",\\\"country\\\":\\\"US\\\",\\\"fraudRisk\\\":\\\"500 Moderate\\\",\\\"EAScore\\\":\\\"500\\\",\\\"EAReason\\\":\\\"Limited History for Email\\\",\\\"EAStatusID\\\":\\\"2\\\",\\\"EAReasonID\\\":\\\"8\\\",\\\"EAAdviceID\\\":\\\"4\\\",\\\"EAAdvice\\\":\\\"Moderate Fraud Risk\\\",\\\"EARiskBandID\\\":\\\"3\\\",\\\"EARiskBand\\\":\\\"Fraud Score 301 to 600\\\",\\\"source_industry\\\":\\\"\\\",\\\"fraud_type\\\":\\\"\\\",\\\"lastflaggedon\\\":\\\"\\\",\\\"location\\\":\\\"\\\",\\\"smfriends\\\":\\\"\\\",\\\"totalhits\\\":\\\"2\\\",\\\"uniquehits\\\":\\\"1\\\",\\\"imageurl\\\":\\\"\\\",\\\"emailExists\\\":\\\"Yes\\\",\\\"domainExists\\\":\\\"Yes\\\",\\\"company\\\":\\\"\\\",\\\"title\\\":\\\"\\\",\\\"domainname\\\":\\\"gmail.com\\\",\\\"domaincompany\\\":\\\"Google\\\",\\\"domaincountryname\\\":\\\"United States\\\",\\\"domaincategory\\\":\\\"Webmail\\\",\\\"domaincorporate\\\":\\\"No\\\",\\\"domainrisklevel\\\":\\\"Moderate\\\",\\\"domainrelevantinfo\\\":\\\"Valid Webmail Domain from United States\\\",\\\"domainrisklevelID\\\":\\\"3\\\",\\\"domainrelevantinfoID\\\":\\\"508\\\",\\\"domainriskcountry\\\":\\\"No\\\",\\\"smlinks\\\":[],\\\"ip_risklevel\\\":\\\"Moderate\\\",\\\"ip_riskreasonid\\\":\\\"311\\\",\\\"ip_riskreason\\\":\\\"Moderate By Proxy Reputation And Country Code\\\",\\\"ip_reputation\\\":\\\"Good\\\",\\\"ip_risklevelid\\\":\\\"3\\\",\\\"ip_anonymousdetected\\\":\\\"No\\\",\\\"ip_proxytype\\\":\\\"\\\",\\\"ip_proxydescription\\\":\\\"\\\",\\\"ip_isp\\\":\\\"optus internet\\\",\\\"ip_org\\\":\\\"optus internet\\\",\\\"ip_userType\\\":\\\"wifi\\\",\\\"ip_netSpeedCell\\\":\\\"broadband\\\",\\\"ip_corporateProxy\\\":\\\"No\\\",\\\"ip_continentCode\\\":\\\"oc\\\",\\\"ip_country\\\":\\\"Australia\\\",\\\"ip_countryCode\\\":\\\"AU\\\",\\\"ip_region\\\":\\\"new south wales\\\",\\\"ip_city\\\":\\\"macquarie park\\\",\\\"ip_callingcode\\\":\\\"\\\",\\\"ip_metroCode\\\":\\\"3612\\\",\\\"ip_latitude\\\":\\\"-33.779999\\\",\\\"ip_longitude\\\":\\\"151.130005\\\",\\\"ip_map\\\":\\\"https://app.emailage.com/query/GoogleMaps?latLng\",\"tps_was_timeout\":\"no\",\"transaction_amount\":\"319\",\"transaction_amount_usd\":\"204.84\",\"transaction_currency\":\"aud\",\"transaction_id\":\"uat500004304\",\"true_ip\":\"203.13.128.104\",\"true_ip_activities\":\"_TRUSTED_PROB\",\"true_ip_assert_history\":\"NEGATIVE_HISTORY\",\"true_ip_attributes\":\"_TRUSTED_PROB\",\"true_ip_city\":\"macquarie centre\",\"true_ip_connection_type\":\"tx\",\"true_ip_first_seen\":\"2010-07-21\",\"true_ip_geo\":\"AU\",\"true_ip_home\":\"no\",\"true_ip_isp\":\"singtel optus pty ltd\",\"true_ip_last_event\":\"2022-10-07\",\"true_ip_last_update\":\"2022-10-07\",\"true_ip_latitude\":\"-33.77692\",\"true_ip_line_speed\":\"high\",\"true_ip_longitude\":\"151.12102\",\"true_ip_organization\":\"singtel optus pty ltd\",\"true_ip_organization_type\":\"Telecommunications\",\"true_ip_postal_code\":\"2113\",\"true_ip_region\":\"new south wales\",\"true_ip_region_iso_code\":\"nsw\",\"true_ip_result\":\"success\",\"true_ip_routing_type\":\"fixed\",\"true_ip_score\":\"13\",\"true_ip_source_port\":\"60462\",\"true_ip_worst_score\":\"-100\",\"ua_browser\":\"firefox 105.0\",\"ua_browser_alt\":\"Firefox\",\"ua_browser_version_alt\":\"105.0\",\"ua_os\":\"win7\",\"ua_os_alt\":\"Windows\",\"ua_os_version_alt\":\"7\",\"ua_platform\":\"firefox 105.0\",\"vm_index\":\"300\",\"vm_rating\":\"neutral\",\"vm_reason\":\"os_anomaly,screen_color_depth\",\"webgl_hash\":\"2603d8712fd5eca44ad2a2a7e9a4672473ce1d14\"}"
+          "__text": "{\"account_address_city\":\"box hill north\",\"account_address_state\":\"vic\",\"account_address_street1\":\"900 station green dr\",\"account_address_zip\":\"3129\",\"account_date_of_birth\":\"19880318\",\"account_email\":\"avr1002@yopmail.com\",\"account_email_domain\":\"yopmail.com\",\"account_email_first_seen\":\"2023-02-10\",\"account_email_last_event\":\"2023-02-10\",\"account_email_last_update\":\"2023-02-10\",\"account_email_result\":\"success\",\"account_email_score\":\"0\",\"account_email_worst_score\":\"0\",\"account_login\":\"avr1002@yopmail.com\",\"account_login_activities\":\"VERY_LOW_PAY_AMT\",\"account_login_first_seen\":\"2023-02-10\",\"account_login_last_event\":\"2023-02-10\",\"account_login_last_update\":\"2023-02-10\",\"account_login_result\":\"success\",\"account_login_score\":\"0\",\"account_login_worst_score\":\"0\",\"account_name\":\"approve cbrt\",\"account_name_activities\":\"_TRUSTED_PROB\",\"account_name_attributes\":\"_TRUSTED_PROB\",\"account_name_first_seen\":\"2021-10-22\",\"account_name_last_event\":\"2023-02-10\",\"account_name_last_update\":\"2023-02-10\",\"account_name_result\":\"success\",\"account_name_score\":\"0\",\"account_name_worst_score\":\"0\",\"account_number\":\"62420583197\",\"account_number_result\":\"not found\",\"account_telephone\":\"0455514476\",\"account_telephone_first_seen\":\"2021-03-20\",\"account_telephone_is_possible\":\"no\",\"account_telephone_is_valid\":\"no\",\"account_telephone_last_event\":\"2023-02-10\",\"account_telephone_last_update\":\"2023-02-10\",\"account_telephone_result\":\"success\",\"account_telephone_score\":\"0\",\"account_telephone_type\":\"UNKNOWN\",\"account_telephone_worst_score\":\"0\",\"agent_publickey_hash\":\"96f0c8e4dbebd2f1a116512914d6dbc00e2f9fba\",\"agent_publickey_hash_result\":\"not found\",\"agent_publickey_hash_type\":\"web:ecdsa\",\"agent_type\":\"browser_computer\",\"api_call_datetime\":\"2023-02-10 08:08:23.756\",\"api_caller_ip\":\"160.8.32.161\",\"api_type\":\"session-query\",\"api_version\":\"14.0.1\",\"application_name\":\"windows\",\"audio_context\":\"cefbae478677f02fbbd973617692dbd9c6450bf5641669ebef1595ab745a2117\",\"battery_status\":\"{\\\"level\\\":0.99,\\\"status\\\":\\\"charging\\\"}\",\"bb_assessment\":\"162.57\",\"bb_assessment_rating\":\"low\",\"bb_bot_rating\":\"low\",\"bb_bot_score\":\"500.00\",\"bb_fraud_rating\":\"neutral\",\"bb_fraud_score\":\"500.00\",\"browser\":\"Chrome\",\"browser_language\":\"en-GB,en;q\",\"browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36\",\"browser_string_hash\":\"b9cbd8dc13f19f9e7eb854f472bfa274\",\"browser_version\":\"109\",\"canvas_hash\":\"a9130b4812afe4aac18330bb0da43630d42d3080\",\"champion_request_duration\":\"171\",\"charset\":\"utf-8\",\"condition_attrib_18\":\"online\",\"condition_attrib_19\":\"na\",\"condition_attrib_20\":\"true\",\"condition_attrib_5\":\"browser_computer\",\"cpu_clock\":\"15\",\"cpu_cores\":\"4\",\"css_image_loaded\":\"yes\",\"custom_count_10\":\"0\",\"custom_count_2\":\"0\",\"custom_count_4\":\"0.018506550925925926\",\"custom_match_1\":\"2ef88bd362f48ca26c7aa30f4a7478a2\",\"custom_match_3\":\"18939f21a704c2d168dad3cc6832eb22\",\"custom_match_5\":\"b1f271eafe64532729e0dcb4f08b98c1\",\"custom_match_6\":\"93a37f1feb69e7fcbb2e33098f2c6eb3\",\"custom_match_7\":\"a7f2e848ffcc9fe1e91833cf881b6501\",\"custom_match_8\":\"6a2ff70732119465ebe808b4536253d7\",\"customer_event_type\":\"postpaid_act\",\"device_health_reasons\":\"webrtc_internal_mdns\",\"device_id\":\"0cfdd343593f4601af87deca55f3fac8\",\"device_id_confidence\":\"100\",\"device_match_result\":\"new_device\",\"device_memory\":\"8\",\"device_result\":\"not found\",\"digital_id\":\"a7e0e8e3ffd24b10b9b387372842e8ce\",\"digital_id_confidence\":\"3514\",\"digital_id_confidence_rating\":\"low\",\"digital_id_first_seen\":\"2023-02-10\",\"digital_id_last_event\":\"2023-02-10\",\"digital_id_last_update\":\"2023-02-10\",\"digital_id_result\":\"success\",\"digital_id_trust_score\":\"40.22\",\"digital_id_trust_score_rating\":\"low\",\"digital_id_trust_score_reason_code\":\"_ts_logodds_sum_lua\",\"digital_id_trust_score_summary_reason_code\":\"_ts_did_edge_detect_entity\",\"dns_ip\":\"119.225.142.246\",\"dns_ip_activities\":\"_TRUSTED_PROB\",\"dns_ip_assert_history\":\"NEGATIVE_HISTORY\",\"dns_ip_attributes\":\"_TRUSTED_PROB\",\"dns_ip_city\":\"macquarie centre\",\"dns_ip_connection_type\":\"tx\",\"dns_ip_geo\":\"AU\",\"dns_ip_home\":\"no\",\"dns_ip_isp\":\"singtel optus pty ltd\",\"dns_ip_latitude\":\"-33.77692\",\"dns_ip_line_speed\":\"high\",\"dns_ip_longitude\":\"151.12102\",\"dns_ip_organization\":\"optus macquarie park (ocs)\",\"dns_ip_postal_code\":\"2113\",\"dns_ip_region\":\"new south wales\",\"dns_ip_region_iso_code\":\"nsw\",\"dns_ip_routing_type\":\"fixed\",\"emailage.emailriskscore.responsestatus.errorcode\":\"3002\",\"emailage.emailriskscore.responsestatus.status\":\"failed\",\"enabled_ck\":\"yes\",\"enabled_fl\":\"no\",\"enabled_im\":\"yes\",\"enabled_js\":\"yes\",\"enabled_services\":\"TMX100\",\"enhanced_headers_name_value_hash\":\"24dc71eb7ef829a57545e34c147a56a9\",\"etag_guid\":\"5b82eaa5311f4017a8849ede9f515764\",\"event_datetime\":\"2023-02-10 08:08:23.756\",\"event_type\":\"payment\",\"fuzzy_device_activities\":\"_TRUSTED_PROB\",\"fuzzy_device_assert_history\":\"NEGATIVE_HISTORY\",\"fuzzy_device_attributes\":\"_TRUSTED_PROB\",\"fuzzy_device_first_seen\":\"2018-12-03\",\"fuzzy_device_id\":\"bdccc7ec58f8473e89829c0f17bee688\",\"fuzzy_device_id_confidence\":\"99.07\",\"fuzzy_device_last_event\":\"2023-02-10\",\"fuzzy_device_last_update\":\"2023-02-10\",\"fuzzy_device_match_result\":\"success\",\"fuzzy_device_result\":\"success\",\"fuzzy_device_score\":\"3\",\"fuzzy_device_worst_score\":\"-11\",\"gpu_name\":\"ANGLE (Intel, Intel(R) HD Graphics 520 Direct3D11 vs_5_0 ps_5_0, D3D11)\",\"gpu_vendor\":\"Google Inc. (Intel)\",\"headers_name_value_hash\":\"52fa46828a0ca655ccd3e39c9a5953d3\",\"headers_order_string_hash\":\"c55b30b0998b0a43b437096703d6a805\",\"http_os_sig_adv_mss\":\"1448\",\"http_os_sig_rcv_mss\":\"1360\",\"http_os_sig_snd_mss\":\"1448\",\"http_os_signature\":\"Proxy\",\"http_referer\":\"9kO4J19JDbNH6d1oHM0a4!JAFGcOkK68\",\"http_referer_domain\":\"uat-shop.optus.com.au\",\"http_referer_url\":\"https://uat-shop.optus.com.au/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"image_loaded\":\"yes\",\"input_ip_address\":\"61.88.183.109,\",\"js_browser\":\"Chrome 109\",\"js_browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36\",\"js_browser_string_hash\":\"b9cbd8dc13f19f9e7eb854f472bfa274\",\"js_os\":\"Windows 10\",\"local_attrib_10\":\"2ef88bd362f48ca26c7aa30f4a7478a2\",\"local_attrib_15\":\"uat200046453\",\"local_attrib_5\":\"approve\",\"local_attrib_5_activities\":\"_TRUSTED_PROB\",\"local_attrib_5_first_seen\":\"2017-05-25\",\"local_attrib_6\":\"cbrt\",\"local_attrib_6_activities\":\"_TRUSTED_PROB\",\"local_attrib_6_first_seen\":\"2021-10-22\",\"math_routine\":\"4003d1c2bec02e6cc560082ad155401fd4588141d6eaa24dc94afbd72313196a\",\"mime_type_hash\":\"27f51d3149e6bf209b66bd387b0af3c4\",\"mime_type_number\":\"2\",\"nonce\":\"1bf84b2706cd0bbd\",\"org_id\":\"8zht501y\",\"os\":\"Windows\",\"os_version\":\"10\",\"page_time_on\":\"254655\",\"plugin_hash\":\"e802dfa555193f4ebe8993eb4a99290d\",\"plugin_number\":\"5\",\"policy\":\"onboarding\",\"policy_engine_version\":\"14.0.1\",\"policy_score\":\"0\",\"primary_industry\":\"ecommerce\",\"private_browsing\":\"no\",\"profile_api_timedelta\":\"254655\",\"profile_connection_type\":\"TLS1.2\",\"profiled_domain\":\"uat-shop.optus.com.au\",\"profiled_url\":\"https://uat-shop.optus.com.au/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"profiling_datetime\":\"1676016249\",\"profiling_delta\":\"6247\",\"proxy_score\":\"430.38\",\"reason_code\":\"INVALID_input_ip_address\",\"remote_access\":\"port_used\",\"remote_desktop\":\"RDP:3389\",\"request_duration\":\"228\",\"request_id\":\"9bec880b-2595-4d73-aa2e-b8ae490e633c\",\"request_result\":\"success\",\"review_status\":\"pass\",\"risk_rating\":\"low\",\"screen_color_depth\":\"24\",\"screen_res\":\"1536x864\",\"screen_res_zoom\":\"1\",\"se_rating\":\"neutral\",\"se_score\":\"150\",\"secondary_industry\":\"telecom\",\"service_type\":\"all\",\"session_id\":\"ksqr_xtfsxjlwvky-ppdhszvym1ohf6ebebsxxi1hsy\",\"session_id_query_count\":\"1\",\"shipping_address_city\":\"box hill north\",\"shipping_address_country\":\"au\",\"shipping_address_result\":\"not found\",\"shipping_address_state\":\"vic\",\"shipping_address_street1\":\"900 station green dr\",\"shipping_address_zip\":\"3129\",\"shipping_address_zip_latitude\":\"-37.8051\",\"shipping_address_zip_longitude\":\"145.1206\",\"shipping_address_zip_normalized\":\"3129\",\"ssl_fp_signature\":\"5f464625af2e7a9706605597174ac6e0\",\"ssl_session_hash\":\"01c7abdfb832233684792daf04287066\",\"summary_risk_score\":\"0\",\"system_state\":\"1674568185\",\"third_party_cookie\":\"816c37fb4a86dc640354a968ec3119c8\",\"time_zone\":\"600\",\"time_zone_dst_offset\":\"60\",\"timezone_name\":\"Australia/Sydney\",\"tmx_reason_code\":\"_TMX_LCL_PDB_LIMIT_REACHED_ACC_NAME\",\"tmx_risk_rating\":\"neutral\",\"tmx_summary_reason_code\":\"Level_1_Link_Accept\",\"tps_datetime\":\"2023-02-10 08:08:23.799\",\"tps_duration\":\"132\",\"tps_error\":\"3002\",\"tps_result\":\"failed\",\"tps_type\":\"LexisNexis_Emailage_FirstClass\",\"tps_vendor\":\"LexisNexis - Connectors\",\"tps_vendor_raw_response\":\"\ufeff{\\\"query\\\":{\\\"email\\\":\\\"avr1002@yopmail.com+61.88.183.109\\\",\\\"queryType\\\":\\\"EmailIPRisk\\\",\\\"count\\\":1,\\\"created\\\":\\\"2023-02-10T08:08:23Z\\\",\\\"lang\\\":\\\"en-US\\\",\\\"responseCount\\\":0,\\\"billaddress\\\":\\\"900 station green dr\\\",\\\"billcity\\\":\\\"box hill north\\\",\\\"billregion\\\":\\\"vic\\\",\\\"billpostal\\\":\\\"3129\\\",\\\"shipaddress\\\":\\\"900 station green dr\\\",\\\"shipcity\\\":\\\"box hill north\\\",\\\"shipregion\\\":\\\"vic\\\",\\\"shippostal\\\":\\\"3129\\\",\\\"shipcountry\\\":\\\"au\\\",\\\"phone\\\":\\\"0455514476\\\",\\\"transamount\\\":\\\"0.00\\\",\\\"transcurrency\\\":\\\"aud\\\",\\\"useragent\\\":\\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36\\\",\\\"trackingid\\\":\\\"9bec880b-2595-4d73-aa2e-b8ae490e633c\\\",\\\"transactionTypeId\\\":\\\"1\\\",\\\"transactionTypeDescription\\\":\\\"payment\\\",\\\"results\\\":[]},\\\"responseStatus\\\":{\\\"status\\\":\\\"failed\\\",\\\"errorCode\\\":\\\"3002\\\",\\\"description\\\":\\\"Authentication Error: Your account status is inactive or disabled. Please contact us at emailage.support@lexisnexisrisk.com to activate your account.\\\"}}\",\"tps_was_timeout\":\"no\",\"transaction_amount\":\"0.00\",\"transaction_amount_usd\":\"0.00\",\"transaction_currency\":\"aud\",\"transaction_id\":\"uat200046453\",\"true_ip\":\"61.88.183.109\",\"true_ip_activities\":\"_TRUSTED_PROB\",\"true_ip_assert_history\":\"NEGATIVE_HISTORY\",\"true_ip_attributes\":\"_CHALLENGE_PASSED\",\"true_ip_city\":\"macquarie centre\",\"true_ip_connection_type\":\"tx\",\"true_ip_first_seen\":\"2010-12-10\",\"true_ip_geo\":\"AU\",\"true_ip_home\":\"no\",\"true_ip_isp\":\"singtel optus pty ltd\",\"true_ip_last_event\":\"2023-02-10\",\"true_ip_last_update\":\"2023-02-10\",\"true_ip_latitude\":\"-33.77692\",\"true_ip_line_speed\":\"high\",\"true_ip_longitude\":\"151.12102\",\"true_ip_organization\":\"singtel optus pty ltd\",\"true_ip_organization_type\":\"Telecommunications\",\"true_ip_postal_code\":\"2113\",\"true_ip_region\":\"new south wales\",\"true_ip_region_iso_code\":\"nsw\",\"true_ip_result\":\"success\",\"true_ip_routing_type\":\"fixed\",\"true_ip_score\":\"6\",\"true_ip_source_port\":\"17019\",\"true_ip_worst_score\":\"-100\",\"ua_browser\":\"chrome 109.0\",\"ua_browser_alt\":\"Chrome\",\"ua_browser_version_alt\":\"109.0.0.0\",\"ua_os\":\"win10\",\"ua_os_alt\":\"Windows\",\"ua_os_version_alt\":\"10\",\"ua_platform\":\"chrome 109.0\",\"webgl_hash\":\"a40a8f7932f8a635c8aad28e4e905b626c8d29da\",\"webrtc_media\":\"(1,1,1,e12ead95566221e7c4e320e56363dcb477a3c93a4a8510beb25f01bca07d4e8d)\",\"webrtc_media_mini\":\"111e12ead9556622\"}"
+        },
+        {
+          "@attribute-id": "timeZoneOffset",
+          "__text": "Australia/NSW"
         },
         {
           "@attribute-id": "totalAdjustedMonthlyCostValue",
-          "__text": "79.0"
+          "__text": "0.0"
         },
         {
           "@attribute-id": "totalMonthlyCostValue",
-          "__text": "79.0"
+          "__text": "0.0"
         },
         {
           "@attribute-id": "totalUpfrontCostValue",
-          "__text": "240.0"
+          "__text": "0.0"
         },
         {
           "@attribute-id": "twoFactorAuthenticated",

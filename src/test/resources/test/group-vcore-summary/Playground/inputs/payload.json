@@ -1,0 +1,856 @@
+{
+  "deployedApis": {
+      "summary": {
+          "totalVcores": 31.3,
+          "count": 169,
+          "totalWorkers": 170
+      },
+      "details": [
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "dev",
+              "vCore": 1.0,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "sit",
+              "vCore": 1.0,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.4,
+              "workers": 2
+          },
+          {
+              "env": "uat1",
+              "vCore": 1.0,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat1",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat2",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat3",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 1.0,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat4",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "uat5",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.1,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          },
+          {
+              "env": "ppt",
+              "vCore": 0.2,
+              "workers": 1
+          }
+      ]
+  }
+}
