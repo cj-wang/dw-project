@@ -1,0 +1,548 @@
+{
+    "Name": "Apple WatchS6 44BLDNSpBd",
+    "AtomicProductSpecification": [
+        {
+            "ID": "34910304",
+            "Code": "Apple_WatchS6_44BLDNSpBd",
+            "Type": null,
+            "Class": {
+                "ID": [
+                    "8388934"
+                ],
+                "Code": [
+                    "Devices"
+                ],
+                "Name": {
+                    "Value": "Devices"
+                }
+            },
+            "Description": "Apple WatchS6 44BLDNSpBd",
+            "SalesChannel": null,
+            "AttributesRef": [
+                {
+                    "Item": [
+                        "Color_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Blue",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Equipment_Type_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Device",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Device_Type_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Mobile Broadband",
+                    "Constant": "true",
+                    "ValueRange": "AbsDeviceType",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Brand_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Apple",
+                    "Constant": "true",
+                    "ValueRange": "AbsBrand",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Model_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Apple Watch Series 6 44mm",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Resolution_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "368 x 448",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Dimensions_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Weight_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Screen_Size_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "1.51\"",
+                    "Constant": "true",
+                    "ValueRange": "AbsScreenSize",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "SIM_Type_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Nano SIM + eSIM",
+                    "Constant": "true",
+                    "ValueRange": "AbsSIMtype",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Operating_System_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "watchOS",
+                    "Constant": "true",
+                    "ValueRange": "AbsOperatingSystem",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Processor_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "S6 SiP with 64-bit dual-core processor",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Battery_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsBattery",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Rear_Facing_camera_Megapixels_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsRearCameraMegapixels",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Front_Facing_camera_Megapixels_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Video_Recording_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "3G_4G Supported_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNo",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "3G_Band_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "B1(2100),B5(850),B8(900)",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "4G_Band_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "B1(2100),B3(1800),B5(850),B7(2600),B8(900),B20(800),B28(700)",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Cash_by_Optus_enabled"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "VoLTE_Enable_Device"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNo",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Internal_Memory_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "32GB",
+                    "Constant": "true",
+                    "ValueRange": "AbsInternalMemory",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "External_Memory_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "RAM_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Rear_Facing_camera_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Front_Facing_camera_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Audio_Formats_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Video_Formats_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Bluetooth_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "GPS_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "NFC_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Device_Name_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Apple WatchS6 44BLDNSpBd",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Manufacturer_Warranty_Duration_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "24",
+                    "Constant": "true",
+                    "ValueRange": "AbsWarrantyDuration",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "SKU_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "1001237",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Inclusions_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "5G_Enabled_Handset"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "No",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNoBCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "5G_SA_Enabled_Device"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "No",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNoBCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "CompatibleNetworks_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "3G/4G/VoLTE",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "SKU_Eligible_for_Upgrade_and_Protect"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "No",
+                    "Constant": "false",
+                    "ValueRange": "AbsYesNoBCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Digital_Model_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Apple Watch Series 6",
+                    "Constant": "false",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Band_Type_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Sports Band",
+                    "Constant": "false",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Band_Size_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "One Size",
+                    "Constant": "false",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Band_Colour_BCC"
+                    ], 
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Blue",
+                    "Constant": "false",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                }
+            ],
+            "ProductSpecID": "34910294",
+            "SoldStandAlone": "true",
+            "ProductPriceRef": null,
+            "SoldWithoutPlan": "false",
+            "SaleEffectiveDate": "2019-09-11T00:00:00",
+            "SaleExpirationDate": null,
+            "InstallationRequired": "true"
+        }
+    ]
+}

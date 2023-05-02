@@ -1,0 +1,500 @@
+{
+    "Name": "Apple iPh12Pr 128 Silver 5G",
+    "AtomicProductSpecification": [
+        {
+            "ID": "34933574",
+            "Code": "Apple_iPh12Pr_128_Silver_5G",
+            "Type": null,
+            "Class": {
+                "ID": [
+                    "8388934"
+                ],
+                "Code": [
+                    "Devices"
+                ],
+                "Name": {
+                    "Value": "Devices"
+                }
+            },
+            "Description": "Apple iPh12Pr 128 Silver 5G",
+            "SalesChannel": null,
+            "AttributesRef": [
+                {
+                    "Item": [
+                        "Color_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Silver",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Equipment_Type_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Device",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Device_Type_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Mobile",
+                    "Constant": "true",
+                    "ValueRange": "AbsDeviceType",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Brand_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Apple",
+                    "Constant": "true",
+                    "ValueRange": "AbsBrand",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Model_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "iPhone 12 Pro",
+                    "Constant": "true",
+                    "ValueRange": "AbsModelDevice",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Resolution_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "2532?by?1170-pixel resolution at 460 ppi",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Dimensions_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "146.7 x 71.5 x 7.4mm",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Weight_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "187g",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Screen_Size_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "6.1\" Super Retina XDR, OLED display",
+                    "Constant": "true",
+                    "ValueRange": "AbsScreenSize",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "SIM_Type_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Nano SIM + eSIM",
+                    "Constant": "true",
+                    "ValueRange": "AbsSIMtype",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Operating_System_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "iOS",
+                    "Constant": "true",
+                    "ValueRange": "AbsOperatingSystem",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Processor_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Apple A14 Bionic",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Battery_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsBattery",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Rear_Facing_camera_Megapixels_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "12MP (Wide) + 12MP (Telephoto) 12MP (Ultra Wide)",
+                    "Constant": "true",
+                    "ValueRange": "AbsRearCameraMegapixels",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Front_Facing_camera_Megapixels_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "12MP",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Video_Recording_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Up to HDR Video with Dolby Vision",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "3G_4G Supported_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNoNABCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "3G_Band_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "UMTS/HSPA+/DC-HSDPA (850, 900, 1700/2100, 1900, 2100 MHz)\nGSM/EDGE (850, 900, 1800, 1900 MHz)",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "4G_Band_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 66)\nTD-LTE (Bands 34, 38, 39, 40, 41, 42, 46, 48)",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Cash_by_Optus_enabled"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "VoLTE_Enable_Device"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNoNABCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Internal_Memory_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "128GB",
+                    "Constant": "true",
+                    "ValueRange": "AbsInternalMemory",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "External_Memory_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "No",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "RAM_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Rear_Facing_camera_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Front_Facing_camera_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Audio_Formats_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "AAC?LC, HE?AAC, HE?AAC v2, Protected AAC, MP3, Linear PCM, Apple Lossless, FLAC, Dolby Digital (AC?3), Dolby Digital Plus (E?AC?3), Dolby Atmos and Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX and AAX+)",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Video_Formats_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "HEVC, H.264, MPEG?4 Part 2 and Motion JPEG\nHDR with Dolby Vision, HDR10 and HLG",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Bluetooth_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "v5.0",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "GPS_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "NFC_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Device_Name_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Apple iPh12Pr 128 Silver 5G",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Manufacturer_Warranty_Duration_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "24",
+                    "Constant": "true",
+                    "ValueRange": "AbsWarrantyDuration",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "SKU_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "2001591",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "Inclusions_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": null,
+                    "Constant": "false",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "5G_Enabled_Handset"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNoBCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "5G_SA_Enabled_Device"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "No",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNoBCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "CompatibleNetworks_BCC"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "3G/4G/5G/VoLTE",
+                    "Constant": "true",
+                    "ValueRange": "AbsString",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                },
+                {
+                    "Item": [
+                        "SKU_Eligible_for_Upgrade_and_Protect"
+                    ],
+                    "Other": "false",
+                    "Usage": "false",
+                    "Default": "Yes",
+                    "Constant": "true",
+                    "ValueRange": "AbsYesNoBCC",
+                    "IsMandatory": "false",
+                    "ConstantValues": null
+                }
+            ],
+            "ProductSpecID": "34933564",
+            "SoldStandAlone": "true",
+            "ProductPriceRef": null,
+            "SoldWithoutPlan": "false",
+            "SaleEffectiveDate": "2020-01-21T00:00:00",
+            "SaleExpirationDate": null,
+            "InstallationRequired": "true"
+        }
+    ]
+}
