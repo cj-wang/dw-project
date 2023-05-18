@@ -19,8 +19,12 @@ fun getModelBrandName() = do {
 	        "Model_BCC": formatStr((modelBrandAttribArr filter ((item, index) -> item.Item[0] == "Model_BCC"))[0].Default),
 	        "Brand_BCC": formatStr((modelBrandAttribArr filter ((item, index) -> item.Item[0] == "Brand_BCC"))[0].Default)
 	    }
+        var Digital_Model_BCC = formatStr((payload.AtomicProductSpecification[0].AttributesRef filter ($.Item[0] == "Digital_Model_BCC")) [0].Default) default null
 	    ---
-	    lower(modelBrandAttribObj.Brand_BCC) ++ "-" ++ lower(modelBrandAttribObj.Model_BCC)
+        if (vars.notWatch or isEmpty(Digital_Model_BCC))
+            lower(modelBrandAttribObj.Brand_BCC) ++ "-" ++ lower(modelBrandAttribObj.Model_BCC)
+        else
+            lower(modelBrandAttribObj.Brand_BCC) ++ "-" ++ lower(Digital_Model_BCC)
 	}
 fun getSpecAttributes() = do{
     var identifiedAttribNamesArr = ["Color_BCC", "Internal_Memory_BCC", "SKU_BCC", "Device_Name_BCC", "SIM_Type_BCC", "Screen_Size_BCC", "Band_Type_BCC", "Band_Size_BCC", "Band_Colour_BCC"]
@@ -45,9 +49,8 @@ var attribValInput = if (vars.notWatch) (
         specAttribs."Band_Type_BCC",
         specAttribs."Band_Size_BCC",
         specAttribs."Band_Colour_BCC"
-    ] joinBy ";"
+    ] filter (!isEmpty($)) joinBy ";"
 )
-
 
 var attribNameInput = if (vars.notWatch) (
     [
@@ -62,7 +65,7 @@ var attribNameInput = if (vars.notWatch) (
         (if(!isEmpty(specAttribs."Band_Type_BCC")) "Band_Type_BCC" else ""),
         (if(!isEmpty(specAttribs."Band_Size_BCC")) "Band_Size_BCC" else ""),
         (if(!isEmpty(specAttribs."Band_Colour_BCC")) "Band_Colour_BCC" else "")
-    ] joinBy ";" 
+    ] filter (!isEmpty($)) joinBy ";" 
 )
 
 var attribValOutput = [

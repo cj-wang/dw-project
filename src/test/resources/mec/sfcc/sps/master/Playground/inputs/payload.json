@@ -1,0 +1,504 @@
+{
+    "xxx": [
+        {
+            "Name": "Dummy 5GSA Device",
+            "AtomicProductSpecification": [
+                {
+                    "ID": "33706133",
+                    "Code": "Dummy5GSADevice",
+                    "Type": null,
+                    "Class": {
+                        "ID": [
+                            "8388934"
+                        ],
+                        "Code": [
+                            "Devices"
+                        ],
+                        "Name": {
+                            "Value": "Devices"
+                        }
+                    },
+                    "Description": "Dummy 5GSA Device",
+                    "SalesChannel": null,
+                    "AttributesRef": [
+                        {
+                            "Item": [
+                                "Color_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Gold",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Equipment_Type_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Device",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Device_Type_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Mobile",
+                            "Constant": "true",
+                            "ValueRange": "AbsDeviceType",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Brand_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "dummy",
+                            "Constant": "true",
+                            "ValueRange": "AbsBrand",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Model_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Apple iPhone 8",
+                            "Constant": "true",
+                            "ValueRange": "AbsModelDevice",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Resolution_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Dimensions_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Weight_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Screen_Size_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsScreenSize",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "SIM_Type_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Nano SIM + eSIM",
+                            "Constant": "true",
+                            "ValueRange": "AbsSIMtype",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Operating_System_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsOperatingSystem",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Processor_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Battery_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsBattery",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Rear_Facing_camera_Megapixels_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsRearCameraMegapixels",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Front_Facing_camera_Megapixels_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Video_Recording_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "3G_4G Supported_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsYesNoNABCC",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "3G_Band_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "4G_Band_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Cash_by_Optus_enabled"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "VoLTE_Enable_Device"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Yes",
+                            "Constant": "true",
+                            "ValueRange": "AbsYesNoNABCC",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Internal_Memory_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsInternalMemory",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "External_Memory_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "RAM_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Rear_Facing_camera_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Front_Facing_camera_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Audio_Formats_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Video_Formats_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Bluetooth_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "GPS_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "NFC_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Device_Name_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Dummy 5GSA Device",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Manufacturer_Warranty_Duration_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "N/A",
+                            "Constant": "true",
+                            "ValueRange": "AbsWarrantyDuration",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "SKU_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "2000111",
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "Inclusions_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "false",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "5G_Enabled_Handset"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "No",
+                            "Constant": "true",
+                            "ValueRange": "AbsYesNoBCC",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "5G_SA_Enabled_Device"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "Yes",
+                            "Constant": "true",
+                            "ValueRange": "AbsYesNoBCC",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "CompatibleNetworks_BCC"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": null,
+                            "Constant": "true",
+                            "ValueRange": "AbsString",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        },
+                        {
+                            "Item": [
+                                "SKU_Eligible_for_Upgrade_and_Protect"
+                            ],
+                            "Other": "false",
+                            "Usage": "false",
+                            "Default": "No",
+                            "Constant": "false",
+                            "ValueRange": "AbsYesNoBCC",
+                            "IsMandatory": "false",
+                            "ConstantValues": null
+                        }
+                    ],
+                    "ProductSpecID": "33706123",
+                    "SoldStandAlone": "true",
+                    "ProductPriceRef": null,
+                    "SoldWithoutPlan": "false",
+                    "SaleEffectiveDate": "2020-01-21T00:00:00",
+                    "SaleExpirationDate": null,
+                    "InstallationRequired": "true"
+                }
+            ]
+        }
+    ]
+}
