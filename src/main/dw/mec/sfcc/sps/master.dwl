@@ -6,6 +6,40 @@ output application/xml
 fun attRefValue(loc, strArg: String) = (loc filter $.Item[0] == strArg)[0].Default
 fun getAllowedVarAttributes(model: String, attrList: Object) = attrList[model] default attrList["default"]
 fun getMasterAttributes(loc, strArg: String) = (((flatten(loc..AttributesRef) filter $.Item[0] == strArg).Default default []) distinctBy (attr) -> attr) orderBy $
+/**
+* Describes the `specialCharMapping` function purpose.
+*
+* === Parameters
+*
+* [%header, cols="1,1,3"]
+* |===
+* | Name | Type | Description
+* | `strToUpdate` | Any | 
+* |===
+*
+* === Example
+*
+* This example shows how the `specialCharMapping` function behaves under different inputs.
+*
+* ==== Source
+*
+* [source,DataWeave,linenums]
+* ----
+* %dw 2.0
+* output application/json
+* ---
+*
+*
+* ----
+*
+* ==== Output
+*
+* [source,Json,linenums]
+* ----
+*
+* ----
+*
+*/
 fun specialCharMapping(strToUpdate) =  if(strToUpdate contains "\"") strToUpdate replace  ("\"") with "-inch"
                              else if (strToUpdate contains "'") strToUpdate replace  ("'") with "-"
                              else if (strToUpdate contains "\\") strToUpdate replace ("\\") with "-"
@@ -36,7 +70,7 @@ var specIds = (modelGroup.AtomicProductSpecification map ((item, index) ->
 var attRef = variantAtomSpec.AttributesRef
 var brandName = trim((attRef attRefValue "Brand_BCC") default "Not Found")
 var masterGroupName = lower(brandName ++ "-" ++ specialCharMapping(modelName)) replace " " with "-"
-// var orderingCategory = (specIds reduce (item, acc = []) -> (acc ++ (vars.orderingCategory[item] default []))) distinctBy $
+var orderingCategory = (specIds reduce (item, acc = []) -> (acc ++ (vars.orderingCategory[item] default []))) distinctBy $
 ---
 catalog @("xmlns": "http://www.demandware.com/xml/impex/catalog/2006-10-31", "catalog-id": "optus-master-catalog"): {
     product @("product-id": masterGroupName): {
@@ -48,11 +82,25 @@ catalog @("xmlns": "http://www.demandware.com/xml/impex/catalog/2006-10-31", "ca
             "custom-attribute" @("attribute-id": "productCode"): masterGroupName,
             "custom-attribute" @("attribute-id": "productType"): "SIMPLE_PRODUCT",
             "custom-attribute" @("attribute-id": "simpleProductId"): payload.AtomicProductSpecification[0].ID,
-            // "custom-attribute" @("attribute-id": "orderingCategory"): {
-            // 	value: orderingCategory
-            // },
+            "custom-attribute" @("attribute-id": "orderingCategory"): {
+            	value: orderingCategory
+            },
             (allowedAttributes map (attr) -> {
-            "custom-attribute" @("attribute-id": trim(attr)): trim(attRef attRefValue attr)
+                "custom-attribute" @("attribute-id": trim(attr)): (
+                    // WIZ-164 use Digital_Model_BCC for watches
+                    if (trim(attr) == "Model_BCC")
+                        do {
+                            var modelBCC = trim(attRef attRefValue "Model_BCC")
+                            var digitalModelBCC = trim(attRef attRefValue "Digital_Model_BCC")
+                            ---
+                            if ((orderingCategory contains "Postpaid Watches") and ! isEmpty(digitalModelBCC))
+                                digitalModelBCC
+                            else
+                                modelBCC
+                        }
+                    else
+                       trim(attRef attRefValue attr)
+                )
             }),
         },
         "variations": {
@@ -66,8 +114,7 @@ catalog @("xmlns": "http://www.demandware.com/xml/impex/catalog/2006-10-31", "ca
                 	)},
             	}) 
                 //WIZ-164 Remove null and N/A attributes
-                filterObject (! isEmpty($."variation-attribute-values"."variation-attribute-value".@value)
-                                and $."variation-attribute-values"."variation-attribute-value".@value != "N/A")
+                filterObject (! isEmpty($."variation-attribute-values"."variation-attribute-value".@value))
         	)},
         	//OD-1487 Added merge mode
             "variants" @("merge-mode":"add"): {( specIds map (specId) -> 

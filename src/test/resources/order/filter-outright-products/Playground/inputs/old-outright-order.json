@@ -1,0 +1,796 @@
+{
+  "orders": {
+    "@version": "20.8",
+    "order": {
+      "@order-no": "UAT300088363",
+      "order-date": "2023-06-19T05:41:14.000Z",
+      "created-by": "storefront",
+      "original-order-no": "UAT300088363",
+      "currency": "AUD",
+      "customer-locale": "default",
+      "taxation": "gross",
+      "invoice-no": "00065177",
+      "customer": {
+        "guest": "true",
+        "customer-name": "APPROVE CBRT",
+        "customer-email": "UAT_501592741@yopmail.com",
+        "billing-address": {
+          "salutation": "Mr",
+          "first-name": "APPROVE",
+          "last-name": "CBRT",
+          "address1": "375 Abell Road",
+          "city": "MELONBA",
+          "postal-code": "2765",
+          "state-code": "NSW",
+          "phone": "0476405630",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "addressType",
+              "__text": "CUSTOMER"
+            },
+            "custom-attribute": {
+              "@attribute-id": "addressUUID",
+              "__text": "Mzc1IGFiZWxsIHJvYWQsIG1lbG9uYmEgbnN3IDI3NjU="
+            },
+            "custom-attribute": {
+              "@attribute-id": "formattedAddress",
+              "__text": "375 Abell Road, MELONBA NSW 2765"
+            },
+            "custom-attribute": {
+              "@attribute-id": "gnafId",
+              "__text": "78889232"
+            },
+            "custom-attribute": {
+              "@attribute-id": "streetName",
+              "__text": "Abell"
+            },
+            "custom-attribute": {
+              "@attribute-id": "streetNumber",
+              "__text": "375"
+            },
+            "custom-attribute": {
+              "@attribute-id": "streetType",
+              "__text": "Road"
+            }
+          }
+        }
+      },
+      "status": {
+        "order-status": "NEW",
+        "shipping-status": "NOT_SHIPPED",
+        "confirmation-status": "CONFIRMED",
+        "payment-status": "PAID"
+      },
+      "current-order-no": "UAT300088363",
+      "product-lineitems": {
+        "product-lineitem": {
+          "net-price": "1589.89",
+          "tax": "158.99",
+          "gross-price": "1748.88",
+          "base-price": "1748.88",
+          "lineitem-text": "Apple iPh14 Pro 128GB DeepPurple 5G",
+          "tax-basis": "1748.88",
+          "position": "1",
+          "product-id": "518",
+          "product-name": "Apple iPh14 Pro 128GB DeepPurple 5G",
+          "quantity": {
+            "@unit": "",
+            "__text": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "00066791",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "adjustedUpfrontCost",
+              "__text": "1748.88"
+            },
+            "custom-attribute": {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "OutrightContext"
+            },
+            "custom-attribute": {
+              "@attribute-id": "creditCheckRequired",
+              "__text": "false"
+            },
+            "custom-attribute": {
+              "@attribute-id": "deviceCostValue",
+              "__text": "1748.88"
+            },
+            "custom-attribute": {
+              "@attribute-id": "isBasePlan",
+              "__text": "false"
+            },
+            "custom-attribute": {
+              "@attribute-id": "isOutrightDevice",
+              "__text": "true"
+            },
+            "custom-attribute": {
+              "@attribute-id": "isShippable",
+              "__text": "true"
+            },
+            "custom-attribute": {
+              "@attribute-id": "masterProductCode",
+              "__text": "apple-iphone-14-pro"
+            },
+            "custom-attribute": {
+              "@attribute-id": "monthlyTotalCostValue",
+              "__text": "1748.88"
+            },
+            "custom-attribute": {
+              "@attribute-id": "productSpecId",
+              "__text": "apple-iphone-14-pro"
+            },
+            "custom-attribute": {
+              "@attribute-id": "sfccProductType",
+              "__text": "SIMPLE_PRODUCT"
+            },
+            "custom-attribute": {
+              "@attribute-id": "upfrontCost",
+              "__text": "1748.88"
+            },
+            "custom-attribute": {
+              "@attribute-id": "variantAttributes",
+              "__text": "{\"Internal_Memory_BCC\":\"128GB\",\"Color_BCC\":\"Deep Purple\"}"
+            }
+          }
+        }
+      },
+      "shipping-lineitems": {
+        "shipping-lineitem": {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00",
+          "base-price": "0.00",
+          "lineitem-text": "Shipping",
+          "tax-basis": "0.00",
+          "item-id": "STANDARD_SHIPPING",
+          "shipment-id": "00066791",
+          "tax-rate": "0.0"
+        }
+      },
+      "shipments": {
+        "shipment": {
+          "@shipment-id": "00066791",
+          "status": {
+            "shipping-status": "NOT_SHIPPED"
+          },
+          "shipping-method": "Deliver to customer",
+          "shipping-address": {
+            "salutation": "Mr",
+            "first-name": "APPROVE",
+            "last-name": "CBRT",
+            "address1": "375 Abell Road",
+            "city": "MELONBA",
+            "postal-code": "2765",
+            "state-code": "NSW",
+            "phone": "0476405630",
+            "custom-attributes": {
+              "custom-attribute": {
+                "@attribute-id": "addressType",
+                "__text": "CUSTOMER"
+              },
+              "custom-attribute": {
+                "@attribute-id": "addressUUID",
+                "__text": "Mzc1IGFiZWxsIHJvYWQsIG1lbG9uYmEgbnN3IDI3NjU="
+              },
+              "custom-attribute": {
+                "@attribute-id": "formattedAddress",
+                "__text": "375 Abell Road, MELONBA NSW 2765"
+              },
+              "custom-attribute": {
+                "@attribute-id": "gnafId",
+                "__text": "78889232"
+              },
+              "custom-attribute": {
+                "@attribute-id": "streetName",
+                "__text": "Abell"
+              },
+              "custom-attribute": {
+                "@attribute-id": "streetNumber",
+                "__text": "375"
+              },
+              "custom-attribute": {
+                "@attribute-id": "streetType",
+                "__text": "Road"
+              }
+            }
+          },
+          "gift": "false",
+          "totals": {
+            "merchandize-total": {
+              "net-price": "1589.89",
+              "tax": "158.99",
+              "gross-price": "1748.88"
+            },
+            "adjusted-merchandize-total": {
+              "net-price": "1589.89",
+              "tax": "158.99",
+              "gross-price": "1748.88"
+            },
+            "shipping-total": {
+              "net-price": "0.00",
+              "tax": "0.00",
+              "gross-price": "0.00"
+            },
+            "adjusted-shipping-total": {
+              "net-price": "0.00",
+              "tax": "0.00",
+              "gross-price": "0.00"
+            },
+            "shipment-total": {
+              "net-price": "1589.89",
+              "tax": "158.99",
+              "gross-price": "1748.88"
+            }
+          },
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "configuratorContextKey",
+              "__text": "OutrightContext"
+            },
+            "custom-attribute": {
+              "@attribute-id": "createNewPaymentInstrument",
+              "__text": "true"
+            },
+            "custom-attribute": {
+              "@attribute-id": "enable3DS",
+              "__text": "true"
+            },
+            "custom-attribute": {
+              "@attribute-id": "featureFlags",
+              "__text": "{\"forceExistingCustomerOffline\":false,\"sendSMBOrderOffline\":false,\"sendCreditDeclineToKlopp\":false,\"preferences\":null}"
+            },
+            "custom-attribute": {
+              "@attribute-id": "flowType",
+              "__text": "OFFLINE"
+            },
+            "custom-attribute": {
+              "@attribute-id": "flowTypeChangeReason",
+              "__text": "OUTRIGHT TACTICAL"
+            },
+            "custom-attribute": {
+              "@attribute-id": "hasShippable",
+              "__text": "true"
+            },
+            "custom-attribute": {
+              "@attribute-id": "itemCategory",
+              "__text": "Outright"
+            },
+            "custom-attribute": {
+              "@attribute-id": "itemCategoryType",
+              "__text": "OUTRIGHT"
+            },
+            "custom-attribute": {
+              "@attribute-id": "offlineReasons",
+              "value": "OUTRIGHT TACTICAL"
+            },
+            "custom-attribute": {
+              "@attribute-id": "originalFlowType",
+              "__text": "ONLINE"
+            },
+            "custom-attribute": {
+              "@attribute-id": "planBillingOfferId",
+              "__text": "OutrightContext"
+            },
+            "custom-attribute": {
+              "@attribute-id": "referralUrl",
+              "__text": "https://www-uat.optus.com.au/mobile/phones/apple/iphone-14-pro?contractLength=36"
+            }
+          }
+        }
+      },
+      "totals": {
+        "merchandize-total": {
+          "net-price": "1589.89",
+          "tax": "158.99",
+          "gross-price": "1748.88"
+        },
+        "adjusted-merchandize-total": {
+          "net-price": "1589.89",
+          "tax": "158.99",
+          "gross-price": "1748.88"
+        },
+        "shipping-total": {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00"
+        },
+        "adjusted-shipping-total": {
+          "net-price": "0.00",
+          "tax": "0.00",
+          "gross-price": "0.00"
+        },
+        "order-total": {
+          "net-price": "1589.89",
+          "tax": "158.99",
+          "gross-price": "1748.88"
+        }
+      },
+      "payments": {
+        "payment": {
+          "credit-card": {
+            "card-type": "VISA",
+            "card-number": "XXXX-XXXX-XXXX-1111",
+            "card-holder": "APPROVE CBRT",
+            "card-token": "41V1R0271L5F1110",
+            "expiration-month": "7",
+            "expiration-year": "2025",
+            "custom-attributes": {
+              "custom-attribute": {
+                "@attribute-id": "itemCategory",
+                "__text": "Outright"
+              },
+              "custom-attribute": {
+                "@attribute-id": "receipt",
+                "__text": "28033333"
+              },
+              "custom-attribute": {
+                "@attribute-id": "secureTransactionToken",
+                "__text": "stt_e2f467a9-9526-408f-9343-bdd37684c6ab"
+              },
+              "custom-attribute": {
+                "@attribute-id": "settlementDate",
+                "__text": "19-Jun-2023"
+              }
+            }
+          },
+          "amount": "1748.88",
+          "processor-id": "BAMBORA_CREDIT",
+          "transaction-id": "28033337"
+        }
+      },
+      "remoteHost": "61.88.183.109",
+      "custom-attributes": {
+        "custom-attribute": {
+          "@attribute-id": "BYODSelected",
+          "__text": "false"
+        },
+        "custom-attribute": {
+          "@attribute-id": "HasACapturedTokenInET",
+          "__text": "true"
+        },
+        "custom-attribute": {
+          "@attribute-id": "IdCheckStatus",
+          "__text": "VERIFIED"
+        },
+        "custom-attribute": {
+          "@attribute-id": "SFCCCustomerId",
+          "__text": "c7831405f958872899f7f8454e"
+        },
+        "custom-attribute": {
+          "@attribute-id": "UpfrontPaymentRequired",
+          "__text": "true"
+        },
+        "custom-attribute": {
+          "@attribute-id": "aemHandoverPayload",
+          "__text": "{\"baseDetails-OutrightContext\":{\"product\":[{\"itemId\":\"35989254\",\"itemCategory\":\"Mobile_Subscription SIM with Device\",\"itemContractLength\":1,\"devices\":[{\"deviceId\":\"518\",\"potMecId\":\"36097434\",\"deviceName\":\"iPhone 14 Pro\",\"deviceBrand\":\"Apple\",\"deviceImage\":\"/content/dam/optus/images/shop/mobile/phones/apple/iphone-14-pro/carousel/sd-iphone14-pro-deeppurple-front-back-750x1200.jpg/renditions/version-1685417518025/original.jpeg\",\"deviceContractLength\":\"outright\",\"deviceCategory\":\"Postpaid Mobile Phones\",\"variationValues\":{\"Color_BCC\":\"Deep Purple\",\"Internal_Memory_BCC\":\"128GB\"},\"devicePrice\":\"1748.88\",\"quantity\":1}]}],\"planDetails\":{\"simType\":\"usim\",\"customerType\":\"CMR\",\"customerIntent\":\"New\",\"timestamp\":\"2023-06-19T05:38:33.266Z\",\"referralUrl\":\"https://www-uat.optus.com.au/mobile/phones/apple/iphone-14-pro?contractLength=36\"}},\"OutrightContext\":\"baseDetails-OutrightContext\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "calculatedTotals",
+          "__text": "{\"priceGroup\":{\"OutrightContext\":{\"PLAN_ID\":\"OutrightContext\",\"DEVICE_ID\":null,\"DEVICE_CONTRACT_DURATION\":null,\"PLAN_CONTRACT_DURATION\":1,\"UPFRONT_COST\":\"$1,748.88\",\"MONTHLY_COST\":\"$0\",\"ADJUSTED_MONTHLY_COST\":\"$0.00\",\"ADJUSTED_MONTHLY_COST_VALUE\":0,\"UPFRONT_COST_VALUE\":1748.88,\"MONTHLY_COST_VALUE\":0,\"TOTAL_MINIMUM_COST\":\"$1,748.88\",\"TOTAL_MINIMUM_COST_VALUE\":1748.88,\"STARTUP_FEE\":\"$0.00\",\"STARTUP_FEE_VALUE\":0,\"INSTALLATION_COST\":\"$0.00\",\"INSTALLATION_COST_VALUE\":0,\"DELIVERY_COST\":\"$0.00\",\"DELIVERY_COST_VALUE\":0,\"formattedLegalText\":\"\",\"formattedLegalTextBYOD\":\"\"}},\"UPFRONT_COST\":\"$1,748.88\",\"MONTHLY_COST\":\"$0\",\"TOTAL_MINIMUM_COST\":\"$1,748.88\",\"UPFRONT_COST_VALUE\":1748.88,\"MONTHLY_COST_VALUE\":0,\"TOTAL_MINIMUM_COST_VALUE\":1748.88,\"TOTAL_ADJUSTED_MONTHLY_COST\":0,\"formattedLegalText\":\"\",\"formattedLegalTextBYOD\":\"\",\"sdPlusCoreMonthlyAmount\":\"$69\",\"sdPlusCoreOneOffAmount\":\"$0\",\"serviceChangeCost\":\"$0\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "checkoutFlow",
+          "__text": "SubscriptionCheckoutFlow"
+        },
+        "custom-attribute": {
+          "@attribute-id": "checkoutFlowConfig",
+          "__text": "{\"personalDetails\":{\"stepId\":\"personalDetails\",\"checkoutSubSteps\":[{\"stepId\":\"personalDetailsProfile\",\"completed\":true},{\"stepId\":\"idCheck\",\"completed\":true},{\"stepId\":\"idCheckSecondary\",\"completed\":true}],\"completed\":true},\"mobileNumber\":{\"stepId\":\"mobileNumber\",\"checkoutSubSteps\":[{\"stepId\":\"mobileNumberSetup\",\"completed\":true},{\"stepId\":\"mobileNumberReview\",\"completed\":true}],\"completed\":true},\"deliveryAddress\":{\"stepId\":\"deliveryAddress\",\"checkoutSubSteps\":[],\"completed\":true},\"paymentCredit\":{\"stepId\":\"paymentCredit\",\"checkoutSubSteps\":[],\"completed\":true},\"checkoutReview\":{\"stepId\":\"checkoutReview\",\"checkoutSubSteps\":[],\"completed\":false}}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "configuratorContextKey",
+          "__text": "OutrightContext"
+        },
+        "custom-attribute": {
+          "@attribute-id": "countryOfIssue",
+          "__text": "AUS"
+        },
+        "custom-attribute": {
+          "@attribute-id": "createNewBillingAccount",
+          "__text": "true"
+        },
+        "custom-attribute": {
+          "@attribute-id": "creditCheckFlagfromSD",
+          "__text": "false"
+        },
+        "custom-attribute": {
+          "@attribute-id": "creditCheckOrderNumber",
+          "__text": "UAT300088363"
+        },
+        "custom-attribute": {
+          "@attribute-id": "creditCheckQuestionRequired",
+          "__text": "false"
+        },
+        "custom-attribute": {
+          "@attribute-id": "creditCheckQuestionResponse",
+          "__text": "{\"message\":\"Credit Check Question API Disabled\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "crmCheckStatus",
+          "__text": "CRM_CONTACT_NOTEXIST"
+        },
+        "custom-attribute": {
+          "@attribute-id": "decisionCategory",
+          "__text": "NOT_PERFORMED"
+        },
+        "custom-attribute": {
+          "@attribute-id": "deliveryDate",
+          "__text": "2023-06-20"
+        },
+        "custom-attribute": {
+          "@attribute-id": "deviceIdInfo",
+          "__text": "cca91e698b024f01b5da6b7a38d33108"
+        },
+        "custom-attribute": {
+          "@attribute-id": "digitalIdInfo",
+          "__text": "4d7de5b33018496aa95eb3a81ed84852"
+        },
+        "custom-attribute": {
+          "@attribute-id": "flowType",
+          "__text": "OFFLINE"
+        },
+        "custom-attribute": {
+          "@attribute-id": "flowTypeChangeReason",
+          "__text": "OUTRIGHT TACTICAL"
+        },
+        "custom-attribute": {
+          "@attribute-id": "formattedServiceRequestDate",
+          "__text": "19/06/2023 15:41"
+        },
+        "custom-attribute": {
+          "@attribute-id": "hasOutrightDevice",
+          "__text": "true"
+        },
+        "custom-attribute": {
+          "@attribute-id": "ipAddress",
+          "__text": "61.88.183.109"
+        },
+        "custom-attribute": {
+          "@attribute-id": "ipGeo",
+          "__text": "AU"
+        },
+        "custom-attribute": {
+          "@attribute-id": "ipRegion",
+          "__text": "new south wales"
+        },
+        "custom-attribute": {
+          "@attribute-id": "isMixedCart",
+          "__text": "false"
+        },
+        "custom-attribute": {
+          "@attribute-id": "isRelocationOrder",
+          "__text": "false"
+        },
+        "custom-attribute": {
+          "@attribute-id": "isUniCart",
+          "__text": "true"
+        },
+        "custom-attribute": {
+          "@attribute-id": "issuingState",
+          "__text": "NSW"
+        },
+        "custom-attribute": {
+          "@attribute-id": "itemCategories",
+          "value": "Outright"
+        },
+        "custom-attribute": {
+          "@attribute-id": "itemCategory",
+          "__text": "Outright"
+        },
+        "custom-attribute": {
+          "@attribute-id": "itemCategoryType",
+          "__text": "OUTRIGHT"
+        },
+        "custom-attribute": {
+          "@attribute-id": "itemCategoryTypes",
+          "value": "OUTRIGHT"
+        },
+        "custom-attribute": {
+          "@attribute-id": "licenceAnyName",
+          "__text": "CCSTUB"
+        },
+        "custom-attribute": {
+          "@attribute-id": "licenceCardNumber",
+          "__text": "0330904523"
+        },
+        "custom-attribute": {
+          "@attribute-id": "licenceExpiryDate",
+          "__text": "2024-06-30"
+        },
+        "custom-attribute": {
+          "@attribute-id": "licenceFirstName",
+          "__text": "APPROVE"
+        },
+        "custom-attribute": {
+          "@attribute-id": "licenceLastName",
+          "__text": "CBRT"
+        },
+        "custom-attribute": {
+          "@attribute-id": "licenceNumber",
+          "__text": "11111111"
+        },
+        "custom-attribute": {
+          "@attribute-id": "minimumTotalCostValue",
+          "__text": "1748.88"
+        },
+        "custom-attribute": {
+          "@attribute-id": "mobileCartData",
+          "__text": "{\"exists\":true,\"orderId\":\"308604171\",\"customerId\":\"99999999\",\"orderActions\":[{\"accessories\":null,\"addOns\":[],\"device\":null,\"plan\":{\"contractLength\":1,\"dataInclusion\":\"220GB\",\"finalAmount\":69,\"planCategory\":\"Mobile_Subscription SIM with Device\",\"planId\":\"35989254\",\"planImageAEM\":\"https://www-uat.optus.com.au/content/dam/optus/images/shop/mobile/plans/sim-logo.png/renditions/version-1600813986419/original.png\",\"planNameAEM\":\"Large Optus Choice Plus Plan\"},\"upgradeFees\":null,\"lineOfBusiness\":\"WS\",\"orderActionId\":\"308604172\",\"requiresPorting\":true,\"requiresShipping\":true,\"serviceId\":null,\"simType\":\"USIM\",\"totalCharge\":69,\"totalPenaltyCharge\":0,\"totalRecurringPrice\":69,\"isMobileBroadband\":false,\"isRPC\":false,\"isUpgrade\":false,\"serviceData\":{\"keepServiceNumber\":\"NO\",\"serviceNumberVerified\":false,\"serviceNumber\":null,\"serviceType\":null,\"serviceVerificationData\":null}}],\"requiresPorting\":true,\"requiresShipping\":true,\"totalMonthlyCharges\":69,\"totalOneTimePrice\":0,\"totalPenaltyCharges\":0,\"totalRecurringPrice\":69,\"creditCheckFlagfromSD\":false}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "mobileCartOrderDetails",
+          "__text": "{\"exists\":true,\"cartId\":\"308604171A\",\"productsCounter\":1,\"anonymous\":true,\"customerId\":\"99999999\",\"orderActionMap\":{\"308604172A\":{\"orderActionType\":\"PR\",\"lineOfBusiness\":\"WS\",\"actionProductCode\":\"Mobile_Main_BCC\",\"actionCatalogOfferID\":\"35979364\",\"postToPost\":true}},\"orderExpired\":false,\"takenOver\":false,\"orderAssociated\":false,\"orderMatches\":false}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "newPaymentSetupStatus",
+          "__text": "SUCCESS"
+        },
+        "custom-attribute": {
+          "@attribute-id": "offlineReasons",
+          "value": "OUTRIGHT TACTICAL"
+        },
+        "custom-attribute": {
+          "@attribute-id": "orderCreationDate",
+          "__text": "19/06/2023 15:41"
+        },
+        "custom-attribute": {
+          "@attribute-id": "originalFlowType",
+          "__text": "ONLINE"
+        },
+        "custom-attribute": {
+          "@attribute-id": "outrightDeviceCount",
+          "__text": "1"
+        },
+        "custom-attribute": {
+          "@attribute-id": "outrightDeviceTotal",
+          "__text": "{\"outrightCostValue\":1748.88,\"outrightCost\":\"$1,748.88\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "passportAnyName",
+          "__text": "CCSTUB"
+        },
+        "custom-attribute": {
+          "@attribute-id": "passportExpiryDate",
+          "__text": "2025-09-30"
+        },
+        "custom-attribute": {
+          "@attribute-id": "passportFirstName",
+          "__text": "APPROVE"
+        },
+        "custom-attribute": {
+          "@attribute-id": "passportLastName",
+          "__text": "CBRT"
+        },
+        "custom-attribute": {
+          "@attribute-id": "passportNumber",
+          "__text": "A26256649"
+        },
+        "custom-attribute": {
+          "@attribute-id": "planBillingOfferId",
+          "__text": "OutrightContext"
+        },
+        "custom-attribute": {
+          "@attribute-id": "policyScore",
+          "__text": "-100"
+        },
+        "custom-attribute": {
+          "@attribute-id": "primaryIDCheckResponse",
+          "__text": "{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"verificationXMLPayload\":\"<ns2:registerVerificationResponse xmlns:ns2=\\\"http://dynamicform.services.registrations.edentiti.com/\\\"><return><checkResult><stillWorking>false</stillWorking></checkResult><sourceList><sources><available>true</available><name>actregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>1</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>nswregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>2</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>ntregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>3</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>qldregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>4</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>saregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>5</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>tasregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>6</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>vicregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>7</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>waregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>8</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>passportdvs</name><notRequired>false</notRequired><oneSourceLeft>false</oneSourceLeft><order>9</order><passed>true</passed><state>VERIFIED</state><version>1</version></sources><sources><available>true</available><name>visadvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>10</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>medicaredvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>11</order><passed>false</passed><state>EMPTY</state><version>1</version></sources></sourceList><userToken>0604457466e11c6e8f18b342afe318b853a265ee</userToken><verificationResult><dateVerified>2023-03-09T09:21:35.781+11:00</dateVerified><individualResults><dateVerified>2023-03-09T09:21:35.769+11:00</dateVerified><method>DB</method><name>DFAT Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2023-03-09T09:21:35.769+11:00</dateVerified><method>DB</method><name>PEP Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2023-03-09T09:21:35.769+11:00</dateVerified><method>DB</method><name>OFAC Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2023-03-09T09:21:35.773+11:00</dateVerified><fieldsResults><data>APPROVE</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>givenName</label><name>givenName</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data/><dataInfo>currentAddress</dataInfo><format>plain</format><label>middleNames</label><name>middleNames</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>CBRT</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>surname</label><name>surname</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>1999-03-04</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>dob</label><name>dob</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>EMPTY</data><name>RegistrationStateReason</name><status>ADDITION</status></fieldsResults><method>DB</method><name>PassportDVS</name><state>VERIFIED</state></individualResults><outcome>VERIFIED</outcome><ruleId>default</ruleId><userId>3430400fcbb46c6</userId></verificationResult></return></ns2:registerVerificationResponse>\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "primaryIDSource",
+          "__text": "MANUAL"
+        },
+        "custom-attribute": {
+          "@attribute-id": "primaryIDType",
+          "__text": "AU_PASSPORT"
+        },
+        "custom-attribute": {
+          "@attribute-id": "primaryIDUniquenessResponse",
+          "__text": "{\"ImpValidateContactPersonDetailsOutput\":{\"transactionId\":\"e5441eb7-ebb1-4d5a-89b8-a8089ae3b7a5\",\"implContactPersonDetailsStatus\":{\"outcomeStatus\":\"Continue Online\",\"implContactPersonDetails\":[{\"primaryIdIndicator\":true}]}}}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "primaryIDUniquenessStatus",
+          "__text": "Continue Online"
+        },
+        "custom-attribute": {
+          "@attribute-id": "profileDateOfBirth",
+          "__text": "1990-06-12"
+        },
+        "custom-attribute": {
+          "@attribute-id": "profileFirstName",
+          "__text": "APPROVE"
+        },
+        "custom-attribute": {
+          "@attribute-id": "profileLastName",
+          "__text": "CBRT"
+        },
+        "custom-attribute": {
+          "@attribute-id": "profileMobileNumber",
+          "__text": "0476405630"
+        },
+        "custom-attribute": {
+          "@attribute-id": "profilePrefContactMethod",
+          "__text": "sms"
+        },
+        "custom-attribute": {
+          "@attribute-id": "profileTitle",
+          "__text": "Mr"
+        },
+        "custom-attribute": {
+          "@attribute-id": "profiledDomain",
+          "__text": "uat-shop.optus.com.au"
+        },
+        "custom-attribute": {
+          "@attribute-id": "reasonCode",
+          "__text": "Pass:307756065:"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialAddressLine1",
+          "__text": "375 Abell Road"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialAddressUUID",
+          "__text": "Mzc1IGFiZWxsIHJvYWQsIG1lbG9uYmEgbnN3IDI3NjU="
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialBuildingNumber",
+          "__text": "375"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialCity",
+          "__text": "MELONBA"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialCountry",
+          "__text": "AUS"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialGnafPid",
+          "__text": "78889232"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialPostalCode",
+          "__text": "2765"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialStateCode",
+          "__text": "NSW"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialStreetName",
+          "__text": "Abell"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialStreetNumber",
+          "__text": "375"
+        },
+        "custom-attribute": {
+          "@attribute-id": "residentialStreetType",
+          "__text": "Road"
+        },
+        "custom-attribute": {
+          "@attribute-id": "reviewStatus",
+          "__text": "pass"
+        },
+        "custom-attribute": {
+          "@attribute-id": "riskRating",
+          "__text": "neutral"
+        },
+        "custom-attribute": {
+          "@attribute-id": "sales-type",
+          "__text": "outright-plan"
+        },
+        "custom-attribute": {
+          "@attribute-id": "sdPlusCoreMonthlyAmount",
+          "__text": "69.0"
+        },
+        "custom-attribute": {
+          "@attribute-id": "sdPlusCoreOneOffAmount",
+          "__text": "0.0"
+        },
+        "custom-attribute": {
+          "@attribute-id": "secondaryIDCheckResponse",
+          "__text": "{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\",\"verificationXMLPayload\":\"<ns2:registerVerificationResponse xmlns:ns2=\\\"http://dynamicform.services.registrations.edentiti.com/\\\"><return><checkResult><stillWorking>false</stillWorking></checkResult><sourceList><sources><available>true</available><name>actregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>1</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>nswregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>2</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>ntregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>3</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>qldregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>4</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>saregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>5</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>tasregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>6</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>vicregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>7</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>waregodvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>8</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>passportdvs</name><notRequired>false</notRequired><oneSourceLeft>false</oneSourceLeft><order>9</order><passed>true</passed><state>VERIFIED</state><version>1</version></sources><sources><available>true</available><name>visadvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>10</order><passed>false</passed><state>EMPTY</state><version>1</version></sources><sources><available>true</available><name>medicaredvs</name><notRequired>true</notRequired><oneSourceLeft>false</oneSourceLeft><order>11</order><passed>false</passed><state>EMPTY</state><version>1</version></sources></sourceList><userToken>0604457466e11c6e8f18b342afe318b853a265ee</userToken><verificationResult><dateVerified>2023-03-09T09:21:35.781+11:00</dateVerified><individualResults><dateVerified>2023-03-09T09:21:35.769+11:00</dateVerified><method>DB</method><name>DFAT Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2023-03-09T09:21:35.769+11:00</dateVerified><method>DB</method><name>PEP Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2023-03-09T09:21:35.769+11:00</dateVerified><method>DB</method><name>OFAC Watchlist</name><state>FOUND_ON_LIST</state></individualResults><individualResults><dateVerified>2023-03-09T09:21:35.773+11:00</dateVerified><fieldsResults><data>APPROVE</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>givenName</label><name>givenName</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data/><dataInfo>currentAddress</dataInfo><format>plain</format><label>middleNames</label><name>middleNames</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>CBRT</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>surname</label><name>surname</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>1999-03-04</data><dataInfo>currentAddress</dataInfo><format>plain</format><label>dob</label><name>dob</name><status>CONFIRMED</status></fieldsResults><fieldsResults><data>EMPTY</data><name>RegistrationStateReason</name><status>ADDITION</status></fieldsResults><method>DB</method><name>PassportDVS</name><state>VERIFIED</state></individualResults><outcome>VERIFIED</outcome><ruleId>default</ruleId><userId>3430400fcbb46c6</userId></verificationResult></return></ns2:registerVerificationResponse>\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "secondaryIDType",
+          "__text": "DRIVER_LICENCE"
+        },
+        "custom-attribute": {
+          "@attribute-id": "secondaryIDUniquenessResponse",
+          "__text": "{\"ImpValidateContactPersonDetailsOutput\":{\"transactionId\":\"49d74300-0f26-49b5-858a-d70d3e9f2100\",\"implContactPersonDetailsStatus\":{\"outcomeStatus\":\"Continue Online\",\"implContactPersonDetails\":[{\"primaryIdIndicator\":false},{\"primaryIdIndicator\":true}]}}}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "secondaryIDUniquenessStatus",
+          "__text": "Continue Online"
+        },
+        "custom-attribute": {
+          "@attribute-id": "secondaryIdCheckStatus",
+          "__text": "VERIFIED"
+        },
+        "custom-attribute": {
+          "@attribute-id": "selectedCustomerID",
+          "__text": "99999999"
+        },
+        "custom-attribute": {
+          "@attribute-id": "serviceChangeCost",
+          "__text": "0.0"
+        },
+        "custom-attribute": {
+          "@attribute-id": "serviceRequestDate",
+          "__text": "2023-06-19T05:41:14.000+0000"
+        },
+        "custom-attribute": {
+          "@attribute-id": "sessionId",
+          "__text": "6vxo70okrbgbeetuok3_hxhaqzpp5cayk5ds2wm5kxa"
+        },
+        "custom-attribute": {
+          "@attribute-id": "sfmcExportStatus",
+          "__text": "EXPORTED"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threatMetrixPost3DSResponse",
+          "__text": "{\"account_address_city\":\"melonba\",\"account_address_state\":\"nsw\",\"account_address_street1\":\"375 abell road\",\"account_address_zip\":\"2765\",\"account_date_of_birth\":\"19900612\",\"account_email\":\"uat_501592741@yopmail.com\",\"account_email_activities\":\"_CHALLENGE_PASSED\",\"account_email_attributes\":\"_CHALLENGE_PASSED\",\"account_email_domain\":\"yopmail.com\",\"account_email_first_seen\":\"2023-06-19\",\"account_email_last_event\":\"2023-06-19\",\"account_email_last_update\":\"2023-06-19\",\"account_email_result\":\"success\",\"account_email_score\":\"0\",\"account_email_worst_score\":\"0\",\"account_existing_customer\":\"false\",\"account_login\":\"uat_501592741@yopmail.com\",\"account_login_activities\":\"NEW_BEN\",\"account_login_first_seen\":\"2023-06-19\",\"account_login_last_event\":\"2023-06-19\",\"account_login_last_update\":\"2023-06-19\",\"account_login_result\":\"success\",\"account_login_score\":\"0\",\"account_login_worst_score\":\"0\",\"account_name\":\"approve cbrt\",\"account_name_activities\":\"_TRUSTED_PROB\",\"account_name_attributes\":\"_TRUSTED_PROB\",\"account_name_first_seen\":\"2021-10-22\",\"account_name_last_event\":\"2023-06-19\",\"account_name_last_update\":\"2023-06-19\",\"account_name_result\":\"success\",\"account_name_score\":\"0\",\"account_name_worst_score\":\"0\",\"account_passport_country\":\"au\",\"account_passport_expiration_date\":\"2025-09-30\",\"account_telephone\":\"0476405630\",\"account_telephone_activities\":\"_TRUSTED_PROB\",\"account_telephone_attributes\":\"_TRUSTED_PROB\",\"account_telephone_first_seen\":\"2017-01-18\",\"account_telephone_is_possible\":\"no\",\"account_telephone_is_valid\":\"no\",\"account_telephone_last_event\":\"2023-06-19\",\"account_telephone_last_update\":\"2023-06-19\",\"account_telephone_result\":\"success\",\"account_telephone_score\":\"0\",\"account_telephone_type\":\"UNKNOWN\",\"account_telephone_worst_score\":\"0\",\"agent_publickey_hash\":\"19a0b362e68d159f78fd26c03a196e071c2af3f7\",\"agent_publickey_hash_first_seen\":\"2023-06-19\",\"agent_publickey_hash_last_event\":\"2023-06-19\",\"agent_publickey_hash_last_update\":\"2023-06-19\",\"agent_publickey_hash_result\":\"success\",\"agent_publickey_hash_score\":\"0\",\"agent_publickey_hash_type\":\"web:ecdsa\",\"agent_publickey_hash_worst_score\":\"0\",\"agent_type\":\"browser_computer\",\"api_call_datetime\":\"2023-06-19 05:41:19.149\",\"api_caller_ip\":\"34.195.33.38\",\"api_type\":\"session-query\",\"api_version\":\"14.2\",\"application_name\":\"windows\",\"associated_event.browser_string_hash\":\"14d58a1ba286f087d9736249ec785314\",\"associated_event.datetime\":\"2023-06-19 05:41:14\",\"associated_event.device_id\":\"cca91e698b024f01b5da6b7a38d33108\",\"associated_event.digital_id\":\"4d7de5b33018496aa95eb3a81ed84852\",\"associated_event.digital_id_confidence\":\"5075\",\"associated_event.digital_id_trust_score\":\"98.82\",\"associated_event.digital_id_trust_score_rating\":\"very_high\",\"associated_event.dns_ip\":\"119.225.142.246\",\"associated_event.dns_ip_city\":\"macquarie centre\",\"associated_event.dns_ip_connection_type\":\"tx\",\"associated_event.dns_ip_country\":\"australia\",\"associated_event.dns_ip_geo\":\"AU\",\"associated_event.dns_ip_hosting_facility\":\"false\",\"associated_event.dns_ip_isp\":\"singtel optus pty ltd\",\"associated_event.dns_ip_latitude\":\"-33.77692\",\"associated_event.dns_ip_line_speed\":\"high\",\"associated_event.dns_ip_longitude\":\"151.12102\",\"associated_event.dns_ip_organization\":\"optus macquarie park (ocs)\",\"associated_event.dns_ip_organization_type\":\"Internet Service Provider\",\"associated_event.dns_ip_postal_code\":\"2113\",\"associated_event.dns_ip_region\":\"new south wales\",\"associated_event.dns_ip_region_iso_code\":\"nsw\",\"associated_event.dns_ip_routing_type\":\"fixed\",\"associated_event.fuzzy_device_id\":\"f36d96cc98834bbe954d78e0f336a9e9\",\"associated_event.fuzzy_device_id_confidence\":\"99.55\",\"associated_event.input_ip_address\":\"61.88.183.109\",\"associated_event.input_ip_city\":\"marsfield\",\"associated_event.input_ip_connection_type\":\"tx\",\"associated_event.input_ip_geo\":\"AU\",\"associated_event.input_ip_hosting_facility\":\"false\",\"associated_event.input_ip_isp\":\"singtel optus pty ltd\",\"associated_event.input_ip_latitude\":\"-33.77954\",\"associated_event.input_ip_line_speed\":\"high\",\"associated_event.input_ip_longitude\":\"151.10411\",\"associated_event.input_ip_organization\":\"singtel optus pty ltd\",\"associated_event.input_ip_organization_type\":\"Telecommunications\",\"associated_event.input_ip_postal_code\":\"2122\",\"associated_event.input_ip_region\":\"new south wales\",\"associated_event.input_ip_region_iso_code\":\"nsw\",\"associated_event.js_browser\":\"Chrome 114\",\"associated_event.js_browser_string_hash\":\"14d58a1ba286f087d9736249ec785314\",\"associated_event.js_fonts_hash\":\"14b85a67b4c5725d06a2464af2b25793\",\"associated_event.js_os\":\"Windows 10\",\"associated_event.os\":\"Windows\",\"associated_event.private_browsing\":\"no\",\"associated_event.profiled_domain\":\"uat-shop.optus.com.au\",\"associated_event.profiled_url\":\"https://uat-shop.optus.com.au/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"associated_event.review_status\":\"challenge\",\"associated_event.true_ip\":\"61.88.183.109\",\"associated_event.true_ip_city\":\"marsfield\",\"associated_event.true_ip_connection_type\":\"tx\",\"associated_event.true_ip_geo\":\"AU\",\"associated_event.true_ip_home\":\"no\",\"associated_event.true_ip_hosting_facility\":\"false\",\"associated_event.true_ip_isp\":\"singtel optus pty ltd\",\"associated_event.true_ip_latitude\":\"-33.77954\",\"associated_event.true_ip_line_speed\":\"high\",\"associated_event.true_ip_longitude\":\"151.10411\",\"associated_event.true_ip_organization\":\"singtel optus pty ltd\",\"associated_event.true_ip_organization_type\":\"Telecommunications\",\"associated_event.true_ip_postal_code\":\"2122\",\"associated_event.true_ip_region\":\"new south wales\",\"associated_event.true_ip_region_iso_code\":\"nsw\",\"associated_event.true_ip_routing_type\":\"fixed\",\"associated_event_request_id\":\"e3065f72-3003-46d4-8558-007761d9bf01\",\"audio_context\":\"cefbae478677f02fbbd973617692dbd9c6450bf5641669ebef1595ab745a2117\",\"auth_appname\":\"NV\",\"battery_status\":\"{\\\"level\\\":1.00,\\\"status\\\":\\\"charging\\\"}\",\"bb_assessment\":\"130.74\",\"bb_assessment_rating\":\"low\",\"bb_bot_rating\":\"low\",\"bb_bot_score\":\"500.00\",\"bb_fraud_rating\":\"neutral\",\"bb_fraud_score\":\"500.00\",\"browser\":\"Chrome\",\"browser_language\":\"en-GB,en-US;q\",\"browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\",\"browser_string_hash\":\"14d58a1ba286f087d9736249ec785314\",\"browser_version\":\"114\",\"canvas_hash\":\"2bbdcf376da642550837b2862d979444abb5ee43\",\"cc_number_hash\":\"6c0fe1ea6aa2930ed49147b2e5175409885c07d0c79a95e79d85b3628e87d322\",\"cc_number_hash_activities\":\"_TRUSTED_PROB\",\"cc_number_hash_attributes\":\"_TRUSTED_PROB\",\"cc_number_hash_first_seen\":\"2021-08-30\",\"cc_number_hash_last_event\":\"2023-06-19\",\"cc_number_hash_last_update\":\"2023-06-19\",\"cc_number_hash_result\":\"success\",\"cc_number_hash_score\":\"0\",\"cc_number_hash_worst_score\":\"0\",\"champion_request_duration\":\"27\",\"charset\":\"utf-8\",\"condition_attrib_10\":\"01049d24f529f1dab84dcf0d5962b06af81f0e72f6f48111045e3692da2a995c\",\"condition_attrib_12\":\"australian_passport\",\"condition_attrib_18\":\"offline\",\"condition_attrib_19\":\"na\",\"condition_attrib_20\":\"true\",\"condition_attrib_5\":\"browser_computer\",\"cpu_clock\":\"9\",\"cpu_cores\":\"12\",\"css_image_loaded\":\"yes\",\"custom_count_1\":\"1748.88\",\"custom_count_10\":\"0\",\"custom_count_2\":\"0\",\"custom_count_4\":\"0\",\"custom_count_5\":\"69\",\"custom_match_1\":\"f6329e1237422644fafbfe286e6251b7\",\"custom_match_3\":\"456a86252091c314d207d37cd6d09083\",\"custom_match_5\":\"657871d71bac0b4535ea9960a13d4ad8\",\"custom_match_6\":\"0bb734e7aef1bc9aedd4c5e2bce5366c\",\"custom_match_7\":\"3cb3aa5773e1d00208baceb715b5ead3\",\"custom_match_8\":\"de1951eaf3d8eb2c8704ba165c4498b8\",\"customer_event_type\":\"post_3ds\",\"device_activities\":\"_CHALLENGE_PASSED\",\"device_attributes\":\"_CHALLENGE_PASSED\",\"device_first_seen\":\"2023-06-19\",\"device_health_reasons\":\"webrtc_internal_mdns\",\"device_id\":\"cca91e698b024f01b5da6b7a38d33108\",\"device_id_confidence\":\"100\",\"device_last_event\":\"2023-06-19\",\"device_last_update\":\"2023-06-19\",\"device_match_result\":\"success\",\"device_memory\":\"8\",\"device_result\":\"success\",\"device_score\":\"0\",\"device_worst_score\":\"0\",\"digital_id\":\"4d7de5b33018496aa95eb3a81ed84852\",\"digital_id_activities\":\"_TRUSTED_PROB\",\"digital_id_attributes\":\"_TRUSTED_PROB\",\"digital_id_confidence\":\"7681\",\"digital_id_confidence_rating\":\"medium\",\"digital_id_first_seen\":\"2017-09-04\",\"digital_id_last_event\":\"2023-06-19\",\"digital_id_last_update\":\"2023-06-19\",\"digital_id_result\":\"success\",\"digital_id_trust_score\":\"93.14\",\"digital_id_trust_score_rating\":\"very_high\",\"digital_id_trust_score_reason_code\":\"_ts_did_black\",\"dns_ip\":\"119.225.142.246\",\"dns_ip_activities\":\"_TRUSTED_PROB\",\"dns_ip_assert_history\":\"NEGATIVE_HISTORY\",\"dns_ip_attributes\":\"_TRUSTED_PROB\",\"dns_ip_city\":\"macquarie centre\",\"dns_ip_connection_type\":\"tx\",\"dns_ip_geo\":\"AU\",\"dns_ip_home\":\"no\",\"dns_ip_isp\":\"singtel optus pty ltd\",\"dns_ip_latitude\":\"-33.77692\",\"dns_ip_line_speed\":\"high\",\"dns_ip_longitude\":\"151.12102\",\"dns_ip_organization\":\"optus macquarie park (ocs)\",\"dns_ip_postal_code\":\"2113\",\"dns_ip_region\":\"new south wales\",\"dns_ip_region_iso_code\":\"nsw\",\"dns_ip_routing_type\":\"fixed\",\"drivers_licence_hash_activities\":\"_TRUSTED_PROB\",\"drivers_licence_hash_attributes\":\"_TRUSTED_PROB\",\"drivers_licence_hash_first_seen\":\"2016-08-22\",\"drivers_licence_hash_last_event\":\"2023-06-19\",\"drivers_licence_hash_last_update\":\"2023-06-19\",\"drivers_licence_hash_result\":\"success\",\"drivers_licence_hash_score\":\"0\",\"drivers_licence_hash_worst_score\":\"0\",\"drivers_licence_number_hash\":\"ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1\",\"enabled_ck\":\"yes\",\"enabled_fl\":\"no\",\"enabled_im\":\"yes\",\"enabled_js\":\"yes\",\"enabled_services\":\"TMX100\",\"enhanced_headers_name_value_hash\":\"17b63fe307b4574fa50bc25d6a23d7ef\",\"etag_guid\":\"23c5378abe1b48f7a7b8f143f0fe015e\",\"event_datetime\":\"2023-06-19 05:41:19.149\",\"event_type\":\"payment\",\"fuzzy_device_activities\":\"_TRUSTED_PROB\",\"fuzzy_device_attributes\":\"_TRUSTED_PROB\",\"fuzzy_device_first_seen\":\"2023-03-15\",\"fuzzy_device_id\":\"f36d96cc98834bbe954d78e0f336a9e9\",\"fuzzy_device_id_confidence\":\"99.55\",\"fuzzy_device_last_event\":\"2023-06-19\",\"fuzzy_device_last_update\":\"2023-06-19\",\"fuzzy_device_match_result\":\"success\",\"fuzzy_device_result\":\"success\",\"fuzzy_device_score\":\"0\",\"fuzzy_device_worst_score\":\"0\",\"gpu_name\":\"ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)\",\"gpu_vendor\":\"Google Inc. (Google)\",\"headers_name_value_hash\":\"63f780e9531bcfdfd3d83c60635c3781\",\"headers_order_string_hash\":\"c55b30b0998b0a43b437096703d6a805\",\"http_os_sig_adv_mss\":\"1448\",\"http_os_sig_rcv_mss\":\"1348\",\"http_os_sig_snd_mss\":\"1448\",\"http_os_signature\":\"Proxy\",\"http_referer\":\"9kO4J19JDbNH6d1oHM0a4!JAFGcOkK68\",\"http_referer_domain\":\"uat-shop.optus.com.au\",\"http_referer_url\":\"https://uat-shop.optus.com.au/secure-checkout?f9bdce912e965b47ae8ac6087e5554c0\",\"image_loaded\":\"yes\",\"input_ip_activities\":\"_TRUSTED_PROB\",\"input_ip_address\":\"61.88.183.109\",\"input_ip_assert_history\":\"NEGATIVE_HISTORY\",\"input_ip_attributes\":\"_TRUSTED_PROB\",\"input_ip_city\":\"marsfield\",\"input_ip_connection_type\":\"tx\",\"input_ip_first_seen\":\"2010-12-10\",\"input_ip_geo\":\"AU\",\"input_ip_home\":\"no\",\"input_ip_isp\":\"singtel optus pty ltd\",\"input_ip_last_event\":\"2023-06-19\",\"input_ip_last_update\":\"2023-06-19\",\"input_ip_latitude\":\"-33.77954\",\"input_ip_line_speed\":\"high\",\"input_ip_longitude\":\"151.10411\",\"input_ip_organization\":\"singtel optus pty ltd\",\"input_ip_postal_code\":\"2122\",\"input_ip_region\":\"new south wales\",\"input_ip_region_iso_code\":\"nsw\",\"input_ip_result\":\"success\",\"input_ip_routing_type\":\"fixed\",\"input_ip_score\":\"26\",\"input_ip_worst_score\":\"-100\",\"js_browser\":\"Chrome 114\",\"js_browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\",\"js_browser_string_hash\":\"14d58a1ba286f087d9736249ec785314\",\"js_fonts_hash\":\"14b85a67b4c5725d06a2464af2b25793\",\"js_fonts_number\":\"46\",\"js_os\":\"Windows 10\",\"line_of_business\":\"digital_core_2.0\",\"local_attrib_1\":\"apple iph14 pro 128gb deeppurple 5g\",\"local_attrib_10\":\"f6329e1237422644fafbfe286e6251b7\",\"local_attrib_10_activities\":\"_TRUSTED_PROB\",\"local_attrib_10_first_seen\":\"2023-03-31\",\"local_attrib_12\":\"603db31322f95f60fc6ef9f1c2afb98c3ee6763c152a536e97231ee2bf2273e7\",\"local_attrib_12_activities\":\"START_TIMESTAMP\",\"local_attrib_12_first_seen\":\"2023-06-19\",\"local_attrib_15\":\"uat300088363\",\"local_attrib_15_first_seen\":\"2023-06-19\",\"local_attrib_1_activities\":\"_TRUSTED_PROB\",\"local_attrib_1_first_seen\":\"2022-09-09\",\"local_attrib_5\":\"approve\",\"local_attrib_5_activities\":\"_TRUSTED_PROB\",\"local_attrib_5_first_seen\":\"2017-05-25\",\"local_attrib_6\":\"cbrt\",\"local_attrib_6_activities\":\"_TRUSTED_PROB\",\"local_attrib_6_first_seen\":\"2021-10-22\",\"math_routine\":\"4003d1c2bec02e6cc560082ad155401fd4588141d6eaa24dc94afbd72313196a\",\"mime_type_hash\":\"27f51d3149e6bf209b66bd387b0af3c4\",\"mime_type_number\":\"2\",\"multiple_session_id\":\"yes\",\"nonce\":\"bc9b3f1d33aeaa3a\",\"org_id\":\"8zht501y\",\"os\":\"Windows\",\"os_version\":\"10\",\"page_time_on\":\"14582\",\"plugin_hash\":\"e802dfa555193f4ebe8993eb4a99290d\",\"plugin_number\":\"5\",\"policy\":\"onboarding\",\"policy_engine_version\":\"14.2.2\",\"policy_score\":\"0\",\"primary_industry\":\"ecommerce\",\"private_browsing\":\"no\",\"profile_api_timedelta\":\"14582\",\"profile_connection_type\":\"TLS1.2\",\"profiled_domain\":\"uat-shop.optus.com.au\",\"profiled_url\":\"https://uat-shop.optus.com.au/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"profiling_datetime\":\"1687153265\",\"profiling_delta\":\"7609\",\"proxy_score\":\"416.57\",\"reason_code\":\"Pass:307756065:\",\"request_duration\":\"79\",\"request_id\":\"a3c8836b-4b51-4a11-bce5-3295e41b1bf2\",\"request_result\":\"success\",\"review_status\":\"pass\",\"risk_rating\":\"neutral\",\"screen_color_depth\":\"24\",\"screen_res\":\"1536x864\",\"screen_res_zoom\":\"1\",\"secondary_industry\":\"telecom\",\"service_category\":\"outright\",\"service_detail\":\"apple iph14 pro 128gb deeppurple 5g|large optus choice plus plan\",\"service_type\":\"all\",\"session_id\":\"6vxo70okrbgbeetuok3_hxhaqzpp5cayk5ds2wm5kxa\",\"session_id_query_count\":\"2\",\"shipping_address_city\":\"melonba\",\"shipping_address_state\":\"nsw\",\"shipping_address_street1\":\"375 abell road\",\"shipping_address_zip\":\"2765\",\"ssl_fp_signature\":\"eafa14c7b14cf32eb9899fc750497ae5\",\"ssl_session_hash\":\"708214eae108bb9b27cfa9a3e456b65c\",\"summary_risk_score\":\"0\",\"system_state\":\"1683158045\",\"third_party_cookie\":\"1762aa231b568c06fba619a047ad7a49\",\"time_zone\":\"600\",\"time_zone_dst_offset\":\"60\",\"timezone_name\":\"Australia/Sydney\",\"tmx_reason_code\":\"_TMX_LCL_TT_LIMIT_REACHED_DIG_ID\",\"tmx_risk_rating\":\"neutral\",\"tmx_summary_reason_code\":\"Identity_Spoofing\",\"transaction_amount\":\"1817.88\",\"transaction_amount_usd\":\"1248.97\",\"transaction_currency\":\"aud\",\"transaction_id\":\"uat300088363\",\"true_ip\":\"61.88.183.109\",\"true_ip_activities\":\"_TRUSTED_PROB\",\"true_ip_assert_history\":\"NEGATIVE_HISTORY\",\"true_ip_attributes\":\"_TRUSTED_PROB\",\"true_ip_city\":\"marsfield\",\"true_ip_connection_type\":\"tx\",\"true_ip_first_seen\":\"2010-12-10\",\"true_ip_geo\":\"AU\",\"true_ip_home\":\"no\",\"true_ip_isp\":\"singtel optus pty ltd\",\"true_ip_last_event\":\"2023-06-19\",\"true_ip_last_update\":\"2023-06-19\",\"true_ip_latitude\":\"-33.77954\",\"true_ip_line_speed\":\"high\",\"true_ip_longitude\":\"151.10411\",\"true_ip_organization\":\"singtel optus pty ltd\",\"true_ip_organization_type\":\"Telecommunications\",\"true_ip_postal_code\":\"2122\",\"true_ip_region\":\"new south wales\",\"true_ip_region_iso_code\":\"nsw\",\"true_ip_result\":\"success\",\"true_ip_routing_type\":\"fixed\",\"true_ip_score\":\"26\",\"true_ip_source_port\":\"23409\",\"true_ip_worst_score\":\"-100\",\"turn_os_sig_raw\":\"61.88.183.109~4:50:0:1460:65535,6:mss,sok,ts,ws,eol+0::0|4:50:0:0:65535,0:nop,nop,ts:ts2+:0\",\"turn_os_sig_ttl\":\"50\",\"turn_os_signature\":\"Proxy\",\"turn_system_state\":\"1683158045\",\"turn_tcp_tstmp_rate\":\"1000\",\"ua_browser\":\"chrome 114.0\",\"ua_browser_alt\":\"Chrome\",\"ua_browser_version_alt\":\"114.0.0.0\",\"ua_os\":\"win10\",\"ua_os_alt\":\"Windows\",\"ua_os_version_alt\":\"10\",\"ua_platform\":\"chrome 114.0\",\"webgl_hash\":\"3ff5dff4740ddc407e62be0e74d25546104d4259\",\"webrtc_external_ip\":\"61.88.183.109\",\"webrtc_media\":\"(0,0,1,c6985b38facc1161a3d723b62ad650f073d7b28b3a943ee14dd0ad2b77b90e76)\",\"webrtc_media_mini\":\"001c6985b38facc1\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threatMetrixRequestId",
+          "__text": "e3065f72-3003-46d4-8558-007761d9bf01"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threatMetrixResponse",
+          "__text": "{\"account_address_city\":\"melonba\",\"account_address_state\":\"nsw\",\"account_address_street1\":\"375 abell road\",\"account_address_zip\":\"2765\",\"account_date_of_birth\":\"19900612\",\"account_email\":\"uat_501592741@yopmail.com\",\"account_email_activities\":\"COMP_GEN_EMAIL\",\"account_email_domain\":\"yopmail.com\",\"account_email_result\":\"not found\",\"account_existing_customer\":\"false\",\"account_login\":\"uat_501592741@yopmail.com\",\"account_login_activities\":\"NEW_BEN\",\"account_login_result\":\"not found\",\"account_name\":\"approve cbrt\",\"account_name_activities\":\"_TRUSTED_PROB\",\"account_name_attributes\":\"_TRUSTED_PROB\",\"account_name_first_seen\":\"2021-10-22\",\"account_name_last_event\":\"2023-06-19\",\"account_name_last_update\":\"2023-06-19\",\"account_name_result\":\"success\",\"account_name_score\":\"0\",\"account_name_worst_score\":\"0\",\"account_passport_country\":\"au\",\"account_passport_expiration_date\":\"2025-09-30\",\"account_telephone\":\"0476405630\",\"account_telephone_activities\":\"_TRUSTED_PROB\",\"account_telephone_attributes\":\"_TRUSTED_PROB\",\"account_telephone_first_seen\":\"2017-01-18\",\"account_telephone_is_possible\":\"no\",\"account_telephone_is_valid\":\"no\",\"account_telephone_last_event\":\"2023-06-19\",\"account_telephone_last_update\":\"2023-06-19\",\"account_telephone_result\":\"success\",\"account_telephone_score\":\"0\",\"account_telephone_type\":\"UNKNOWN\",\"account_telephone_worst_score\":\"0\",\"agent_publickey_hash\":\"19a0b362e68d159f78fd26c03a196e071c2af3f7\",\"agent_publickey_hash_result\":\"not found\",\"agent_publickey_hash_type\":\"web:ecdsa\",\"agent_type\":\"browser_computer\",\"api_call_datetime\":\"2023-06-19 05:41:14.480\",\"api_caller_ip\":\"34.195.33.38\",\"api_type\":\"session-query\",\"api_version\":\"14.2\",\"application_name\":\"windows\",\"audio_context\":\"cefbae478677f02fbbd973617692dbd9c6450bf5641669ebef1595ab745a2117\",\"auth_appname\":\"NV\",\"battery_status\":\"{\\\"level\\\":1.00,\\\"status\\\":\\\"charging\\\"}\",\"bb_assessment\":\"130.74\",\"bb_assessment_rating\":\"low\",\"bb_bot_rating\":\"low\",\"bb_bot_score\":\"500.00\",\"bb_fraud_rating\":\"neutral\",\"bb_fraud_score\":\"500.00\",\"browser\":\"Chrome\",\"browser_language\":\"en-GB,en-US;q\",\"browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\",\"browser_string_hash\":\"14d58a1ba286f087d9736249ec785314\",\"browser_version\":\"114\",\"canvas_hash\":\"2bbdcf376da642550837b2862d979444abb5ee43\",\"cc_number_hash\":\"6c0fe1ea6aa2930ed49147b2e5175409885c07d0c79a95e79d85b3628e87d322\",\"cc_number_hash_activities\":\"_TRUSTED_PROB\",\"cc_number_hash_attributes\":\"_TRUSTED_PROB\",\"cc_number_hash_first_seen\":\"2021-08-30\",\"cc_number_hash_last_event\":\"2023-06-19\",\"cc_number_hash_last_update\":\"2023-06-19\",\"cc_number_hash_result\":\"success\",\"cc_number_hash_score\":\"0\",\"cc_number_hash_worst_score\":\"0\",\"champion_request_duration\":\"43\",\"charset\":\"utf-8\",\"condition_attrib_10\":\"01049d24f529f1dab84dcf0d5962b06af81f0e72f6f48111045e3692da2a995c\",\"condition_attrib_12\":\"australian_passport\",\"condition_attrib_18\":\"offline\",\"condition_attrib_19\":\"na\",\"condition_attrib_20\":\"true\",\"condition_attrib_5\":\"browser_computer\",\"cpu_clock\":\"9\",\"cpu_cores\":\"12\",\"css_image_loaded\":\"yes\",\"custom_count_1\":\"1748.88\",\"custom_count_10\":\"0\",\"custom_count_2\":\"0\",\"custom_count_4\":\"0\",\"custom_count_5\":\"69\",\"custom_match_1\":\"f6329e1237422644fafbfe286e6251b7\",\"custom_match_3\":\"456a86252091c314d207d37cd6d09083\",\"custom_match_5\":\"657871d71bac0b4535ea9960a13d4ad8\",\"custom_match_6\":\"0bb734e7aef1bc9aedd4c5e2bce5366c\",\"custom_match_7\":\"3cb3aa5773e1d00208baceb715b5ead3\",\"custom_match_8\":\"de1951eaf3d8eb2c8704ba165c4498b8\",\"customer_event_type\":\"postpaid_outright\",\"device_id\":\"cca91e698b024f01b5da6b7a38d33108\",\"device_id_confidence\":\"100\",\"device_match_result\":\"new_device\",\"device_memory\":\"8\",\"device_result\":\"not found\",\"digital_id\":\"4d7de5b33018496aa95eb3a81ed84852\",\"digital_id_activities\":\"_TRUSTED_PROB\",\"digital_id_attributes\":\"_TRUSTED_PROB\",\"digital_id_confidence\":\"5075\",\"digital_id_confidence_rating\":\"low\",\"digital_id_first_seen\":\"2017-09-04\",\"digital_id_last_event\":\"2023-06-19\",\"digital_id_last_update\":\"2023-06-19\",\"digital_id_result\":\"success\",\"digital_id_trust_score\":\"98.82\",\"digital_id_trust_score_rating\":\"very_high\",\"digital_id_trust_score_reason_code\":\"_ts_did_black\",\"digital_id_trust_score_summary_reason_code\":\"_ts_did_edge_detect_entity\",\"dns_ip\":\"119.225.142.246\",\"dns_ip_activities\":\"_TRUSTED_PROB\",\"dns_ip_assert_history\":\"NEGATIVE_HISTORY\",\"dns_ip_attributes\":\"_TRUSTED_PROB\",\"dns_ip_city\":\"macquarie centre\",\"dns_ip_connection_type\":\"tx\",\"dns_ip_geo\":\"AU\",\"dns_ip_home\":\"no\",\"dns_ip_isp\":\"singtel optus pty ltd\",\"dns_ip_latitude\":\"-33.77692\",\"dns_ip_line_speed\":\"high\",\"dns_ip_longitude\":\"151.12102\",\"dns_ip_organization\":\"optus macquarie park (ocs)\",\"dns_ip_postal_code\":\"2113\",\"dns_ip_region\":\"new south wales\",\"dns_ip_region_iso_code\":\"nsw\",\"dns_ip_routing_type\":\"fixed\",\"drivers_licence_hash_activities\":\"_TRUSTED_PROB\",\"drivers_licence_hash_attributes\":\"_TRUSTED_PROB\",\"drivers_licence_hash_first_seen\":\"2016-08-22\",\"drivers_licence_hash_last_event\":\"2023-06-19\",\"drivers_licence_hash_last_update\":\"2023-06-19\",\"drivers_licence_hash_result\":\"success\",\"drivers_licence_hash_score\":\"0\",\"drivers_licence_hash_worst_score\":\"0\",\"drivers_licence_number_hash\":\"ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1\",\"enabled_ck\":\"yes\",\"enabled_fl\":\"no\",\"enabled_im\":\"yes\",\"enabled_js\":\"yes\",\"enabled_services\":\"TMX100\",\"enhanced_headers_name_value_hash\":\"17b63fe307b4574fa50bc25d6a23d7ef\",\"etag_guid\":\"23c5378abe1b48f7a7b8f143f0fe015e\",\"event_datetime\":\"2023-06-19 05:41:14.480\",\"event_type\":\"payment\",\"fuzzy_device_activities\":\"_TRUSTED_PROB\",\"fuzzy_device_attributes\":\"_TRUSTED_PROB\",\"fuzzy_device_first_seen\":\"2023-03-15\",\"fuzzy_device_id\":\"f36d96cc98834bbe954d78e0f336a9e9\",\"fuzzy_device_id_confidence\":\"99.55\",\"fuzzy_device_last_event\":\"2023-06-19\",\"fuzzy_device_last_update\":\"2023-06-19\",\"fuzzy_device_match_result\":\"success\",\"fuzzy_device_result\":\"success\",\"fuzzy_device_score\":\"0\",\"fuzzy_device_worst_score\":\"0\",\"gpu_name\":\"ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)\",\"gpu_vendor\":\"Google Inc. (Google)\",\"headers_name_value_hash\":\"63f780e9531bcfdfd3d83c60635c3781\",\"headers_order_string_hash\":\"c55b30b0998b0a43b437096703d6a805\",\"http_os_sig_adv_mss\":\"1448\",\"http_os_sig_rcv_mss\":\"1348\",\"http_os_sig_snd_mss\":\"1448\",\"http_os_signature\":\"Proxy\",\"http_referer\":\"9kO4J19JDbNH6d1oHM0a4!JAFGcOkK68\",\"http_referer_domain\":\"uat-shop.optus.com.au\",\"http_referer_url\":\"https://uat-shop.optus.com.au/secure-checkout?f9bdce912e965b47ae8ac6087e5554c0\",\"image_loaded\":\"yes\",\"input_ip_activities\":\"_TRUSTED_PROB\",\"input_ip_address\":\"61.88.183.109\",\"input_ip_assert_history\":\"NEGATIVE_HISTORY\",\"input_ip_attributes\":\"_TRUSTED_PROB\",\"input_ip_city\":\"marsfield\",\"input_ip_connection_type\":\"tx\",\"input_ip_first_seen\":\"2010-12-10\",\"input_ip_geo\":\"AU\",\"input_ip_home\":\"no\",\"input_ip_isp\":\"singtel optus pty ltd\",\"input_ip_last_event\":\"2023-06-19\",\"input_ip_last_update\":\"2023-06-19\",\"input_ip_latitude\":\"-33.77954\",\"input_ip_line_speed\":\"high\",\"input_ip_longitude\":\"151.10411\",\"input_ip_organization\":\"singtel optus pty ltd\",\"input_ip_postal_code\":\"2122\",\"input_ip_region\":\"new south wales\",\"input_ip_region_iso_code\":\"nsw\",\"input_ip_result\":\"success\",\"input_ip_routing_type\":\"fixed\",\"input_ip_score\":\"26\",\"input_ip_worst_score\":\"-100\",\"js_browser\":\"Chrome 114\",\"js_browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\",\"js_browser_string_hash\":\"14d58a1ba286f087d9736249ec785314\",\"js_fonts_hash\":\"14b85a67b4c5725d06a2464af2b25793\",\"js_fonts_number\":\"46\",\"js_os\":\"Windows 10\",\"line_of_business\":\"digital_core_2.0\",\"local_attrib_1\":\"apple iph14 pro 128gb deeppurple 5g\",\"local_attrib_10\":\"f6329e1237422644fafbfe286e6251b7\",\"local_attrib_10_activities\":\"_TRUSTED_PROB\",\"local_attrib_10_first_seen\":\"2023-03-31\",\"local_attrib_12\":\"603db31322f95f60fc6ef9f1c2afb98c3ee6763c152a536e97231ee2bf2273e7\",\"local_attrib_12_activities\":\"START_TIMESTAMP\",\"local_attrib_15\":\"uat300088363\",\"local_attrib_1_activities\":\"_TRUSTED_PROB\",\"local_attrib_1_first_seen\":\"2022-09-09\",\"local_attrib_5\":\"approve\",\"local_attrib_5_activities\":\"_TRUSTED_PROB\",\"local_attrib_5_first_seen\":\"2017-05-25\",\"local_attrib_6\":\"cbrt\",\"local_attrib_6_activities\":\"_TRUSTED_PROB\",\"local_attrib_6_first_seen\":\"2021-10-22\",\"math_routine\":\"4003d1c2bec02e6cc560082ad155401fd4588141d6eaa24dc94afbd72313196a\",\"mime_type_hash\":\"27f51d3149e6bf209b66bd387b0af3c4\",\"mime_type_number\":\"2\",\"multiple_session_id\":\"yes\",\"nonce\":\"bc9b3f1d33aeaa3a\",\"org_id\":\"8zht501y\",\"os\":\"Windows\",\"os_version\":\"10\",\"page_time_on\":\"9913\",\"plugin_hash\":\"e802dfa555193f4ebe8993eb4a99290d\",\"plugin_number\":\"5\",\"policy\":\"onboarding\",\"policy_engine_version\":\"14.2.2\",\"policy_score\":\"-100\",\"primary_industry\":\"ecommerce\",\"private_browsing\":\"no\",\"profile_api_timedelta\":\"9913\",\"profile_connection_type\":\"TLS1.2\",\"profiled_domain\":\"uat-shop.optus.com.au\",\"profiled_url\":\"https://uat-shop.optus.com.au/secure-checkout?a0d0348786ec399c91a85b71f47226ea\",\"profiling_datetime\":\"1687153265\",\"profiling_delta\":\"7609\",\"proxy_score\":\"416.57\",\"reason_code\":\"Challenge\",\"request_duration\":\"110\",\"request_id\":\"e3065f72-3003-46d4-8558-007761d9bf01\",\"request_result\":\"success\",\"review_status\":\"challenge\",\"risk_rating\":\"high\",\"screen_color_depth\":\"24\",\"screen_res\":\"1536x864\",\"screen_res_zoom\":\"1\",\"secondary_industry\":\"telecom\",\"service_category\":\"outright\",\"service_detail\":\"apple iph14 pro 128gb deeppurple 5g|large optus choice plus plan\",\"service_type\":\"all\",\"session_id\":\"6vxo70okrbgbeetuok3_hxhaqzpp5cayk5ds2wm5kxa\",\"session_id_query_count\":\"1\",\"shipping_address_city\":\"melonba\",\"shipping_address_state\":\"nsw\",\"shipping_address_street1\":\"375 abell road\",\"shipping_address_zip\":\"2765\",\"ssl_fp_signature\":\"eafa14c7b14cf32eb9899fc750497ae5\",\"ssl_session_hash\":\"708214eae108bb9b27cfa9a3e456b65c\",\"summary_reason_code\":\"RISKY_TEL\",\"summary_risk_score\":\"-100\",\"system_state\":\"1683158045\",\"third_party_cookie\":\"1762aa231b568c06fba619a047ad7a49\",\"time_zone\":\"600\",\"time_zone_dst_offset\":\"60\",\"timezone_name\":\"Australia/Sydney\",\"tmx_reason_code\":\"_TMX_LCL_TT_LIMIT_REACHED_DIG_ID\",\"tmx_risk_rating\":\"neutral\",\"tmx_summary_reason_code\":\"Identity_Spoofing\",\"transaction_amount\":\"1817.88\",\"transaction_amount_usd\":\"1248.97\",\"transaction_currency\":\"aud\",\"transaction_id\":\"uat300088363\",\"true_ip\":\"61.88.183.109\",\"true_ip_activities\":\"_TRUSTED_PROB\",\"true_ip_assert_history\":\"NEGATIVE_HISTORY\",\"true_ip_attributes\":\"_TRUSTED_PROB\",\"true_ip_city\":\"marsfield\",\"true_ip_connection_type\":\"tx\",\"true_ip_first_seen\":\"2010-12-10\",\"true_ip_geo\":\"AU\",\"true_ip_home\":\"no\",\"true_ip_isp\":\"singtel optus pty ltd\",\"true_ip_last_event\":\"2023-06-19\",\"true_ip_last_update\":\"2023-06-19\",\"true_ip_latitude\":\"-33.77954\",\"true_ip_line_speed\":\"high\",\"true_ip_longitude\":\"151.10411\",\"true_ip_organization\":\"singtel optus pty ltd\",\"true_ip_organization_type\":\"Telecommunications\",\"true_ip_postal_code\":\"2122\",\"true_ip_region\":\"new south wales\",\"true_ip_region_iso_code\":\"nsw\",\"true_ip_result\":\"success\",\"true_ip_routing_type\":\"fixed\",\"true_ip_score\":\"26\",\"true_ip_source_port\":\"23409\",\"true_ip_worst_score\":\"-100\",\"turn_os_sig_raw\":\"61.88.183.109~4:50:0:1460:65535,6:mss,sok,ts,ws,eol+0::0|4:50:0:0:65535,0:nop,nop,ts:ts2+:0\",\"turn_os_sig_ttl\":\"50\",\"turn_os_signature\":\"Proxy\",\"turn_system_state\":\"1683158045\",\"turn_tcp_tstmp_rate\":\"1000\",\"ua_browser\":\"chrome 114.0\",\"ua_browser_alt\":\"Chrome\",\"ua_browser_version_alt\":\"114.0.0.0\",\"ua_os\":\"win10\",\"ua_os_alt\":\"Windows\",\"ua_os_version_alt\":\"10\",\"ua_platform\":\"chrome 114.0\",\"webgl_hash\":\"3ff5dff4740ddc407e62be0e74d25546104d4259\",\"webrtc_external_ip\":\"61.88.183.109\",\"webrtc_media\":\"(0,0,1,c6985b38facc1161a3d723b62ad650f073d7b28b3a943ee14dd0ad2b77b90e76)\",\"webrtc_media_mini\":\"001c6985b38facc1\"}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threeDSAuthenticationResult",
+          "__text": "Succeeded"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threeDSCAVV",
+          "__text": "AAABBEg0VhI0VniQEjRWAAAAAAA="
+        },
+        "custom-attribute": {
+          "@attribute-id": "threeDSECI",
+          "__text": "05"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threeDSPayload",
+          "__text": "{\"transactionReference\":\"1a950a4e-7fd6-4b2a-8c04-920536fc43a4\",\"authenticationSessionId\":\"3912708c-403e-4641-b253-5bacdb87b4e6\",\"authenticationPreparationResponse\":{\"authenticationStatus\":\"Succeeded\",\"cavv\":\"AAABBEg0VhI0VniQEjRWAAAAAAA=\",\"eci\":\"05\",\"xid\":\"C63CD9AD-F47E-4FA5-BA28-79291A71E934\"}}"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threeDSTransactionReference",
+          "__text": "1a950a4e-7fd6-4b2a-8c04-920536fc43a4"
+        },
+        "custom-attribute": {
+          "@attribute-id": "threeDSXID",
+          "__text": "C63CD9AD-F47E-4FA5-BA28-79291A71E934"
+        },
+        "custom-attribute": {
+          "@attribute-id": "totalAdjustedMonthlyCostValue",
+          "__text": "0.0"
+        },
+        "custom-attribute": {
+          "@attribute-id": "totalMonthlyCostValue",
+          "__text": "0.0"
+        },
+        "custom-attribute": {
+          "@attribute-id": "totalOutrightCostValue",
+          "__text": "1748.88"
+        },
+        "custom-attribute": {
+          "@attribute-id": "totalUpfrontCostValue",
+          "__text": "1748.88"
+        },
+        "custom-attribute": {
+          "@attribute-id": "twoFactorAuthenticated",
+          "__text": "false"
+        },
+        "custom-attribute": {
+          "@attribute-id": "unicartMobileData",
+          "__text": "{\"308604172\":{\"keepServiceNumber\":\"NO\",\"serviceNumberVerified\":false,\"serviceNumber\":null,\"serviceType\":null,\"serviceVerificationData\":null}}"
+        }
+      }
+    }
+  }
+}

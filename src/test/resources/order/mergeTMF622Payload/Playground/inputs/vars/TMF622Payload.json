@@ -1,0 +1,58 @@
+{
+  "@type": "ProductOrder",
+  "externalId": "UAT3700001705",
+  "@extra_Fields": "here: https://optusdigitalcore.atlassian.net/browse/BOLT-155",
+  "channel": [
+    {
+      "id": "1",
+      "role": "Used channel for order capture",
+      "name": "storefront"
+    }
+  ],
+  "productOrderItem": [
+    {
+      "@type": "ProductOrderItem",
+      "action": "add",
+      "id": "apple-iphone-14-plus",
+      "Domain": "Marketplacer",
+      "quantity": 1
+    },
+    {
+      "@type": "ProductOrderItem",
+      "action": "add",
+      "id": 35989264,
+      "Domain": "Jarvis",
+      "quantity": 1,
+      "productOrderItemRelationship": [
+        {
+          "id": "33451365",
+          "relationshipType": "bundles"
+        },
+        {
+          "id": "33906173",
+          "relationshipType": "bundles"
+        },
+        {
+          "id": "8556824",
+          "relationshipType": "bundles"
+        }
+      ]
+    },
+    {
+      "@type": "ProductOrderItem",
+      "action": "add",
+      "id": 33451365,
+      "Domain": "Jarvis",
+      "quantity": 1
+    }
+  ],
+  "relatedParty": [
+    {
+      "@referredType": "Customer",
+      "@type": "RelatedParty",
+      "id": "TBC",
+      "name": "Approve CBRT",
+      "externalCustomerId": 420079457
+    }
+  ]
+}

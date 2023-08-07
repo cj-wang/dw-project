@@ -1,0 +1,242 @@
+{
+    "optus_bet_id__c": "abxL9XpvJvxeFCimD3WgvE4O70",
+    "subaction": "createOrder",
+    "methodName": "createCart",
+    "objectType": "Order",
+    "Contract_Duration__c": "1",
+    "fields": "Id,Name,EffectiveDate",
+    "detailedOrderBaseType": "all-fixed",
+    "inputFields": [
+      {
+        "optus_bet_id__c": "abxL9XpvJvxeFCimD3WgvE4O70"
+      },
+      {
+        "effectiveDate": "2023-07-18T13:14:07.337+10:00"
+      },
+      {
+        "Vlocity_Status__c": "Draft"
+      },
+      {
+        "status": "Draft"
+      },
+      {
+        "Name": "UAT400020945"
+      },
+      {
+        "OrderReferenceNumber": "UAT400020945"
+      },
+      {
+        "createdByAPI": true
+      },
+      {
+        "Network_Technology__c": "NBN FTTP"
+      },
+      {
+        "Type": "New_New"
+      },
+      {
+        "Flow_Type__c": "Online"
+      },
+      {
+        "vlocity_cmt__NumberOfContractedMonths__c": 1
+      },
+      {
+        "Item_Category_Type__c": "NBN"
+      },
+      {
+        "TRS_APP_NUMBER__c": "UAT40002094520BA11"
+      },
+      {
+        "Credit_Check_Status__c": "A"
+      },
+      {
+        "Max_Recurring_Cost__c": "550"
+      },
+      {
+        "Max_Equipment_Cost__c": "0"
+      },
+      {
+        "Credit_Limit_Check_Required__c": true
+      },
+      {
+        "Credit_Check_Text_Message__c": "Approved for up to 8 services on Choice/Data plans.  BYO plans only - adding device(s) not permitted for this order."
+      },
+      {
+        "Credit_Check_Response__c": "\"<soapenv:Envelope xmlns:soapenv=\\\"http://schemas.xmlsoap.org/soap/envelope/\\\" xmlns:xsi=\\\"http://www.w3.org/2001/XMLSchema-instance\\\"><soapenv:Header><sdpHeaders:sdpServiceResponseHeaders xmlns:sdpHeaders=\\\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\\\"><sdpHeaders:transactionResponseDateTime>2023-07-18T13:14:10</sdpHeaders:transactionResponseDateTime><sdpHeaders:transactionId>f82ebab8-1a2a-454e-99f3-483aa0d98f14</sdpHeaders:transactionId></sdpHeaders:sdpServiceResponseHeaders></soapenv:Header><soapenv:Body><checkCreditResponse xmlns=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\"><sdpStatusResponse:SDPStatusResponse xmlns:sdpStatusResponse=\\\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\\\"><sdpStatusResponse:transactionStatusCode>SUCCESS</sdpStatusResponse:transactionStatusCode><sdpStatusResponse:serviceVersion>1.0</sdpStatusResponse:serviceVersion></sdpStatusResponse:SDPStatusResponse><v11:applicationNumber xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">UAT40002094520BA11</v11:applicationNumber><v11:externalReferenceNumber xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">UAT400020945</v11:externalReferenceNumber><v11:decisionCategory xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">A</v11:decisionCategory><v11:textMessage xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\">Approved for up to 8 services on Choice/Data plans.  BYO plans only - adding device(s) not permitted for this order.</v11:textMessage><v11:conditionaloffer xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\"><v12:maxNumSubscriptions xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">8</v12:maxNumSubscriptions><v12:maxRecurringCostPerOrder xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">550</v12:maxRecurringCostPerOrder><v12:maxEquipmentCost xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">0</v12:maxEquipmentCost><v12:minUpfrontPayment xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">2136</v12:minUpfrontPayment><v12:approvalExpireDate xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">2023-08-17</v12:approvalExpireDate><v12:idVerificationIndicator xmlns:v12=\\\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\\\">false</v12:idVerificationIndicator></v11:conditionaloffer><v11:secureCollect xmlns:v11=\\\"http://group.singtel.com/authorizeCredit-types/v1\\\"><v13:secureCollectIndicator xmlns:v13=\\\"http://group.singtel.com/customerprofile/types/v1\\\">0</v13:secureCollectIndicator></v11:secureCollect></checkCreditResponse></soapenv:Body></soapenv:Envelope>\""
+      },
+      {
+        "Credit_Check_Secure_Collect__c": "0"
+      },
+      {
+        "Credit_Check_Response_Update_Date_Time__c": "2023-07-18 13:14:10"
+      },
+      {
+        "Create_New_Billing_Account__c": "true"
+      },
+      {
+        "ID_Check_Status__c": "VERIFIED"
+      },
+      {
+        "SFCC_Total_Price__c": 69.00
+      },
+      {
+        "AccountId": "0018s00000GdrYAAAZ"
+      },
+      {
+        "BillToContactId": "0038s00000CXePZAA1"
+      },
+      {
+        "Installation_Address__c": "a5x8s0000001HtFAAU"
+      },
+      {
+        "Delivery_Address__c": ""
+      },
+      {
+        "AccountContactRelID__c": "07k8s000003oENpAAM"
+      },
+      {
+        "Billing_Address__c": "a5x8s0000001HrdAAE"
+      },
+      {
+        "Residential_Address__c": "a5x8s0000001Hq1AAE"
+      },
+      {
+        "Service_Qualification_ID__c": "a618s000000fVB7AAM"
+      },
+      {
+        "Installation_Method__c": "SelfInstall"
+      },
+      {
+        "Service_Request_Date__c": "2023-07-24T00:00:00.000+0000"
+      },
+      {
+        "Account_Holder__c": "APPROVE CBRT"
+      },
+      {
+        "Card_Last_Four_Digits__c": "2346"
+      },
+      {
+        "Card_Type__c": "MasterCard"
+      },
+      {
+        "Card_Expiry_Month__c": 1
+      },
+      {
+        "Card_Expiry_Year__c": 2030
+      },
+      {
+        "Installation_Method__c": "SelfInstall"
+      },
+      {
+        "pricelistName": "B2C Price List"
+      },
+      {
+        "DevChargefee": "Y"
+      },
+      {
+        "New_Dev_Consent_Flag__c": "N"
+      },
+      {
+        "SFCC_ncdRequired__c": "false"
+      },
+      {
+        "SFCC_Order_Date__c": "2023-07-18T13:14:07.337+10:00"
+      },
+      {
+        "Subscription_Order_Scenario__c": "Simple"
+      },
+      {
+        "Two_Factor_Authenticated__c": false
+      },
+      {
+        "Credit_Check_Type__c": "IDCheck"
+      },
+      {
+        "Payment_Type__c": "Direct Debit - Credit Card"
+      },
+      {
+        "NBN_Appointment_Date__c": "2023-07-24"
+      },
+      {
+        "NBN_Time_Slot__c": "Between 8AM-12PM"
+      },
+      {
+        "BillingCity": "MACQUARIE PARK"
+      },
+      {
+        "BillingCountry": "AUS"
+      },
+      {
+        "BillingPostalCode": "2113"
+      },
+      {
+        "BillingState": "NSW"
+      },
+      {
+        "BillingStreet": "1 Lyonpark Road"
+      },
+      {
+        "Total_Monthly_in_SFCC__c": "69.0"
+      },
+      {
+        "Total_One_Off_in_SFCC__c": "0.0"
+      },
+      {
+        "Minimum_Total_Cost_in_SFCC__c": "69.0"
+      },
+      {
+        "Price_Check_Required__c": true
+      },
+      {
+        "SessionID__c": "fq9rpunoa_f8dgifvdkyflkcpf9zbe7tar-ny8j4nfw"
+      },
+      {
+        "ID_Check_Status_Secondary_ID__c": "VERIFIED"
+      },
+      {
+        "NBN_Appointment_fromTime__c": "08:00:00.000Z"
+      },
+      {
+        "NBN_Appointment_toTime__c": "12:00:00.000Z"
+      },
+      {
+        "NBN_Appointment_Ref__c": "{\"id\":\"APT800981393073\",\"href\":\"https://apigw-stage.nbnco.net.au/v1/npis-appointments/appointments/APT800981393073\",\"externalId\":\"UAT400020945\",\"status\":\"RESERVED\",\"reasonCode\":{\"code\":\"RESERVED\"}}"
+      },
+      {
+        "NBN_Appointment_ID__c": "APT800981393073"
+      },
+      {
+        "NBN_Appointment_Response_Date__c": "24/07/2023+10:00"
+      },
+      {
+        "NBN_Service_Transfer_Flag__c": "N"
+      },
+      {
+        "NBN_Connect_Outstanding_Flag__c": "N"
+      },
+      {
+        "New_Dev_Consent_Flag__c": "No"
+      },
+      {
+        "NBN_Installation_Charge_Flag__c": "No"
+      },
+      {
+        "Service_Class__c": 2
+      },
+      {
+        "Demand_Type__c": "Standard Install"
+      },
+      {
+        "Sub_Order_Type__c": "NewConnectOrder"
+      },
+      {
+        "Installation_Workforce__c": "NBN Co Install"
+      },
+      {
+        "Site_Contact_Details__c": "APPROVE CBRT 0476405630"
+      },
+      {
+        "Card_Token__c": "51MMN2C9COYJ2346"
+      }
+    ]
+  }
