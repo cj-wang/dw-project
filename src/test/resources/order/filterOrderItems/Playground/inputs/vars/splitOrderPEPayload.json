@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "type": "Order_TrxReq_Detail__e"
+  },
+  "Order_Id__c": "8019r00000C0cnyAAB",
+  "Transaction_Request_Id__c": "a829r0000000PstAAE",
+  "End_System__c": "Mulesoft",
+  "External_ID__c": "UAT3700001705",
+  "Record_Type__c": "PSS Order",
+  "EventUuid": "3de6e841-bfcd-485f-954d-af89d0f21e77",
+  "Product_Order_Items__c": "35989264,33451365"
+}
