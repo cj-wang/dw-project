@@ -588,7 +588,7 @@
             <custom-attribute attribute-id="ipRegion">new south wales</custom-attribute>
             <custom-attribute attribute-id="isMixedCart">false</custom-attribute>
             <custom-attribute attribute-id="isRelocationOrder">false</custom-attribute>
-            <custom-attribute attribute-id="isUniCart">false</custom-attribute>
+            <custom-attribute attribute-id="isUniCart">true</custom-attribute>
             <custom-attribute attribute-id="issuingState">NSW</custom-attribute>
             <custom-attribute attribute-id="itemCategories">
                 <value>Outright_Plan</value>
