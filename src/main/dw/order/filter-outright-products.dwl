@@ -2,7 +2,7 @@
 output application/json
 import * from dw::util::Values
 fun filterProducts(arr) = (([arr] map (item, itemIndex) -> {
-    "custom-attribute": (flatten(item.*"custom-attribute") map (attribute, attributeIndex) -> {
+    "custom-attribute": ((item.*"custom-attribute") map (attribute, attributeIndex) -> {
         (attribute."@attribute-id"): attribute."__text"
     }) reduce ($$ ++ $)
 })."custom-attribute") reduce ($$ ++ $)
