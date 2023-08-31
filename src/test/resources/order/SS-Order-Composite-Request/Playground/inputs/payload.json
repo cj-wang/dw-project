@@ -1,0 +1,1940 @@
+{
+    "order": {
+      "@orderNo": "UAT500016201",
+      "orderDate": "2023-08-10T14:54:51.000Z",
+      "createdBy": "storefront",
+      "originalOrderNo": "UAT500016201",
+      "currency": "AUD",
+      "customerLocale": "default",
+      "taxation": "gross",
+      "invoiceNo": "00108501",
+      "customer": {
+        "guest": "false",
+        "customerNo": "00060502",
+        "customerName": "APPROVE CBRT",
+        "customerEmail": "Issac.Spinka@hotmail.com",
+        "billingAddress": {
+          "salutation": "Mr",
+          "firstName": "APPROVE",
+          "lastName": "CBRT",
+          "address1": "1 Lyonpark RD",
+          "city": "MACQUARIE PARK",
+          "postalCode": "2113",
+          "stateCode": "NSW",
+          "countryCode": "AU",
+          "phone": "0476405630",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "addressType",
+              "text": "CUSTOMER"
+            },
+            "customAttribute": {
+              "@attributeId": "addressUUID",
+              "text": "MSBseW9ucGFyayByZCwgbWFjcXVhcmllIHBhcmsgbnN3IDIxMTM="
+            },
+            "customAttribute": {
+              "@attributeId": "formattedAddress",
+              "text": "1 Lyonpark RD, MACQUARIE PARK undefined 2113"
+            },
+            "customAttribute": {
+              "@attributeId": "jarvisAddressId",
+              "text": "537215224"
+            },
+            "customAttribute": {
+              "@attributeId": "manualAddressType",
+              "text": "Geographic"
+            },
+            "customAttribute": {
+              "@attributeId": "streetName",
+              "text": "Lyonpark"
+            },
+            "customAttribute": {
+              "@attributeId": "streetNumber",
+              "text": "1"
+            },
+            "customAttribute": {
+              "@attributeId": "streetType",
+              "text": "RD"
+            },
+            "customAttribute": {
+              "@attributeId": "subAddressType",
+              "text": "Geographic"
+            }
+          }
+        }
+      },
+      "status": {
+        "orderStatus": "OPEN",
+        "shippingStatus": "NOT_SHIPPED",
+        "confirmationStatus": "CONFIRMED",
+        "paymentStatus": "PAID"
+      },
+      "currentOrderNo": "UAT500016201",
+      "productLineitems": {
+        "productLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "$89 Optus Plus Promo Plan(Aug 22)",
+          "taxBasis": "0.00",
+          "position": "1",
+          "productId": "36070374",
+          "productName": "$89 Optus Plus Promo Plan(Aug 22)",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.0",
+          "shipmentId": "00095502",
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedMonthlyCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "contractDuration",
+              "text": "1"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "includedInPlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isMainOffer",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isSubsPlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "productOfferId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "recurringPeriod",
+              "text": "MONTHLY"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "OFFER"
+            }
+          }
+        },
+        "productLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "Subscription Plan Technical Offer",
+          "taxBasis": "0.00",
+          "position": "2",
+          "productId": "36070374_33451365",
+          "productName": "Subscription Plan Technical Offer",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.0",
+          "shipmentId": "00095502",
+          "bundledProductLineitems": {
+            "bundledProductLineitem": {
+              "productId": "33451365",
+              "productName": "Subscription Plan Technical Offer",
+              "quantity": {
+                "@unit": "",
+                "text": "1.0"
+              },
+              "customAttributes": {
+                "customAttribute": {
+                  "@attributeId": "billingOfferId",
+                  "text": "33451365"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferPOId",
+                  "text": "36067514"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferParentRelationId",
+                  "text": "8375254"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferRelationId",
+                  "text": "33451645"
+                },
+                "customAttribute": {
+                  "@attributeId": "creditCheckRequired",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "isBasePlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "isSubsPlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "productOfferId",
+                  "text": "36070374"
+                },
+                "customAttribute": {
+                  "@attributeId": "productSpecRelationId",
+                  "text": "36067424"
+                },
+                "customAttribute": {
+                  "@attributeId": "productType",
+                  "text": "Mobile"
+                },
+                "customAttribute": {
+                  "@attributeId": "sfccProductType",
+                  "text": "COMPONENT_BILLING_OFFER"
+                }
+              }
+            }
+          },
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedUpfrontCost",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferId",
+              "text": "33451365"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferPOId",
+              "text": "36067514"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferParentRelationId",
+              "text": "8375254"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferRelationId",
+              "text": "33451645"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "includedInPlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isMainOffer",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isSubsPlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "productOfferId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "productSpecRelationId",
+              "text": "36067424"
+            },
+            "customAttribute": {
+              "@attributeId": "productType",
+              "text": "Mobile"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "COMPONENT_BILLING_OFFER"
+            },
+            "customAttribute": {
+              "@attributeId": "upfrontCost",
+              "text": "0"
+            }
+          }
+        },
+        "productLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "Optus Roaming Tech (Subs)",
+          "taxBasis": "0.00",
+          "position": "3",
+          "productId": "36070374_33906173",
+          "productName": "Optus Roaming Tech (Subs)",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.0",
+          "shipmentId": "00095502",
+          "bundledProductLineitems": {
+            "bundledProductLineitem": {
+              "productId": "33906173",
+              "productName": "Optus Roaming Tech (Subs)",
+              "quantity": {
+                "@unit": "",
+                "text": "1.0"
+              },
+              "customAttributes": {
+                "customAttribute": {
+                  "@attributeId": "billingOfferId",
+                  "text": "33906173"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferPOId",
+                  "text": "36410894"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferParentRelationId",
+                  "text": "8375254"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferRelationId",
+                  "text": "33909463"
+                },
+                "customAttribute": {
+                  "@attributeId": "creditCheckRequired",
+                  "text": "true"
+                },
+                "customAttribute": {
+                  "@attributeId": "isBasePlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "isSubsPlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "productOfferId",
+                  "text": "36070374"
+                },
+                "customAttribute": {
+                  "@attributeId": "productSpecRelationId",
+                  "text": "36067424"
+                },
+                "customAttribute": {
+                  "@attributeId": "productType",
+                  "text": "Mobile"
+                },
+                "customAttribute": {
+                  "@attributeId": "sfccProductType",
+                  "text": "COMPONENT_BILLING_OFFER"
+                }
+              }
+            }
+          },
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedUpfrontCost",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferId",
+              "text": "33906173"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferPOId",
+              "text": "36410894"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferParentRelationId",
+              "text": "8375254"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferRelationId",
+              "text": "33909463"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "includedInPlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isMainOffer",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isSubsPlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "productOfferId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "productSpecRelationId",
+              "text": "36067424"
+            },
+            "customAttribute": {
+              "@attributeId": "productType",
+              "text": "Mobile"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "COMPONENT_BILLING_OFFER"
+            },
+            "customAttribute": {
+              "@attributeId": "upfrontCost",
+              "text": "0"
+            }
+          }
+        },
+        "productLineitem": {
+          "netPrice": "89.00",
+          "tax": "0.00",
+          "grossPrice": "89.00",
+          "basePrice": "89.00",
+          "lineitemText": "$89 Optus Plus Promo Plan(Aug 22)",
+          "taxBasis": "89.00",
+          "position": "4",
+          "productId": "36070374_36070384",
+          "productName": "$89 Optus Plus Promo Plan(Aug 22)",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.0",
+          "shipmentId": "00095502",
+          "bundledProductLineitems": {
+            "bundledProductLineitem": {
+              "productId": "36070384",
+              "productName": "$89 Optus Plus Promo Plan(Aug 22)",
+              "quantity": {
+                "@unit": "",
+                "text": "1.0"
+              },
+              "customAttributes": {
+                "customAttribute": {
+                  "@attributeId": "billingOfferId",
+                  "text": "36070384"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferPOId",
+                  "text": "36068204"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferParentRelationId",
+                  "text": "8375224"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferRelationId",
+                  "text": "36070534"
+                },
+                "customAttribute": {
+                  "@attributeId": "creditCheckRequired",
+                  "text": "true"
+                },
+                "customAttribute": {
+                  "@attributeId": "isBasePlan",
+                  "text": "true"
+                },
+                "customAttribute": {
+                  "@attributeId": "isSubsPlan",
+                  "text": "true"
+                },
+                "customAttribute": {
+                  "@attributeId": "offerFamily",
+                  "text": "Choice Plus Promo Plan 2022"
+                },
+                "customAttribute": {
+                  "@attributeId": "planFamily",
+                  "text": "MP5"
+                },
+                "customAttribute": {
+                  "@attributeId": "productOfferId",
+                  "text": "36070374"
+                },
+                "customAttribute": {
+                  "@attributeId": "productSpecRelationId",
+                  "text": "36067424"
+                },
+                "customAttribute": {
+                  "@attributeId": "productType",
+                  "text": "Mobile"
+                },
+                "customAttribute": {
+                  "@attributeId": "sfccProductType",
+                  "text": "COMPONENT_BILLING_OFFER"
+                }
+              }
+            }
+          },
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedMonthlyCostValue",
+              "text": "69"
+            },
+            "customAttribute": {
+              "@attributeId": "adjustedMonthlyTotalCostValue",
+              "text": "69"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferId",
+              "text": "36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferPOId",
+              "text": "36068204"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferParentRelationId",
+              "text": "8375224"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferRelationId",
+              "text": "36070534"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "contractDuration",
+              "text": "1"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "includedInPlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isMainOffer",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isSubsPlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyCostDiscount",
+              "text": "-20"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyCostValue",
+              "text": "89"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalCostValue",
+              "text": "89"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalDiscountValue",
+              "text": "-20"
+            },
+            "customAttribute": {
+              "@attributeId": "offerFamily",
+              "text": "Choice Plus Promo Plan 2022"
+            },
+            "customAttribute": {
+              "@attributeId": "planFamily",
+              "text": "MP5"
+            },
+            "customAttribute": {
+              "@attributeId": "productOfferId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "productSpecRelationId",
+              "text": "36067424"
+            },
+            "customAttribute": {
+              "@attributeId": "productType",
+              "text": "Mobile"
+            },
+            "customAttribute": {
+              "@attributeId": "recurringPeriod",
+              "text": "MONTHLY"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "COMPONENT_BILLING_OFFER"
+            }
+          },
+          "priceAdjustments": {
+            "priceAdjustment": {
+              "netPrice": "-20.00",
+              "tax": "0.00",
+              "grossPrice": "-20.00",
+              "basePrice": "-20.00",
+              "lineitemText": "Optus Plus Promo(V3 Subs)",
+              "taxBasis": "-20.00",
+              "promotionId": "36070584",
+              "campaignId": "$20 off for 12 months - $89 Optus Plus Promo Plan",
+              "discount": {
+                "amount": "20.00"
+              },
+              "customAttributes": {
+                "customAttribute": {
+                  "@attributeId": "discountBOProductId",
+                  "text": "36070374_36070584"
+                },
+                "customAttribute": {
+                  "@attributeId": "discountBillingOfferId",
+                  "text": "36070584"
+                }
+              }
+            }
+          }
+        },
+        "productLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "SIM Card Technical Offer",
+          "taxBasis": "0.00",
+          "position": "5",
+          "productId": "36070374_8556824",
+          "productName": "SIM Card Technical Offer",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.0",
+          "shipmentId": "00095502",
+          "bundledProductLineitems": {
+            "bundledProductLineitem": {
+              "productId": "8556824",
+              "productName": "SIM Card Technical Offer",
+              "quantity": {
+                "@unit": "",
+                "text": "1.0"
+              },
+              "customAttributes": {
+                "customAttribute": {
+                  "@attributeId": "billingOfferId",
+                  "text": "8556824"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferPOId",
+                  "text": "36070324"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferParentRelationId",
+                  "text": "8375134"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferRelationId",
+                  "text": "8556834"
+                },
+                "customAttribute": {
+                  "@attributeId": "creditCheckRequired",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "isBasePlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "isSubsPlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "productOfferId",
+                  "text": "36070374"
+                },
+                "customAttribute": {
+                  "@attributeId": "productSpecRelationId",
+                  "text": "36067424"
+                },
+                "customAttribute": {
+                  "@attributeId": "productType",
+                  "text": "Mobile"
+                },
+                "customAttribute": {
+                  "@attributeId": "sfccProductType",
+                  "text": "COMPONENT_BILLING_OFFER"
+                }
+              }
+            }
+          },
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedUpfrontCost",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferId",
+              "text": "8556824"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferPOId",
+              "text": "36070324"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferParentRelationId",
+              "text": "8375134"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferRelationId",
+              "text": "8556834"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "includedInPlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isMainOffer",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isSubsPlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "productOfferId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "productSpecRelationId",
+              "text": "36067424"
+            },
+            "customAttribute": {
+              "@attributeId": "productType",
+              "text": "Mobile"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "COMPONENT_BILLING_OFFER"
+            },
+            "customAttribute": {
+              "@attributeId": "upfrontCost",
+              "text": "0"
+            }
+          }
+        },
+        "productLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "Recurring Intl T&T 35 Destinations",
+          "taxBasis": "0.00",
+          "position": "6",
+          "productId": "36070374_33458375",
+          "productName": "Recurring Intl T&T 35 Destinations",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.0",
+          "shipmentId": "00095502",
+          "bundledProductLineitems": {
+            "bundledProductLineitem": {
+              "productId": "33458375",
+              "productName": "Recurring Intl T&T 35 Destinations",
+              "quantity": {
+                "@unit": "",
+                "text": "1.0"
+              },
+              "customAttributes": {
+                "customAttribute": {
+                  "@attributeId": "billingOfferId",
+                  "text": "33458375"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferPOId",
+                  "text": "36068074"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferParentRelationId",
+                  "text": "8375094"
+                },
+                "customAttribute": {
+                  "@attributeId": "billingOfferRelationId",
+                  "text": "33461885"
+                },
+                "customAttribute": {
+                  "@attributeId": "creditCheckRequired",
+                  "text": "true"
+                },
+                "customAttribute": {
+                  "@attributeId": "isBasePlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "isSubsPlan",
+                  "text": "false"
+                },
+                "customAttribute": {
+                  "@attributeId": "productOfferId",
+                  "text": "36070374"
+                },
+                "customAttribute": {
+                  "@attributeId": "productSpecRelationId",
+                  "text": "36067424"
+                },
+                "customAttribute": {
+                  "@attributeId": "productType",
+                  "text": "Mobile"
+                },
+                "customAttribute": {
+                  "@attributeId": "sfccProductType",
+                  "text": "COMPONENT_BILLING_OFFER"
+                }
+              }
+            }
+          },
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedMonthlyCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferId",
+              "text": "33458375"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferPOId",
+              "text": "36068074"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferParentRelationId",
+              "text": "8375094"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferRelationId",
+              "text": "33461885"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "contractDuration",
+              "text": "1"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "includedInPlan",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isMainOffer",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isSubsPlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "productOfferId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "productSpecRelationId",
+              "text": "36067424"
+            },
+            "customAttribute": {
+              "@attributeId": "productType",
+              "text": "Mobile"
+            },
+            "customAttribute": {
+              "@attributeId": "recurringPeriod",
+              "text": "MONTHLY"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "COMPONENT_BILLING_OFFER"
+            }
+          }
+        },
+        "productLineitem": {
+          "netPrice": "1362.11",
+          "tax": "136.21",
+          "grossPrice": "1498.32",
+          "basePrice": "1498.32",
+          "lineitemText": "Smsng Flip 4 128GB BK 5G",
+          "taxBasis": "1498.32",
+          "position": "7",
+          "productId": "653",
+          "productName": "Smsng Flip 4 128GB BK 5G",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.1",
+          "shipmentId": "00095501",
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedUpfrontCost",
+              "text": "1498.32"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "OutrightContext"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "deviceCostValue",
+              "text": "1498.32"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isEsimSupported",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isOutrightDevice",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isPhysicalSimSupported",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isShippable",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "masterProductCode",
+              "text": "samsung-galaxy-flip4"
+            },
+            "customAttribute": {
+              "@attributeId": "parentConfiguratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "productConfigInfo",
+              "text": "{\"isMobileSection\":true,\"isHideContinueBtn\":true,\"continueTextInEditMode\":\"Update Changes\",\"stepName\":\"Device\",\"stepIcon\":\"mobileIcon\",\"isExpandStep\":false,\"progressbarName\":\"Device\",\"stepState\":\"COMPLETED\",\"title\":\"<p>Device</p>\",\"position\":1}"
+            },
+            "customAttribute": {
+              "@attributeId": "productSpecId",
+              "text": "samsung-galaxy-flip4"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "SIMPLE_PRODUCT"
+            },
+            "customAttribute": {
+              "@attributeId": "upfrontCost",
+              "text": "1498.32"
+            },
+            "customAttribute": {
+              "@attributeId": "variantAttributes",
+              "text": "{\"Internal_Memory_BCC\":\"128GB\",\"Color_BCC\":\"Graphite\"}"
+            },
+            "customAttribute": {
+              "@attributeId": "marketplacerSellerId",
+              "text": "optus-consumer"
+            }
+          }
+        },
+        "productLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "Optus Plus Promo(V3 Subs)",
+          "taxBasis": "0.00",
+          "position": "8",
+          "productId": "36070374_36070584",
+          "productName": "Optus Plus Promo(V3 Subs)",
+          "quantity": {
+            "@unit": "",
+            "text": "1.0"
+          },
+          "taxRate": "0.0",
+          "shipmentId": "00095502",
+          "bundledProductLineitems": {
+            "bundledProductLineitem": {
+              "productId": "36070584",
+              "productName": "Optus Plus Promo(V3 Subs)",
+              "quantity": {
+                "@unit": "",
+                "text": "1.0"
+              },
+              "customAttributes": {
+                "customAttribute": {
+                  "@attributeId": "billingOfferId",
+                  "text": "36070584"
+                },
+                "customAttribute": {
+                  "@attributeId": "sfccProductType",
+                  "text": "BILLING_OFFER"
+                }
+              }
+            }
+          },
+          "gift": "false",
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "adjustedUpfrontCost",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferId",
+              "text": "36070584"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferPOId",
+              "text": "36069774"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferParentRelationId",
+              "text": "10529492"
+            },
+            "customAttribute": {
+              "@attributeId": "billingOfferRelationId",
+              "text": "36070714"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "creditCheckRequired",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "isBasePlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isSubsPlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "mecDiscountId",
+              "text": "36070584"
+            },
+            "customAttribute": {
+              "@attributeId": "monthlyTotalCostValue",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "negativeRC",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "productOfferId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "productSpecRelationId",
+              "text": "36067424"
+            },
+            "customAttribute": {
+              "@attributeId": "productType",
+              "text": "Mobile and Mobile Broadband"
+            },
+            "customAttribute": {
+              "@attributeId": "sfccProductType",
+              "text": "COMPONENT_BILLING_OFFER"
+            },
+            "customAttribute": {
+              "@attributeId": "upfrontCost",
+              "text": "0"
+            }
+          }
+        }
+      },
+      "shippingLineitems": {
+        "shippingLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "Shipping",
+          "taxBasis": "0.00",
+          "itemId": "STANDARD_SHIPPING",
+          "shipmentId": "00095502",
+          "taxRate": "0.0"
+        },
+        "shippingLineitem": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00",
+          "basePrice": "0.00",
+          "lineitemText": "Shipping",
+          "taxBasis": "0.00",
+          "itemId": "STANDARD_SHIPPING",
+          "shipmentId": "00095501",
+          "taxRate": "0.0"
+        }
+      },
+      "shipments": {
+        "shipment": {
+          "@shipmentId": "00095501",
+          "status": {
+            "shippingStatus": "NOT_SHIPPED"
+          },
+          "shippingMethod": "Deliver to customer",
+          "shippingAddress": {
+            "salutation": "Mrs",
+            "firstName": "APPROVE",
+            "lastName": "CBRT",
+            "address1": "1 LYON PARK Road",
+            "city": "Macquirne park",
+            "postalCode": "2113",
+            "stateCode": "NSW",
+            "countryCode": "AU",
+            "phone": "0481356181",
+            "customAttributes": {
+              "customAttribute": {
+                "@attributeId": "addressType",
+                "text": "CUSTOMER"
+              },
+              "customAttribute": {
+                "@attributeId": "addressUUID",
+                "text": "MSBseW9uIHBhcmsgcm9hZCwgbWFjcXVpcm5lIHBhcmsgbnN3IDIxMTM="
+              },
+              "customAttribute": {
+                "@attributeId": "formattedAddress",
+                "text": "1 LYON PARK Road, Macquirne park NSW 2113"
+              },
+              "customAttribute": {
+                "@attributeId": "manualAddressType",
+                "text": "HOUSE"
+              },
+              "customAttribute": {
+                "@attributeId": "streetName",
+                "text": "LYON PARK"
+              },
+              "customAttribute": {
+                "@attributeId": "streetNumber",
+                "text": "1"
+              },
+              "customAttribute": {
+                "@attributeId": "streetType",
+                "text": "RD"
+              }
+            }
+          },
+          "gift": "false",
+          "totals": {
+            "merchandizeTotal": {
+              "netPrice": "1362.11",
+              "tax": "136.21",
+              "grossPrice": "1498.32"
+            },
+            "adjustedMerchandizeTotal": {
+              "netPrice": "1362.11",
+              "tax": "136.21",
+              "grossPrice": "1498.32"
+            },
+            "shippingTotal": {
+              "netPrice": "0.00",
+              "tax": "0.00",
+              "grossPrice": "0.00"
+            },
+            "adjustedShippingTotal": {
+              "netPrice": "0.00",
+              "tax": "0.00",
+              "grossPrice": "0.00"
+            },
+            "shipmentTotal": {
+              "netPrice": "1362.11",
+              "tax": "136.21",
+              "grossPrice": "1498.32"
+            }
+          },
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "baseOrderType",
+              "text": "mobile"
+            },
+            "customAttribute": {
+              "@attributeId": "configStatus",
+              "text": "NEW"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "OutrightContext"
+            },
+            "customAttribute": {
+              "@attributeId": "createNewPaymentInstrument",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "enable3DS",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "featureFlags",
+              "text": "{\"forceExistingCustomerOffline\":false,\"sendSMBOrderOffline\":false,\"sendCreditDeclineToKlopp\":false,\"preferences\":null,\"enableRapidDelivery\":false}"
+            },
+            "customAttribute": {
+              "@attributeId": "flowType",
+              "text": "OFFLINE"
+            },
+            "customAttribute": {
+              "@attributeId": "hasShippable",
+              "text": "true"
+            },
+            "customAttribute": {
+              "@attributeId": "itemCategory",
+              "text": "Outright_Plan"
+            },
+            "customAttribute": {
+              "@attributeId": "itemCategoryType",
+              "text": "OUTRIGHT"
+            },
+            "customAttribute": {
+              "@attributeId": "originalFlowType",
+              "text": "OFFLINE"
+            },
+            "customAttribute": {
+              "@attributeId": "planBillingOfferId",
+              "text": "OutrightContext"
+            },
+            "customAttribute": {
+              "@attributeId": "referralUrl",
+              "text": "https://www-uat.optus.com.au/mobile/sfcc-phones/samsung/galaxy-flip4?contractLength=36"
+            }
+          }
+        },
+        "shipment": {
+          "@shipmentId": "00095502",
+          "status": {
+            "shippingStatus": "NOT_SHIPPED"
+          },
+          "shippingMethod": "Not Applicable",
+          "shippingAddress": {
+            "address1": "NA",
+            "city": "NA",
+            "postalCode": "NA",
+            "stateCode": "NA",
+            "countryCode": "AU",
+            "customAttributes": {
+              "customAttribute": {
+                "@attributeId": "addressType",
+                "text": "NOT APPLICABLE"
+              }
+            }
+          },
+          "gift": "false",
+          "totals": {
+            "merchandizeTotal": {
+              "netPrice": "89.00",
+              "tax": "0.00",
+              "grossPrice": "89.00"
+            },
+            "adjustedMerchandizeTotal": {
+              "netPrice": "69.00",
+              "tax": "0.00",
+              "grossPrice": "69.00"
+            },
+            "shippingTotal": {
+              "netPrice": "0.00",
+              "tax": "0.00",
+              "grossPrice": "0.00"
+            },
+            "adjustedShippingTotal": {
+              "netPrice": "0.00",
+              "tax": "0.00",
+              "grossPrice": "0.00"
+            },
+            "shipmentTotal": {
+              "netPrice": "69.00",
+              "tax": "0.00",
+              "grossPrice": "69.00"
+            }
+          },
+          "customAttributes": {
+            "customAttribute": {
+              "@attributeId": "baseOrderType",
+              "text": "mobile"
+            },
+            "customAttribute": {
+              "@attributeId": "configStatus",
+              "text": "COMPLETED"
+            },
+            "customAttribute": {
+              "@attributeId": "configuratorContextKey",
+              "text": "M36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "customerType",
+              "text": "CMR"
+            },
+            "customAttribute": {
+              "@attributeId": "deliveryDate",
+              "text": "2023-08-10"
+            },
+            "customAttribute": {
+              "@attributeId": "deviceContractDuration",
+              "text": "0"
+            },
+            "customAttribute": {
+              "@attributeId": "deviceId",
+              "text": "655"
+            },
+            "customAttribute": {
+              "@attributeId": "estimatedSpeedAuthority",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "existingCustomerCreditCheckServiceId",
+              "text": "mulesoft.authorize.credit.ec"
+            },
+            "customAttribute": {
+              "@attributeId": "featureFlags",
+              "text": "{\"forceExistingCustomerOffline\":false,\"sendSMBOrderOffline\":null,\"sendCreditDeclineToKlopp\":true,\"preferences\":\"{\\r\\n    \\\"cnumSearchAvailableRequestTemplate\\\": {\\r\\n        \\\"resourceSpec\\\": {\\r\\n            \\\"type\\\": {\\r\\n                \\\"name\\\": \\\"TN\\\"\\r\\n            },\\r\\n            \\\"subType\\\": \\\"MBL\\\",\\r\\n            \\\"serviceCategory\\\": \\\"GSMP\\\"\\r\\n        },\\r\\n        \\\"characteristics\\\": [\\r\\n            {\\r\\n                \\\"value\\\": \\\"MOBILE\\\",\\r\\n                \\\"name\\\": \\\"NE.SITE.SITEID\\\"\\r\\n            },\\r\\n            {\\r\\n                \\\"value\\\": \\\"1\\\",\\r\\n                \\\"name\\\": \\\"NE.TTA\\\"\\r\\n            }\\r\\n        ],\\r\\n        \\\"quantity\\\": \\\"$quantity\\\"\\r\\n    },\\r\\n    \\\"neonNumberAllocationRequestTemplate\\\": {\\r\\n        \\\"resources\\\": [\\r\\n            {\\r\\n                \\\"value\\\": \\\"$mobileNumber\\\",\\r\\n                \\\"characteristics\\\": [\\r\\n                    {\\r\\n                        \\\"characteristic\\\": {\\r\\n                            \\\"value\\\": \\\"$orderNumber\\\",\\r\\n                            \\\"name\\\": \\\"CUSTOMER.ORDERNUM\\\"\\r\\n                        }\\r\\n                    }\\r\\n                ],\\r\\n                \\\"resourceSpec\\\": {\\r\\n                    \\\"type\\\": {\\r\\n                        \\\"name\\\": \\\"TN\\\"\\r\\n                    },\\r\\n                    \\\"subtype\\\": \\\"MBL\\\"\\r\\n                },\\r\\n                \\\"status\\\": \\\"DISPLAYED\\\"\\r\\n            }\\r\\n        ],\\r\\n        \\\"newStatus\\\": \\\"RESERVED\\\"\\r\\n    }\\r\\n}\",\"enableRapidDelivery\":null}"
+            },
+            "customAttribute": {
+              "@attributeId": "flowType",
+              "text": "ONLINE"
+            },
+            "customAttribute": {
+              "@attributeId": "flowTypeChangeReason",
+              "text": "CREDIT CHECK IS NOT APPROVED OR REFERRED"
+            },
+            "customAttribute": {
+              "@attributeId": "formattedServiceRequestDate",
+              "text": "11/08/2023 24:54:51"
+            },
+            "customAttribute": {
+              "@attributeId": "hasShippable",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isFetchNotIncludedInNewPlan",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "isNewMobileNumberChanged",
+              "text": "false"
+            },
+            "customAttribute": {
+              "@attributeId": "itemCategory",
+              "text": "Mobile_Subscription SIM with Device"
+            },
+            "customAttribute": {
+              "@attributeId": "itemCategoryType",
+              "text": "MOBILE"
+            },
+            "customAttribute": {
+              "@attributeId": "newCustomerCreditCheckServiceId",
+              "text": "mulesoft.authorize.credit.nc"
+            },
+            "customAttribute": {
+              "@attributeId": "numberAllocationStatus",
+              "text": "ALLOCATED"
+            },
+            "customAttribute": {
+              "@attributeId": "offerId",
+              "text": "36070374"
+            },
+            "customAttribute": {
+              "@attributeId": "offlineReasons",
+              "value": "CREDIT CHECK IS NOT APPROVED OR REFERRED"
+            },
+            "customAttribute": {
+              "@attributeId": "originalFlowType",
+              "text": "ONLINE"
+            },
+            "customAttribute": {
+              "@attributeId": "planBillingOfferId",
+              "text": "36070384"
+            },
+            "customAttribute": {
+              "@attributeId": "planContractDuration",
+              "text": "1"
+            },
+            "customAttribute": {
+              "@attributeId": "referralUrl",
+              "text": "https://www-uat.optus.com.au/mobile/sfcc-phones/samsung/galaxy-flip4?contractLength=36"
+            },
+            "customAttribute": {
+              "@attributeId": "selectedSimType",
+              "text": "ESIM"
+            },
+            "customAttribute": {
+              "@attributeId": "serviceKeepMobileNumber",
+              "text": "NO"
+            },
+            "customAttribute": {
+              "@attributeId": "serviceMobileNumber",
+              "text": "0464 347 009"
+            },
+            "customAttribute": {
+              "@attributeId": "serviceRequestDate",
+              "text": "2023-08-10T14:54:51.000+0000"
+            }
+          }
+        }
+      },
+      "totals": {
+        "merchandizeTotal": {
+          "netPrice": "1451.11",
+          "tax": "136.21",
+          "grossPrice": "1587.32"
+        },
+        "adjustedMerchandizeTotal": {
+          "netPrice": "1431.11",
+          "tax": "136.21",
+          "grossPrice": "1567.32"
+        },
+        "shippingTotal": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00"
+        },
+        "adjustedShippingTotal": {
+          "netPrice": "0.00",
+          "tax": "0.00",
+          "grossPrice": "0.00"
+        },
+        "orderTotal": {
+          "netPrice": "1431.11",
+          "tax": "136.21",
+          "grossPrice": "1567.32"
+        }
+      },
+      "payments": {
+        "payment": {
+          "creditCard": {
+            "cardType": "VISA",
+            "cardNumber": "XXXX-XXXX-XXXX-4242",
+            "cardHolder": "APPROVE CBRT",
+            "cardToken": "42VUU0KG0RLX4242",
+            "expirationMonth": "10",
+            "expirationYear": "2027",
+            "customAttributes": {
+              "customAttribute": {
+                "@attributeId": "itemCategory",
+                "text": "Outright_Plan"
+              },
+              "customAttribute": {
+                "@attributeId": "receipt",
+                "text": "28327756"
+              },
+              "customAttribute": {
+                "@attributeId": "secureTransactionToken",
+                "text": "stt_666b2b49-6454-410a-97fa-2eb4f9321a74"
+              },
+              "customAttribute": {
+                "@attributeId": "settlementDate",
+                "text": "11-Aug-2023"
+              }
+            }
+          },
+          "amount": "1498.32",
+          "processorId": "BAMBORA_CREDIT",
+          "transactionId": "28327766"
+        }
+      },
+      "remoteHost": "203.13.128.104",
+      "customAttributes": {
+        "customAttribute": {
+          "@attributeId": "BYODSelected",
+          "text": "false"
+        },
+        "customAttribute": {
+          "@attributeId": "HasACapturedTokenInET",
+          "text": "true"
+        },
+        "customAttribute": {
+          "@attributeId": "IdCheckStatus",
+          "text": "VERIFIED"
+        },
+        "customAttribute": {
+          "@attributeId": "SFCCCustomerId",
+          "text": "d01981f48a7c23e3076c69314b"
+        },
+        "customAttribute": {
+          "@attributeId": "UpfrontPaymentRequired",
+          "text": "true"
+        },
+        "customAttribute": {
+          "@attributeId": "aemHandoverPayload",
+          "text": "{\"baseDetails-M36070384\":{\"product\":[{\"itemId\":\"36070384\",\"itemCategory\":\"Mobile_Subscription SIM with Device\",\"itemContractLength\":1,\"devices\":[{\"deviceId\":\"653\",\"potMecId\":\"36049054\",\"deviceName\":\"Galaxy Z Flip4\",\"deviceImage\":\"/content/dam/optus/images/shop/mobile/phones/samsung/samsung-galaxy-flip-4/product-tiles/samsung-galaxy-flip4-bora-purple-listing.jpg/renditions/version-1686131869626/original.jpeg\",\"deviceContractLength\":\"outright\",\"deviceCategory\":\"Postpaid Mobile Phones\",\"variationValues\":{\"Color_BCC\":\"Bora Purple\",\"Internal_Memory_BCC\":\"128GB\"},\"devicePrice\":\"1498.32\"}]}],\"planDetails\":{\"isOutrightSFCCJourney\":true,\"availableSimTypes\":null,\"simType\":null,\"customerType\":\"CMR\",\"customerIntent\":null,\"timestamp\":\"2023-08-10T14:22:59.845Z\",\"referralUrl\":\"https://www-uat.optus.com.au/mobile/sfcc-phones/samsung/galaxy-flip4?contractLength=36\",\"orderType\":\"mobile\"}},\"M36070384\":\"baseDetails-M36070384\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "baseOrderType",
+          "text": "mobile"
+        },
+        "customAttribute": {
+          "@attributeId": "calculatedTotals",
+          "text": "{\"priceGroup\":{\"M36070384\":{\"PLAN_ID\":\"36070384\",\"DEVICE_ID\":\"655\",\"DEVICE_CONTRACT_DURATION\":0,\"PLAN_CONTRACT_DURATION\":1,\"UPFRONT_COST\":\"$1,498.32\",\"MONTHLY_COST\":\"$69\",\"ADJUSTED_MONTHLY_COST\":\"$69.00\",\"ADJUSTED_MONTHLY_COST_VALUE\":69,\"UPFRONT_COST_VALUE\":1498.32,\"MONTHLY_COST_VALUE\":69,\"TOTAL_MINIMUM_COST\":\"$69.00\",\"TOTAL_MINIMUM_COST_VALUE\":69,\"STARTUP_FEE\":\"$0.00\",\"STARTUP_FEE_VALUE\":0,\"INSTALLATION_COST\":\"$0.00\",\"INSTALLATION_COST_VALUE\":0,\"DELIVERY_COST\":\"$0.00\",\"DELIVERY_COST_VALUE\":0,\"formattedLegalText\":\"<p>Min. total cost of $69  includes your plan fees and your chosen add-ons for their minimum term. Plan price, inclusions and add-ons may change if your plan changes.</p>\\r\\n<p><strong>$69/month for 12 months offer</strong>\\r\\nEnds 27/08/23. Plan fee $69/month for the first 12 months then increases from month 13 to $89/mth or as otherwise notified.</p>\",\"formattedLegalTextBYOD\":\"\",\"productUUID\":\"af583c619742a04f5166499029\"}},\"OUTRIGHT_COST\":\"$1,498.32\",\"UPFRONT_COST\":\"$1,498.32\",\"MONTHLY_COST\":\"$69\",\"TOTAL_MINIMUM_COST\":\"$69.00\",\"UPFRONT_COST_VALUE\":1498.32,\"MONTHLY_COST_VALUE\":69,\"TOTAL_MINIMUM_COST_VALUE\":69,\"TOTAL_ADJUSTED_MONTHLY_COST\":69,\"formattedLegalText\":\"<p>Min. total cost of $69  includes your plan fees and your chosen add-ons for their minimum term. Plan price, inclusions and add-ons may change if your plan changes.</p>\\r\\n<p><strong>$69/month for 12 months offer</strong>\\r\\nEnds 27/08/23. Plan fee $69/month for the first 12 months then increases from month 13 to $89/mth or as otherwise notified.</p>\",\"formattedLegalTextBYOD\":\"\",\"productUUID\":\"af583c619742a04f5166499029\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "cardColour",
+          "text": "G"
+        },
+        "customAttribute": {
+          "@attributeId": "cardExpiry",
+          "text": "Mon Apr 30 00:00:00 GMT 2029"
+        },
+        "customAttribute": {
+          "@attributeId": "checkoutFlow",
+          "text": "OutrightPlanFlow"
+        },
+        "customAttribute": {
+          "@attributeId": "checkoutFlowConfig",
+          "text": "{\"personalDetails\":{\"stepId\":\"personalDetails\",\"checkoutSubSteps\":[{\"stepId\":\"personalDetailsProfile\",\"completed\":true},{\"stepId\":\"idCheck\",\"completed\":true},{\"stepId\":\"idCheckSecondary\",\"completed\":true}],\"completed\":true},\"mobileNumber\":{\"stepId\":\"mobileNumber\",\"checkoutSubSteps\":[{\"stepId\":\"mobileNumberSetup\",\"completed\":true},{\"stepId\":\"mobileNumberReview\",\"completed\":true}],\"completed\":true},\"deliveryAddress\":{\"stepId\":\"deliveryAddress\",\"checkoutSubSteps\":[],\"completed\":true},\"paymentCredit\":{\"stepId\":\"paymentCredit\",\"checkoutSubSteps\":[],\"completed\":true},\"checkoutReview\":{\"stepId\":\"checkoutReview\",\"checkoutSubSteps\":[],\"completed\":false}}"
+        },
+        "customAttribute": {
+          "@attributeId": "configStatus",
+          "text": "NEW"
+        },
+        "customAttribute": {
+          "@attributeId": "configuratorContextKey",
+          "text": "OutrightContext"
+        },
+        "customAttribute": {
+          "@attributeId": "countryOfIssue",
+          "text": "AUS"
+        },
+        "customAttribute": {
+          "@attributeId": "createNewBillingAccount",
+          "text": "true"
+        },
+        "customAttribute": {
+          "@attributeId": "creditCheckOrderNumber",
+          "text": "UAT500016201"
+        },
+        "customAttribute": {
+          "@attributeId": "crmCheckStatus",
+          "text": "CRM_CONTACT_NOTEXIST"
+        },
+        "customAttribute": {
+          "@attributeId": "decisionCategory",
+          "text": "NOT_PERFORMED"
+        },
+        "customAttribute": {
+          "@attributeId": "deliveryDate",
+          "text": "2023-08-11"
+        },
+        "customAttribute": {
+          "@attributeId": "deviceIdInfo",
+          "text": "f6a0d91ade10411ca00e924f8b15da1a"
+        },
+        "customAttribute": {
+          "@attributeId": "digitalIdInfo",
+          "text": "4d7de5b33018496aa95eb3a81ed84852"
+        },
+        "customAttribute": {
+          "@attributeId": "flowType",
+          "text": "ONLINE"
+        },
+        "customAttribute": {
+          "@attributeId": "formattedCardExpiry",
+          "text": "30-04-2029"
+        },
+        "customAttribute": {
+          "@attributeId": "formattedServiceRequestDate",
+          "text": "11/08/2023 24:54:52"
+        },
+        "customAttribute": {
+          "@attributeId": "hasOutrightDevice",
+          "text": "true"
+        },
+        "customAttribute": {
+          "@attributeId": "individualReferenceNumber",
+          "text": "4"
+        },
+        "customAttribute": {
+          "@attributeId": "ipAddress",
+          "text": "203.13.128.104"
+        },
+        "customAttribute": {
+          "@attributeId": "ipGeo",
+          "text": "AU"
+        },
+        "customAttribute": {
+          "@attributeId": "ipRegion",
+          "text": "new south wales"
+        },
+        "customAttribute": {
+          "@attributeId": "isCardColourFull",
+          "text": "false"
+        },
+        "customAttribute": {
+          "@attributeId": "isRelocationOrder",
+          "text": "false"
+        },
+        "customAttribute": {
+          "@attributeId": "isUniCart",
+          "text": "true"
+        },
+        "customAttribute": {
+          "@attributeId": "itemCategories",
+          "value": "Outright_Plan",
+          "value": "Mobile_Subscription SIM with Device"
+        },
+        "customAttribute": {
+          "@attributeId": "itemCategory",
+          "text": "Outright_Plan"
+        },
+        "customAttribute": {
+          "@attributeId": "itemCategoryType",
+          "text": "OUTRIGHT"
+        },
+        "customAttribute": {
+          "@attributeId": "itemCategoryTypes",
+          "value": "OUTRIGHT",
+          "value": "MOBILE"
+        },
+        "customAttribute": {
+          "@attributeId": "medicareCardNumber",
+          "text": "2890834778"
+        },
+        "customAttribute": {
+          "@attributeId": "medicareFirstName",
+          "text": "APPROVE"
+        },
+        "customAttribute": {
+          "@attributeId": "medicareFullName",
+          "text": "APPROVE C CBRT"
+        },
+        "customAttribute": {
+          "@attributeId": "medicareLastName",
+          "text": "CBRT"
+        },
+        "customAttribute": {
+          "@attributeId": "medicareMiddleInitial",
+          "text": "C"
+        },
+        "customAttribute": {
+          "@attributeId": "minimumTotalCostValue",
+          "text": "69"
+        },
+        "customAttribute": {
+          "@attributeId": "newPaymentSetupStatus",
+          "text": "SUCCESS"
+        },
+        "customAttribute": {
+          "@attributeId": "orderCreationDate",
+          "text": "11/08/2023 24:54:51"
+        },
+        "customAttribute": {
+          "@attributeId": "originalFlowType",
+          "text": "ONLINE"
+        },
+        "customAttribute": {
+          "@attributeId": "selectedCustomerID",
+          "text": "602095143"
+        },
+        "customAttribute": {
+          "@attributeId": "outrightDeviceCount",
+          "text": "1"
+        },
+        "customAttribute": {
+          "@attributeId": "outrightDeviceTotal",
+          "text": "{\"outrightCostValue\":1498.32,\"outrightCost\":\"$1,498.32\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "pageCacheKeys",
+          "text": "{\"M36070384\":\"65a012e528680996c20f7cb3fb539c82eed91f7f\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "passportAnyName",
+          "text": "CCSTUB"
+        },
+        "customAttribute": {
+          "@attributeId": "passportExpiryDate",
+          "text": "2030-04-30"
+        },
+        "customAttribute": {
+          "@attributeId": "passportFirstName",
+          "text": "APPROVE"
+        },
+        "customAttribute": {
+          "@attributeId": "passportLastName",
+          "text": "CBRT"
+        },
+        "customAttribute": {
+          "@attributeId": "passportNumber",
+          "text": "Z456564"
+        },
+        "customAttribute": {
+          "@attributeId": "planBillingOfferId",
+          "text": "OutrightContext"
+        },
+        "customAttribute": {
+          "@attributeId": "primaryIDCheckResponse",
+          "text": "{\"transactionStatusCode\":\"SUCCESS\",\"serviceVersion\":\"1.0\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "primaryIDSource",
+          "text": "MANUAL"
+        },
+        "customAttribute": {
+          "@attributeId": "primaryIDType",
+          "text": "AU_PASSPORT"
+        },
+        "customAttribute": {
+          "@attributeId": "profileDateOfBirth",
+          "text": "1988-01-10"
+        },
+        "customAttribute": {
+          "@attributeId": "profileFirstName",
+          "text": "APPROVE"
+        },
+        "customAttribute": {
+          "@attributeId": "profileLastName",
+          "text": "CBRT"
+        },
+        "customAttribute": {
+          "@attributeId": "profileMobileNumber",
+          "text": "0481356181"
+        },
+        "customAttribute": {
+          "@attributeId": "profilePrefContactMethod",
+          "text": "sms"
+        },
+        "customAttribute": {
+          "@attributeId": "profileTitle",
+          "text": "Mrs"
+        },
+        "customAttribute": {
+          "@attributeId": "profiledDomain",
+          "text": "uat-shop.optus.com.au"
+        },
+        "customAttribute": {
+          "@attributeId": "reasonCode",
+          "text": "Pass:307756065:"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialAddressLine1",
+          "text": "1 LYON PARK Road"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialAddressType",
+          "text": "HOUSE"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialAddressUUID",
+          "text": "MSBseW9uIHBhcmsgcm9hZCwgbWFjcXVpcm5lIHBhcmsgbnN3IDIxMTM="
+        },
+        "customAttribute": {
+          "@attributeId": "residentialBuildingNumber",
+          "text": "1"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialCity",
+          "text": "Macquirne park"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialCountry",
+          "text": "AUS"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialPostalCode",
+          "text": "2113"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialStateCode",
+          "text": "NSW"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialStreetName",
+          "text": "LYON PARK"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialStreetNumber",
+          "text": "1"
+        },
+        "customAttribute": {
+          "@attributeId": "residentialStreetType",
+          "text": "RD"
+        },
+        "customAttribute": {
+          "@attributeId": "retryCountIDCheckSecondary",
+          "text": "1"
+        },
+        "customAttribute": {
+          "@attributeId": "reviewStatus",
+          "text": "pass"
+        },
+        "customAttribute": {
+          "@attributeId": "riskRating",
+          "text": "neutral"
+        },
+        "customAttribute": {
+          "@attributeId": "sales-type",
+          "text": "outright-plan"
+        },
+        "customAttribute": {
+          "@attributeId": "secondaryIDCheckResponse",
+          "text": "{\n  \"success\": false,\n  \"apiName\": \"optus-sdp-ce-sys-api\",\n  \"version\": \"1.0.44\",\n  \"correlationId\": \"fed316e0-378c-11ee-990b-06cab70d2684\",\n  \"optus_bet_id\": \"ab6AuxcFqkgqFIrT4xb8AWAhGD\",\n  \"timestamp\": \"2023-08-10T14:48:42.122Z\",\n  \"error\": [\n    {\n      \"code\": \"WSC:SOAP_FAULT\",\n      \"message\": \"SDP-OPTUS-DYNAMIC-FORMS-PROVIDER-ENABLER.REGISTERVERIFICATION.IN_PROGRESS\",\n      \"error_source_system\": \"SDP CE API\",\n      \"source_system_error_code\": \"WSC:SOAP_FAULT\",\n      \"source_system_error_message\": \"IN_PROGRESS\",\n      \"payload_metadata\": {\n        \"mule_correlation_id\": \"fed316e0-378c-11ee-990b-06cab70d2684\",\n        \"event\": \"uat5-sys-sdp-ce-sys-api\",\n        \"flow_location\": \"postVerifyIndividualIdentificationSubFlow\",\n        \"event_attributes\": [\n          {\n            \"key\": \"statusCode\",\n            \"value\": \"SDP_UnknownProviderError\"\n          },\n          {\n            \"key\": \"consumerReferenceID\",\n            \"value\": \"ab6AuxcFqkgqFIrT4xb8AWAhGD\"\n          },\n          {\n            \"key\": \"transactionID\",\n            \"value\": \"8961570f-67ba-493e-887f-e50da4111347\"\n          },\n          {\n            \"key\": \"statusTime\",\n            \"value\": \"2023-08-11T00:48:42\"\n          },\n          {\n            \"key\": \"stepStatusTime\",\n            \"value\": \"2023-08-11T00:48:42\"\n          },\n          {\n            \"key\": \"processStep\",\n            \"value\": \"sdp-authorize-credit-service-verifyIndividualIdentification-route\"\n          },\n          {\n            \"key\": \"severity\",\n            \"value\": \"ERROR\"\n          },\n          {\n            \"key\": \"statusCode\",\n            \"value\": \"SDP_UnknownProviderError\"\n          },\n          {\n            \"key\": \"providerFault\",\n            \"value\": \"IN_PROGRESS\"\n          },\n          {\n            \"key\": \"traceData\",\n            \"value\": \"IN_PROGRESS\"\n          }\n        ]\n      }\n    }\n  ]\n}"
+        },
+        "customAttribute": {
+          "@attributeId": "secondaryIDType",
+          "text": "MEDICARE"
+        },
+        "customAttribute": {
+          "@attributeId": "secondaryIdCheckStatus",
+          "text": "VERIFICATION_FAILED"
+        },
+        "customAttribute": {
+          "@attributeId": "serviceChangeCost",
+          "text": "0"
+        },
+        "customAttribute": {
+          "@attributeId": "serviceRequestDate",
+          "text": "2023-08-10T14:54:52.000+0000"
+        },
+        "customAttribute": {
+          "@attributeId": "sessionId",
+          "text": "ercvzckbbgyf6c0qtrxre9oljh4zasyo7svsbbaryns"
+        },
+        "customAttribute": {
+          "@attributeId": "sfmcExportStatus",
+          "text": "EXPORTED"
+        },
+        "customAttribute": {
+          "@attributeId": "subscriptionOrderType",
+          "text": "Simple"
+        },
+        "customAttribute": {
+          "@attributeId": "threatMetrixPost3DSResponse",
+          "text": "{\"account_address_city\":\"macquirne park\",\"account_address_country\":\"au\",\"account_address_first_seen\":\"2023-08-10\",\"account_address_last_event\":\"2023-08-10\",\"account_address_last_update\":\"2023-08-10\",\"account_address_result\":\"success\",\"account_address_score\":\"0\",\"account_address_state\":\"nsw\",\"account_address_street1\":\"1 lyon park road\",\"account_address_worst_score\":\"0\",\"account_address_zip\":\"2113\",\"account_address_zip_latitude\":\"-33.7931\",\"account_address_zip_longitude\":\"151.1281\",\"account_address_zip_normalized\":\"2113\",\"account_date_of_birth\":\"19880110\",\"account_email\":\"pooja.aug11optus@hotmail.com\",\"account_email_activities\":\"_CHALLENGE_PASSED\",\"account_email_attributes\":\"_CHALLENGE_PASSED\",\"account_email_contains_dot\":\"yes\",\"account_email_domain\":\"hotmail.com\",\"account_email_first_seen\":\"2023-08-10\",\"account_email_last_event\":\"2023-08-10\",\"account_email_last_update\":\"2023-08-10\",\"account_email_result\":\"success\",\"account_email_score\":\"0\",\"account_email_worst_score\":\"0\",\"account_existing_customer\":\"false\",\"account_login\":\"pooja.aug11optus@hotmail.com\",\"account_login_first_seen\":\"2023-08-10\",\"account_login_last_event\":\"2023-08-10\",\"account_login_last_update\":\"2023-08-10\",\"account_login_result\":\"success\",\"account_login_score\":\"0\",\"account_login_worst_score\":\"0\",\"account_name\":\"approve cbrt\",\"account_name_activities\":\"_TRUSTED_PROB\",\"account_name_attributes\":\"_TRUSTED_PROB\",\"account_name_first_seen\":\"2021-10-22\",\"account_name_last_event\":\"2023-08-10\",\"account_name_last_update\":\"2023-08-10\",\"account_name_result\":\"success\",\"account_name_score\":\"0\",\"account_name_worst_score\":\"0\",\"account_passport_country\":\"au\",\"account_passport_expiration_date\":\"2030-04-30\",\"account_telephone\":\"0481356181\",\"account_telephone_activities\":\"_TRUSTED_PROB\",\"account_telephone_attributes\":\"_TRUSTED_PROB\",\"account_telephone_first_seen\":\"2023-05-01\",\"account_telephone_is_possible\":\"no\",\"account_telephone_is_valid\":\"no\",\"account_telephone_last_event\":\"2023-08-10\",\"account_telephone_last_update\":\"2023-08-10\",\"account_telephone_result\":\"success\",\"account_telephone_score\":\"0\",\"account_telephone_type\":\"UNKNOWN\",\"account_telephone_worst_score\":\"0\",\"agent_publickey_hash_type\":\"invalid\",\"agent_type\":\"browser_computer\",\"api_call_datetime\":\"2023-08-10 14:55:50.269\",\"api_caller_ip\":\"34.195.33.38\",\"api_type\":\"session-query\",\"api_version\":\"14.3.1\",\"application_name\":\"windows\",\"associated_event.browser_string_hash\":\"15c2f6f9416d00cec8b4f729460293c0\",\"associated_event.datetime\":\"2023-08-10 14:54:52\",\"associated_event.device_id\":\"f6a0d91ade10411ca00e924f8b15da1a\",\"associated_event.digital_id\":\"4d7de5b33018496aa95eb3a81ed84852\",\"associated_event.digital_id_confidence\":\"3720\",\"associated_event.digital_id_trust_score\":\"99.91\",\"associated_event.digital_id_trust_score_rating\":\"very_high\",\"associated_event.dns_ip\":\"119.225.142.246\",\"associated_event.dns_ip_city\":\"macquarie centre\",\"associated_event.dns_ip_connection_type\":\"tx\",\"associated_event.dns_ip_country\":\"australia\",\"associated_event.dns_ip_geo\":\"AU\",\"associated_event.dns_ip_hosting_facility\":\"false\",\"associated_event.dns_ip_isp\":\"singtel optus pty ltd\",\"associated_event.dns_ip_latitude\":\"-33.77692\",\"associated_event.dns_ip_line_speed\":\"high\",\"associated_event.dns_ip_longitude\":\"151.12102\",\"associated_event.dns_ip_organization\":\"optus macquarie park (ocs)\",\"associated_event.dns_ip_organization_type\":\"Internet Service Provider\",\"associated_event.dns_ip_postal_code\":\"2113\",\"associated_event.dns_ip_region\":\"new south wales\",\"associated_event.dns_ip_region_iso_code\":\"nsw\",\"associated_event.dns_ip_routing_type\":\"fixed\",\"associated_event.fuzzy_device_id\":\"5ba6d66dcded4bdaa6571cffc5e0f57a\",\"associated_event.fuzzy_device_id_confidence\":\"99.21\",\"associated_event.input_ip_address\":\"203.13.128.104\",\"associated_event.input_ip_city\":\"epping\",\"associated_event.input_ip_connection_type\":\"tx\",\"associated_event.input_ip_geo\":\"AU\",\"associated_event.input_ip_hosting_facility\":\"false\",\"associated_event.input_ip_isp\":\"singtel optus pty ltd\",\"associated_event.input_ip_latitude\":\"-33.77270\",\"associated_event.input_ip_line_speed\":\"high\",\"associated_event.input_ip_longitude\":\"151.08180\",\"associated_event.input_ip_organization\":\"singtel optus pty ltd\",\"associated_event.input_ip_organization_type\":\"Telecommunications\",\"associated_event.input_ip_postal_code\":\"1710\",\"associated_event.input_ip_region\":\"new south wales\",\"associated_event.input_ip_region_iso_code\":\"nsw\",\"associated_event.js_browser\":\"Chrome 115\",\"associated_event.js_browser_string_hash\":\"15c2f6f9416d00cec8b4f729460293c0\",\"associated_event.js_fonts_hash\":\"73950fb87a59690221a689e00e8ec2b1\",\"associated_event.js_os\":\"Windows 10\",\"associated_event.os\":\"Windows\",\"associated_event.private_browsing\":\"no\",\"associated_event.profiled_domain\":\"uat-shop.optus.com.au\",\"associated_event.profiled_url\":\"https://uat-shop.optus.com.au/secure-checkout?5f5ea0168c29d1e0cdf142a4941905e4\",\"associated_event.review_status\":\"challenge\",\"associated_event.true_ip\":\"203.13.128.104\",\"associated_event.true_ip_city\":\"epping\",\"associated_event.true_ip_connection_type\":\"tx\",\"associated_event.true_ip_geo\":\"AU\",\"associated_event.true_ip_home\":\"no\",\"associated_event.true_ip_hosting_facility\":\"false\",\"associated_event.true_ip_isp\":\"singtel optus pty ltd\",\"associated_event.true_ip_latitude\":\"-33.77270\",\"associated_event.true_ip_line_speed\":\"high\",\"associated_event.true_ip_longitude\":\"151.08180\",\"associated_event.true_ip_organization\":\"singtel optus pty ltd\",\"associated_event.true_ip_organization_type\":\"Telecommunications\",\"associated_event.true_ip_postal_code\":\"1710\",\"associated_event.true_ip_region\":\"new south wales\",\"associated_event.true_ip_region_iso_code\":\"nsw\",\"associated_event.true_ip_routing_type\":\"fixed\",\"associated_event_request_id\":\"a6bbc2f3-2923-4a6b-b9b7-df316bee475c\",\"audio_context\":\"cefbae478677f02fbbd973617692dbd9c6450bf5641669ebef1595ab745a2117\",\"auth_appname\":\"NV\",\"battery_status\":\"{\\\"level\\\":0.58,\\\"status\\\":\\\"charging\\\"}\",\"bb_assessment\":\"198.13\",\"bb_assessment_rating\":\"low\",\"bb_bot_rating\":\"low\",\"bb_bot_score\":\"500.00\",\"bb_fraud_rating\":\"neutral\",\"bb_fraud_score\":\"500.00\",\"browser\":\"Chrome\",\"browser_language\":\"en-GB,en;q\",\"browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36\",\"browser_string_hash\":\"15c2f6f9416d00cec8b4f729460293c0\",\"browser_version\":\"115\",\"canvas_hash\":\"a9130b4812afe4aac18330bb0da43630d42d3080\",\"cc_number_hash\":\"93eefb9820cab0c136d6c358f66eac0fef61043b5cc6c13d6d5ee8558c368657\",\"cc_number_hash_activities\":\"_TRUSTED_PROB\",\"cc_number_hash_attributes\":\"_TRUSTED_PROB\",\"cc_number_hash_first_seen\":\"2021-08-30\",\"cc_number_hash_last_event\":\"2023-08-10\",\"cc_number_hash_last_update\":\"2023-08-10\",\"cc_number_hash_result\":\"success\",\"cc_number_hash_score\":\"0\",\"cc_number_hash_worst_score\":\"0\",\"champion_request_duration\":\"27\",\"charset\":\"utf-8\",\"condition_attrib_12\":\"australian_passport\",\"condition_attrib_18\":\"offline\",\"condition_attrib_19\":\"na\",\"condition_attrib_20\":\"true\",\"condition_attrib_5\":\"browser_computer\",\"cpu_clock\":\"8\",\"cpu_cores\":\"4\",\"css_image_loaded\":\"yes\",\"custom_count_1\":\"1498.32\",\"custom_count_10\":\"0\",\"custom_count_2\":\"0\",\"custom_count_4\":\"0\",\"custom_match_1\":\"51114f8e30a5fb398467155f88af3c0e\",\"custom_match_3\":\"794b8d562e142e48b28540822885745f\",\"custom_match_5\":\"aa7b09af70b64c2c5aaee66193f9d81b\",\"custom_match_6\":\"9ae3f623e79561fc688f1655668b5e2f\",\"custom_match_8\":\"cb56ee2940591b2e7b2bcba339f0670e\",\"customer_event_type\":\"post_3ds\",\"device_activities\":\"_CHALLENGE_PASSED\",\"device_attributes\":\"_CHALLENGE_PASSED\",\"device_first_seen\":\"2023-08-10\",\"device_health_reasons\":\"webrtc_internal_mdns\",\"device_id\":\"f6a0d91ade10411ca00e924f8b15da1a\",\"device_id_confidence\":\"100\",\"device_last_event\":\"2023-08-10\",\"device_last_update\":\"2023-08-10\",\"device_match_result\":\"success\",\"device_memory\":\"8\",\"device_result\":\"success\",\"device_score\":\"0\",\"device_worst_score\":\"0\",\"digital_id\":\"4d7de5b33018496aa95eb3a81ed84852\",\"digital_id_activities\":\"_TRUSTED_PROB\",\"digital_id_attributes\":\"_TRUSTED_PROB\",\"digital_id_confidence\":\"8343\",\"digital_id_confidence_rating\":\"high\",\"digital_id_first_seen\":\"2017-09-04\",\"digital_id_last_event\":\"2023-08-10\",\"digital_id_last_update\":\"2023-08-10\",\"digital_id_result\":\"success\",\"digital_id_trust_score\":\"99.45\",\"digital_id_trust_score_rating\":\"very_high\",\"digital_id_trust_score_reason_code\":\"_ts_did_black\",\"dns_ip\":\"119.225.142.246\",\"dns_ip_activities\":\"_TRUSTED_PROB\",\"dns_ip_assert_history\":\"NEGATIVE_HISTORY\",\"dns_ip_attributes\":\"_TRUSTED_PROB\",\"dns_ip_city\":\"macquarie centre\",\"dns_ip_connection_type\":\"tx\",\"dns_ip_geo\":\"AU\",\"dns_ip_home\":\"no\",\"dns_ip_isp\":\"singtel optus pty ltd\",\"dns_ip_latitude\":\"-33.77692\",\"dns_ip_line_speed\":\"high\",\"dns_ip_longitude\":\"151.12102\",\"dns_ip_organization\":\"optus macquarie park (ocs)\",\"dns_ip_postal_code\":\"2113\",\"dns_ip_region\":\"new south wales\",\"dns_ip_region_iso_code\":\"nsw\",\"dns_ip_routing_type\":\"fixed\",\"enabled_ck\":\"yes\",\"enabled_fl\":\"no\",\"enabled_im\":\"yes\",\"enabled_js\":\"yes\",\"enabled_services\":\"TMX100\",\"enhanced_headers_name_value_hash\":\"14bc30fe0e506cbc3919b7b76ff9aecc\",\"etag_guid\":\"635c38add49e4bba807a11baa7a1e0cc\",\"event_datetime\":\"2023-08-10 14:55:50.269\",\"event_type\":\"payment\",\"fuzzy_device_activities\":\"_TRUSTED_PROB\",\"fuzzy_device_attributes\":\"_TRUSTED_PROB\",\"fuzzy_device_first_seen\":\"2023-07-26\",\"fuzzy_device_id\":\"5ba6d66dcded4bdaa6571cffc5e0f57a\",\"fuzzy_device_id_confidence\":\"99.21\",\"fuzzy_device_last_event\":\"2023-08-10\",\"fuzzy_device_last_update\":\"2023-08-10\",\"fuzzy_device_match_result\":\"success\",\"fuzzy_device_result\":\"success\",\"fuzzy_device_score\":\"0\",\"fuzzy_device_worst_score\":\"0\",\"gpu_name\":\"ANGLE (Intel, Intel(R) HD Graphics 520 Direct3D11 vs_5_0 ps_5_0, D3D11)\",\"gpu_vendor\":\"Google Inc. (Intel)\",\"headers_name_value_hash\":\"fc2fa1e50b9d8459221df460e8c520ff\",\"headers_order_string_hash\":\"c55b30b0998b0a43b437096703d6a805\",\"http_os_sig_adv_mss\":\"1448\",\"http_os_sig_rcv_mss\":\"1348\",\"http_os_sig_snd_mss\":\"1448\",\"http_os_signature\":\"Proxy\",\"http_referer\":\"9kO4J19JDbNH6d1oHM0a4!JAFGcOkK68\",\"http_referer_domain\":\"uat-shop.optus.com.au\",\"http_referer_url\":\"https://uat-shop.optus.com.au/secure-checkout-start?7cf73f7ba29f25a9674a3f100565d2fc\",\"image_loaded\":\"yes\",\"input_ip_activities\":\"_TRUSTED_PROB\",\"input_ip_address\":\"203.13.128.104\",\"input_ip_assert_history\":\"NEGATIVE_HISTORY\",\"input_ip_attributes\":\"_TRUSTED_PROB\",\"input_ip_city\":\"epping\",\"input_ip_connection_type\":\"tx\",\"input_ip_first_seen\":\"2010-07-21\",\"input_ip_geo\":\"AU\",\"input_ip_home\":\"no\",\"input_ip_isp\":\"singtel optus pty ltd\",\"input_ip_last_event\":\"2023-08-10\",\"input_ip_last_update\":\"2023-08-10\",\"input_ip_latitude\":\"-33.77270\",\"input_ip_line_speed\":\"high\",\"input_ip_longitude\":\"151.08180\",\"input_ip_organization\":\"singtel optus pty ltd\",\"input_ip_postal_code\":\"1710\",\"input_ip_region\":\"new south wales\",\"input_ip_region_iso_code\":\"nsw\",\"input_ip_result\":\"success\",\"input_ip_routing_type\":\"fixed\",\"input_ip_score\":\"27\",\"input_ip_worst_score\":\"-100\",\"js_browser\":\"Chrome 115\",\"js_browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36\",\"js_browser_string_hash\":\"15c2f6f9416d00cec8b4f729460293c0\",\"js_fonts_hash\":\"73950fb87a59690221a689e00e8ec2b1\",\"js_fonts_number\":\"132\",\"js_os\":\"Windows 10\",\"line_of_business\":\"digital_core_2.0\",\"local_attrib_1\":\"smsng flip 4 128gb bk 5g\",\"local_attrib_10\":\"51114f8e30a5fb398467155f88af3c0e\",\"local_attrib_10_first_seen\":\"2023-08-10\",\"local_attrib_12\":\"d212cb8c9e03d4f46291b695d96c4c1c923ce510b9cf2ee0abc7f2a6903d074b\",\"local_attrib_12_first_seen\":\"2023-08-10\",\"local_attrib_15\":\"uat500016201\",\"local_attrib_15_first_seen\":\"2023-08-10\",\"local_attrib_1_activities\":\"_TRUSTED_PROB\",\"local_attrib_1_first_seen\":\"2023-03-28\",\"local_attrib_5\":\"approve\",\"local_attrib_5_activities\":\"_TRUSTED_PROB\",\"local_attrib_5_first_seen\":\"2017-05-25\",\"local_attrib_6\":\"cbrt\",\"local_attrib_6_activities\":\"_TRUSTED_PROB\",\"local_attrib_6_first_seen\":\"2021-10-22\",\"math_routine\":\"4003d1c2bec02e6cc560082ad155401fd4588141d6eaa24dc94afbd72313196a\",\"mime_type_hash\":\"27f51d3149e6bf209b66bd387b0af3c4\",\"mime_type_number\":\"2\",\"multiple_session_id\":\"yes\",\"nonce\":\"8eb95c6bf4545bfd\",\"org_id\":\"8zht501y\",\"os\":\"Windows\",\"os_version\":\"10\",\"page_time_on\":\"400802\",\"plugin_hash\":\"e802dfa555193f4ebe8993eb4a99290d\",\"plugin_number\":\"5\",\"policy\":\"onboarding\",\"policy_engine_version\":\"14.3.1\",\"policy_score\":\"0\",\"primary_industry\":\"ecommerce\",\"private_browsing\":\"no\",\"profile_api_timedelta\":\"652113\",\"profile_connection_type\":\"TLS1.2\",\"profiled_domain\":\"uat-shop.optus.com.au\",\"profiled_url\":\"https://uat-shop.optus.com.au/secure-checkout?5f5ea0168c29d1e0cdf142a4941905e4\",\"profiling_datetime\":\"1691678698\",\"profiling_delta\":\"400802\",\"proxy_score\":\"775.28\",\"reason_code\":\"Pass:307756065:\",\"request_duration\":\"66\",\"request_id\":\"da5ab89b-3ab2-43e3-b6ae-6ee3ce8c2377\",\"request_result\":\"success\",\"review_status\":\"pass\",\"risk_rating\":\"neutral\",\"screen_color_depth\":\"24\",\"screen_res\":\"1536x864\",\"screen_res_zoom\":\"0.5\",\"secondary_industry\":\"telecom\",\"service_category\":\"outright|new_provide\",\"service_detail\":\"$89 optus plus promo plan(aug 22)|smsng flip 4 128gb bk 5g\",\"service_type\":\"all\",\"session_id\":\"ercvzckbbgyf6c0qtrxre9oljh4zasyo7svsbbaryns\",\"session_id_query_count\":\"2\",\"shipping_address_city\":\"macquirne park\",\"shipping_address_country\":\"au\",\"shipping_address_first_seen\":\"2023-08-10\",\"shipping_address_last_event\":\"2023-08-10\",\"shipping_address_last_update\":\"2023-08-10\",\"shipping_address_result\":\"success\",\"shipping_address_score\":\"0\",\"shipping_address_state\":\"nsw\",\"shipping_address_street1\":\"1 lyon park road\",\"shipping_address_worst_score\":\"0\",\"shipping_address_zip\":\"2113\",\"shipping_address_zip_latitude\":\"-33.7931\",\"shipping_address_zip_longitude\":\"151.1281\",\"shipping_address_zip_normalized\":\"2113\",\"ssl_fp_signature\":\"a3fb9b19f64d7029b147ecebe90dac6b\",\"ssl_session_hash\":\"a39576a3fd3b1e1cdb771ab759de9c32\",\"summary_risk_score\":\"0\",\"system_state\":\"1687456698\",\"third_party_cookie\":\"35a8efb11daedaf767d5e8418d3286c6\",\"time_zone\":\"600\",\"time_zone_dst_offset\":\"60\",\"timezone_name\":\"Australia/Sydney\",\"tmx_reason_code\":\"_TMX_LCL_TT_LIMIT_REACHED_DIG_ID\",\"tmx_risk_rating\":\"neutral\",\"tmx_summary_reason_code\":\"Identity_Spoofing\",\"transaction_amount\":\"69.00\",\"transaction_amount_usd\":\"45.09\",\"transaction_currency\":\"aud\",\"transaction_id\":\"uat500016201\",\"true_ip\":\"203.13.128.104\",\"true_ip_activities\":\"_TRUSTED_PROB\",\"true_ip_assert_history\":\"NEGATIVE_HISTORY\",\"true_ip_attributes\":\"_TRUSTED_PROB\",\"true_ip_city\":\"epping\",\"true_ip_connection_type\":\"tx\",\"true_ip_first_seen\":\"2010-07-21\",\"true_ip_geo\":\"AU\",\"true_ip_home\":\"no\",\"true_ip_isp\":\"singtel optus pty ltd\",\"true_ip_last_event\":\"2023-08-10\",\"true_ip_last_update\":\"2023-08-10\",\"true_ip_latitude\":\"-33.77270\",\"true_ip_line_speed\":\"high\",\"true_ip_longitude\":\"151.08180\",\"true_ip_organization\":\"singtel optus pty ltd\",\"true_ip_organization_type\":\"Telecommunications\",\"true_ip_postal_code\":\"1710\",\"true_ip_region\":\"new south wales\",\"true_ip_region_iso_code\":\"nsw\",\"true_ip_result\":\"success\",\"true_ip_routing_type\":\"fixed\",\"true_ip_score\":\"27\",\"true_ip_source_port\":\"44390\",\"true_ip_worst_score\":\"-100\",\"ua_browser\":\"chrome 115.0\",\"ua_browser_alt\":\"Chrome\",\"ua_browser_version_alt\":\"115.0.0.0\",\"ua_os\":\"win10\",\"ua_os_alt\":\"Windows\",\"ua_os_version_alt\":\"10\",\"ua_platform\":\"chrome 115.0\",\"webgl_hash\":\"a40a8f7932f8a635c8aad28e4e905b626c8d29da\",\"webrtc_media\":\"(1,1,1,e12ead95566221e7c4e320e56363dcb477a3c93a4a8510beb25f01bca07d4e8d)\",\"webrtc_media_mini\":\"111e12ead9556622\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "threatMetrixRequestId",
+          "text": "a6bbc2f3-2923-4a6b-b9b7-df316bee475c"
+        },
+        "customAttribute": {
+          "@attributeId": "threatMetrixResponse",
+          "text": "{\"account_address_city\":\"macquirne park\",\"account_address_country\":\"au\",\"account_address_result\":\"not found\",\"account_address_state\":\"nsw\",\"account_address_street1\":\"1 lyon park road\",\"account_address_zip\":\"2113\",\"account_address_zip_latitude\":\"-33.7931\",\"account_address_zip_longitude\":\"151.1281\",\"account_address_zip_normalized\":\"2113\",\"account_date_of_birth\":\"19880110\",\"account_email\":\"pooja.aug11optus@hotmail.com\",\"account_email_contains_dot\":\"yes\",\"account_email_domain\":\"hotmail.com\",\"account_email_result\":\"not found\",\"account_existing_customer\":\"false\",\"account_login\":\"pooja.aug11optus@hotmail.com\",\"account_login_result\":\"not found\",\"account_name\":\"approve cbrt\",\"account_name_activities\":\"_TRUSTED_PROB\",\"account_name_attributes\":\"_TRUSTED_PROB\",\"account_name_first_seen\":\"2021-10-22\",\"account_name_last_event\":\"2023-08-10\",\"account_name_last_update\":\"2023-08-10\",\"account_name_result\":\"success\",\"account_name_score\":\"0\",\"account_name_worst_score\":\"0\",\"account_passport_country\":\"au\",\"account_passport_expiration_date\":\"2030-04-30\",\"account_telephone\":\"0481356181\",\"account_telephone_activities\":\"_TRUSTED_PROB\",\"account_telephone_attributes\":\"_TRUSTED_PROB\",\"account_telephone_first_seen\":\"2023-05-01\",\"account_telephone_is_possible\":\"no\",\"account_telephone_is_valid\":\"no\",\"account_telephone_last_event\":\"2023-08-10\",\"account_telephone_last_update\":\"2023-08-10\",\"account_telephone_result\":\"success\",\"account_telephone_score\":\"0\",\"account_telephone_type\":\"UNKNOWN\",\"account_telephone_worst_score\":\"0\",\"agent_publickey_hash_type\":\"invalid\",\"agent_type\":\"browser_computer\",\"api_call_datetime\":\"2023-08-10 14:54:52.451\",\"api_caller_ip\":\"34.195.33.38\",\"api_type\":\"session-query\",\"api_version\":\"14.3.1\",\"application_name\":\"windows\",\"audio_context\":\"cefbae478677f02fbbd973617692dbd9c6450bf5641669ebef1595ab745a2117\",\"auth_appname\":\"NV\",\"battery_status\":\"{\\\"level\\\":0.58,\\\"status\\\":\\\"charging\\\"}\",\"bb_assessment\":\"198.13\",\"bb_assessment_rating\":\"low\",\"bb_bot_rating\":\"low\",\"bb_bot_score\":\"500.00\",\"bb_fraud_rating\":\"neutral\",\"bb_fraud_score\":\"500.00\",\"browser\":\"Chrome\",\"browser_language\":\"en-GB,en;q\",\"browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36\",\"browser_string_hash\":\"15c2f6f9416d00cec8b4f729460293c0\",\"browser_version\":\"115\",\"canvas_hash\":\"a9130b4812afe4aac18330bb0da43630d42d3080\",\"cc_number_hash\":\"93eefb9820cab0c136d6c358f66eac0fef61043b5cc6c13d6d5ee8558c368657\",\"cc_number_hash_activities\":\"_TRUSTED_PROB\",\"cc_number_hash_attributes\":\"_TRUSTED_PROB\",\"cc_number_hash_first_seen\":\"2021-08-30\",\"cc_number_hash_last_event\":\"2023-08-10\",\"cc_number_hash_last_update\":\"2023-08-10\",\"cc_number_hash_result\":\"success\",\"cc_number_hash_score\":\"0\",\"cc_number_hash_worst_score\":\"0\",\"champion_request_duration\":\"25\",\"charset\":\"utf-8\",\"condition_attrib_12\":\"australian_passport\",\"condition_attrib_18\":\"offline\",\"condition_attrib_19\":\"na\",\"condition_attrib_20\":\"true\",\"condition_attrib_5\":\"browser_computer\",\"cpu_clock\":\"8\",\"cpu_cores\":\"4\",\"css_image_loaded\":\"yes\",\"custom_count_1\":\"69\",\"custom_count_10\":\"0\",\"custom_count_2\":\"0\",\"custom_count_4\":\"0\",\"custom_count_5\":\"69\",\"custom_match_1\":\"51114f8e30a5fb398467155f88af3c0e\",\"custom_match_3\":\"794b8d562e142e48b28540822885745f\",\"custom_match_5\":\"aa7b09af70b64c2c5aaee66193f9d81b\",\"custom_match_6\":\"9ae3f623e79561fc688f1655668b5e2f\",\"custom_match_8\":\"cb56ee2940591b2e7b2bcba339f0670e\",\"customer_event_type\":\"postpaid_outright\",\"delivery_type\":\"shipped-express\",\"device_health_reasons\":\"webrtc_internal_mdns\",\"device_id\":\"f6a0d91ade10411ca00e924f8b15da1a\",\"device_id_confidence\":\"100\",\"device_match_result\":\"new_device\",\"device_memory\":\"8\",\"device_result\":\"not found\",\"digital_id\":\"4d7de5b33018496aa95eb3a81ed84852\",\"digital_id_activities\":\"_TRUSTED_PROB\",\"digital_id_attributes\":\"_TRUSTED_PROB\",\"digital_id_confidence\":\"3720\",\"digital_id_confidence_rating\":\"low\",\"digital_id_first_seen\":\"2017-09-04\",\"digital_id_last_event\":\"2023-08-10\",\"digital_id_last_update\":\"2023-08-10\",\"digital_id_result\":\"success\",\"digital_id_trust_score\":\"99.91\",\"digital_id_trust_score_rating\":\"very_high\",\"digital_id_trust_score_reason_code\":\"_ts_did_black\",\"digital_id_trust_score_summary_reason_code\":\"_ts_did_edge_detect_entity\",\"dns_ip\":\"119.225.142.246\",\"dns_ip_activities\":\"_TRUSTED_PROB\",\"dns_ip_assert_history\":\"NEGATIVE_HISTORY\",\"dns_ip_attributes\":\"_TRUSTED_PROB\",\"dns_ip_city\":\"macquarie centre\",\"dns_ip_connection_type\":\"tx\",\"dns_ip_geo\":\"AU\",\"dns_ip_home\":\"no\",\"dns_ip_isp\":\"singtel optus pty ltd\",\"dns_ip_latitude\":\"-33.77692\",\"dns_ip_line_speed\":\"high\",\"dns_ip_longitude\":\"151.12102\",\"dns_ip_organization\":\"optus macquarie park (ocs)\",\"dns_ip_postal_code\":\"2113\",\"dns_ip_region\":\"new south wales\",\"dns_ip_region_iso_code\":\"nsw\",\"dns_ip_routing_type\":\"fixed\",\"enabled_ck\":\"yes\",\"enabled_fl\":\"no\",\"enabled_im\":\"yes\",\"enabled_js\":\"yes\",\"enabled_services\":\"TMX100\",\"enhanced_headers_name_value_hash\":\"14bc30fe0e506cbc3919b7b76ff9aecc\",\"etag_guid\":\"635c38add49e4bba807a11baa7a1e0cc\",\"event_datetime\":\"2023-08-10 14:54:52.451\",\"event_type\":\"payment\",\"fuzzy_device_activities\":\"_TRUSTED_PROB\",\"fuzzy_device_attributes\":\"_TRUSTED_PROB\",\"fuzzy_device_first_seen\":\"2023-07-26\",\"fuzzy_device_id\":\"5ba6d66dcded4bdaa6571cffc5e0f57a\",\"fuzzy_device_id_confidence\":\"99.21\",\"fuzzy_device_last_event\":\"2023-08-10\",\"fuzzy_device_last_update\":\"2023-08-10\",\"fuzzy_device_match_result\":\"success\",\"fuzzy_device_result\":\"success\",\"fuzzy_device_score\":\"0\",\"fuzzy_device_worst_score\":\"0\",\"gpu_name\":\"ANGLE (Intel, Intel(R) HD Graphics 520 Direct3D11 vs_5_0 ps_5_0, D3D11)\",\"gpu_vendor\":\"Google Inc. (Intel)\",\"headers_name_value_hash\":\"fc2fa1e50b9d8459221df460e8c520ff\",\"headers_order_string_hash\":\"c55b30b0998b0a43b437096703d6a805\",\"http_os_sig_adv_mss\":\"1448\",\"http_os_sig_rcv_mss\":\"1348\",\"http_os_sig_snd_mss\":\"1448\",\"http_os_signature\":\"Proxy\",\"http_referer\":\"9kO4J19JDbNH6d1oHM0a4!JAFGcOkK68\",\"http_referer_domain\":\"uat-shop.optus.com.au\",\"http_referer_url\":\"https://uat-shop.optus.com.au/secure-checkout-start?7cf73f7ba29f25a9674a3f100565d2fc\",\"image_loaded\":\"yes\",\"input_ip_activities\":\"_TRUSTED_PROB\",\"input_ip_address\":\"203.13.128.104\",\"input_ip_assert_history\":\"NEGATIVE_HISTORY\",\"input_ip_attributes\":\"_TRUSTED_PROB\",\"input_ip_city\":\"epping\",\"input_ip_connection_type\":\"tx\",\"input_ip_first_seen\":\"2010-07-21\",\"input_ip_geo\":\"AU\",\"input_ip_home\":\"no\",\"input_ip_isp\":\"singtel optus pty ltd\",\"input_ip_last_event\":\"2023-08-10\",\"input_ip_last_update\":\"2023-08-10\",\"input_ip_latitude\":\"-33.77270\",\"input_ip_line_speed\":\"high\",\"input_ip_longitude\":\"151.08180\",\"input_ip_organization\":\"singtel optus pty ltd\",\"input_ip_postal_code\":\"1710\",\"input_ip_region\":\"new south wales\",\"input_ip_region_iso_code\":\"nsw\",\"input_ip_result\":\"success\",\"input_ip_routing_type\":\"fixed\",\"input_ip_score\":\"27\",\"input_ip_worst_score\":\"-100\",\"js_browser\":\"Chrome 115\",\"js_browser_string\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36\",\"js_browser_string_hash\":\"15c2f6f9416d00cec8b4f729460293c0\",\"js_fonts_hash\":\"73950fb87a59690221a689e00e8ec2b1\",\"js_fonts_number\":\"132\",\"js_os\":\"Windows 10\",\"line_of_business\":\"digital_core_2.0\",\"local_attrib_1\":\"smsng flip 4 128gb bk 5g\",\"local_attrib_10\":\"51114f8e30a5fb398467155f88af3c0e\",\"local_attrib_12\":\"d212cb8c9e03d4f46291b695d96c4c1c923ce510b9cf2ee0abc7f2a6903d074b\",\"local_attrib_15\":\"uat500016201\",\"local_attrib_1_activities\":\"_TRUSTED_PROB\",\"local_attrib_1_first_seen\":\"2023-03-28\",\"local_attrib_5\":\"approve\",\"local_attrib_5_activities\":\"_TRUSTED_PROB\",\"local_attrib_5_first_seen\":\"2017-05-25\",\"local_attrib_6\":\"cbrt\",\"local_attrib_6_activities\":\"_TRUSTED_PROB\",\"local_attrib_6_first_seen\":\"2021-10-22\",\"math_routine\":\"4003d1c2bec02e6cc560082ad155401fd4588141d6eaa24dc94afbd72313196a\",\"mime_type_hash\":\"27f51d3149e6bf209b66bd387b0af3c4\",\"mime_type_number\":\"2\",\"multiple_session_id\":\"yes\",\"nonce\":\"8eb95c6bf4545bfd\",\"org_id\":\"8zht501y\",\"os\":\"Windows\",\"os_version\":\"10\",\"page_time_on\":\"400802\",\"plugin_hash\":\"e802dfa555193f4ebe8993eb4a99290d\",\"plugin_number\":\"5\",\"policy\":\"onboarding\",\"policy_engine_version\":\"14.3.1\",\"policy_score\":\"0\",\"primary_industry\":\"ecommerce\",\"private_browsing\":\"no\",\"profile_api_timedelta\":\"594295\",\"profile_connection_type\":\"TLS1.2\",\"profiled_domain\":\"uat-shop.optus.com.au\",\"profiled_url\":\"https://uat-shop.optus.com.au/secure-checkout?5f5ea0168c29d1e0cdf142a4941905e4\",\"profiling_datetime\":\"1691678698\",\"profiling_delta\":\"400802\",\"proxy_score\":\"775.28\",\"reason_code\":\"Challenge:333958707:\",\"request_duration\":\"64\",\"request_id\":\"a6bbc2f3-2923-4a6b-b9b7-df316bee475c\",\"request_result\":\"success\",\"review_status\":\"challenge\",\"risk_rating\":\"neutral\",\"screen_color_depth\":\"24\",\"screen_res\":\"1536x864\",\"screen_res_zoom\":\"0.5\",\"secondary_industry\":\"telecom\",\"service_category\":\"outright|new_provide\",\"service_detail\":\"$89 optus plus promo plan(aug 22)|smsng flip 4 128gb bk 5g\",\"service_type\":\"all\",\"session_id\":\"ercvzckbbgyf6c0qtrxre9oljh4zasyo7svsbbaryns\",\"session_id_query_count\":\"1\",\"shipping_address_city\":\"macquirne park\",\"shipping_address_country\":\"au\",\"shipping_address_result\":\"not found\",\"shipping_address_state\":\"nsw\",\"shipping_address_street1\":\"1 lyon park road\",\"shipping_address_zip\":\"2113\",\"shipping_address_zip_latitude\":\"-33.7931\",\"shipping_address_zip_longitude\":\"151.1281\",\"shipping_address_zip_normalized\":\"2113\",\"ssl_fp_signature\":\"a3fb9b19f64d7029b147ecebe90dac6b\",\"ssl_session_hash\":\"a39576a3fd3b1e1cdb771ab759de9c32\",\"summary_risk_score\":\"0\",\"system_state\":\"1687456698\",\"third_party_cookie\":\"35a8efb11daedaf767d5e8418d3286c6\",\"time_zone\":\"600\",\"time_zone_dst_offset\":\"60\",\"timezone_name\":\"Australia/Sydney\",\"tmx_reason_code\":\"_TMX_LCL_TT_LIMIT_REACHED_DIG_ID\",\"tmx_risk_rating\":\"neutral\",\"tmx_summary_reason_code\":\"Identity_Spoofing\",\"transaction_amount\":\"69.00\",\"transaction_amount_usd\":\"45.09\",\"transaction_currency\":\"aud\",\"transaction_id\":\"uat500016201\",\"true_ip\":\"203.13.128.104\",\"true_ip_activities\":\"_TRUSTED_PROB\",\"true_ip_assert_history\":\"NEGATIVE_HISTORY\",\"true_ip_attributes\":\"_TRUSTED_PROB\",\"true_ip_city\":\"epping\",\"true_ip_connection_type\":\"tx\",\"true_ip_first_seen\":\"2010-07-21\",\"true_ip_geo\":\"AU\",\"true_ip_home\":\"no\",\"true_ip_isp\":\"singtel optus pty ltd\",\"true_ip_last_event\":\"2023-08-10\",\"true_ip_last_update\":\"2023-08-10\",\"true_ip_latitude\":\"-33.77270\",\"true_ip_line_speed\":\"high\",\"true_ip_longitude\":\"151.08180\",\"true_ip_organization\":\"singtel optus pty ltd\",\"true_ip_organization_type\":\"Telecommunications\",\"true_ip_postal_code\":\"1710\",\"true_ip_region\":\"new south wales\",\"true_ip_region_iso_code\":\"nsw\",\"true_ip_result\":\"success\",\"true_ip_routing_type\":\"fixed\",\"true_ip_score\":\"27\",\"true_ip_source_port\":\"44390\",\"true_ip_worst_score\":\"-100\",\"ua_browser\":\"chrome 115.0\",\"ua_browser_alt\":\"Chrome\",\"ua_browser_version_alt\":\"115.0.0.0\",\"ua_os\":\"win10\",\"ua_os_alt\":\"Windows\",\"ua_os_version_alt\":\"10\",\"ua_platform\":\"chrome 115.0\",\"webgl_hash\":\"a40a8f7932f8a635c8aad28e4e905b626c8d29da\",\"webrtc_media\":\"(1,1,1,e12ead95566221e7c4e320e56363dcb477a3c93a4a8510beb25f01bca07d4e8d)\",\"webrtc_media_mini\":\"111e12ead9556622\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "threeDSAuthenticationResult",
+          "text": "Succeeded"
+        },
+        "customAttribute": {
+          "@attributeId": "threeDSCAVV",
+          "text": "kANnMdSX47pGwDsg15UKaJeB6eJl"
+        },
+        "customAttribute": {
+          "@attributeId": "threeDSECI",
+          "text": "05"
+        },
+        "customAttribute": {
+          "@attributeId": "threeDSPayload",
+          "text": "{\"transactionReference\":\"b4d49dc2-59df-48ae-b84c-256495028f47\",\"authenticationSessionId\":\"4e3d138a-da1a-4686-8fd6-cb8349aad880\",\"authenticationMode\":\"MethodUrl_Challenge\",\"authenticationPreparationResponse\":{\"authenticationStatus\":\"Succeeded\",\"cavv\":\"kANnMdSX47pGwDsg15UKaJeB6eJl\",\"eci\":\"05\",\"xid\":\"D7B76870-0765-4F36-A9F1-C5B23D35D3E2\"},\"authenticationResponse\":\"{\\\"acsReferenceNumber\\\":\\\"3DS_LOA_ACS_PPFU_020100_00009\\\",\\\"acsTransID\\\":\\\"A4DCDBC9-98CB-450D-9535-3D6BED79C2A5\\\",\\\"acsUrl\\\":\\\"https://v2-sim.preprod.psp-solutions.com/acs-simulation/challenge?redirectUrl=https%3A%2F%2Fthreedsv2-api-nuat.bambora.net.au%2Fv1%2Fnotification%3FcallbackUrl%3Dhttps%253A%252F%252Fuat-shop.optus.com.au%252F3dsredirect%253Flang%253Ddefault%2526orderNo%253DUAT500016201%2526orderToken%253Dj2HcKRTMiBY_dVpMf56A0ZZmOQVtNc6r-TlujOZFwsw\\\",\\\"cardholderInfo\\\":\\\"cardholder\\\",\\\"dsTransID\\\":\\\"D7B76870-0765-4F36-A9F1-C5B23D35D3E2\\\",\\\"Eci\\\":null,\\\"transStatus\\\":\\\"C\\\",\\\"transStatusReason\\\":\\\"16\\\",\\\"whiteListStatus\\\":null,\\\"challengeCancel\\\":null,\\\"messageType\\\":\\\"ARes\\\",\\\"messageVersion\\\":\\\"2.2.0\\\",\\\"threeDSServerTransID\\\":\\\"a80da931-6e9b-4bc7-9bf0-f3f84b6df8a6\\\"}\"}"
+        },
+        "customAttribute": {
+          "@attributeId": "threeDSTransactionReference",
+          "text": "b4d49dc2-59df-48ae-b84c-256495028f47"
+        },
+        "customAttribute": {
+          "@attributeId": "threeDSXID",
+          "text": "D7B76870-0765-4F36-A9F1-C5B23D35D3E2"
+        },
+        "customAttribute": {
+          "@attributeId": "totalAdjustedMonthlyCostValue",
+          "text": "69"
+        },
+        "customAttribute": {
+          "@attributeId": "totalMonthlyCostValue",
+          "text": "69"
+        },
+        "customAttribute": {
+          "@attributeId": "totalOutrightCostValue",
+          "text": "1498.32"
+        },
+        "customAttribute": {
+          "@attributeId": "totalUpfrontCostValue",
+          "text": "1498.32"
+        },
+        "customAttribute": {
+          "@attributeId": "twoFactorAuthenticated",
+          "text": "false"
+        }
+      }
+    }
+}

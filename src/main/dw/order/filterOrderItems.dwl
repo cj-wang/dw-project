@@ -6,10 +6,10 @@ var rootElement = if (payload.orders != null) payload.orders.order else payload.
 
 fun filterLineitem(item) = 
   (vars.splitOrderPEPayload.Product_Order_Items__c splitBy ',') map (
-    getCustomAttDetail(item, "configuratorContextKey") contains $
+    item."product-id" contains $
   ) reduce $$ or $
 
-var filteredLineitmes = rootElement."product-lineitems"."product-lineitem"
+var filteredLineitmes = flatten([rootElement."product-lineitems"."product-lineitem"])
   filter filterLineitem($)
 
 ---

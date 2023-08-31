@@ -11,15 +11,14 @@ var customerguestval = rootElement.customer.guest
 var payment = if(rootElement.payments.payment is Array) rootElement.payments.payment else [rootElement.payments.payment]
 var creditCheckRespNullChecker = if(!isEmpty(creditCheckResp)) read(creditCheckResp,"application/json") else null
 var tech = (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='technology')).'__text'[0]
-var maxRecur = if (tech == "HWBB") creditCheckRespNullChecker.checkCreditResponse.conditionalOffer.maxRecurringCostPerOrder else creditCheckRespNullChecker.creditResponse[0].conditionalOffer.MaxRecurringCost
-var maxEquip = if (tech == "HWBB") creditCheckRespNullChecker.checkCreditResponse.conditionalOffer.maxEquipmentCost else creditCheckRespNullChecker.creditResponse[0].conditionalOffer.MaxEquipmentCost 
+var maxRecur = creditCheckRespNullChecker.creditResponse[0].conditionalOffer.MaxRecurringCost
+var maxEquip = creditCheckRespNullChecker.creditResponse[0].conditionalOffer.MaxEquipmentCost 
 
-//var decCategory = if (tech == "HWBB")creditCheckRespNullChecker.checkCreditResponse.decisionCategory else creditCheckRespNullChecker.creditResponse[0].decisionCategory 
-var decCategory = if (tech == "HWBB")creditCheckRespNullChecker.checkCreditResponse.decisionCategory
-                  else if (vars.sfccOrderType == "RelocationOnline") getCustomAttDetail(rootElement,"decisionCategory")
+//var decCategory = creditCheckRespNullChecker.creditResponse[0].decisionCategory 
+var decCategory = if (vars.sfccOrderType == "RelocationOnline") getCustomAttDetail(rootElement,"decisionCategory")
                   else creditCheckRespNullChecker.creditResponse[0].decisionCategory 
-var textMess = if (tech == "HWBB") creditCheckRespNullChecker.checkCreditResponse.textMessage else creditCheckRespNullChecker.creditResponse[0].freeTextMessage
-var secCol = if (tech == "HWBB") creditCheckRespNullChecker.checkCreditResponse.secureCollect.secureCollectIndicator else creditCheckRespNullChecker.creditResponse[0].secureCollect
+var textMess = creditCheckRespNullChecker.creditResponse[0].freeTextMessage
+var secCol = creditCheckRespNullChecker.creditResponse[0].secureCollect
 
 var accountType = (getCustomAttDetail(rootElement, "accountType") default "" ) replace "Account" with ""
 
@@ -36,13 +35,13 @@ var secondaryIDUniquenessRes = do{
 	secondaryIDUniquenessResponseNullChecker
 }
 var primaryIdCheckRes = do{
-	var rawprimaryIdCheckresponse = (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='primaryIdCheckResponse')).'__text'[0]
+	var rawprimaryIdCheckresponse = (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='primaryIDCheckResponse')).'__text'[0]
 	var primaryIdCheckResponseNullChecker = if(!isEmpty(rawprimaryIdCheckresponse)) read(rawprimaryIdCheckresponse,"application/json") else null
 	---
 	primaryIdCheckResponseNullChecker
 } 
 var secondaryIdCheckRes = do{
-	var rawsecondaryIdCheckresponse = (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='secondaryIdCheckResponse')).'__text'[0]
+	var rawsecondaryIdCheckresponse = (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='secondaryIDCheckResponse')).'__text'[0]
 	var secondaryIdCheckResponseNullChecker = if(!isEmpty(rawsecondaryIdCheckresponse)) read(rawsecondaryIdCheckresponse,"application/json") else null
 	---
 	secondaryIdCheckResponseNullChecker
@@ -66,8 +65,9 @@ var mcIDDetailsResp = do {
     OrderReferenceNumber:   rootElement.'original-order-no',
     createdByAPI: true,
 	Network_Technology__c: (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='technology')).'__text'[0],
-	Type: if (((shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'newFixed' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'new' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'mobile' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'newFixedSubs') and (customerguestval == "true") ) 'New_New' 
-          else if (((shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'newFixed' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'new' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'mobile' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'newFixedSubs') and (customerguestval == "false") ) 'New_Existing'
+	Type: if (((shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'newFixed' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'new' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'mobile') and (customerguestval == "true" or getCustomAttDetail(rootElement, "isContactOnly") == "true" or getCustomAttDetail(rootElement, "isSecondaryContact") == "true") and isEmpty(vars.mobileProductOfferAttrbs.parentItems[0].transactionType[0]) ) 'New_New' 
+          else if (((shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'newFixed' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'new' or (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'mobile') and (customerguestval == "false") and isEmpty(vars.mobileProductOfferAttrbs.parentItems[0].transactionType[0]) ) 'New_Existing'
+          else if (((shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0] == 'mobile') and ((vars.mobileProductOfferAttrbs.parentItems[0].transactionType[0]) == "RECON")) 'Recontract'
           else (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='baseOrderType')).'__text'[0],
  	Flow_Type__c: capitalize((shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='flowType')).'__text'[0]),
  	//Flow_Type__c: capitalize(getCustomAttDetail(rootElement, "flowType")),
@@ -105,17 +105,18 @@ var mcIDDetailsResp = do {
     "payMeansID": if (payment."custom-method"."method-name"[0] == "PAYMEANS_CREDIT_CARD") getCustomAttDetail(payment."custom-method"[0],"payMeansId")   
                   else null,
 	"deliveryDate": (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='deliveryDate')).'__text'[0],
-	"residentialTimezoneOffsetExisting": getCustomAttDetail(rootElement,"timeZoneOffset") default null,    
+	"residentialTimezoneOffsetExisting": getCustomAttDetail(rootElement,"timeZoneOffset") default null,    	
 	//Customer_Has_NCD__c: (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='hasNCDAtPremises')).'__text'[0]
 	SFCCncdRequired: (shipmentArray[0].'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='ncdRequired')).'__text'[0],
 	SubscriptionOrder_Scenario:(rootElement."custom-attributes"."custom-attribute" filter ($."@attribute-id" ~= "subscriptionOrderType"))[0]."__text" default "NA",
 	Two_Factor_Authenticated__c: getCustomAttDetail(rootElement, "twoFactorAuthenticated") as Boolean default null,
 	Credit_Check_Type__c: creditCheckRespNullChecker.idCheckIndicator default null,
-	SM_Session_Id__c: (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='smSessionId')).'__text'[0],
+	SM_Session_Id__c: (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='smSessionId')).'__text'[0],	
 	Primary_Id_Uniqueness_Action__c:
+		// DOP-3345
 		if (accountType == "Shell")
 			(
-				if (primaryIDUniquenessRes != null)
+				if (primaryIDUniquenessRes !=null)
 					(primaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails filter ((item)->item.primaryIdIndicator == true))[0].action
 				else 
 					(secondaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails filter ((item)->item.primaryIdIndicator == true))[0].action
@@ -135,9 +136,10 @@ var mcIDDetailsResp = do {
 			)
 		else 
 			null,
-	Secondary_Id_Uniqueness_Action__c: (secondaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails filter ((item)->item.primaryIdIndicator == false))[0].action,
-	Source__c: mcIDDetailsResp.source,
-	Verified_At__c: mcIDDetailsResp.verified_at as LocalDateTime default null,
-	XML_Token__c: (mcIDDetailsResp.dynamicAttributes filter ((item, index) -> lower(item.name) == "xml token"))[0].value  default null,
-	optusafeUploadId__c: mcIDDetailsResp.optusafeUploadId
+  Secondary_Id_Uniqueness_Action__c: (secondaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails filter ((item)->item.primaryIdIndicator == false))[0].action,
+	"Source__c": mcIDDetailsResp.source,
+	"Verified_At__c": mcIDDetailsResp.verified_at as LocalDateTime default null,
+	"XML_Token__c": (mcIDDetailsResp.dynamicAttributes filter ((item, index) -> lower(item.name) == "xml token"))[0].value default null,
+	"optusafeUploadId__c": mcIDDetailsResp.optusafeUploadId,
+	"Authority_Flag_BCC": getCustomAttDetail(rootElement, "authorityFlag")
 }
