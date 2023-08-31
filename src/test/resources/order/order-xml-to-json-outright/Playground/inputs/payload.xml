@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <orders xmlns="http://www.demandware.com/xml/impex/order/2006-10-31" version="20.8">
-    <order order-no="UAT500016201">
+    <order order-no="UAT500016201_1">
         <order-date>2023-08-10T14:54:51.000Z</order-date>
         <created-by>storefront</created-by>
-        <original-order-no>UAT500016201</original-order-no>
+        <original-order-no>UAT500016201_1</original-order-no>
         <currency>AUD</currency>
         <customer-locale>default</customer-locale>
         <taxation>gross</taxation>
@@ -382,7 +382,8 @@
                 <lineitem-text>Smsng Flip 4 128GB BK 5G</lineitem-text>
                 <tax-basis>1498.32</tax-basis>
                 <position>7</position>
-                <product-id>653</product-id>
+                <!-- <product-id>653</product-id> -->
+                <product-id>2001914-optus-consumer_1M</product-id>
                 <product-name>Smsng Flip 4 128GB BK 5G</product-name>
                 <quantity unit="">1.0</quantity>
                 <tax-rate>0.1</tax-rate>
@@ -695,7 +696,7 @@
             <custom-attribute attribute-id="createNewBillingAccount">true</custom-attribute>
             <custom-attribute attribute-id="creditCheckOrderNumber">UAT500016201</custom-attribute>
             <custom-attribute attribute-id="crmCheckStatus">CRM_CONTACT_NOTEXIST</custom-attribute>
-            <custom-attribute attribute-id="decisionCategory">NOT_PERFORMED</custom-attribute>
+            <custom-attribute attribute-id="decisionCategory">A</custom-attribute>
             <custom-attribute attribute-id="deliveryDate">2023-08-11</custom-attribute>
             <custom-attribute attribute-id="deviceIdInfo">f6a0d91ade10411ca00e924f8b15da1a</custom-attribute>
             <custom-attribute attribute-id="digitalIdInfo">4d7de5b33018496aa95eb3a81ed84852</custom-attribute>
@@ -850,6 +851,7 @@
             <custom-attribute attribute-id="totalOutrightCostValue">1498.32</custom-attribute>
             <custom-attribute attribute-id="totalUpfrontCostValue">1498.32</custom-attribute>
             <custom-attribute attribute-id="twoFactorAuthenticated">false</custom-attribute>
+            <custom-attribute attribute-id="creditCheckResponse">{"status":"Success","instanceId":"1316","externalReferenceNumber":"UAT400005708","transactionResponseDateTime":"2023-03-17T14:10:53","idCheckIndicator":"CreditCheck","creditResponse":[{"applicationNumber":"UAT400005708218EC1","externalReferenceNumber":"UAT400005708","freeTextMessage":"Approved. Based on our credit criteria, the limit for your fixed bundle and BYO (if included) are 10 services, a maximum device cost of $30000 and $10000 monthly plan fees. \n \nYou can continue with your order when it?s below this limit.","decisionCategory":"A","secureCollect":"0","conditionalOffer":[{"MaxNumOfSers":"10","MaxRecurringCost":"10000","MaxEquipmentCost":"30000","MinUpfrontPayment":"2136","ApprovalExpireDate":"2023-04-15T14:00:00.000Z","IDVerificationIndicator":false}]}],"inteflowResponseXML":"&lt;soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"&gt;&lt;soapenv:Header xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\"&gt;&lt;sdpHeaders:sdpServiceResponseHeaders xmlns:sdpHeaders=\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\"&gt;&lt;sdpHeaders:transactionResponseDateTime&gt;2023-03-17T14:10:53&lt;/sdpHeaders:transactionResponseDateTime&gt;&lt;sdpHeaders:transactionId&gt;ae56852c-5913-4885-82e5-bce67f27cc43&lt;/sdpHeaders:transactionId&gt;&lt;/sdpHeaders:sdpServiceResponseHeaders&gt;&lt;/soapenv:Header&gt;&lt;soap:Body&gt;&lt;checkCreditResponse xmlns=\"http://group.singtel.com/authorizeCredit-types/v1\"&gt;&lt;sdpStatusResponse:SDPStatusResponse xmlns:sdpStatusResponse=\"http://group.singtel.com/enterpriseapplicationintegration/common-types/v1\"&gt;&lt;sdpStatusResponse:transactionStatusCode&gt;SUCCESS&lt;/sdpStatusResponse:transactionStatusCode&gt;&lt;sdpStatusResponse:serviceVersion&gt;1.0&lt;/sdpStatusResponse:serviceVersion&gt;&lt;/sdpStatusResponse:SDPStatusResponse&gt;&lt;v11:applicationNumber xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"&gt;UAT400005708218EC1&lt;/v11:applicationNumber&gt;&lt;v11:externalReferenceNumber xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"&gt;UAT400005708&lt;/v11:externalReferenceNumber&gt;&lt;v11:decisionCategory xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"&gt;A&lt;/v11:decisionCategory&gt;&lt;v11:textMessage xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"&gt;Approved. Based on our credit criteria, the limit for your fixed bundle and BYO (if included) are 10 services, a maximum device cost of $30000 and $10000 monthly plan fees. \n \nYou can continue with your order when it???s below this limit.&lt;/v11:textMessage&gt;&lt;v11:conditionaloffer xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"&gt;&lt;v12:maxNumSubscriptions xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\"&gt;10&lt;/v12:maxNumSubscriptions&gt;&lt;v12:maxRecurringCostPerOrder xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\"&gt;10000&lt;/v12:maxRecurringCostPerOrder&gt;&lt;v12:maxEquipmentCost xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\"&gt;30000&lt;/v12:maxEquipmentCost&gt;&lt;v12:minUpfrontPayment xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\"&gt;2136&lt;/v12:minUpfrontPayment&gt;&lt;v12:approvalExpireDate xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\"&gt;2023-04-16&lt;/v12:approvalExpireDate&gt;&lt;v12:idVerificationIndicator xmlns:v12=\"http://group.singtel.com/customerinformationmanagement/customercreditmanagement/types/v1\"&gt;false&lt;/v12:idVerificationIndicator&gt;&lt;/v11:conditionaloffer&gt;&lt;v11:secureCollect xmlns:v11=\"http://group.singtel.com/authorizeCredit-types/v1\"&gt;&lt;v13:secureCollectIndicator xmlns:v13=\"http://group.singtel.com/customerprofile/types/v1\"&gt;0&lt;/v13:secureCollectIndicator&gt;&lt;/v11:secureCollect&gt;&lt;/checkCreditResponse&gt;&lt;/soap:Body&gt;&lt;/soap:Envelope&gt;"}</custom-attribute>
         </custom-attributes>
     </order>
 
