@@ -264,5 +264,14 @@ var salesType = (payload.order."customAttributes".*"customAttribute" filter ($."
 				"MP_ExternalId__c": item['productId']
 			}
 		}
-	}]
+	},
+	({
+		"method": "PATCH",
+		"url": "/services/data/" ++ p('sf.composite.version') ++ "/sobjects/Order/" ++ vars.splitOrderId,
+		"referenceId": "updateOrderStatus",
+        "body": {
+            "Vlocity_Status__c": "Created"
+        }
+	}) if (vars.splitOrder == "true")
+	]
 }
