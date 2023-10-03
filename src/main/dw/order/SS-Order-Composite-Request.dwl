@@ -10,7 +10,7 @@ var hasDIWMSubscription = (payload.order.customAttributes filterObject (payload,
 fun getBillingAddress(attributeId) = (payload.order.customer.billingAddress.customAttributes filterObject (payload, index) -> (payload.'@attributeId' == attributeId)).customAttribute['text'] default ""
 fun getShippingAddress(attributeId) = (payload.order.shipments.shipment.shippingAddress.customAttributes filterObject (payload, index) -> (payload.'@attributeId' == attributeId)).customAttribute['text'] default ""
 var isOutright = (payload.order."customAttributes".*"customAttribute" filter ($."@attributeId" ~= "sales-type"))[0]."text" == "outright" or (payload.order."customAttributes".*"customAttribute" filter ($."@attributeId" ~= "sales-type"))[0]."text" == "outright-plan"
-var isSmartSpaces = (payload.order."customAttributes".*"customAttribute" filter ($."@attributeId" ~= "sales-type"))[0]."text" != "outright" or (payload.order."customAttributes".*"customAttribute" filter ($."@attributeId" ~= "sales-type"))[0]."text" != "outright-plan"
+var isSmartSpaces = (payload.order."customAttributes".*"customAttribute" filter ($."@attributeId" ~= "sales-type"))[0]."text" != "outright" and (payload.order."customAttributes".*"customAttribute" filter ($."@attributeId" ~= "sales-type"))[0]."text" != "outright-plan"
 var key = if ( isOutright == true ) "Unicart__c" else "Smart_Spaces__c"
 var customerId = if ( vars.isOutright ) ((payload.order.customAttributes filterObject (payload, index) -> (payload.'@attributeId' == 'SFCCCustomerId')).customAttribute['text']) else ((payload.order.customAttributes filterObject (payload, index) -> (payload.'@attributeId' == 'smartSpacesSFCCCustomerId')).customAttribute['text'])
 var salesType = (payload.order."customAttributes".*"customAttribute" filter ($."@attributeId" ~= "sales-type"))[0]."text"
@@ -29,7 +29,16 @@ var salesType = (payload.order."customAttributes".*"customAttribute" filter ($."
 		"url": "/services/data/" ++ p('sf.composite.version') ++ "/sobjects/Account/Email_Address__c/" ++ payload.order.customer['customerEmail'],
 		"referenceId": "newAccount",
 		"body": {
-			(key) : if ( isOutright ) isOutright else isSmartSpaces,
+			(Unicart__c: true) if isOutright,
+			(Telco__c: true) if salesType == "outright-plan",
+			(Smart_Spaces__c: true) if isSmartSpaces,
+			Current_Sales_Type__c: 
+				if (salesType == "outright")
+					"Outright"
+				else if (salesType == "outright-plan")
+					"Outright-plan"
+				else
+					"Smart Spaces",
 			 "RecordTypeId": "@{refRecordType.records[0].Id}",
 			"Name": payload.order.shipments.shipment.shippingAddress['firstName'] default "" ++ 
 			 " " ++ 
@@ -52,7 +61,16 @@ var salesType = (payload.order."customAttributes".*"customAttribute" filter ($."
 		"url": "/services/data/" ++ p('sf.composite.version') ++ "/sobjects/Account/ExternalCustomerNo__c/" ++ vars.customerId,
 		"referenceId": "newAccount",
 		"body": {
-			(key) : if ( isOutright ) isOutright else isSmartSpaces,
+			(Unicart__c: true) if isOutright,
+			(Telco__c: true) if salesType == "outright-plan",
+			(Smart_Spaces__c: true) if isSmartSpaces,
+			Current_Sales_Type__c: 
+				if (salesType == "outright")
+					"Outright"
+				else if (salesType == "outright-plan")
+					"Outright-plan"
+				else
+					"Smart Spaces",
 			 "RecordTypeId": "@{refRecordType.records[0].Id}",
 			"Name": payload.order.shipments.shipment.shippingAddress['firstName'] default "" ++ 
 			 " " ++ 

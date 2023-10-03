@@ -61,21 +61,11 @@ fun getStreetOrBuildingNumber(streetNumber, buildingNumber) =
 
 var shipmentArray = if(rootElement.shipments.shipment is Array) rootElement.shipments.shipment else [rootElement.shipments.shipment]
 // Variable for address rootElements
-var installationAddress = (shipmentArray filter $."shipping-method" == "Not Applicable")[0]
+
 var address = (shipmentArray filter $."shipping-method" == "Deliver to customer")[0]
 var billAddress = rootElement.customer."billing-address"
 var payment = if(rootElement.payments.payment is Array) rootElement.payments.payment else [rootElement.payments.payment]
-var sQData = getCustomAttDetail(rootElement, "serviceQualification")
-var dsqDataRaw = getCustomAttDetail(rootElement, "dsqDetails")
-var serviceQualification = if (!isEmpty(sQData)) read((rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='serviceQualification')).'__text'[0], "application/json") else null
-var dsqDataJson = if (!isEmpty(dsqDataRaw)) read((rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='dsqDetails')).'__text'[0], "application/json") else null
 var PlanBillingOfferId = getCustomAttDetail(rootElement,"planBillingOfferId") default ""
-var gnafid = serviceQualification."$(PlanBillingOfferId)" default ""
-var dsqSpeedDetailsId = dsqDataJson."$(PlanBillingOfferId)" default ""
-var dsqSpeedDetails = if (!isEmpty(dsqDataJson)) dsqDataJson."$(dsqSpeedDetailsId)".dsqSpeedDetails else ""
-var svcQualificationAddress= if (!isEmpty(serviceQualification)) serviceQualification."$(gnafid)".request else ""
-var svcQualificationAddressResp = if (!isEmpty(serviceQualification)) serviceQualification."$(gnafid)".response else ""
-var svcQualificationAddressOrigSq = (svcQualificationAddressResp.checkServiceCoverageResponse.services.service filter ($.family ~= "Original SQ Result"))[0].serviceSpecCharacteristics.serviceSpecCharacteristics
 var relocationFlowType = if (getCustomAttDetail(rootElement, "baseOrderType") == "relocation" and getCustomAttDetail(rootElement, "flowType") == "OFFLINE") "RelocationOffline" 
 else if (getCustomAttDetail(rootElement, "baseOrderType") == "relocation" and getCustomAttDetail(rootElement, "flowType") == "ONLINE") "RelocationOnline" 
 else "non_Relocation"
@@ -92,20 +82,15 @@ var prdType =((rootElement."product-lineitems"."product-lineitem") map (item, in
     else if((getCustomAttDetail(item,"productType") =="Fixed Voice") )"FV"
      else "")
  }))filter($."ProductType" !="") reduce ($)
- var customerguestval = rootElement.customer.guest
+var customerguestval = rootElement.customer.guest
 //Variable for address UUID
-var installationAddressUUID = getCustomAttDetail(installationAddress."shipping-address", "addressUUID") default ""
+
 var residentialAddressUUID = getCustomAttDetail(rootElement, "residentialAddressUUID") default "" 
 var deliveryAddressUUID = getCustomAttDetail(address."shipping-address", "addressUUID") default ""
 var billAddressUUID = getCustomAttDetail(billAddress, "addressUUID") default ""
-var sqPayload = read((((rootElement."custom-attributes"."custom-attribute" filter ($."@attribute-id" ~= "serviceQualification"))[0]."__text") default "{}"), "application/json")
-var nbnLocationId = ((sqPayload filterObject ($$ contains("LOC"))) pluck ($$))[0]
-//var originalSqResult = (sqPayload[1].response.checkServiceCoverageResponse.services.service filter ((lower($.family) == "nbn fttp") or (lower($.family) == "nbn cable (hfc)")))[0]
+
 //Address Unit Numbers
-var installationAddressUnitNumber = 
-		if(!isEmpty(getCustomAttDetail(installationAddress."shipping-address", "manualAddressType")))
-              getCustomAttDetail(installationAddress."shipping-address", "unitNumber")
-        else getCustomAttDetail(installationAddress."shipping-address", "subAddressNumber")
+
 var shippingAddressUnitNumber = 
 		if(!isEmpty(getCustomAttDetail(address."shipping-address", "manualAddressType")))
               getCustomAttDetail(address."shipping-address", "unitNumber")
@@ -119,23 +104,13 @@ var billingAddressUnitNumber = if(!isEmpty(getCustomAttDetail(billAddress, "manu
 var residentialAddressUnitNumber = if(!isEmpty(getCustomAttDetail(rootElement, "residentialAddressType")))
             getCustomAttDetail(rootElement, "residentialUnitNumber")
         else getCustomAttDetail(rootElement, "residentialSubAddressNumber")
-var svcQualificationAddressUnitNumber = if(!isEmpty(svcQualificationAddress))
-                            (svcQualificationAddress.selectedAddress.implPhysicalAddress.unitNumber
-                        	default svcQualificationAddress.selectedAddress.implPhysicalAddress.subAddressNumber default "")
-                            else ""
+
                             
 var selectedOrganizationDetailsString = (rootElement."custom-attributes"."custom-attribute" filter ($."@attribute-id" ~= "selectedOrganizationDetails"))[0]."__text"
 var selectedOrganizationDetails = if (!isEmpty(selectedOrganizationDetailsString)) read(selectedOrganizationDetailsString, "application/json") else null
 
 // Set streetNumber fields for billing and shipping       
-var installationAddressStreetNumber = 
-    if(!isEmpty(getCustomAttDetail(installationAddress."shipping-address", "buildingNumber")) and isEmpty(getCustomAttDetail(installationAddress."shipping-address", "streetNumber")))
-        "buildingNumber"
-    else if(!isEmpty(getCustomAttDetail(installationAddress."shipping-address", "streetNumber"))  and isEmpty(getCustomAttDetail(installationAddress."shipping-address", "buildingNumber"))) 
-        "streetNumber"
-    else if(!isEmpty(getCustomAttDetail(installationAddress."shipping-address", "streetNumber"))  and !isEmpty(getCustomAttDetail(installationAddress."shipping-address", "buildingNumber"))) 
-        "streetNumber"
-    else ""
+
 var billingAddressStreetNumber = 
     if(!isEmpty(getCustomAttDetail(billAddress, "buildingNumber")) and isEmpty(getCustomAttDetail(billAddress, "streetNumber")))
         "buildingNumber"
@@ -253,10 +228,6 @@ fun getAddressStreet(source, addressType, streetNum, defaultStreetNum, defaultSt
         }
 
 //Address Manual or QAS
-var installationAddressType = 
-		if(!isEmpty(getCustomAttDetail(installationAddress."shipping-address", "manualAddressType")))
-              "Manual"
-        else "QAS"
 		
 var shippingAddressType = 
 		if(!isEmpty(getCustomAttDetail(address."shipping-address", "manualAddressType")))
@@ -293,7 +264,7 @@ fun getRelocOfflnAddressName(addr) =(
 ) 
 var flowTypeChangeReason = getCustomAttDetail(rootElement, "flowTypeChangeReason") default ""     
 //Address variables that will hold streetNumber and streetName for each address  
-var installationStreetNameNum = getAddressStreet(installationAddress."shipping-address", "manualAddressType", "streetName", shippingAddressStreetNumber, "streetName")      
+   
 var shippingStreetNameNum = getAddressStreet(address."shipping-address", "manualAddressType", "streetName", shippingAddressStreetNumber, "streetName")
 var prevResidentialStreetNameNum =  getAddressStreet(rootElement, "previousResidentialAddressType", "previousResidentialStreetName", "previousResidentialBuildingNumber", "previousResidentialStreetName")
 var billingStreetNameNum = getAddressStreet(billAddress, "manualAddressType", "streetName", billingAddressStreetNumber, "streetName")
@@ -323,26 +294,26 @@ else getCustomAttDetail(rootElement, "medicareCardNumber") default ""
 /////////////////////////////////////////// END OF MEDICARE RELATED VARIABLE AND FUNCTIONS
 
 /////////////////////////////////////////// Appointment Related      
-fun getNbnOptusApptDate(date) = ( ( ( (date as Date)  as String {format: "yyyy-MM-dd'T'00:00:00"} ) as LocalDateTime ++ (getTimeZone(serviceDetails."shipping-address"."state-code")) ) as String {format: "dd/MM/yyyyZZZZ"} ) replace "GMT" with "" default null
-fun splitTime(string) = string splitBy("-") as String
-fun convertTime(time) = 
-    if( isEmpty(time) ) null
-    else {
-        "fromTime" : ((splitTime(time)[0] scan /[0-9]+[:][0-9]+[A-Z]+/)[0][0] default ((splitTime(time)[0] scan /[0-9]+[A-Z]+/)[0][0] replace ("AM") with (":00AM") replace ("PM") with (":00PM"))) as LocalTime {format: 'h:mma'} as String {format: 'HH:mm'},
-        "toTime" : ((splitTime(time)[1] scan /[0-9]+[:][0-9]+[A-Z]+/)[0][0] default ((splitTime(time)[1] scan /[0-9]+[A-Z]+/)[0][0] replace ("AM") with (":00AM") replace ("PM") with (":00PM"))) as LocalTime {format: 'h:mma'} as String {format: 'HH:mm'}
-    }
-    
-var serviceDetails = ({(flatten(shipmentArray) filter (getCustomAttDetail($."shipping-address", "addressType")== "SERVICE"))}) default null
 
-var svcQualificationResponse= if (!isEmpty(serviceQualification)) serviceQualification."$(gnafid)".response else ""
-var svcQualificationRes= if (!isEmpty(serviceQualification)) serviceQualification."$(gnafid)".response.checkServiceCoverageResponse.services.service filter ((lower($.family) == "nbn fttp") or (lower($.family) == "nbn cable (hfc)")) else ""
-var esqResponse = read((serviceDetails.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='esqResponse')).'__text'[0], "application/json") default null
-var nsiResponse =  read((serviceDetails.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='nsiResponse')).'__text'[0], "application/json") default null
-var subOrderType = getCustomAttDetail(serviceDetails,'orderType') as String default null
+    
 var customerType = (rootElement."custom-attributes"."custom-attribute" filter ($."@attribute-id" ~= "customerType"))[0]."__text"
 /////////////////////////////////////////// End of Appointment Related
----
 
+////////////////////////////////////////// Order Capture
+var secondaryIDUniquenessRes =do{
+	var rawsecondaryiduniquenessresponse = (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='secondaryIDUniquenessResponse')).'__text'[0]
+	var secondaryIDUniquenessResponseNullChecker = if(!isEmpty(rawsecondaryiduniquenessresponse)) read(rawsecondaryiduniquenessresponse,"application/json") else null
+	---
+	secondaryIDUniquenessResponseNullChecker
+}
+var primaryIDUniquenessRes =do{
+	var rawprimaryiduniquenessresponse = (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='primaryIDUniquenessResponse')).'__text'[0]
+	var primaryIDUniquenessResponseNullChecker = if(!isEmpty(rawprimaryiduniquenessresponse)) read(rawprimaryiduniquenessresponse,"application/json") else null
+	---
+	primaryIDUniquenessResponseNullChecker
+} 
+////////////////////////////////////////// End of Order Capture
+---
 removeEmptyObjects({
     customerAccount: {
     Name: if (customerType ~= "SMB") 
@@ -365,19 +336,20 @@ removeEmptyObjects({
     BAR_ID__c: if(payment."custom-method"."method-name"[0] == "EXISTING_FA") getCustomAttDetail(payment."custom-method"[0], "selectedBillingAccountNumber")
                else getCustomAttDetail(rootElement, "selectedBARId") default "",
     FA_ID__c: if(payment."custom-method"."method-name"[0] == "EXISTING_FA") getCustomAttDetail(payment."custom-method"[0], "selectedBillingAccountFAId")
-              else getCustomAttDetail(rootElement, "selectedBillingAccount") default "",
+              else getCustomAttDetail(rootElement, "selectedBillingAccount") default "",    
     Jarvis_Account_Status__c: (getCustomAttDetail(rootElement, "accountType") default "" ) replace "Account" with "",
     JARVIS_Customer_Profile_ID__c: getCustomAttDetail(rootElement, "profilePID") default "",
     AccountNumber: readrelocationServiceDataJson.faId default null,
     "Organisation_acn_Id__c": selectedOrganizationDetails.acnId,
     "Organisation_abn_Id__c": selectedOrganizationDetails.abnId,
     "Employee_Count__c": getCustomAttDetail(rootElement, "smbEmployeeCount") as Number default null,
-    "Organisation_Type__c": selectedOrganizationDetails."typeRefId",
+    "Organisation_Type__c": selectedOrganizationDetails."typeRefId" default selectedOrganizationDetails."type",
     "Customer_Type__c": customerType,
     "Billing_Type__c" : if (getCustomAttDetail(rootElement, "customerType") ~= "SMB")"S"
                         else if (getCustomAttDetail(rootElement, "customerType") ~= "CMR")"D"
                         else "",
-    "optus_bet_id__c": vars.optus_bet_id
+    "optus_bet_id__c": vars.optus_bet_id,                    
+    "Type": "Customer"
 },
 customerContact: {
     "Salutation": (rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='profileTitle')).'__text'[0],
@@ -391,7 +363,15 @@ customerContact: {
     "Personal_ID_Type__c": personalIdTypeCond((rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='primaryIDType')).'__text'[0]),
     "Personal_ID_Principle_Identifier__c": 'Principle',
     "Secondary_ID_Type__c": secondaryTypeIdCond((rootElement.'custom-attributes'.'custom-attribute' filter ($.'@attribute-id'=='secondaryIDType')).'__text'[0]),
-
+	"JARVIS_Contact_Object_Id__c": if (secondaryIDUniquenessRes !=null)
+									   secondaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails[0].contactObjid
+								   else
+                                      (primaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails[0].contactObjid),  
+    "JARVIS_Person_Id__c": if (primaryIDUniquenessRes !=null)
+							  (primaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails filter ((item)->item.primaryIdIndicator == true))[0].personalIdentificationObjid
+						   else
+                              (secondaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails filter ((item)->item.primaryIdIndicator == true))[0].personalIdentificationObjid, 
+    "Secondary_Person_Id__c": (secondaryIDUniquenessRes.ImpValidateContactPersonDetailsOutput.implContactPersonDetailsStatus.implContactPersonDetails filter ((item)->item.primaryIdIndicator == false))[0].personalIdentificationObjid,
     "Passport_Number__c": getCustomAttDetail(rootElement, whichPassport("passportNumber", "secondaryPassportNumber"
 )) default "",
     "Passport_Country__c": countryCodeToText(getCustomAttDetail(rootElement, whichPassport("countryOfIssue", "secondaryPassportCountryOfIssue"
@@ -466,37 +446,7 @@ customerContact: {
     else ({})
     ),
     customerAddress: [
-        {
-			//Installation Address
-            "Name": generateAddressName(
-            	        getCustomAttDetail(installationAddress."shipping-address", "buildingName"),
-                        installationAddressUnitNumber, 
-                        getStreetOrBuildingNumber(getCustomAttDetail(installationAddress."shipping-address", "streetNumber"),getCustomAttDetail(installationAddress."shipping-address", "buildingNumber")), 
-                        installationStreetNameNum.streetName default "", 
-                        getCustomAttDetail(installationAddress."shipping-address", "streetType") default "",
-                        installationAddress."shipping-address".city default "",
-                        installationAddress."shipping-address"."state-code" default "",
-                        installationAddress."shipping-address"."postal-code" default ""                        
-                    ),
-            "Street_Type__c": changeSreetTypeToCode(getCustomAttDetail(installationAddress."shipping-address", "streetType")) default "",
-            "City__c": installationAddress."shipping-address".city default "",
-            "State__c": installationAddress."shipping-address"."state-code" default "",
-            "Postcode__c": installationAddress."shipping-address"."postal-code" default "",
-            "Country__c": if(!isEmpty(installationAddress."shipping-address"."country-code") and (installationAddress."shipping-address"."country-code" contains ("AU"))) 
-            				"AUS" else installationAddress."shipping-address"."country-code" default "",
-            "Note__c": getCustomAttDetail(installationAddress, "note") default "",
-            "Type__c": "Installation Address",
-            "Jarvis_Address_ID__c": "",
-            "Street_Name__c": getCustomAttDetail(installationAddress."shipping-address", "streetName") default "",
-            "Street_Number__c": getStreetOrBuildingNumber(getCustomAttDetail(installationAddress."shipping-address", "streetNumber"),getCustomAttDetail(installationAddress."shipping-address", "buildingNumber")),
-			"Street_Number_Suffix__c": getCustomAttDetail(installationAddress."shipping-address", "streetNumSuffix") default "",
-            "Building_Name__c": getCustomAttDetail(installationAddress."shipping-address", "buildingName") default "",
-            "Unit_Number__c": installationAddressUnitNumber,
-            "Sub_Address_Type__c": changeSubAddressTypeTextToCode(subAddressCond(installationAddress."shipping-address", "manualAddressType", "subAddressType"
-)) default "",
-            "Address_Entry_Method__c": installationAddressType,
-            "optus_bet_id__c": vars.optus_bet_id		
-		},
+        
 		({
             //Residential Address
             "Name": generateAddressName(
@@ -525,17 +475,9 @@ customerContact: {
             "Jarvis_Address_ID__c": "",
 			"Address_Entry_Method__c": residentialAddressType,
 			"optus_bet_id__c": vars.optus_bet_id
-        }) if(
-                (!isEmpty(getCustomAttDetail(rootElement, "residentialCity")))
-                and (
-                    (residentialAddressUUID != installationAddressUUID) 
-                    or (
-                        isEmpty(residentialAddressUUID) and isEmpty(installationAddressUUID)
-                    )
-                )
-            ),
+        }) if((!isEmpty(getCustomAttDetail(rootElement, "residentialCity")))),
 
-        //Residential Address for Relocation
+        //Residentail Address for Relocation
           ({    
             "Name": relocationOfflineResdAddr.selectedAddress.implPhysicalAddress.formattedAddressDisplay default "",
             "Jarvis_Address_ID__c": relocationOfflineResdAddr.selectedAddress.relationInfoList[0].addressId default "",
@@ -548,9 +490,9 @@ customerContact: {
             "Street_Type__c": relocationOfflineResdAddr.selectedAddress.implPhysicalAddress.streetType default "",
             "Address_Entry_Method__c": if (!isEmpty (relocationOfflineResdAddr.selectedAddress.implPhysicalAddress.gnafId)) "QAS" else "Manual",
             "Sub_Address_Type__c": relocationOfflineResdAddr.selectedAddress.implPhysicalAddress.subAddressType default "",
-            "Unit_Number__c": relocationOfflineResdAddr.selectedAddress.implPhysicalAddress.subAddressNumber default "",  
+            "Unit_Number__c": relocationOfflineResdAddr.selectedAddress.implPhysicalAddress.subAddressNumber default "",
             "Type__c": "Residential Address",
-            "optus_bet_id__c": vars.optus_bet_id       
+            "optus_bet_id__c": vars.optus_bet_id            
             }) if (!isEmpty(relocationOfflineResdAddr)),
 		
 		({
@@ -583,19 +525,9 @@ customerContact: {
 )) default "",
             "Address_Entry_Method__c": shippingAddressType,
             "optus_bet_id__c": vars.optus_bet_id
-        }) if(
-                (
-                    (deliveryAddressUUID != installationAddressUUID) 
-                    and (deliveryAddressUUID != residentialAddressUUID) 
-                    and (relocationFlowType != "RelocationOffline" or relocationFlowType != "RelocationOnline")
-                ) 
-                or (
-                    (deliveryAddressUUID != installationAddressUUID) 
-                    and (relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") 
-                    and (relocationNCDRequired == "true")
-                )
-            ),
-        
+        }) if ( !isEmpty(deliveryAddressUUID) and (((deliveryAddressUUID != residentialAddressUUID) and (relocationFlowType != "RelocationOffline" or relocationFlowType != "RelocationOnline")) or 
+ 		  ((relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") and (relocationNCDRequired == "true")))),
+        //C2BS-20150 added !isEmpty(deliveryAddressUUID) condition to check first if shipping address is applicable. If not, mule will not capture(applicable for mobile only)
         ({
             //Billing Address
             "Name": generateAddressName(
@@ -623,68 +555,8 @@ customerContact: {
             "Jarvis_Address_ID__c": getCustomAttDetail(billAddress, "jarvisAddressId") default "",
 			"Address_Entry_Method__c": billingAddressType,
 			"optus_bet_id__c": vars.optus_bet_id
-        }) if(
-                (
-                    !isEmpty(billAddress."city") 
-                    and (installationAddressUUID != billAddressUUID ) 
-                    and (residentialAddressUUID != billAddressUUID) 
-                    and (deliveryAddressUUID != billAddressUUID)
-                ) 
-                or (
-                    (relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") 
-                    and (installationAddressUUID != billAddressUUID)
-                )
-            ),
-        //Service Qualification(SQ) Address
-        ({
-        	 "Name": generateAddressName(
-        	 	        svcQualificationAddress.selectedAddress.implPhysicalAddress.buildingName,
-                        //svcQualificationAddress.selectedAddress.implPhysicalAddress.unitNumber,
-                        svcQualificationAddressUnitNumber,
-                        getStreetOrBuildingNumber(svcQualificationAddress.selectedAddress.implPhysicalAddress.streetNumber,svcQualificationAddress.selectedAddress.implPhysicalAddress.blockOrHouseNum), 
-                        svcQualificationAddress.selectedAddress.implPhysicalAddress.streetName default "", 
-                        svcQualificationAddress.selectedAddress.implPhysicalAddress.streetType default "",
-                        svcQualificationAddress.selectedAddress.implPhysicalAddress.subUrb default "",
-                        svcQualificationAddress.selectedAddress.implPhysicalAddress.state,
-                        svcQualificationAddress.selectedAddress.implPhysicalAddress.postcode default ""
-                    ),
-        Apartment__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.apartment default "",
-        City__c: (if (!isEmpty(svcQualificationAddress.selectedAddress.implPhysicalAddress.subUrb))svcQualificationAddress.selectedAddress.implPhysicalAddress.subUrb 
-                 else if (!isEmpty(svcQualificationAddress.selectedAddress.implPhysicalAddress.city)) svcQualificationAddress.selectedAddress.implPhysicalAddress.city 
-                 else ""),
-        Country__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.country.id default "",
-        Floor__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.floor default "",
-        Postcode__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.postcode default "",
-        Room__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.room default "",
-        Unit_Number__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.unitNumber default "",
-        State__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.state default "",
-        Street_Name__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.streetName default "",
-        Block__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.blockOrHouse default "",
-        Block_Number__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.blockOrHouseNum default "",
-        Building_Name__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.buildingName default "",
-        Dev_Name__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.devName default "",
-        Address_Entry_Method__c: (if (svcQualificationAddress.selectedAddress.implPhysicalAddress.isUnstructAddressX9 == "1")"Manual" 
-        	                     else if(svcQualificationAddress.selectedAddress.implPhysicalAddress.isUnstructAddressX9 == "0") "QAS" 
-        	                     else ""),
-        Address_Type__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.addressType default "",
-        Delivery_Type__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.deliveryType default "",
-        Street_Number__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.streetNumber default "",
-        Sub_Address_Type__c: changeSubAddressTypeTextToCode(svcQualificationAddress.selectedAddress.implPhysicalAddress.subAddressType) default "",
-        Street_Type__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.streetType default "",
-        Unit_Number__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.subAddressNumber default "",
-        Street_Suffix__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.streetSuffix default "",
-        Delivery_Number__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.deliveryNumber default "",
-        Build_Classification__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.buildClassification default "",
-        City__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.subUrb default "",
-        Street_Number_Suffix__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.streetNumberSuffix default "",
-        Is_Internatiaonal_Address__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.isInternationalAddressX9 default "",
-        Address_Line_1__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.addressLine1 default "",
-        Address_Line_2__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.addressLine2 default "",
-        GNA_ID__c: svcQualificationAddress.selectedAddress.implPhysicalAddress.gnafId default "",
-        Type__c: "SQ Physical Address",
-        optus_bet_id__c: vars.optus_bet_id
-        }) if (!isEmpty(svcQualificationAddress)),
-         
+        }) if((!isEmpty(billAddress."city") and  (residentialAddressUUID != billAddressUUID) and (deliveryAddressUUID != billAddressUUID)) or ((relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline") )),
+       
         //Trading Address
         ({
         	"Name": selectedOrganizationDetails.tradingAddress.formattedAddressX9 default "",
@@ -696,6 +568,9 @@ customerContact: {
         	Street_Number__c: selectedOrganizationDetails.tradingAddress.streetNumber default "",
             Street_Type__c: selectedOrganizationDetails.tradingAddress.streetType default "",
             Type__c: "Trading Address",
+            "Building_Name__c": selectedOrganizationDetails.tradingAddress.buildingName default "",
+		    "Unit_Number__c": selectedOrganizationDetails.tradingAddress.subAddressNumber default "",
+			"Sub_Address_Type__c":selectedOrganizationDetails.tradingAddress.subAddressType default "",
             "optus_bet_id__c": vars.optus_bet_id  
         }) if (!isEmpty(selectedOrganizationDetails.tradingAddress)),
         
@@ -765,94 +640,22 @@ customerContact: {
     })) if (!isEmpty(relocationOfflinePrevResdAddr)),		    
     ],
     customerAddressUUID:{
-            "installationAddressUUID" : installationAddressUUID default "",
+            
             "deliveryAddressUUID" : deliveryAddressUUID default "",
             "residentialAddressUUID" : residentialAddressUUID default "",
             "billingAddressUUID" : billAddressUUID default "",			
         },
-        
-     customerSQ: {
-     	"sqExists": if (!isEmpty(svcQualificationAddress))true else false,
-     	("sqData":{
-    	"addressMatchID": svcQualificationAddress.matchID default "",
-        "marketSgmt": svcQualificationAddress.marketSgmt default "",
-        "relationInfoList": svcQualificationAddress.selectedAddress.relationInfoList default "",
-        "Order_Feasibility_Status__c": getCustomAttDetail(serviceDetails,'orderFeasibilityStatus') as String default null,
-        ("SFCC_eSQResponse__c": read(getCustomAttDetail(serviceDetails,'esqResponse'), "text/plain")) if( !isEmpty(getCustomAttDetail(serviceDetails,'esqResponse')) ),  
-        ("Order_Feasibility_Check_Response__c": read(getCustomAttDetail(serviceDetails,'orderFeasibilityCheckResponse'), "text/plain")) if( !isEmpty(getCustomAttDetail(serviceDetails,'orderFeasibilityCheckResponse')) ),
-        "NSI_Call_Status__c": getCustomAttDetail(serviceDetails,'nsiCallStatus') as String default null,
-        "NSI_Username__c" : nsiResponse.username default null,
-        "NSI_Service_Status__c" :  nsiResponse.serviceStatus default null,
-        "NSI_GSID__c": nsiResponse.gsId as Number default null,
-        "NSI_Market_Segment__c": (if (lower(nsiResponse.marketSegment) == "smb")"CMR" else if (isEmpty(nsiResponse.marketSegment) )"0" else nsiResponse.marketSegment),
-        //("NBN_Port_ID__c" : (svcQualificationRes.serviceSpecCharacteristics.serviceSpecCharacteristics.'NBN PORT ID')[0][0]) if( !isEmpty((svcQualificationRes.serviceSpecCharacteristics.serviceSpecCharacteristics.'NBN PORT ID')[0][0]) ),
-       // ("NBN_NTD_ID__c" : (svcQualificationRes.serviceSpecCharacteristics.serviceSpecCharacteristics.'NBN NTD ID')[0][0]) if( !isEmpty((svcQualificationRes.serviceSpecCharacteristics.serviceSpecCharacteristics.'NBN NTD ID')[0][0]) ),
-        ("NBN_Port_ID__c" : getCustomAttDetail(rootElement, "availablePort")[-1]) if(!isEmpty(getCustomAttDetail(rootElement, "availablePort")) and getCustomAttDetail(rootElement, "orderType") == "ServiceTransfer" ),
-        ("NBN_NTD_ID__c" : substringBefore(getCustomAttDetail(rootElement, "availablePort"),"_")) if(!isEmpty(getCustomAttDetail(rootElement, "availablePort")) and getCustomAttDetail(rootElement, "orderType") == "ServiceTransfer" ),
-        ("nbnLocationId": ((svcQualificationRes.serviceSpecCharacteristics.serviceSpecCharacteristics.'NBN LOCATION ID')[0][0]) default nbnLocationId) if (!isEmpty(((svcQualificationRes.serviceSpecCharacteristics.serviceSpecCharacteristics.'NBN LOCATION ID')[0][0]) default nbnLocationId)),
-        // DSQ mapping
-        (NBN_VDSL_MAX_UPSTREAM_SPEED__c: dsqSpeedDetails.NBN_VDSL_MAX_UPSTREAM_SPEED default "Not Available") if (!isEmpty(dsqSpeedDetails)),
-        //NBN_VDSL_MAX_UPSTREAM_SPEED__c: "Not Available",
-        (NBN_VDSL_MAX_UPSTREAM_SPEED_UNIT__c: svcQualificationAddressOrigSq.'NBN VDSL MAX UPSTREAM SPEED UNIT OF MEASURE'[0]) if (!isEmpty(svcQualificationAddressOrigSq)),
-        (NBN_VDSL_MIN_UPSTREAM_SPEED__c: dsqSpeedDetails.NBN_VDSL_MIN_UPSTREAM_SPEED default "Not Available") if (!isEmpty(dsqSpeedDetails)),
-        //NBN_VDSL_MIN_UPSTREAM_SPEED__c: "Not Available",
-        (NBN_VDSL_MIN_UPSTREAM_SPEED_UNIT__c: svcQualificationAddressOrigSq.'NBN VDSL MIN UPSTREAM SPEED UNIT OF MEASURE'[0]) if (!isEmpty(svcQualificationAddressOrigSq)),
-        (NBN_VDSL_MIN_DOWNSTREAM_SPEED__c: dsqSpeedDetails.NBN_VDSL_MIN_DOWNSTREAM_SPEED default "Not Available") if (!isEmpty(dsqSpeedDetails)),
-        //NBN_VDSL_MIN_DOWNSTREAM_SPEED__c: "Not Available",
-        (NBN_VDSL_MIN_DOWNSTREAM_SPEED_UNIT__c: svcQualificationAddressOrigSq.'NBN VDSL MIN DOWNSTREAM SPEED UNIT OF MEASURE'[0]) if (!isEmpty(svcQualificationAddressOrigSq)),
-        (NBN_VDSL_MAX_DOWNSTREAM_SPEED__c: dsqSpeedDetails.NBN_VDSL_MAX_DOWNSTREAM_SPEED default "Not Available") if (!isEmpty(dsqSpeedDetails)),
-        //NBN_VDSL_MAX_DOWNSTREAM_SPEED__c: "Not Available",
-        (NBN_VDSL_MAX_DOWNSTREAM_SPEED_UNIT__c: svcQualificationAddressOrigSq.'NBN VDSL MAX DOWNSTREAM SPEED UNIT OF MEASURE'[0]) if (!isEmpty(svcQualificationAddressOrigSq)),
-        (NBN_NHAS_High_Speed_Tier__c: if (dsqSpeedDetails.NBN_NHAS_TC4_HIGH_SPEED_TIERS_1000MBPS ~= "yes") ("1000 Mbps")
-        	else if (dsqSpeedDetails.NBN_NHAS_TC4_HIGH_SPEED_TIERS_250MBPS ~= "yes") ("250 Mbps")
-        	else if (dsqSpeedDetails.NBN_NHAS_TC4_HIGH_SPEED_TIERS_100MBPS ~= "yes") ("100 Mbps")
-        	else ("Not Available")) if (!isEmpty(dsqSpeedDetails)),
-        //NBN_NHAS_High_Speed_Tier__c: "Not Available",
-        (NBN_NFAS_High_Speed_Tier__c: if (dsqSpeedDetails.NBN_NFAS_TC4_HIGH_SPEED_TIERS_1000MBPS ~= "yes") ("1000 Mbps")
-        	else if (dsqSpeedDetails.NBN_NFAS_TC4_HIGH_SPEED_TIERS_250MBPS ~= "yes") ("250 Mbps")
-        	else if (dsqSpeedDetails.NBN_NFAS_TC4_HIGH_SPEED_TIERS_100MBPS ~= "yes") ("100 Mbps")
-        	else ("Not Available")) if (!isEmpty(dsqSpeedDetails)),
-        //NBN_NFAS_High_Speed_Tier__c: "Not Available",
-        (TC4_Downstream_Current_Assured_Rate__c: dsqSpeedDetails.NBN_TC4_DOWNSTREAM_CURRENT_ASSURED_RATE default "Not Available") if (!isEmpty(dsqSpeedDetails)),
-        //TC4_Downstream_Current_Assured_Rate__c: "Not Available",
-        (TC4_Upstream_Current_Assured_Rate__c: dsqSpeedDetails.NBN_TC4_UPSTREAM_CURRENT_ASSURED_RATE default "Not Available") if (!isEmpty(dsqSpeedDetails)),
-        //TC4_Upstream_Current_Assured_Rate__c: "Not Available",
-        (TC4_Downstream_Current_Assured_Rate_Unit__c: svcQualificationAddressOrigSq.'NBN TC4 DOWNSTREAM CURRENT ASSURED RATE UNIT OF MEASURE'[0]) if (!isEmpty(svcQualificationAddressOrigSq)),
-        (TC4_Upstream_Current_Assured_Rate_Unit__c: svcQualificationAddressOrigSq.'NBN TC4 UPSTREAM CURRENT ASSURED RATE UNIT OF MEASURE'[0]) if (!isEmpty(svcQualificationAddressOrigSq))        
-        }) if (!isEmpty(svcQualificationAddress)) 	
-    },              
-
-    customerRelocation:{
-        	"RelocationFlowType": relocationFlowType,
-        	("RelocationData":{
-        		"DisconnectionDate": getCustomAttDetail(rootElement, "disconnectionDate") as Date {format: 'yyyy-MM-dd'} as String {format: 'dd/MM/yyyy'}  default "",
-        		"ConnectionDate": getCustomAttDetail(rootElement, "connectionDate") as Date {format: 'yyyy-MM-dd'} as String {format: 'dd/MM/yyyy'}  default "",
-				"RelocationDate": getCustomAttDetail(rootElement, "connectionDate") default "",
-				"orderCreationDate": rootElement."order-date",
-        		"profinstall" : (rootElement."product-lineitems"."product-lineitem") filter($.'product-name'=='Professional Install'),
-        		"readrelocationPayload": readrelocationPayload,
-        		"readrelocationServiceData": readrelocationServiceData,
-        		"relocationNCDRequired": relocationNCDRequired,
-        		"reasonText" : prdType.ProductType, // only for Online
-        		"OldCharge_Zone" : getCustomAttDetail(rootElement, "relocationOldChargeZone") default "", // only for Online
-        		"NewCharge_Zone" : getCustomAttDetail(rootElement, "relocationNewChargeZone") default "", // only for Online
-        		"Flow_Type_Change_Reason__c" : getFlowTypeReason(flowTypeChangeReason) default ""
-
-   		
-        	})if (relocationFlowType == "RelocationOffline" or relocationFlowType == "RelocationOnline")
-        },
+       
 
     customerOrders: {
         "Payment_Type__c": if(payment."processor-id"[0] == "MANUAL_PAYMENT") "Manual Payment"
-            else if(payment."bank-transfer"."routing-number"?) "Direct Debit - Bank Account"
-            else if(payment."processor-id"[0] == "BAMBORA_CREDIT")  "Direct Debit - Credit Card"
+            else if(payment."bank-transfer"."routing-number"?) "Direct Debit - Bank Account"            
+            else if(payment."processor-id"[0] == "BAMBORA_CREDIT")  "Direct Debit - Credit Card"           
             else if((payment."custom-method"."method-name"[0] == "PAYMEANS_CREDIT_CARD") or (payment."custom-method"."method-name"[0] == "EXISTING_FA")) "Existing Credit Card"
             else if(payment."processor-id"[0] == "CASH_PAYMENT") "Exception Bambora"
-            else null,
-        "NBN_Appointment_Date__c": getCustomAttDetail(serviceDetails, "nbnAppointmentDate") default "",
+            else null,        
         "NBN_Time_Slot__c": getCustomAttDetail(rootElement, "nbnTimeSlotLabel") default "",
-        "NBN_Technician_Instructions__c": getCustomAttDetail(rootElement, "nbnAppointmentInstructions") default "",
-        "Optus_Appointment_Date__c": getCustomAttDetail(serviceDetails, "optusAppointmentDate") default "",
+        "NBN_Technician_Instructions__c": getCustomAttDetail(rootElement, "nbnAppointmentInstructions") default "",       
         "Optus_Time_Slot__c": getCustomAttDetail(rootElement, "optusTimeSlotLabel") default "",
         "Optus_Technician_Instructions__c": getCustomAttDetail(rootElement, "optusAppointmentInstructions") default "",
         "Current_Home_Phone_Number__c": getCustomAttDetail(rootElement, "phoneLineHomeNumber") default "",
@@ -885,29 +688,6 @@ customerContact: {
         "Minimum_Total_Cost_in_SFCC__c": getCustomAttDetail(rootElement, "minimumTotalCostValue") default "",
         "Price_Check_Required__c": true,
         "SessionID__c": getCustomAttDetail(rootElement, "sessionId") default "",
-        "ID_Check_Status_Secondary_ID__c":  getCustomAttDetail(rootElement, "secondaryIdCheckStatus")  default "",
-        
-        "Optus_Appointment_fromTime__c": (convertTime(getCustomAttDetail(serviceDetails,'optusTimeSlotLabel')).fromTime as Time) as String {format : "HH:mm:ss.000'Z'"} default null,
-		"Optus_Appointment_toTime__c": (convertTime(getCustomAttDetail(serviceDetails,'optusTimeSlotLabel')).toTime as Time) as String {format : "HH:mm:ss.000'Z'"} default null,
-		("Optus_Appointment_Ref__c": read(getCustomAttDetail(serviceDetails,'optusAppointmentResponse'), "text/plain")) if( !isEmpty(getCustomAttDetail(serviceDetails,'optusAppointmentResponse')) ),
-		"Optus_Appointment_ID__c": getCustomAttDetail(serviceDetails,'optusAppointmentId') as String default null,
-		"Optus_Appointment_Response_Date__c": getNbnOptusApptDate(getCustomAttDetail(serviceDetails,'optusAppointmentDate')) default null,
-		
-		"NBN_Appointment_fromTime__c" : (convertTime(getCustomAttDetail(serviceDetails,'nbnTimeSlotLabel')).fromTime as Time) as String {format : "HH:mm:ss.000'Z'"} default null,
-		"NBN_Appointment_toTime__c" : (convertTime(getCustomAttDetail(serviceDetails,'nbnTimeSlotLabel')).toTime as Time) as String {format : "HH:mm:ss.000'Z'"} default null,
-		("NBN_Appointment_Ref__c" : read(getCustomAttDetail(serviceDetails,'NBNAppointmentResponse'), "text/plain")) if( !isEmpty(getCustomAttDetail(serviceDetails,'NBNAppointmentResponse')) ),
-		"NBN_Appointment_ID__c" : getCustomAttDetail(serviceDetails,'nbnAppointmentId') as String default null,
-		"NBN_Appointment_Response_Date__c" : getNbnOptusApptDate(getCustomAttDetail(serviceDetails,'nbnAppointmentDate')) default null,
-		"NBN_Service_Transfer_Flag__c": if ((lower(subOrderType)) == 'servicetransfer') "Y" else "N",
-		"NBN_Connect_Outstanding_Flag__c": if (((lower(subOrderType))) == 'connectoutstanding') "Y" else "N",
-		"New_Dev_Consent_Flag__c": if((svcQualificationResponse.'nbnDevChargeFlag') == "Y")"Yes" else "No",
-		"NBN_Installation_Charge_Flag__c": if((getCustomAttDetail(serviceDetails,'nbnInstallationCharge') == "true" ))"Yes" else "No",
-		"Service_Class__c": getCustomAttDetail(serviceDetails,'serviceClass') as Number default null,
-		"Service_Provider_ID__c": (esqResponse.siteRestriction.supportingProduct.serviceProviderId)[0] as Number default null,
-		"Demand_Type__c": getCustomAttDetail(serviceDetails,'demandType') as String default null,
-		"Sub_Order_Type__c": subOrderType,
-		"Service_Provider_Name__c": getCustomAttDetail(serviceDetails,'epidName') as String default null,
-		"Installation_Workforce__c": getCustomAttDetail(serviceDetails,'installationWorkforce') as String default null,
-		"Site_Contact_Details__c": getCustomAttDetail(serviceDetails,'nbnAppointmentContactType') as String default null
+        "ID_Check_Status_Secondary_ID__c":  getCustomAttDetail(rootElement, "secondaryIdCheckStatus")  default "",     
       }
 })
